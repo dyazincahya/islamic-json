@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-supplications",
+  "type": "lesson",
+  "slug": "daily-supplications",
+  "title": {
+    "id": "Panduan doa dan zikir harian",
+    "en": "Daily supplications and remembrance guide"
+  },
+  "summary": {
+    "id": "Bangun kebiasaan doa dan zikir dari sumber yang telah diperiksa.",
+    "en": "Build a habit of supplication and remembrance from verified sources."
+  },
+  "status": "draft",
+  "iconId": "worship.supplication",
+  "stageId": "stage.daily-life",
+  "stageOrder": 1,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": [],
+    "next": ["lesson.daily-dua"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.daily-supplications-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-supplications-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Doa dan zikir dipelajari dengan memahami makna, konteks, sumber, dan pelafalannya.",
+        "en": "Supplications and remembrance are learned with their meaning, context, source, and pronunciation."
+      }
+    },
+    {
+      "id": "block.daily-supplications-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-supplications-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang belajar satu doa sedikit demi sedikit, bukan menghafal banyak sekaligus.",
+        "en": "A person learns one supplication gradually rather than memorizing many at once."
+      }
+    },
+    {
+      "id": "block.daily-supplications-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-supplications-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-supplications-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pilih satu tema berikutnya dan tandai pertanyaan untuk ditinjau bersama pengajar.",
+            "en": "Choose one following theme and mark questions to review with a teacher."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    }
+  ]
+}

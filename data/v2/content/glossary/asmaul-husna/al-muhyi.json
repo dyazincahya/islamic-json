@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muhyi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muhyi",
+  "title": {
+    "id": "Al-Muḫyi",
+    "en": "Al-Muhyi"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muḫyi",
+    "en": "Al-Muhyi"
+  },
+  "arabic": "الْمُحْيِ",
+  "transliteration": {
+    "id": "Al-Muḫyi",
+    "en": "Al-Muhyi"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muhyi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Menghidupkan",
+        "en": "The Giver of Life"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

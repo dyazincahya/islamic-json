@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.najis",
+  "type": "lesson",
+  "slug": "najis",
+  "title": {
+    "id": "Mengenal najis",
+    "en": "Understanding najis"
+  },
+  "summary": {
+    "id": "Najis adalah zat yang menurut hukum bersuci perlu dihilangkan dari badan, pakaian, atau tempat sebelum ibadah tertentu.",
+    "en": "Najis is a substance that purification rulings require to be removed from the body, clothing, or place before certain acts of worship."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 2,
+  "group": "purification",
+  "relationships": {
+    "prerequisites": [
+      "lesson.cleanliness"
+    ],
+    "next": [
+      "lesson.hadas"
+    ],
+    "related": [
+      "practice.najis-response"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-74-4"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.najis.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Najis adalah zat yang menurut hukum bersuci perlu dihilangkan dari badan, pakaian, atau tempat sebelum ibadah tertentu.",
+        "en": "Najis is a substance that purification rulings require to be removed from the body, clothing, or place before certain acts of worship."
+      }
+    },
+    {
+      "id": "block.najis.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.najis.1",
+          "text": {
+            "id": "Bedakan najis dari kotoran biasa dan dari hadas.",
+            "en": "Distinguish najis from ordinary dirt and from hadas."
+          }
+        },
+        {
+          "id": "item.najis.2",
+          "text": {
+            "id": "Kenali bagian yang terkena sebelum membersihkannya dengan cara yang sesuai.",
+            "en": "Identify the affected area before cleaning it appropriately."
+          }
+        },
+        {
+          "id": "item.najis.3",
+          "text": {
+            "id": "Jangan mengulang pemeriksaan tanpa alasan yang jelas setelah najis hilang.",
+            "en": "Do not repeat checks without a clear reason after the impurity has been removed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.najis.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.najis.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-74-4"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

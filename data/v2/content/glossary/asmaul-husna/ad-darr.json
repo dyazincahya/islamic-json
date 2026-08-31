@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ad-darr",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ad-darr",
+  "title": {
+    "id": "Adl-Dlâru",
+    "en": "Ad-Darr"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Adl-Dlâru",
+    "en": "Ad-Darr"
+  },
+  "arabic": "الضَّارُ",
+  "transliteration": {
+    "id": "Adl-Dlâru",
+    "en": "Ad-Darr"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ad-darr.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memberi Derita",
+        "en": "The Bringer of Harm"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

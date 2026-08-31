@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.as-salam",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-as-salam",
+  "title": {
+    "id": "As-Salâmu",
+    "en": "As-Salam"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "As-Salâmu",
+    "en": "As-Salam"
+  },
+  "arabic": "السَّلاَمُ",
+  "transliteration": {
+    "id": "As-Salâmu",
+    "en": "As-Salam"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.as-salam.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memberi Kesejahteraan",
+        "en": "The Source of Peace"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

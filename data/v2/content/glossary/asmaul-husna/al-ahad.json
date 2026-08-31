@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-ahad",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-ahad",
+  "title": {
+    "id": "Al-Aḫadu",
+    "en": "Al-Ahad"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Aḫadu",
+    "en": "Al-Ahad"
+  },
+  "arabic": "الْأَحَدُ",
+  "transliteration": {
+    "id": "Al-Aḫadu",
+    "en": "Al-Ahad"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-ahad.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Esa",
+        "en": "The One and Unique"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-112-1-4"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

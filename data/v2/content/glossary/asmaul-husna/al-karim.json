@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-karim",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-karim",
+  "title": {
+    "id": "Al-Karîmu",
+    "en": "Al-Karim"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Karîmu",
+    "en": "Al-Karim"
+  },
+  "arabic": "الْكَرِيْمُ",
+  "transliteration": {
+    "id": "Al-Karîmu",
+    "en": "Al-Karim"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-karim.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemurah",
+        "en": "The Most Generous"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

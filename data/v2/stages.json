@@ -1,0 +1,366 @@
+{
+  "schemaVersion": "2.0",
+  "type": "stage-catalog",
+  "stages": [
+    {
+      "id": "stage.introduction",
+      "order": 1,
+      "title": {
+        "id": "Pengenalan Islam",
+        "en": "Introduction to Islam"
+      },
+      "goal": {
+        "id": "Mengenal Allah, Nabi Muhammad, tujuan ibadah, dan dasar-dasar Islam.",
+        "en": "Know Allah, Prophet Muhammad, the purpose of worship, and the foundations of Islam."
+      },
+      "entryContentId": "lesson.what-is-islam",
+      "indexPath": "indexes/stage-introduction.json",
+      "contentIds": [
+        "lesson.what-is-islam",
+        "lesson.who-is-allah",
+        "lesson.prophet-muhammad",
+        "lesson.purpose-of-worship",
+        "lesson.faith-islam-ihsan",
+        "lesson.quran-and-hadith"
+      ]
+    },
+    {
+      "id": "stage.faith-foundations",
+      "order": 2,
+      "title": {
+        "id": "Syahadat dan dasar iman",
+        "en": "Shahada and foundations of faith"
+      },
+      "goal": {
+        "id": "Memahami syahadat serta dasar iman, Islam, dan ihsan.",
+        "en": "Understand the Shahada and the foundations of faith, Islam, and excellence."
+      },
+      "entryContentId": "lesson.shahada",
+      "indexPath": "indexes/stage-faith-foundations.json",
+      "contentIds": [
+        "lesson.shahada",
+        "lesson.knowing-allah",
+        "lesson.migrated-shahada",
+        "lesson.tawhid",
+        "lesson.following-sunnah",
+        "lesson.understanding-hadith",
+        "lesson.faith-in-allah",
+        "lesson.faith-in-angels",
+        "lesson.faith-in-books",
+        "lesson.faith-in-messengers",
+        "lesson.faith-in-last-day",
+        "lesson.faith-in-divine-decree"
+      ]
+    },
+    {
+      "id": "stage.purification-prayer",
+      "order": 3,
+      "title": {
+        "id": "Bersuci dan salat",
+        "en": "Purification and prayer"
+      },
+      "goal": {
+        "id": "Mempelajari kebersihan, tata cara bersuci, dan dasar pelaksanaan salat.",
+        "en": "Learn cleanliness, purification, and the foundations of performing prayer."
+      },
+      "entryContentId": "lesson.cleanliness",
+      "indexPath": "indexes/stage-purification-prayer.json",
+      "contentIds": [
+        "lesson.cleanliness",
+        "lesson.migrated-five-obligatory-prayers",
+        "lesson.najis",
+        "practice.migrated-fajr",
+        "lesson.hadas",
+        "practice.migrated-dhuhr",
+        "lesson.wudu",
+        "practice.migrated-asr",
+        "lesson.tayammum",
+        "practice.migrated-maghrib",
+        "lesson.ghusl",
+        "practice.migrated-isha",
+        "lesson.prayer-times",
+        "lesson.prayer-movements",
+        "lesson.prayer-recitations",
+        "lesson.five-obligatory-prayers",
+        "lesson.congregational-prayer",
+        "lesson.voluntary-prayer",
+        "practice.cleanliness-check",
+        "practice.najis-response",
+        "practice.wudu",
+        "practice.tayammum",
+        "practice.ghusl",
+        "practice.prayer-times",
+        "practice.prayer-movements",
+        "practice.prayer-recitations",
+        "practice.prayer-readiness-checklist",
+        "practice.five-obligatory-prayers",
+        "practice.congregational-prayer",
+        "practice.voluntary-prayer"
+      ]
+    },
+    {
+      "id": "stage.pillars-journey",
+      "order": 4,
+      "title": {
+        "id": "Puasa, zakat, dan haji",
+        "en": "Fasting, zakat, and Hajj"
+      },
+      "goal": {
+        "id": "Memahami tujuan dan dasar pelaksanaan puasa, zakat, haji, dan umrah.",
+        "en": "Understand the purposes and foundations of fasting, zakat, Hajj, and Umrah."
+      },
+      "entryContentId": "lesson.fasting-purpose",
+      "indexPath": "indexes/stage-pillars-journey.json",
+      "contentIds": [
+        "lesson.fasting-purpose",
+        "practice.migrated-fasting-intentions",
+        "lesson.fasting-conditions",
+        "supplication.migrated-breaking-fast",
+        "lesson.fasting-pillars",
+        "lesson.migrated-zakat-fitrah",
+        "sequence.migrated-hajj",
+        "lesson.fasting-invalidators",
+        "supplication.migrated-zakat-fitrah-self",
+        "lesson.suhur",
+        "supplication.migrated-zakat-fitrah-wife",
+        "lesson.iftar",
+        "supplication.migrated-zakat-fitrah-family",
+        "lesson.ramadan",
+        "lesson.voluntary-fasts",
+        "lesson.qada-fasting",
+        "lesson.fidyah",
+        "lesson.zakat-purpose",
+        "lesson.zakat-fitrah",
+        "lesson.zakat-mal",
+        "lesson.zakat-obligation",
+        "lesson.zakat-recipients",
+        "lesson.zakat-calculator-guidance",
+        "lesson.hajj-umrah-rulings",
+        "lesson.hajj-umrah-conditions",
+        "lesson.ihram",
+        "lesson.hajj-umrah-sequence",
+        "lesson.ihram-prohibitions",
+        "lesson.hajj-umrah-prayers",
+        "lesson.hajj-umrah-travel",
+        "practice.fasting-day-plan",
+        "practice.qada-fidyah-planning",
+        "practice.zakat-obligation-check",
+        "practice.zakat-estimate",
+        "practice.hajj-umrah-sequence",
+        "practice.ihram-readiness",
+        "practice.hajj-umrah-travel"
+      ]
+    },
+    {
+      "id": "stage.quran-learning",
+      "order": 5,
+      "title": {
+        "id": "Belajar Al-Qur'an",
+        "en": "Quran learning"
+      },
+      "goal": {
+        "id": "Membaca, memperbaiki bacaan, memahami makna, dan menjaga konsistensi sesuai kemampuan.",
+        "en": "Read, improve recitation, understand meaning, and build consistency according to ability."
+      },
+      "entryContentId": "lesson.quran-paths",
+      "indexPath": "indexes/stage-quran-learning.json",
+      "contentIds": [
+        "lesson.quran-paths",
+        "lesson.iqra-introduction",
+        "lesson.arabic-letters",
+        "lesson.quran-harakat",
+        "lesson.joined-letters",
+        "practice.quran-reading",
+        "lesson.quran-translation",
+        "practice.basic-tajwid",
+        "lesson.brief-tafsir",
+        "lesson.quran-themes",
+        "practice.quran-consistency"
+      ],
+      "adaptivePaths": [
+        {
+          "id": "path.quran-cannot-read",
+          "label": {
+            "id": "Belum dapat membaca",
+            "en": "Cannot read yet"
+          },
+          "entryContentId": "lesson.iqra-introduction",
+          "featureLinks": [
+            {
+              "featureId": "feature.reading",
+              "required": false,
+              "parameters": {
+                "mode": "iqra-learning"
+              }
+            }
+          ]
+        },
+        {
+          "id": "path.quran-tajwid",
+          "label": {
+            "id": "Latihan tajwid",
+            "en": "Tajwid practice"
+          },
+          "entryContentId": "practice.basic-tajwid",
+          "featureLinks": [
+            {
+              "featureId": "feature.audio",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "path.quran-meaning",
+          "label": {
+            "id": "Memahami makna",
+            "en": "Understand meaning"
+          },
+          "entryContentId": "lesson.quran-translation",
+          "featureLinks": [
+            {
+              "featureId": "feature.reading",
+              "required": false,
+              "parameters": {
+                "mode": "meaning"
+              }
+            }
+          ]
+        },
+        {
+          "id": "path.quran-consistency",
+          "label": {
+            "id": "Konsisten membaca",
+            "en": "Reading consistency"
+          },
+          "entryContentId": "practice.quran-consistency",
+          "featureLinks": [
+            {
+              "featureId": "feature.continuation-history",
+              "required": false
+            },
+            {
+              "featureId": "feature.reading",
+              "required": false,
+              "parameters": {
+                "mode": "quran-reader"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage.hadith-character",
+      "order": 6,
+      "title": {
+        "id": "Hadis, Sunnah, dan akhlak",
+        "en": "Hadith, Sunnah, and character"
+      },
+      "goal": {
+        "id": "Mempelajari tuntunan Nabi secara tematik dan menerapkannya dalam akhlak.",
+        "en": "Study Prophetic guidance thematically and apply it through good character."
+      },
+      "entryContentId": "lesson.intention-guidance",
+      "indexPath": "indexes/stage-hadith-character.json",
+      "contentIds": [
+        "lesson.intention-guidance",
+        "lesson.honesty-guidance",
+        "lesson.guarding-speech-guidance",
+        "lesson.parents-guidance",
+        "lesson.compassion-guidance",
+        "lesson.eating-guidance",
+        "lesson.sleeping-guidance",
+        "lesson.neighbors-guidance",
+        "lesson.seeking-knowledge-guidance"
+      ]
+    },
+    {
+      "id": "stage.daily-life",
+      "order": 7,
+      "title": {
+        "id": "Kehidupan Muslim sehari-hari",
+        "en": "Daily Muslim life"
+      },
+      "goal": {
+        "id": "Menerapkan doa, zikir, adab, dan kepedulian dalam kehidupan sehari-hari.",
+        "en": "Apply supplications, remembrance, manners, and care in daily life."
+      },
+      "entryContentId": "lesson.daily-supplications",
+      "indexPath": "indexes/stage-daily-life.json",
+      "contentIds": [
+        "lesson.daily-supplications",
+        "supplication.migrated-daily-dua.before-sleep",
+        "lesson.daily-dua",
+        "supplication.migrated-daily-dua.waking-up",
+        "lesson.morning-evening-dhikr",
+        "supplication.migrated-daily-dua.entering-restroom",
+        "lesson.daily-eating",
+        "supplication.migrated-daily-dua.leaving-restroom",
+        "lesson.daily-sleeping",
+        "supplication.migrated-daily-dua.before-eating",
+        "lesson.daily-travel",
+        "supplication.migrated-daily-dua.remembering-basmala-during-meal",
+        "lesson.daily-family",
+        "supplication.migrated-daily-dua.after-eating",
+        "lesson.daily-parents",
+        "supplication.migrated-daily-dua.going-to-mosque",
+        "lesson.basic-transactions",
+        "supplication.migrated-daily-dua.entering-mosque",
+        "lesson.halal-food",
+        "supplication.migrated-daily-dua.leaving-mosque",
+        "lesson.daily-charity",
+        "supplication.migrated-daily-dua.before-wudu",
+        "lesson.daily-health",
+        "supplication.migrated-daily-dua.after-wudu",
+        "lesson.daily-cleanliness",
+        "supplication.migrated-daily-dua.breaking-fast",
+        "lesson.facing-sadness",
+        "supplication.migrated-daily-dua.entering-home-short-greeting",
+        "lesson.facing-anxiety",
+        "supplication.migrated-daily-dua.entering-home-full-greeting",
+        "lesson.facing-trials",
+        "supplication.migrated-daily-dua.leaving-home",
+        "supplication.migrated-daily-dua.protection-when-leaving-home",
+        "supplication.migrated-daily-dua.travel",
+        "supplication.migrated-daily-dua.resident-farewell-to-traveler",
+        "supplication.migrated-daily-dua.resident-prayer-for-traveler",
+        "supplication.migrated-daily-dua.wearing-new-clothes",
+        "supplication.migrated-daily-dua.wearing-clothes",
+        "supplication.migrated-daily-dua.removing-clothes",
+        "supplication.migrated-daily-dua.boarding-vehicle",
+        "supplication.migrated-daily-dua.when-rain-falls",
+        "supplication.migrated-daily-dua.during-heavy-rain",
+        "supplication.migrated-daily-dua.after-rain",
+        "supplication.migrated-daily-dua.during-strong-wind",
+        "supplication.migrated-daily-dua.sayyid-al-istighfar",
+        "supplication.migrated-daily-dua.ease-in-all-affairs",
+        "supplication.migrated-daily-dua.when-afflicted-by-calamity",
+        "supplication.migrated-daily-dua.relief-from-debt",
+        "supplication.migrated-daily-dua.protection-from-laziness-sorrow-and-debt",
+        "supplication.migrated-daily-dua.after-sneezing",
+        "supplication.migrated-daily-dua.replying-to-sneezer",
+        "supplication.migrated-daily-dua.sneezer-reply",
+        "supplication.migrated-daily-dua.good-character",
+        "supplication.migrated-daily-dua.protection-from-satan",
+        "supplication.migrated-daily-dua.after-call-to-prayer",
+        "supplication.migrated-daily-dua.forgiveness-for-parents",
+        "supplication.migrated-daily-dua.looking-in-mirror",
+        "supplication.migrated-daily-dua.before-study",
+        "supplication.migrated-daily-dua.after-study",
+        "supplication.migrated-daily-dua.before-reading-quran",
+        "supplication.migrated-daily-dua.after-reading-quran",
+        "supplication.migrated-daily-dua.before-travel",
+        "supplication.migrated-daily-dua.arriving-at-destination",
+        "supplication.migrated-daily-dua.before-dawn-prayer",
+        "supplication.migrated-daily-dua.morning",
+        "supplication.migrated-daily-dua.evening",
+        "supplication.migrated-daily-dua.entering-market",
+        "supplication.migrated-daily-dua.combing-hair",
+        "supplication.migrated-daily-dua.sufficient-lawful-provision",
+        "supplication.migrated-daily-dua.encountering-wild-animal",
+        "supplication.migrated-daily-dua.beneficial-knowledge",
+        "supplication.morning-dhikr-pending"
+      ]
+    }
+  ]
+}

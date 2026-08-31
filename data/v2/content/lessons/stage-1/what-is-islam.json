@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.what-is-islam",
+  "type": "lesson",
+  "slug": "what-is-islam",
+  "title": { "id": "Apa itu Islam?", "en": "What is Islam?" },
+  "summary": {
+    "id": "Pengantar tentang Islam sebagai ketundukan kepada Allah yang membentuk iman, ibadah, dan akhlak.",
+    "en": "An introduction to Islam as submission to Allah that shapes faith, worship, and character."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.introduction",
+  "stageOrder": 1,
+  "group": "introduction",
+  "relationships": {
+    "prerequisites": [],
+    "next": ["lesson.who-is-allah"],
+    "related": ["lesson.faith-islam-ihsan", "lesson.quran-and-hadith"]
+  },
+  "sourceIds": ["source.hadith-bukhari-8", "source.hadith-muslim-8a"],
+  "blocks": [
+    {
+      "id": "block.what-is-islam.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Islam mengajarkan ketundukan kepada Allah melalui keyakinan yang benar, ibadah, dan perbuatan baik. Seorang Muslim belajar menerima petunjuk Allah dan menjalankannya dengan tulus.",
+        "en": "Islam teaches submission to Allah through sound belief, worship, and good deeds. A Muslim learns to accept Allah's guidance and live by it sincerely."
+      }
+    },
+    {
+      "id": "block.what-is-islam.elements",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.what-is-islam.faith",
+          "text": {
+            "id": "Iman meneguhkan keyakinan.",
+            "en": "Faith establishes belief."
+          }
+        },
+        {
+          "id": "item.what-is-islam.worship",
+          "text": {
+            "id": "Ibadah mengarahkan pengabdian kepada Allah.",
+            "en": "Worship directs devotion to Allah."
+          }
+        },
+        {
+          "id": "item.what-is-islam.character",
+          "text": {
+            "id": "Akhlak baik menunjukkan pengaruh ajaran Islam dalam kehidupan.",
+            "en": "Good character shows the influence of Islamic teaching in life."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami gambaran dasar tentang Islam.",
+      "en": "I understand the basic picture of Islam."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

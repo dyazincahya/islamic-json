@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.sufficient-lawful-provision",
+  "type": "supplication",
+  "slug": "sufficient-lawful-provision",
+  "title": {
+    "id": "Doa agar selalu dicukupkan rezeki",
+    "en": "Supplication for sufficient lawful provision"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 53,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.sufficient-lawful-provision",
+    "arabic": "اَللّٰهُمَّ اَكْفِنِيْ بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِيْ بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+    "transliteration": {
+      "id": "allahummakfini bihalalika ‘an haramik wa aghnini bifadhlika amman siwak",
+      "en": "allahummakfini bihalalika ‘an haramik wa aghnini bifadhlika amman siwak"
+    },
+    "translation": {
+      "id": "Ya Allah, berilah aku kecukupan dengan rezeki yang halal, sehingga aku tidak memerlukan yang haram, dan berilah aku kekayaan dengan karuniamu, sehingga aku tidak memerlukan bantuan orang lain, selain diri-mu.",
+      "en": "O Allah, suffice me with what You have made lawful instead of what You have forbidden, and enrich me by Your bounty from everyone besides You."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.sufficient-lawful-provision.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Ahmad. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Ahmad. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

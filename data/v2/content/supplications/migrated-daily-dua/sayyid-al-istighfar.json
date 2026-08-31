@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.sayyid-al-istighfar",
+  "type": "supplication",
+  "slug": "sayyid-al-istighfar",
+  "title": {
+    "id": "Sayyid al-Istighfar",
+    "en": "The foremost supplication for forgiveness"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 29,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.sayyid-al-istighfar",
+    "arabic": "اَللَّهُمَّ أَنْتَ رَبِّيْ ، لَا إِلٰـهَ إِلاَّ أَنْتَ خَلَقْتَنِيْ وَأَنَا عَبْدُكَ ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ ، أَبُوْءُ لَكَ بِنِعْمتِكَ عَلَيَّ ، وَأَبُوْءُ بِذَنْبِيْ فَاغْفِرْ لِيْ ، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+    "transliteration": {
+      "id": "allahumma anta rabbii laa ilaaha illaa anta khalaqtanii wa anna 'abduka wa anaa 'alaa 'ahdika wa wa'dika mastatha'tu a'uudzu bika min syarri maa shana'tu abuu u laka bini' matika 'alayya wa abuu-u bidzanbii faghfir lii fa innahu laa yaghfirudz dzunuuba illa anta",
+      "en": "allahumma anta rabbii laa ilaaha illaa anta khalaqtanii wa anna 'abduka wa anaa 'alaa 'ahdika wa wa'dika mastatha'tu a'uudzu bika min syarri maa shana'tu abuu u laka bini' matika 'alayya wa abuu-u bidzanbii faghfir lii fa innahu laa yaghfirudz dzunuuba illa anta"
+    },
+    "translation": {
+      "id": "Ya Allah, Engkau adalah Rabb-ku, tidak ada Ilah (yang berhak diibadahi dengan benar) kecuali Engkau, Engkau-lah yang menciptakanku. Aku adalah hamba-Mu. Aku akan setia pada perjanjianku dengan-Mu semampuku. Aku berlindung kepada-Mu dari kejelekan (apa) yang kuperbuat. Aku mengakui nikmat-Mu (yang diberikan) kepadaku dan aku mengakui dosaku, oleh karena itu, ampunilah aku. Sesungguhnya tidak ada yang dapat mengampuni dosa kecuali Engkau.",
+      "en": "O Allah, You are my Lord. There is no deity except You. You created me and I am Your servant. I remain faithful to Your covenant and promise as much as I am able. I seek refuge in You from the evil of what I have done. I acknowledge Your blessing upon me and I acknowledge my sin, so forgive me, for no one forgives sins except You."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.sayyid-al-istighfar.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari No. 6306, 6323, Ahmad IV/122-125, an-Nasa'i VIII/279-280. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari No. 6306, 6323, Ahmad IV/122-125, an-Nasa'i VIII/279-280. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Barang siapa yang membacanya dengan yakin ketika petang hari, kemudian dia meninggal, maka ia akan masuk surga, demikian juga jika (dibaca) pada pagi hari.",
+    "en": "The legacy note states that whoever recites it with certainty in the evening and dies that night will enter Paradise, and likewise for one who recites it in the morning."
+  }
+}

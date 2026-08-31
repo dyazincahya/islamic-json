@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-zakat-fitrah-wife",
+  "type": "supplication",
+  "slug": "migrated-zakat-fitrah-wife",
+  "title": {
+    "id": "Niat zakat fitrah untuk istri",
+    "en": "Zakat al-Fitr intention for one's wife"
+  },
+  "summary": {
+    "id": "Redaksi niat zakat fitrah untuk istri dari data lama.",
+    "en": "The legacy Zakat al-Fitr intention formula for one's wife."
+  },
+  "status": "draft",
+  "iconId": "worship.zakat",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 5,
+  "group": "migrated-pillars.zakat",
+  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
+  "relationships": {
+    "related": ["lesson.migrated-zakat-fitrah"]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": { "contentId": "recitation.migrated-zakat-fitrah-wife" }
+    }
+  ],
+  "recitation": {
+    "id": "recitation.migrated-zakat-fitrah-wife",
+    "arabic": "نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ الْفِطْرِ عَنْ زَوْجَتِي فَرْضًا لِلَّهِ تَعَالَى",
+    "transliteration": {
+      "id": "Nawaitu an ukhrija zakâtal fithri 'an zaujatî fardhan lillâhi ta'âlâ.",
+      "en": "Nawaytu an ukhrija zakatal-fitri 'an zawjati fardan lillahi ta'ala."
+    },
+    "translation": {
+      "id": "Aku berniat mengeluarkan zakat fitrah untuk istriku, sebagai kewajiban karena Allah Ta'ala.",
+      "en": "I intend to give Zakat al-Fitr for my wife, as an obligation for Allah Most High."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-zakat-fitrah-wife.note",
+      "type": "callout",
+      "kind": "warning",
+      "body": {
+        "id": "Redaksi dan rincian tanggungan ini dimigrasikan sebagai bahan belajar. Penerapan tanggungan zakat perlu mengikuti panduan fikih dan lokal yang tepercaya.",
+        "en": "This formula and responsibility detail are migrated as learning material. Applying responsibility for zakat should follow trusted juristic and local guidance."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending",
+      "notes": {
+        "id": "Teks Arab dinormalisasi dari karakter presentasi Unicode; bacaan, terjemahan, dan klaim tanggungan menunggu verifikasi.",
+        "en": "The Arabic was normalized from Unicode presentation forms; the recitation, translation, and responsibility claim await verification."
+      }
+    },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

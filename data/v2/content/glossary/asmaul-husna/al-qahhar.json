@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-qahhar",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-qahhar",
+  "title": {
+    "id": "Al-Qahhâru",
+    "en": "Al-Qahhar"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Qahhâru",
+    "en": "Al-Qahhar"
+  },
+  "arabic": "الْقَهَّارُ",
+  "transliteration": {
+    "id": "Al-Qahhâru",
+    "en": "Al-Qahhar"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-qahhar.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memaksa",
+        "en": "The All-Subduer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

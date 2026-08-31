@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ar-raqib",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ar-raqib",
+  "title": {
+    "id": "Ar-Raqîbu",
+    "en": "Ar-Raqib"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Ar-Raqîbu",
+    "en": "Ar-Raqib"
+  },
+  "arabic": "الرَّقِيْبُ",
+  "transliteration": {
+    "id": "Ar-Raqîbu",
+    "en": "Ar-Raqib"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ar-raqib.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengawasi",
+        "en": "The Watchful"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

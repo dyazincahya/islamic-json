@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+  },
+  "include": [
+    "env.d.ts",
+    ".vitepress/**/*.ts",
+    "components/**/*.vue",
+    "scripts/**/*.ts",
+    "tailwind.config.ts",
+  ],
+}

@@ -1,0 +1,19 @@
+{
+    "icon": "fas fa-pray",
+    "title": {
+        "id": "Isya",
+        "en": "Isha"
+    },
+    "content": {
+        "arrabic": "أُصَلِّى فَرْضَ العِشَاء ِأَرْبَعَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا/إِمَامًا) لله تَعَالَى",
+        "latin": "Ushalli fardhal ‘isyai arba’a raka’atin mustaqbilal qiblati adaa'an (makmuman/imaman) lillaahi ta'aala.",
+        "translation": {
+            "id": "Saya niat sholat fardhu isya empat rakaat menghadap kiblat, (sebagai makmum/imam) karena Allah Ta'ala.",
+            "en": "I intend to perform the obligatory isha prayer of four raka'ahs facing the Qibla, (as a follower/imam) for the sake of Allah Ta'ala."
+        },
+        "extras": {
+            "id": "<h2>Informasi</h2><ol><li><strong>Waktu</strong>: Mulai dari hilangnya mega merah hingga tengah malam (atau hingga sebelum fajar).</li><li><strong>Jumlah Rakaat</strong>: 4 rakaat</li></ol>",
+            "en": "<h2>Information</h2><ol><li><strong>Time</strong>: From the disappearance of the red twilight until midnight (or until before dawn).</li><li><strong>Number of Rak'ahs</strong>: 4 rak'ahs</li></ol>"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-ali",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-ali",
+  "title": {
+    "id": "Al-`Aliyyu",
+    "en": "Al-'Ali"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-`Aliyyu",
+    "en": "Al-'Ali"
+  },
+  "arabic": "العَلِيُّ",
+  "transliteration": {
+    "id": "Al-`Aliyyu",
+    "en": "Al-'Ali"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-ali.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Tinggi",
+        "en": "The Most High"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-2-255"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.ghusl",
+  "type": "lesson",
+  "slug": "ghusl",
+  "title": {
+    "id": "Ghusl wajib",
+    "en": "Obligatory ghusl"
+  },
+  "summary": {
+    "id": "Ghusl mengangkat hadas besar dengan niat dan mengalirkan air ke seluruh tubuh sesuai tuntunan.",
+    "en": "Ghusl lifts major ritual impurity through intention and ensuring water reaches the whole body as instructed."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 6,
+  "group": "purification",
+  "relationships": {
+    "prerequisites": [
+      "lesson.tayammum"
+    ],
+    "next": [
+      "lesson.prayer-times"
+    ],
+    "related": [
+      "practice.ghusl"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.ghusl.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Ghusl mengangkat hadas besar dengan niat dan mengalirkan air ke seluruh tubuh sesuai tuntunan.",
+        "en": "Ghusl lifts major ritual impurity through intention and ensuring water reaches the whole body as instructed."
+      }
+    },
+    {
+      "id": "block.ghusl.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.ghusl.1",
+          "text": {
+            "id": "Kenali sebab yang mewajibkan ghusl dan jangan menyimpulkannya hanya dari keraguan.",
+            "en": "Know the causes that require ghusl and do not infer them from doubt alone."
+          }
+        },
+        {
+          "id": "item.ghusl.2",
+          "text": {
+            "id": "Hilangkan najis bila ada, berniat, lalu pastikan air mencapai seluruh bagian luar tubuh.",
+            "en": "Remove any najis, make the intention, then ensure water reaches the entire external body."
+          }
+        },
+        {
+          "id": "item.ghusl.3",
+          "text": {
+            "id": "Jaga privasi, keselamatan, dan penggunaan air yang wajar.",
+            "en": "Maintain privacy, safety, and reasonable water use."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.ghusl.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.ghusl.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-5-6"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

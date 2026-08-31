@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.after-rain",
+  "type": "supplication",
+  "slug": "after-rain",
+  "title": {
+    "id": "Doa Setelah Turun Hujan",
+    "en": "Supplication after rainfall"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 27,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.after-rain",
+    "arabic": "مُطِرْنا بفَضْلِ اللهِ ورَحْمَتِهِ",
+    "transliteration": {
+      "id": "muthirna bi fadhlillahi wa rohmatih",
+      "en": "muthirna bi fadhlillahi wa rohmatih"
+    },
+    "translation": {
+      "id": "Kita diberi hujan karena karunia dan rahmat Allah.",
+      "en": "We have been given rain by Allah's bounty and mercy."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.after-rain.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari No. 846 dan Muslim No. 71. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari No. 846 dan Muslim No. 71. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Dengan membaca doa tersebut maka ia telah mengimani bahwasanya hujan turun atas kehendak Allah (keutamaan Allah), bukan dengan bintang-bintang sehingga mereka menjadi kufur kepada Allah.",
+    "en": "Reciting this affirms that rain falls by Allah's will and bounty, not because of the stars."
+  }
+}

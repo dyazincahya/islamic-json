@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.shahada",
+  "type": "lesson",
+  "slug": "shahada",
+  "title": { "id": "Memahami syahadat", "en": "Understanding the Shahada" },
+  "summary": {
+    "id": "Pengantar kepada dua kesaksian dan cabang belajar yang menjelaskan maknanya.",
+    "en": "An introduction to the two testimonies and the learning branches that explain their meaning."
+  },
+  "status": "draft",
+  "iconId": "faith.shahada",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 1,
+  "group": "shahada-journey",
+  "relationships": {
+    "prerequisites": ["lesson.quran-and-hadith"],
+    "next": [
+      "lesson.knowing-allah",
+      "lesson.tawhid",
+      "lesson.purpose-of-worship",
+      "lesson.prophet-muhammad",
+      "lesson.following-sunnah",
+      "lesson.understanding-hadith"
+    ],
+    "related": ["lesson.faith-in-allah", "lesson.faith-in-messengers"]
+  },
+  "sourceIds": ["source.hadith-bukhari-8"],
+  "blocks": [
+    {
+      "id": "block.shahada.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Syahadat adalah kesaksian bahwa tidak ada yang berhak disembah selain Allah dan bahwa Muhammad adalah utusan Allah. Kesaksian ini mengarahkan keyakinan, ibadah, dan cara mengikuti petunjuk Nabi.",
+        "en": "The Shahada testifies that none is worthy of worship except Allah and that Muhammad is Allah's messenger. This testimony directs belief, worship, and the way Muslims follow the Prophet's guidance."
+      }
+    },
+    {
+      "id": "block.shahada.branches",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.shahada.allah",
+          "text": {
+            "id": "Mengenal Allah, tauhid, dan tujuan ibadah.",
+            "en": "Knowing Allah, tawhid, and the purpose of worship."
+          }
+        },
+        {
+          "id": "item.shahada.messenger",
+          "text": {
+            "id": "Mengenal Nabi Muhammad, mengikuti Sunnah, dan memahami hadis.",
+            "en": "Knowing Prophet Muhammad, following the Sunnah, and understanding hadith."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Saya mengenali dua bagian utama syahadat",
+      "en": "I recognize the two main parts of the Shahada"
+    },
+    "items": [
+      {
+        "id": "completion.shahada.allah",
+        "label": {
+          "id": "Saya mengenali kesaksian tentang Allah.",
+          "en": "I recognize the testimony about Allah."
+        }
+      },
+      {
+        "id": "completion.shahada.messenger",
+        "label": {
+          "id": "Saya mengenali kesaksian tentang Nabi Muhammad.",
+          "en": "I recognize the testimony about Prophet Muhammad."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

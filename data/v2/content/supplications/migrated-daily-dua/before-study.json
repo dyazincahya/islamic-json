@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.before-study",
+  "type": "supplication",
+  "slug": "before-study",
+  "title": {
+    "id": "Doa sebelum belajar",
+    "en": "Supplication before studying"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 42,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.before-study",
+    "arabic": "يَارَبِّ زِدْنِىْ عِلْمًا وَارْزُقْنِىْ فَهْمًا",
+    "transliteration": {
+      "id": "yaa robbi zidnii 'ilman warzuqnii fahmaa",
+      "en": "yaa robbi zidnii 'ilman warzuqnii fahmaa"
+    },
+    "translation": {
+      "id": "Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman",
+      "en": "My Lord, increase me in knowledge and grant me understanding."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

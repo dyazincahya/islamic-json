@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mujib",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mujib",
+  "title": {
+    "id": "Al-Mujîbu",
+    "en": "Al-Mujib"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mujîbu",
+    "en": "Al-Mujib"
+  },
+  "arabic": "الْمُجِيْبُ",
+  "transliteration": {
+    "id": "Al-Mujîbu",
+    "en": "Al-Mujib"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mujib.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengabulkan",
+        "en": "The Responsive One"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

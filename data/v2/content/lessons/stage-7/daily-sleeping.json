@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-sleeping",
+  "type": "lesson",
+  "slug": "daily-sleeping",
+  "title": {
+    "id": "Tidur dan istirahat",
+    "en": "Sleep and rest"
+  },
+  "summary": {
+    "id": "Jaga istirahat sambil menata waktu, keamanan, kebersihan, dan kewajiban.",
+    "en": "Maintain rest while organizing time, safety, cleanliness, and duties."
+  },
+  "status": "draft",
+  "iconId": "daily-life.sleep",
+  "stageId": "stage.daily-life",
+  "stageOrder": 5,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-eating"],
+    "next": ["lesson.daily-travel"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-sleeping-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-sleeping-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Istirahat adalah kebutuhan tubuh yang perlu diseimbangkan dengan ibadah dan tanggung jawab.",
+        "en": "Rest is a bodily need to balance with worship and responsibilities."
+      }
+    },
+    {
+      "id": "block.daily-sleeping-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-sleeping-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang mengurangi layar larut malam agar dapat bangun untuk salat.",
+        "en": "A person reduces late-night screen use to wake for prayer."
+      }
+    },
+    {
+      "id": "block.daily-sleeping-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-sleeping-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-sleeping-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Majukan waktu tidur sedikit dan siapkan kebutuhan pagi.",
+            "en": "Move bedtime slightly earlier and prepare morning needs."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

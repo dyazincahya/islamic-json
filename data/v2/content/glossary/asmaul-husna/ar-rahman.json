@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ar-rahman",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ar-rahman",
+  "title": {
+    "id": "Ar-Rahmânu",
+    "en": "Ar-Rahman"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Ar-Rahmânu",
+    "en": "Ar-Rahman"
+  },
+  "arabic": "الرَّحْمـٰنُ",
+  "transliteration": {
+    "id": "Ar-Rahmânu",
+    "en": "Ar-Rahman"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ar-rahman.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pengasih",
+        "en": "The Most Compassionate"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-1-1"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

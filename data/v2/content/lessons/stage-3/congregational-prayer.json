@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.congregational-prayer",
+  "type": "lesson",
+  "slug": "congregational-prayer",
+  "title": {
+    "id": "Salat berjamaah",
+    "en": "Congregational prayer"
+  },
+  "summary": {
+    "id": "Salat berjamaah menyatukan makmum di belakang imam dengan barisan, ketertiban, dan kepedulian terhadap sesama.",
+    "en": "Congregational prayer unites worshippers behind an imam through rows, order, and consideration for others."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 11,
+  "group": "prayer",
+  "relationships": {
+    "prerequisites": [
+      "lesson.five-obligatory-prayers"
+    ],
+    "next": [
+      "lesson.voluntary-prayer"
+    ],
+    "related": [
+      "practice.congregational-prayer"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.location",
+      "required": false,
+      "parameters": {
+        "purpose": "mosque"
+      }
+    },
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    }
+  ],
+  "sourceIds": [
+    "source.quran-2-43"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.congregational-prayer.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Salat berjamaah menyatukan makmum di belakang imam dengan barisan, ketertiban, dan kepedulian terhadap sesama.",
+        "en": "Congregational prayer unites worshippers behind an imam through rows, order, and consideration for others."
+      }
+    },
+    {
+      "id": "block.congregational-prayer.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.congregational-prayer.1",
+          "text": {
+            "id": "Datang dengan tenang dan ikuti imam tanpa mendahuluinya.",
+            "en": "Arrive calmly and follow the imam without moving ahead."
+          }
+        },
+        {
+          "id": "item.congregational-prayer.2",
+          "text": {
+            "id": "Luruskan barisan dengan santun serta beri ruang bagi kebutuhan jamaah.",
+            "en": "Straighten rows courteously and accommodate worshippers' needs."
+          }
+        },
+        {
+          "id": "item.congregational-prayer.3",
+          "text": {
+            "id": "Pelajari cara bergabung ketika terlambat dan cara menyempurnakan rakaat yang tertinggal.",
+            "en": "Learn how to join late and complete missed units."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.congregational-prayer.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.congregational-prayer.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-43"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

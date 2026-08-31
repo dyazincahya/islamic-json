@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.faith-in-angels",
+  "type": "lesson",
+  "slug": "faith-in-angels",
+  "title": { "id": "Iman kepada malaikat", "en": "Faith in angels" },
+  "summary": {
+    "id": "Pilar iman kedua: beriman kepada para malaikat Allah.",
+    "en": "The second pillar of faith: believing in Allah's angels."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 7,
+  "group": "pillars-of-faith",
+  "relationships": {
+    "prerequisites": ["lesson.faith-in-allah"],
+    "next": ["lesson.faith-in-books"],
+    "related": ["lesson.faith-islam-ihsan", "lesson.faith-in-messengers"]
+  },
+  "sourceIds": ["source.hadith-muslim-8a", "source.hadith-nawawi-2"],
+  "blocks": [
+    {
+      "id": "block.faith-in-angels.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Iman kepada malaikat berarti meyakini bahwa Allah menciptakan malaikat sebagai makhluk yang taat dan menjalankan tugas yang Dia tetapkan. Kita menerima rincian tentang mereka berdasarkan wahyu yang sahih.",
+        "en": "Faith in angels means believing that Allah created angels as obedient beings who carry out the duties He assigns. We accept details about them on the basis of authentic revelation."
+      }
+    },
+    {
+      "id": "block.faith-in-angels.boundary",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Draf ini tidak merinci nama atau tugas malaikat yang tidak didukung oleh sumber yang jelas.",
+        "en": "This draft does not assign names or duties to angels without clear source support."
+      },
+      "iconId": "general.info"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami dasar iman kepada malaikat.",
+      "en": "I understand the foundation of faith in angels."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

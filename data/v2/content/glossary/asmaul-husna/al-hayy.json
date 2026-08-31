@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-hayy",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-hayy",
+  "title": {
+    "id": "Al-Ḫayyu",
+    "en": "Al-Hayy"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ḫayyu",
+    "en": "Al-Hayy"
+  },
+  "arabic": "الْحَيُّ",
+  "transliteration": {
+    "id": "Al-Ḫayyu",
+    "en": "Al-Hayy"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-hayy.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahahidup",
+        "en": "The Ever-Living"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-2-255"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

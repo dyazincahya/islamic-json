@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-ghani",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-ghani",
+  "title": {
+    "id": "Al-Ghaniyyu",
+    "en": "Al-Ghani"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ghaniyyu",
+    "en": "Al-Ghani"
+  },
+  "arabic": "الْغَنِيُّ",
+  "transliteration": {
+    "id": "Al-Ghaniyyu",
+    "en": "Al-Ghani"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-ghani.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Berkecukupan",
+        "en": "The Self-Sufficient"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

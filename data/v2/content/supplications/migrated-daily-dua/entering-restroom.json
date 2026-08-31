@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.entering-restroom",
+  "type": "supplication",
+  "slug": "entering-restroom",
+  "title": {
+    "id": "Doa Masuk Kamar Mandi",
+    "en": "Supplication before entering the restroom"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 3,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.entering-restroom",
+    "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+    "transliteration": {
+      "id": "allahumma innii a'uudzubika minal khubutsi wal khabaaitsi",
+      "en": "allahumma innii a'uudzubika minal khubutsi wal khabaaitsi"
+    },
+    "translation": {
+      "id": "Ya Allah, aku berlindung pada-Mu dari (godaan) syaitan laki-laki dan perempuan.",
+      "en": "O Allah, I seek refuge in You from male and female devils."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.entering-restroom.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari dan Muslim. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari dan Muslim. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Doa ini menjadi penghalang antara aurat seorang hamba dengan jin ketika memasuki Al-khala' (kamar mandi).",
+    "en": "The legacy note describes this supplication as a barrier between a servant's private parts and the jinn when entering the restroom."
+  }
+}

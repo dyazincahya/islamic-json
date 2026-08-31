@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.quran-learning",
+  "itemType": "lesson",
+  "title": {
+    "id": "Belajar Al-Qur'an",
+    "en": "Quran learning"
+  },
+  "items": [
+    {
+      "id": "lesson.quran-paths",
+      "type": "lesson",
+      "slug": "quran-paths",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-paths.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 1,
+      "group": "adaptive-entry"
+    },
+    {
+      "id": "lesson.iqra-introduction",
+      "type": "lesson",
+      "slug": "iqra-introduction",
+      "status": "draft",
+      "path": "content/lessons/stage-5/iqra-introduction.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 2,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.arabic-letters",
+      "type": "lesson",
+      "slug": "arabic-letters",
+      "status": "draft",
+      "path": "content/lessons/stage-5/arabic-letters.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 3,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.quran-harakat",
+      "type": "lesson",
+      "slug": "quran-harakat",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-harakat.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 4,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.joined-letters",
+      "type": "lesson",
+      "slug": "joined-letters",
+      "status": "draft",
+      "path": "content/lessons/stage-5/joined-letters.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 5,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.quran-translation",
+      "type": "lesson",
+      "slug": "quran-translation",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-translation.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 6,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.brief-tafsir",
+      "type": "lesson",
+      "slug": "brief-tafsir",
+      "status": "draft",
+      "path": "content/lessons/stage-5/brief-tafsir.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 7,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.quran-themes",
+      "type": "lesson",
+      "slug": "quran-themes",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-themes.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 8,
+      "group": "quran-learning"
+    }
+  ]
+}

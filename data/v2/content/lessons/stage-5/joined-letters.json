@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.joined-letters",
+  "type": "lesson",
+  "slug": "joined-letters",
+  "title": {
+    "id": "Huruf bersambung",
+    "en": "Joined letters"
+  },
+  "summary": {
+    "id": "Kenali perubahan bentuk huruf di awal, tengah, atau akhir kata.",
+    "en": "Recognize how letter shapes change at the beginning, middle, or end of a word."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.arabic-letters",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 5,
+  "group": "quran-learning",
+  "relationships": {
+    "prerequisites": ["lesson.quran-harakat"],
+    "next": ["practice.quran-reading"],
+    "related": ["lesson.quran-paths"]
+  },
+  "blocks": [
+    {
+      "id": "block.joined-letters-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.joined-letters-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Banyak huruf Arab tersambung dan menyesuaikan posisi; sebagian tidak menyambung ke huruf sesudahnya.",
+        "en": "Many Arabic letters join and adjust by position; some do not connect to the following letter."
+      }
+    },
+    {
+      "id": "block.joined-letters-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.joined-letters-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Pisahkan satu kata pendek, lalu cocokkan bentuk awal, tengah, dan akhirnya.",
+        "en": "Separate a short word, then match its initial, medial, and final forms."
+      }
+    },
+    {
+      "id": "block.joined-letters-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.joined-letters-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.joined-letters-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Salin dan baca lima gabungan huruf, kemudian periksa sambungannya bersama pengajar.",
+            "en": "Copy and read five letter combinations, then check their joins with a teacher."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    }
+  ]
+}

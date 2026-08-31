@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muqsit",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muqsit",
+  "title": {
+    "id": "Al-Muqsithu",
+    "en": "Al-Muqsit"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muqsithu",
+    "en": "Al-Muqsit"
+  },
+  "arabic": "الْمُقْسِطُ",
+  "transliteration": {
+    "id": "Al-Muqsithu",
+    "en": "Al-Muqsit"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muqsit.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahaadil",
+        "en": "The Equitable"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.migrated-zakat-fitrah",
+  "type": "lesson",
+  "slug": "migrated-zakat-fitrah",
+  "title": {
+    "id": "Zakat fitrah",
+    "en": "Zakat al-Fitr"
+  },
+  "summary": {
+    "id": "Ringkasan tujuan, besaran, waktu, penerima, dan variasi tanggungan zakat fitrah dari tiga dokumen lama.",
+    "en": "A summary of the purpose, amount, timing, recipients, and responsibility variants of Zakat al-Fitr from three legacy documents."
+  },
+  "status": "under-review",
+  "iconId": "worship.zakat",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 3,
+  "group": "migrated-pillars.zakat",
+  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
+  "sourceIds": ["source.quran-9-60", "source.quran-9-103"],
+  "relationships": {
+    "related": [
+      "supplication.migrated-zakat-fitrah-self",
+      "supplication.migrated-zakat-fitrah-wife",
+      "supplication.migrated-zakat-fitrah-family"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.calculator",
+      "label": {
+        "id": "Buka bantuan taksiran zakat",
+        "en": "Open zakat estimation support"
+      },
+      "required": false,
+      "parameters": { "calculatorType": "zakat-fitrah" }
+    },
+    {
+      "featureId": "feature.reminders",
+      "label": {
+        "id": "Atur pengingat zakat fitrah",
+        "en": "Set a Zakat al-Fitr reminder"
+      },
+      "required": false,
+      "parameters": { "topic": "zakat-fitrah" }
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block.migrated-zakat-fitrah.facts-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Fakta migrasi", "en": "Migrated facts" }
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.facts",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "fact.migrated-zakat-fitrah.purpose",
+          "text": {
+            "id": "Tujuan: penyucian bagi orang yang berpuasa dan bantuan bagi orang yang membutuhkan menjelang Idulfitri.",
+            "en": "Purpose: purification for the fasting person and support for people in need around Eid al-Fitr."
+          }
+        },
+        {
+          "id": "fact.migrated-zakat-fitrah.amount",
+          "text": {
+            "id": "Besaran dalam data lama: 2,5 kg atau 3,5 liter makanan pokok setempat. Angka dan bentuk penunaian perlu mengikuti ketetapan otoritas tepercaya di lokasi pengguna.",
+            "en": "Legacy amount: 2.5 kg or 3.5 liters of the local staple food. The amount and method of payment should follow a trusted authority in the user's location."
+          }
+        },
+        {
+          "id": "fact.migrated-zakat-fitrah.timing",
+          "text": {
+            "id": "Waktu dalam data lama: ditunaikan sebelum salat Idulfitri. Rincian awal dan akhir waktu penunaian menunggu peninjauan.",
+            "en": "Legacy timing: distributed before the Eid al-Fitr prayer. Details about the beginning and end of the payment window await review."
+          }
+        },
+        {
+          "id": "fact.migrated-zakat-fitrah.recipients",
+          "text": {
+            "id": "Penerima yang ditekankan data lama: fakir dan miskin agar dapat merayakan Idulfitri dengan layak. Penerapan kategori penerima zakat fitrah perlu mengikuti panduan tepercaya.",
+            "en": "Recipients emphasized by the legacy data: poor and needy people so they can celebrate Eid al-Fitr with dignity. Applying recipient categories for Zakat al-Fitr should follow trusted guidance."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.variants-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Variasi dalam data lama", "en": "Variants in the legacy data" }
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.variants",
+      "type": "ordered-list",
+      "items": [
+        {
+          "id": "item.migrated-zakat-fitrah.self",
+          "text": {
+            "id": "Untuk diri sendiri.",
+            "en": "For oneself."
+          }
+        },
+        {
+          "id": "item.migrated-zakat-fitrah.wife",
+          "text": {
+            "id": "Untuk istri.",
+            "en": "For one's wife."
+          }
+        },
+        {
+          "id": "item.migrated-zakat-fitrah.family",
+          "text": {
+            "id": "Untuk diri sendiri dan anggota keluarga yang nafkahnya menjadi tanggungan.",
+            "en": "For oneself and family members whose maintenance is one's responsibility."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.meaning-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Makna yang dirangkum", "en": "Summarized meanings" }
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.meaning",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.migrated-zakat-fitrah.purification",
+          "text": {
+            "id": "Mendorong penyucian diri setelah Ramadan.",
+            "en": "Encourages purification after Ramadan."
+          }
+        },
+        {
+          "id": "item.migrated-zakat-fitrah.obedience",
+          "text": {
+            "id": "Menunaikan kewajiban dengan taat dan bersyukur.",
+            "en": "Fulfills an obligation with obedience and gratitude."
+          }
+        },
+        {
+          "id": "item.migrated-zakat-fitrah.solidarity",
+          "text": {
+            "id": "Memperkuat solidaritas dan kepedulian sosial.",
+            "en": "Strengthens solidarity and social care."
+          }
+        },
+        {
+          "id": "item.migrated-zakat-fitrah.responsibility",
+          "text": {
+            "id": "Mengingatkan tanggung jawab terhadap anggota keluarga yang menjadi tanggungan.",
+            "en": "Highlights responsibility toward dependent family members."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.review-warning",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Periksa panduan setempat",
+        "en": "Check local guidance"
+      },
+      "body": {
+        "id": "Besaran, bentuk pembayaran, waktu, penerima, dan pihak yang menanggung dapat memiliki rincian fikih dan ketetapan lokal. Dokumen ini belum menggantikan panduan ulama atau lembaga zakat tepercaya.",
+        "en": "Amount, payment form, timing, recipients, and responsibility can involve juristic detail and local rulings. This document does not replace guidance from trusted scholars or zakat institutions."
+      },
+      "iconId": "general.warning"
+    },
+    {
+      "id": "block.migrated-zakat-fitrah.sources",
+      "type": "source-reference",
+      "sourceIds": ["source.quran-9-60", "source.quran-9-103"],
+      "note": {
+        "id": "Rujukan ini mendukung konteks umum penerima zakat dan penyucian; tidak digunakan sebagai sumber langsung bagi angka besaran atau redaksi niat migrasi.",
+        "en": "These references support the general context of zakat recipients and purification; they are not used as direct sources for the migrated amount or intention formulas."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Periksa pemahaman zakat fitrah",
+      "en": "Check Zakat al-Fitr understanding"
+    },
+    "items": [
+      {
+        "id": "completion.migrated-zakat-fitrah.purpose",
+        "label": {
+          "id": "Saya memahami tujuan sosial dan spiritual zakat fitrah.",
+          "en": "I understand the social and spiritual purposes of Zakat al-Fitr."
+        }
+      },
+      {
+        "id": "completion.migrated-zakat-fitrah.local-guidance",
+        "label": {
+          "id": "Saya akan memeriksa besaran dan tata cara pada panduan lokal yang tepercaya.",
+          "en": "I will check the amount and procedure with trusted local guidance."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": {
+      "outcome": "pending",
+      "notes": {
+        "id": "Fakta kuantitas, waktu, penerima, tanggungan, dan ringkasan makna menunggu peninjauan fikih dan sumber.",
+        "en": "Amount, timing, recipient, responsibility, and summarized-meaning claims await juristic and source review."
+      }
+    },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

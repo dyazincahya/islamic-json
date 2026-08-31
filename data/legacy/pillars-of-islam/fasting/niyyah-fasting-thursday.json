@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Sunnah Kamis",
+        "en": "Niyyah Fasting Sunnah Thursday"
+    },
+    "content": {
+        "arrabic": "نَوَيْتُ صَوْمَ يَوْمَ الْخَمِيْسِ سُنَّةً ِللهِ تَعَالَى",
+        "latin": "Nawaitu sauma yaumal khomiisi  sunnatan lillâhi ta‘âlâ.",
+        "translation": {
+            "id": "Saya niat puasa hari Kamis, sunnah karena Allah ta’âlâ.",
+            "en": "I intend to fast on Thursday, as a sunnah practice for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

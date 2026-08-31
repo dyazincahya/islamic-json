@@ -1,0 +1,307 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://islamic-json.dev/v2/schemas/content.schema.json",
+  "title": "Islamic JSON v2 typed content",
+  "oneOf": [
+    { "$ref": "#/$defs/lesson" },
+    { "$ref": "#/$defs/practice" },
+    { "$ref": "#/$defs/supplication" },
+    { "$ref": "#/$defs/sequence" },
+    { "$ref": "#/$defs/glossaryEntry" }
+  ],
+  "$defs": {
+    "audio": {
+      "type": "object",
+      "required": ["src"],
+      "properties": {
+        "src": {
+          "oneOf": [
+            { "$ref": "common.schema.json#/$defs/relativePath" },
+            { "type": "string", "format": "uri", "pattern": "^https://" }
+          ]
+        },
+        "mimeType": { "enum": ["audio/mpeg", "audio/ogg", "audio/wav", "audio/mp4"] },
+        "durationSeconds": { "type": "number", "exclusiveMinimum": 0 },
+        "speaker": { "type": "string", "minLength": 1 },
+        "transcript": { "$ref": "common.schema.json#/$defs/localizedString" }
+      },
+      "additionalProperties": false
+    },
+    "recitation": {
+      "type": "object",
+      "required": ["id", "arabic", "translation"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/semanticId" },
+        "arabic": { "$ref": "common.schema.json#/$defs/plainText" },
+        "transliteration": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "translation": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "audio": { "$ref": "#/$defs/audio" },
+        "sourceIds": { "$ref": "common.schema.json#/$defs/idList" }
+      },
+      "additionalProperties": false
+    },
+    "blockId": { "$ref": "common.schema.json#/$defs/semanticId" },
+    "headingBlock": {
+      "type": "object",
+      "required": ["id", "type", "level", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "heading" },
+        "level": { "type": "integer", "minimum": 2, "maximum": 6 },
+        "text": { "$ref": "common.schema.json#/$defs/localizedString" }
+      },
+      "additionalProperties": false
+    },
+    "paragraphBlock": {
+      "type": "object",
+      "required": ["id", "type", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "paragraph" },
+        "text": { "$ref": "common.schema.json#/$defs/localizedString" }
+      },
+      "additionalProperties": false
+    },
+    "listItem": {
+      "type": "object",
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "text": { "$ref": "common.schema.json#/$defs/localizedString" }
+      },
+      "additionalProperties": false
+    },
+    "listBlock": {
+      "type": "object",
+      "required": ["id", "type", "items"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "enum": ["ordered-list", "unordered-list"] },
+        "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/listItem" } }
+      },
+      "additionalProperties": false
+    },
+    "quotationBlock": {
+      "type": "object",
+      "required": ["id", "type", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "quotation" },
+        "text": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "attribution": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "sourceIds": { "$ref": "common.schema.json#/$defs/idList" }
+      },
+      "additionalProperties": false
+    },
+    "calloutBlock": {
+      "type": "object",
+      "required": ["id", "type", "kind", "body"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "callout" },
+        "kind": { "enum": ["note", "tip", "warning", "important"] },
+        "title": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "body": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "iconId": { "$ref": "common.schema.json#/$defs/semanticId" }
+      },
+      "additionalProperties": false
+    },
+    "recitationBlock": {
+      "type": "object",
+      "required": ["id", "type", "recitation"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "recitation" },
+        "recitation": { "$ref": "#/$defs/recitation" }
+      },
+      "additionalProperties": false
+    },
+    "stepItem": {
+      "type": "object",
+      "required": ["id", "title", "body"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "title": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "body": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "recitation": { "$ref": "#/$defs/recitation" }
+      },
+      "additionalProperties": false
+    },
+    "stepsBlock": {
+      "type": "object",
+      "required": ["id", "type", "items"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "steps" },
+        "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/stepItem" } }
+      },
+      "additionalProperties": false
+    },
+    "checklistBlock": {
+      "type": "object",
+      "required": ["id", "type", "items"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "checklist" },
+        "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/listItem" } }
+      },
+      "additionalProperties": false
+    },
+    "imageBlock": {
+      "type": "object",
+      "required": ["id", "type", "src", "alt"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "image" },
+        "src": { "$ref": "common.schema.json#/$defs/relativePath" },
+        "alt": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "caption": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "licenseSourceId": { "$ref": "common.schema.json#/$defs/semanticId" }
+      },
+      "additionalProperties": false
+    },
+    "audioReferenceBlock": {
+      "type": "object",
+      "required": ["id", "type", "audio", "label"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "audio-reference" },
+        "label": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "audio": { "$ref": "#/$defs/audio" }
+      },
+      "additionalProperties": false
+    },
+    "sourceReferenceBlock": {
+      "type": "object",
+      "required": ["id", "type", "sourceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/blockId" },
+        "type": { "const": "source-reference" },
+        "sourceIds": { "$ref": "common.schema.json#/$defs/idList" },
+        "note": { "$ref": "common.schema.json#/$defs/localizedString" }
+      },
+      "additionalProperties": false
+    },
+    "block": {
+      "oneOf": [
+        { "$ref": "#/$defs/headingBlock" },
+        { "$ref": "#/$defs/paragraphBlock" },
+        { "$ref": "#/$defs/listBlock" },
+        { "$ref": "#/$defs/quotationBlock" },
+        { "$ref": "#/$defs/calloutBlock" },
+        { "$ref": "#/$defs/recitationBlock" },
+        { "$ref": "#/$defs/stepsBlock" },
+        { "$ref": "#/$defs/checklistBlock" },
+        { "$ref": "#/$defs/imageBlock" },
+        { "$ref": "#/$defs/audioReferenceBlock" },
+        { "$ref": "#/$defs/sourceReferenceBlock" }
+      ]
+    },
+    "blocks": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/block" } },
+    "journeyFields": {
+      "type": "object",
+      "required": ["stageId", "stageOrder", "group"],
+      "properties": {
+        "stageId": { "$ref": "common.schema.json#/$defs/semanticId" },
+        "stageOrder": { "type": "integer", "minimum": 1 },
+        "group": { "type": "string", "minLength": 1 }
+      }
+    },
+    "lesson": {
+      "allOf": [
+        { "$ref": "common.schema.json#/$defs/documentEnvelope" },
+        { "$ref": "#/$defs/journeyFields" },
+        {
+          "type": "object",
+          "required": ["blocks"],
+          "properties": {
+            "type": { "const": "lesson" },
+            "blocks": { "$ref": "#/$defs/blocks" },
+            "completionPrompt": { "$ref": "common.schema.json#/$defs/completionPrompt" }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "practice": {
+      "allOf": [
+        { "$ref": "common.schema.json#/$defs/documentEnvelope" },
+        { "$ref": "#/$defs/journeyFields" },
+        {
+          "type": "object",
+          "required": ["instructions", "completionPrompt"],
+          "properties": {
+            "type": { "const": "practice" },
+            "instructions": { "$ref": "#/$defs/blocks" },
+            "completionPrompt": { "$ref": "common.schema.json#/$defs/completionPrompt" }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "supplication": {
+      "allOf": [
+        { "$ref": "common.schema.json#/$defs/documentEnvelope" },
+        {
+          "type": "object",
+          "required": ["recitation"],
+          "properties": {
+            "type": { "const": "supplication" },
+            "recitation": { "$ref": "#/$defs/recitation" },
+            "context": { "$ref": "#/$defs/blocks" },
+            "benefits": { "$ref": "common.schema.json#/$defs/localizedString" },
+            "stageId": { "$ref": "common.schema.json#/$defs/semanticId" },
+            "stageOrder": { "type": "integer", "minimum": 1 },
+            "group": { "type": "string", "minLength": 1 }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "sequenceStep": {
+      "type": "object",
+      "required": ["id", "order", "title", "blocks"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/semanticId" },
+        "order": { "type": "integer", "minimum": 1 },
+        "title": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "blocks": { "$ref": "#/$defs/blocks" },
+        "recitation": { "$ref": "#/$defs/recitation" }
+      },
+      "additionalProperties": false
+    },
+    "sequence": {
+      "allOf": [
+        { "$ref": "common.schema.json#/$defs/documentEnvelope" },
+        { "$ref": "#/$defs/journeyFields" },
+        {
+          "type": "object",
+          "required": ["steps"],
+          "properties": {
+            "type": { "const": "sequence" },
+            "steps": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sequenceStep" } },
+            "completionPrompt": { "$ref": "common.schema.json#/$defs/completionPrompt" }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "glossaryEntry": {
+      "allOf": [
+        { "$ref": "common.schema.json#/$defs/documentEnvelope" },
+        {
+          "type": "object",
+          "required": ["term", "definition"],
+          "properties": {
+            "type": { "const": "glossary-entry" },
+            "term": { "$ref": "common.schema.json#/$defs/localizedString" },
+            "arabic": { "$ref": "common.schema.json#/$defs/plainText" },
+            "transliteration": { "$ref": "common.schema.json#/$defs/localizedString" },
+            "definition": { "$ref": "#/$defs/blocks" }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    }
+  }
+}

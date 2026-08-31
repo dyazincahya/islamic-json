@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://islamic-json.dev/v2/schemas/manifest.schema.json",
+  "title": "Islamic JSON v2 manifest",
+  "type": "object",
+  "required": ["schemaVersion", "datasetVersion", "type", "defaultLocale", "supportedLocales", "stagesPath", "registries", "collections"],
+  "properties": {
+    "schemaVersion": { "const": "2.0" },
+    "datasetVersion": { "type": "string", "pattern": "^2\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?$" },
+    "type": { "const": "manifest" },
+    "defaultLocale": { "$ref": "common.schema.json#/$defs/locale" },
+    "supportedLocales": {
+      "type": "array",
+      "contains": { "const": "id" },
+      "minContains": 1,
+      "allOf": [{ "contains": { "const": "en" }, "minContains": 1 }],
+      "items": { "$ref": "common.schema.json#/$defs/locale" },
+      "uniqueItems": true,
+      "minItems": 2
+    },
+    "stagesPath": { "$ref": "common.schema.json#/$defs/relativePath" },
+    "assetBaseUrl": { "type": "string", "format": "uri", "pattern": "^https://.+@v?2\\.[0-9]+\\.[0-9]+/" },
+    "registries": {
+      "type": "object",
+      "required": ["sources", "icons", "features"],
+      "properties": {
+        "sources": { "$ref": "common.schema.json#/$defs/relativePath" },
+        "icons": { "$ref": "common.schema.json#/$defs/relativePath" },
+        "features": { "$ref": "common.schema.json#/$defs/relativePath" }
+      },
+      "additionalProperties": false
+    },
+    "collections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "itemType", "indexPath"],
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/semanticId" },
+          "itemType": { "enum": ["lesson", "practice", "supplication", "sequence", "glossary-entry"] },
+          "indexPath": { "$ref": "common.schema.json#/$defs/relativePath" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

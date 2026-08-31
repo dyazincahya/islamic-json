@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-hamid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-hamid",
+  "title": {
+    "id": "Al-Ḫamîdu",
+    "en": "Al-Hamid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ḫamîdu",
+    "en": "Al-Hamid"
+  },
+  "arabic": "الْحَمِيْدُ",
+  "transliteration": {
+    "id": "Al-Ḫamîdu",
+    "en": "Al-Hamid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-hamid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Terpuji",
+        "en": "The Praiseworthy"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

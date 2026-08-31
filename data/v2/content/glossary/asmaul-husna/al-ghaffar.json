@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-ghaffar",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-ghaffar",
+  "title": {
+    "id": "Al-Ghaffaru",
+    "en": "Al-Ghaffar"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ghaffaru",
+    "en": "Al-Ghaffar"
+  },
+  "arabic": "الْغَفَّارُ",
+  "transliteration": {
+    "id": "Al-Ghaffaru",
+    "en": "Al-Ghaffar"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-ghaffar.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pengampun",
+        "en": "The Constant Forgiver"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

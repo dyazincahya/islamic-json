@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-maajid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-maajid",
+  "title": {
+    "id": "Al-Mâjidu",
+    "en": "Al-Maajid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mâjidu",
+    "en": "Al-Maajid"
+  },
+  "arabic": "الْمَاجِدُ",
+  "transliteration": {
+    "id": "Al-Mâjidu",
+    "en": "Al-Maajid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-maajid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahamulia",
+        "en": "The Most Noble"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

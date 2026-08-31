@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.faith-in-messengers",
+  "type": "lesson",
+  "slug": "faith-in-messengers",
+  "title": { "id": "Iman kepada para rasul", "en": "Faith in the messengers" },
+  "summary": {
+    "id": "Pilar iman keempat: beriman kepada para utusan Allah.",
+    "en": "The fourth pillar of faith: believing in Allah's messengers."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 9,
+  "group": "pillars-of-faith",
+  "relationships": {
+    "prerequisites": ["lesson.faith-in-books"],
+    "next": ["lesson.faith-in-last-day"],
+    "related": ["lesson.prophet-muhammad", "lesson.following-sunnah"]
+  },
+  "sourceIds": [
+    "source.quran-33-21",
+    "source.hadith-muslim-8a",
+    "source.hadith-nawawi-2"
+  ],
+  "blocks": [
+    {
+      "id": "block.faith-in-messengers.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Iman kepada para rasul berarti membenarkan bahwa Allah mengutus mereka untuk menyampaikan petunjuk-Nya. Muslim menghormati seluruh rasul dan mengikuti Nabi Muhammad sebagai rasul terakhir bagi umatnya.",
+        "en": "Faith in the messengers means affirming that Allah sent them to convey His guidance. Muslims honor all messengers and follow Prophet Muhammad as the final messenger for his community."
+      }
+    },
+    {
+      "id": "block.faith-in-messengers.response",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Mencintai Rasulullah diwujudkan dengan mempelajari ajarannya dan meneladani akhlaknya berdasarkan sumber yang tepercaya.",
+        "en": "Love for the Messenger is expressed by studying his teachings and emulating his character through reliable sources."
+      },
+      "iconId": "faith.prophetic-guidance"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami dasar iman kepada para rasul.",
+      "en": "I understand the foundation of faith in the messengers."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

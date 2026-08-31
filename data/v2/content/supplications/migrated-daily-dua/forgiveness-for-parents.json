@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.forgiveness-for-parents",
+  "type": "supplication",
+  "slug": "forgiveness-for-parents",
+  "title": {
+    "id": "Doa Memohon Ampunan untuk Kedua Orang Tua",
+    "en": "Supplication for forgiveness for both parents"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 40,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.forgiveness-for-parents",
+    "arabic": "رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
+    "transliteration": {
+      "id": "rabbanagfir lii wa liwaalidayya wa lil-mu'miniina yauma yaquumul-hiisaab",
+      "en": "rabbanagfir lii wa liwaalidayya wa lil-mu'miniina yauma yaquumul-hiisaab"
+    },
+    "translation": {
+      "id": "Ya Tuhan kami, beri ampunilah aku dan kedua ibu bapaku dan sekalian orang-orang mukmin pada hari terjadinya hisab (hari kiamat)",
+      "en": "Our Lord, forgive me, my parents, and the believers on the Day when the reckoning is established."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.forgiveness-for-parents.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: QS. Ibrahim: 41. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: QS. Ibrahim: 41. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Doa tersebut adalah doa Nabi Ibrahim 'alaihissalam yang mengajarkan kita untuk menghormati dan menyayangi orang tua, mengingat hari akhir, dan peduli terhadap sesama mukmin. Dengan berdoa seperti ini, kita berharap Allah subhanahu wa ta'ala mengampuni dosa-dosa kita dan menjadikan kita orang-orang yang beriman.",
+    "en": "The legacy note identifies this as Prophet Abraham's supplication and connects it with honoring parents, remembering the Hereafter, and caring for fellow believers."
+  }
+}

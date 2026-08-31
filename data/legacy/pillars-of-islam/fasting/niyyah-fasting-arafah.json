@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Sunnah Arafah",
+        "en": "Niyyah Fasting Sunnah Arafah"
+    },
+    "content": {
+        "arrabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ يَوْمِ عَرَفَةَ لِلّٰهِ تَعَالَى",
+        "latin": "Nawaitu shauma ghadin ‘an adâ’i sunnati Arafah lillâhi ta‘âlâ.",
+        "translation": {
+            "id": "Aku berniat puasa sunnah Arafah esok hari karena Allah ta’âlâ.",
+            "en": "I intend to perform the sunnah fast of Arafah tomorrow for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

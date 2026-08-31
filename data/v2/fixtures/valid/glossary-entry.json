@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.fixture-wudu",
+  "type": "glossary-entry",
+  "slug": "fixture-wudu",
+  "title": { "id": "Wudu", "en": "Wudu" },
+  "status": "draft",
+  "term": { "id": "Wudu", "en": "Wudu" },
+  "arabic": "الوضوء",
+  "transliteration": { "id": "al-wuḍū'", "en": "al-wuḍū'" },
+  "definition": [
+    {
+      "id": "block.glossary-definition",
+      "type": "paragraph",
+      "text": { "id": "Bersuci dengan air menurut tata cara yang ditentukan.", "en": "Ritual purification with water in a prescribed manner." }
+    }
+  ]
+}

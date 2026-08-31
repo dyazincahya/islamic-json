@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.hajj-umrah-prayers",
+  "type": "lesson",
+  "slug": "hajj-umrah-prayers",
+  "title": {
+    "id": "Doa dalam Haji dan Umrah",
+    "en": "Prayers during Hajj and Umrah"
+  },
+  "summary": {
+    "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
+    "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 22,
+  "group": "hajj-umrah",
+  "relationships": {
+    "prerequisites": [
+      "lesson.ihram-prohibitions"
+    ],
+    "next": [
+      "lesson.hajj-umrah-travel"
+    ],
+    "related": []
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    }
+  ],
+  "sourceIds": [
+    "source.quran-2-201"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.hajj"
+  ],
+  "blocks": [
+    {
+      "id": "block.hajj-umrah-prayers-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
+        "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
+      }
+    },
+    {
+      "id": "block.hajj-umrah-prayers-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Doa dalam Haji dan Umrah. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Prayers during Hajj and Umrah. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.hajj-umrah-prayers-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.hajj-umrah-prayers-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-201"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

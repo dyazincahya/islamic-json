@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.after-eating",
+  "type": "supplication",
+  "slug": "after-eating",
+  "title": {
+    "id": "Doa Sesudah Makan",
+    "en": "Supplication after eating"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 7,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.after-eating",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِى أَطْعَمَنِى هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّى وَلاَ قُوَّةٍ",
+    "transliteration": {
+      "id": "alhamdulillaahilladzii ath'amanii haadzaa wa rozaqoniihi min ghoiri haulin minnii wa laa quwwatin",
+      "en": "alhamdulillaahilladzii ath'amanii haadzaa wa rozaqoniihi min ghoiri haulin minnii wa laa quwwatin"
+    },
+    "translation": {
+      "id": "Segala puji bagi Allah yang telah memberiku makanan ini, dan memberikan rezeki kepadaku tanpa daya serta kekuatan dariku.",
+      "en": "All praise is for Allah who fed me this and provided it for me without any power or strength from me."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.after-eating.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: Shahih at-Tirmidzi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: Shahih at-Tirmidzi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.food",
+  "benefits": {
+    "id": "Rasulullah ﷺ bersabda jika seseorang membaca doa tersebut maka diampuni dosanya yang telah lalu.",
+    "en": "The legacy note states that whoever recites this supplication will have previous sins forgiven."
+  }
+}

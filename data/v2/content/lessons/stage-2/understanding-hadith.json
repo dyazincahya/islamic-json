@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.understanding-hadith",
+  "type": "lesson",
+  "slug": "understanding-hadith",
+  "title": { "id": "Memahami hadis", "en": "Understanding hadith" },
+  "summary": {
+    "id": "Pengantar tentang hadis sebagai riwayat tuntunan Nabi dan pentingnya sumber yang dapat ditelusuri.",
+    "en": "An introduction to hadith as reports of Prophetic guidance and the importance of traceable sources."
+  },
+  "status": "draft",
+  "iconId": "general.book",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 5,
+  "group": "shahada-journey",
+  "relationships": {
+    "prerequisites": ["lesson.following-sunnah"],
+    "next": ["lesson.faith-in-allah"],
+    "related": ["lesson.quran-and-hadith", "lesson.prophet-muhammad"]
+  },
+  "sourceIds": ["source.hadith-muslim-8a"],
+  "blocks": [
+    {
+      "id": "block.understanding-hadith.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Hadis adalah riwayat tentang perkataan, perbuatan, persetujuan, atau sifat Nabi Muhammad. Para ulama menilai jalur periwayatan dan isi riwayat untuk memahami kedudukannya.",
+        "en": "Hadith consists of reports about Prophet Muhammad's sayings, actions, approvals, or characteristics. Scholars assess chains of transmission and report contents to understand their standing."
+      }
+    },
+    {
+      "id": "block.understanding-hadith.care",
+      "type": "callout",
+      "kind": "warning",
+      "body": {
+        "id": "Jangan menyandarkan sebuah perkataan kepada Nabi tanpa memeriksa rujukan dan penilaiannya melalui sumber tepercaya.",
+        "en": "Do not attribute a statement to the Prophet without checking its reference and assessment through reliable sources."
+      },
+      "iconId": "general.warning"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami perlunya memeriksa sumber ketika mempelajari hadis.",
+      "en": "I understand the need to check sources when studying hadith."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

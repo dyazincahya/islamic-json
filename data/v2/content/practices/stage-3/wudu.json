@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.wudu",
+  "type": "practice",
+  "slug": "wudu",
+  "title": {
+    "id": "Latihan wudu bertahap",
+    "en": "Guided wudu practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 103,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.wudu"
+    ],
+    "next": [
+      "practice.tayammum"
+    ],
+    "related": [
+      "lesson.wudu"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.wudu.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.wudu.1",
+          "title": {
+            "id": "Siapkan diri",
+            "en": "Prepare"
+          },
+          "body": {
+            "id": "Pastikan air tersedia, singkirkan penghalang air, dan berniat.",
+            "en": "Ensure water is available, remove barriers to water, and make the intention."
+          }
+        },
+        {
+          "id": "step.wudu.2",
+          "title": {
+            "id": "Basuh dan usap",
+            "en": "Wash and wipe"
+          },
+          "body": {
+            "id": "Latih wajah, tangan hingga siku, usapan kepala, dan kaki hingga mata kaki secara tertib.",
+            "en": "Practice washing the face and arms to the elbows, wiping the head, and washing the feet to the ankles in order."
+          }
+        },
+        {
+          "id": "step.wudu.3",
+          "title": {
+            "id": "Periksa tanpa berlebihan",
+            "en": "Check without excess"
+          },
+          "body": {
+            "id": "Pastikan air mencapai anggota yang wajib lalu akhiri latihan tanpa mengulang karena waswas.",
+            "en": "Ensure water reaches the required parts, then finish without repeating due to obsessive doubt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.wudu.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.wudu.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.wudu.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.wudu.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

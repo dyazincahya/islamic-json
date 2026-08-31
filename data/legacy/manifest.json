@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "type": "legacy-manifest",
+  "status": "deprecated",
+  "message": "These collections retain their original formats for compatibility. Prefer data/v2/ for new integrations where an alternative is listed.",
+  "collections": [
+    {
+      "id": "asmaul-husna",
+      "path": "data/legacy/asmaul-husna/asmaul-husna.json",
+      "knownIssues": [],
+      "v2Alternative": "data/v2/indexes/glossary.json"
+    },
+    {
+      "id": "dhikr",
+      "path": "data/legacy/dhikr/",
+      "knownIssues": ["data/morning-dhikr.json is malformed or empty and is preserved unchanged"],
+      "v2Alternative": "data/v2/indexes/supplications.json"
+    },
+    {
+      "id": "dua",
+      "path": "data/legacy/dua/",
+      "knownIssues": [],
+      "v2Alternative": "data/v2/indexes/supplications.json"
+    },
+    {
+      "id": "pillars-of-islam",
+      "path": "data/legacy/pillars-of-islam/",
+      "knownIssues": ["Collection has no shared formal schema"],
+      "v2Alternative": "data/v2/stages.json"
+    }
+  ]
+}

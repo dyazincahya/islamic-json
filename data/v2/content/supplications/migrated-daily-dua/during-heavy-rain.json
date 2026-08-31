@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.during-heavy-rain",
+  "type": "supplication",
+  "slug": "during-heavy-rain",
+  "title": {
+    "id": "Doa Ketika Hujan Lebat",
+    "en": "Supplication during heavy rain"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 26,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.during-heavy-rain",
+    "arabic": "اللَّهُمَّ حَوَالَيْنَا وَلاَ عَلَيْنَا ، اللَّهُمَّ عَلَى الآكَامِ وَالظِّرَابِ وَبُطُونِ الأَوْدِيَةِ وَمَنَابِتِ الشَّجَرِ",
+    "transliteration": {
+      "id": "allahumma haawalaina wa laa 'alaina. allahumma 'alal aakami wal jibaali, wazh zhiroobi, wa buthunil awdiyati, wa manaabitisy syajari",
+      "en": "allahumma haawalaina wa laa 'alaina. allahumma 'alal aakami wal jibaali, wazh zhiroobi, wa buthunil awdiyati, wa manaabitisy syajari"
+    },
+    "translation": {
+      "id": "Ya Allah, turunkanlah hujan di sekitar kami, bukan untuk merusak kami. Ya Allah, turunkanlah hujan ke dataran tinggi, gunung-gunung, bukit-bukit, perut lembah dan tempat tumbuhnya pepohonan.",
+      "en": "O Allah, let it fall around us and not upon us. O Allah, upon the hills, mountains, high ground, valley bottoms, and places where trees grow."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.during-heavy-rain.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari No. 1014. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari No. 1014. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Bahwa do'a di atas dibaca ketika hujan semakin lebat atau khawatir hujan akan membawa dampak bahaya.",
+    "en": "This supplication is recited when rain becomes very heavy or there is concern that it may cause harm."
+  }
+}

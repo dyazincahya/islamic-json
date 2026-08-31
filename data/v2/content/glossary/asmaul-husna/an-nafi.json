@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.an-nafi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-an-nafi",
+  "title": {
+    "id": "An-Nâfi`u",
+    "en": "An-Nafi'"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "An-Nâfi`u",
+    "en": "An-Nafi'"
+  },
+  "arabic": "النَّافِعُ",
+  "transliteration": {
+    "id": "An-Nâfi`u",
+    "en": "An-Nafi'"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.an-nafi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memberi Manfaat",
+        "en": "The Benefactor"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

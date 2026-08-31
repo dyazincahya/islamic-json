@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.quran-consistency",
+  "type": "practice",
+  "slug": "quran-consistency",
+  "title": {
+    "id": "Latihan konsistensi membaca",
+    "en": "Quran reading consistency practice"
+  },
+  "summary": {
+    "id": "Bangun rutinitas membaca yang kecil, realistis, dan berkelanjutan.",
+    "en": "Build a small, realistic, and sustainable reading routine."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.consistency",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 11,
+  "group": "consistency",
+  "relationships": {
+    "prerequisites": [],
+    "next": [],
+    "related": ["lesson.quran-paths", "lesson.quran-themes"]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reading",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    },
+    {
+      "featureId": "feature.continuation-history",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ],
+  "instructions": [
+    {
+      "id": "block.quran-consistency-focus",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Fokus latihan",
+        "en": "Practice focus"
+      }
+    },
+    {
+      "id": "block.quran-consistency-intro",
+      "type": "paragraph",
+      "text": {
+        "id": "Fitur pengingat, penanda, dan riwayat bersifat opsional; data kebiasaan tetap milik aplikasi.",
+        "en": "Reminder, bookmark, and history features are optional; habit data remains application-owned."
+      }
+    },
+    {
+      "id": "block.quran-consistency-steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.quran-consistency-1",
+          "title": {
+            "id": "Pilih porsi",
+            "en": "Choose a portion"
+          },
+          "body": {
+            "id": "Pilih porsi kecil yang dapat diselesaikan dengan tenang.",
+            "en": "Choose a small portion you can complete calmly."
+          }
+        },
+        {
+          "id": "step.quran-consistency-2",
+          "title": {
+            "id": "Tetapkan waktu",
+            "en": "Set a time"
+          },
+          "body": {
+            "id": "Hubungkan bacaan dengan waktu rutin yang mudah diingat.",
+            "en": "Connect reading to a routine time that is easy to remember."
+          }
+        },
+        {
+          "id": "step.quran-consistency-3",
+          "title": {
+            "id": "Lanjutkan",
+            "en": "Continue"
+          },
+          "body": {
+            "id": "Gunakan penanda untuk melanjutkan tanpa mencari ulang.",
+            "en": "Use a bookmark to continue without searching again."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Periksa latihan hari ini",
+      "en": "Check todays practice"
+    },
+    "items": [
+      {
+        "id": "completion.quran-consistency-1",
+        "label": {
+          "id": "Pilih porsi kecil yang dapat diselesaikan dengan tenang.",
+          "en": "Choose a small portion you can complete calmly."
+        }
+      },
+      {
+        "id": "completion.quran-consistency-2",
+        "label": {
+          "id": "Hubungkan bacaan dengan waktu rutin yang mudah diingat.",
+          "en": "Connect reading to a routine time that is easy to remember."
+        }
+      },
+      {
+        "id": "completion.quran-consistency-3",
+        "label": {
+          "id": "Gunakan penanda untuk melanjutkan tanpa mencari ulang.",
+          "en": "Use a bookmark to continue without searching again."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.as-samad",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-as-samad",
+  "title": {
+    "id": "Ash-Shamadu",
+    "en": "As-Samad"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Ash-Shamadu",
+    "en": "As-Samad"
+  },
+  "arabic": "الصَّمَدُ",
+  "transliteration": {
+    "id": "Ash-Shamadu",
+    "en": "As-Samad"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.as-samad.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Dibutuhkan, Tempat Meminta",
+        "en": "The Eternal Refuge"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-112-1-4"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

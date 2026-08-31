@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muntaqim",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muntaqim",
+  "title": {
+    "id": "Al-Muntaqimu",
+    "en": "Al-Muntaqim"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muntaqimu",
+    "en": "Al-Muntaqim"
+  },
+  "arabic": "الْمُنْتَقِمُ",
+  "transliteration": {
+    "id": "Al-Muntaqimu",
+    "en": "Al-Muntaqim"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muntaqim.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Penuntut Balas",
+        "en": "The Avenger"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.intention-guidance",
+  "type": "lesson",
+  "slug": "intention-guidance",
+  "title": {
+    "id": "Niat yang membimbing amal",
+    "en": "Intention that guides actions"
+  },
+  "summary": {
+    "id": "Niat mengarahkan tujuan amal dan membantu memeriksa alasan bertindak.",
+    "en": "Intention directs actions and helps examine why one acts."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 1,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": [],
+    "next": ["lesson.honesty-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.intention-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.intention-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Niat mengarahkan tujuan amal dan membantu seseorang memeriksa untuk siapa serta mengapa ia bertindak.",
+        "en": "Intention directs the purpose of an action and helps a person examine for whom and why they act."
+      }
+    },
+    {
+      "id": "block.intention-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.intention-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang belajar agar bermanfaat lalu memperbarui niat ketika mulai mencari pujian.",
+        "en": "A person studies to be beneficial, then renews the intention when praise becomes the focus."
+      }
+    },
+    {
+      "id": "block.intention-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.intention-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.intention-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Sebelum satu kegiatan, berhenti sejenak dan nyatakan tujuan baik yang sesuai syariat.",
+            "en": "Before one activity, pause and state a sound purpose consistent with Islamic guidance."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.intention-guidance-source",
+      "type": "source-reference",
+      "sourceIds": ["source.bukhari-1"],
+      "note": {
+        "id": "Rujukan bibliografis hadis tentang niat; teks hadis tidak disalin di sini.",
+        "en": "Bibliographic reference for the hadith on intention; the hadith text is not copied here."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "sourceIds": ["source.bukhari-1"]
+}

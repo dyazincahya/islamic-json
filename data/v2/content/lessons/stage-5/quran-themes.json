@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.quran-themes",
+  "type": "lesson",
+  "slug": "quran-themes",
+  "title": {
+    "id": "Tema-tema Al-Quran",
+    "en": "Themes of the Quran"
+  },
+  "summary": {
+    "id": "Temukan tema iman, ibadah, akhlak, kisah, dan tanggung jawab sosial tanpa melepas konteks.",
+    "en": "Explore themes of faith, worship, character, narratives, and social responsibility without losing context."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.meaning",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 8,
+  "group": "quran-learning",
+  "relationships": {
+    "prerequisites": ["lesson.brief-tafsir"],
+    "next": ["practice.quran-consistency"],
+    "related": ["lesson.quran-paths"]
+  },
+  "blocks": [
+    {
+      "id": "block.quran-themes-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.quran-themes-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Pendekatan tematik mengumpulkan pelajaran terkait sambil memperhatikan konteks dan penjelasan ulama.",
+        "en": "A thematic approach gathers related lessons while respecting context and scholarly explanation."
+      }
+    },
+    {
+      "id": "block.quran-themes-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.quran-themes-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajar menandai bacaan tentang kesabaran lalu membandingkan konteksnya sebelum merangkum.",
+        "en": "A learner bookmarks readings about patience and compares their contexts before summarizing."
+      }
+    },
+    {
+      "id": "block.quran-themes-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.quran-themes-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.quran-themes-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pilih satu tema, simpan dua bacaan terkait, dan catat satu tindakan yang sesuai.",
+            "en": "Choose one theme, save two related readings, and note one suitable action."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reading",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    }
+  ]
+}

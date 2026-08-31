@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.wudu",
+  "type": "lesson",
+  "slug": "wudu",
+  "title": {
+    "id": "Dasar wudu",
+    "en": "Wudu essentials"
+  },
+  "summary": {
+    "id": "Wudu mempersiapkan seseorang untuk salat dengan membasuh dan mengusap anggota yang ditetapkan disertai niat.",
+    "en": "Wudu prepares a person for prayer by washing and wiping the prescribed parts with intention."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 4,
+  "group": "purification",
+  "relationships": {
+    "prerequisites": [
+      "lesson.hadas"
+    ],
+    "next": [
+      "lesson.tayammum"
+    ],
+    "related": [
+      "practice.wudu"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "wudu-practice"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.wudu.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Wudu mempersiapkan seseorang untuk salat dengan membasuh dan mengusap anggota yang ditetapkan disertai niat.",
+        "en": "Wudu prepares a person for prayer by washing and wiping the prescribed parts with intention."
+      }
+    },
+    {
+      "id": "block.wudu.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.wudu.1",
+          "text": {
+            "id": "Mulai dengan niat dan gunakan air yang suci serta dapat menyucikan.",
+            "en": "Begin with intention and use water suitable for purification."
+          }
+        },
+        {
+          "id": "item.wudu.2",
+          "text": {
+            "id": "Basuh wajah dan tangan hingga siku, usap kepala, lalu basuh kaki hingga mata kaki.",
+            "en": "Wash the face and arms to the elbows, wipe the head, then wash the feet to the ankles."
+          }
+        },
+        {
+          "id": "item.wudu.3",
+          "text": {
+            "id": "Pelajari pembatal wudu dan rincian tata cara bersama pembimbing tepercaya.",
+            "en": "Learn what nullifies wudu and procedural details with a trusted instructor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.wudu.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.wudu.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-5-6"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

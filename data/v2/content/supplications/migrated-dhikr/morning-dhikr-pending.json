@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.morning-dhikr-pending",
+  "type": "supplication",
+  "slug": "morning-dhikr-pending",
+  "title": {
+    "id": "Dzikir pagi sedang disiapkan",
+    "en": "Morning dhikr content pending"
+  },
+  "summary": {
+    "id": "Dokumen draf yang dapat ditemukan untuk migrasi dzikir pagi.",
+    "en": "An indexable draft document for the morning dhikr migration."
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 56,
+  "group": "morning-evening-dhikr",
+  "recitation": {
+    "id": "recitation.morning-dhikr-pending",
+    "arabic": "مُحْتَوَى الذِّكْرِ الصَّبَاحِيِّ قَيْدُ الإِعْدَادِ",
+    "transliteration": {
+      "id": "Muḥtawā adz-dzikriṣ-ṣabāḥiyyi qaydul-i‘dād",
+      "en": "Muhtawa adh-dhikr as-sabahi qayd al-i'dad"
+    },
+    "translation": {
+      "id": "Konten dzikir pagi sedang disiapkan; teks ini adalah penanda status, bukan bacaan dzikir.",
+      "en": "Morning dhikr content is being prepared; this is a status marker, not a dhikr recitation."
+    }
+  },
+  "context": [
+    {
+      "id": "block.morning-dhikr-pending.notice",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Konten belum tersedia",
+        "en": "Content not yet available"
+      },
+      "body": {
+        "id": "Sumber warisan dzikir pagi kosong atau tidak berbentuk JSON yang valid. Konten Arab, transliterasi, terjemahan, manfaat, dan sumber menunggu migrasi serta peninjauan; berkas warisan dibiarkan tidak berubah.",
+        "en": "The legacy morning dhikr source is empty or not valid JSON. Arabic content, transliteration, translation, benefits, and sources are pending migration and review; the legacy file remains unchanged."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-awwal",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-awwal",
+  "title": {
+    "id": "Al-Awwalu",
+    "en": "Al-Awwal"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Awwalu",
+    "en": "Al-Awwal"
+  },
+  "arabic": "الْاَوَّلُ",
+  "transliteration": {
+    "id": "Al-Awwalu",
+    "en": "Al-Awwal"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-awwal.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahaawal",
+        "en": "The First"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

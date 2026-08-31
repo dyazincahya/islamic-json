@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muhsi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muhsi",
+  "title": {
+    "id": "Al-Muḫshî",
+    "en": "Al-Muhsi"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muḫshî",
+    "en": "Al-Muhsi"
+  },
+  "arabic": "الْمُحْصِيْ",
+  "transliteration": {
+    "id": "Al-Muḫshî",
+    "en": "Al-Muhsi"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muhsi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengalkulasi",
+        "en": "The Accounter"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

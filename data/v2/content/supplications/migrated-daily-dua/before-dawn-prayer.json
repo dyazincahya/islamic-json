@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.before-dawn-prayer",
+  "type": "supplication",
+  "slug": "before-dawn-prayer",
+  "title": {
+    "id": "Doa menjelang sholat subuh",
+    "en": "Supplication before the dawn prayer"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 48,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.before-dawn-prayer",
+    "arabic": "اَللّٰهُمَّ اِنِّى اَعُوْذُ بِكَ مِنْ ضِيْقِ الدُّنْيَا وَضِيْقِ يَوْمِ الْقِيَامَةِ",
+    "transliteration": {
+      "id": "allaahumma inni a'udzubika min dzhiiqid-dunyaa wa dzhiiqi yaumal-qiyaamati",
+      "en": "allaahumma inni a'udzubika min dzhiiqid-dunyaa wa dzhiiqi yaumal-qiyaamati"
+    },
+    "translation": {
+      "id": "Ya Allah! Sesungguhnya aku berlindung kepada-Mu dari kesempitan dunia dan kesempitan hari kiamat.",
+      "en": "O Allah, I seek refuge in You from the constriction of this world and the constriction of the Day of Resurrection."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.before-dawn-prayer.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Daud. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Daud. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

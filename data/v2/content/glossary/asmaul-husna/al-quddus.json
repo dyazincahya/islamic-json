@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-quddus",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-quddus",
+  "title": {
+    "id": "Al-Quddûsu",
+    "en": "Al-Quddus"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Quddûsu",
+    "en": "Al-Quddus"
+  },
+  "arabic": "الْقُدُّوْسُ",
+  "transliteration": {
+    "id": "Al-Quddûsu",
+    "en": "Al-Quddus"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-quddus.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahasuci",
+        "en": "The Most Holy"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

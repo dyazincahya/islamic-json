@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.unsupported-block",
+  "type": "lesson",
+  "slug": "unsupported-block",
+  "title": { "id": "Blok tidak didukung", "en": "Unsupported block" },
+  "status": "draft",
+  "stageId": "stage.introduction",
+  "stageOrder": 1,
+  "group": "fixtures",
+  "blocks": [
+    {
+      "id": "block.unsupported-video",
+      "type": "video",
+      "src": "assets/video/example.mp4"
+    }
+  ]
+}

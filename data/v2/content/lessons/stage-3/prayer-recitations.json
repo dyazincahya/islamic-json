@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.prayer-recitations",
+  "type": "lesson",
+  "slug": "prayer-recitations",
+  "title": {
+    "id": "Bacaan salat",
+    "en": "Prayer recitations"
+  },
+  "summary": {
+    "id": "Bacaan salat dipelajari bertahap dengan memahami letak bacaan wajib, bacaan lain, dan maknanya.",
+    "en": "Prayer recitations are learned gradually by understanding where required and other recitations belong and what they mean."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 9,
+  "group": "prayer",
+  "relationships": {
+    "prerequisites": [
+      "lesson.prayer-movements"
+    ],
+    "next": [
+      "lesson.five-obligatory-prayers"
+    ],
+    "related": [
+      "practice.prayer-recitations"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": {
+        "contentId": "lesson.prayer-recitations"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-1-1"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.prayer-recitations.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Bacaan salat dipelajari bertahap dengan memahami letak bacaan wajib, bacaan lain, dan maknanya.",
+        "en": "Prayer recitations are learned gradually by understanding where required and other recitations belong and what they mean."
+      }
+    },
+    {
+      "id": "block.prayer-recitations.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.prayer-recitations.1",
+          "text": {
+            "id": "Mulai dari takbir dan Al-Fatihah, lalu pelajari bacaan pada setiap posisi.",
+            "en": "Begin with the takbir and Al-Fatihah, then learn the recitations for each position."
+          }
+        },
+        {
+          "id": "item.prayer-recitations.2",
+          "text": {
+            "id": "Gunakan audio sebagai bantuan pelafalan, bukan pengganti belajar langsung.",
+            "en": "Use audio as pronunciation support, not as a substitute for direct learning."
+          }
+        },
+        {
+          "id": "item.prayer-recitations.3",
+          "text": {
+            "id": "Jangan menambahkan bacaan yang tidak memiliki dasar yang telah diverifikasi.",
+            "en": "Do not add recitations without a verified basis."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-recitations.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.prayer-recitations.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-1-1"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

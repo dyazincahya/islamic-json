@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-baith",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-baith",
+  "title": {
+    "id": "Al-Bâ`itsu",
+    "en": "Al-Ba'ith"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Bâ`itsu",
+    "en": "Al-Ba'ith"
+  },
+  "arabic": "الْبَاعِثُ",
+  "transliteration": {
+    "id": "Al-Bâ`itsu",
+    "en": "Al-Ba'ith"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-baith.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Membangkitkan",
+        "en": "The Resurrector"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

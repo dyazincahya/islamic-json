@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.at-tawwab",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-at-tawwab",
+  "title": {
+    "id": "At-Tawwabu",
+    "en": "At-Tawwab"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "At-Tawwabu",
+    "en": "At-Tawwab"
+  },
+  "arabic": "التَّوَّابُ",
+  "transliteration": {
+    "id": "At-Tawwabu",
+    "en": "At-Tawwab"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.at-tawwab.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Penerima Tobat",
+        "en": "The Accepter of Repentance"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

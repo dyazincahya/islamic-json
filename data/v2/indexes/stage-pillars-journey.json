@@ -1,0 +1,318 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.pillars-journey",
+  "itemType": "lesson",
+  "title": {
+    "id": "Puasa, zakat, dan haji",
+    "en": "Fasting, zakat, and Hajj"
+  },
+  "items": [
+    {
+      "id": "lesson.fasting-purpose",
+      "type": "lesson",
+      "slug": "fasting-purpose",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-purpose.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 1,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.fasting-conditions",
+      "type": "lesson",
+      "slug": "fasting-conditions",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-conditions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 2,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.fasting-pillars",
+      "type": "lesson",
+      "slug": "fasting-pillars",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-pillars.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 3,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.migrated-zakat-fitrah",
+      "type": "lesson",
+      "slug": "migrated-zakat-fitrah",
+      "status": "under-review",
+      "path": "content/lessons/migrated-pillars/zakat-fitrah.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 3,
+      "group": "migrated-pillars.zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    },
+    {
+      "id": "lesson.fasting-invalidators",
+      "type": "lesson",
+      "slug": "fasting-invalidators",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-invalidators.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 4,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.suhur",
+      "type": "lesson",
+      "slug": "suhur",
+      "status": "draft",
+      "path": "content/lessons/stage-4/suhur.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 5,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.iftar",
+      "type": "lesson",
+      "slug": "iftar",
+      "status": "draft",
+      "path": "content/lessons/stage-4/iftar.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 6,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.ramadan",
+      "type": "lesson",
+      "slug": "ramadan",
+      "status": "draft",
+      "path": "content/lessons/stage-4/ramadan.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 7,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.voluntary-fasts",
+      "type": "lesson",
+      "slug": "voluntary-fasts",
+      "status": "draft",
+      "path": "content/lessons/stage-4/voluntary-fasts.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 8,
+      "group": "fasting",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.qada-fasting",
+      "type": "lesson",
+      "slug": "qada-fasting",
+      "status": "draft",
+      "path": "content/lessons/stage-4/qada-fasting.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 9,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.fidyah",
+      "type": "lesson",
+      "slug": "fidyah",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fidyah.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 10,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.zakat-purpose",
+      "type": "lesson",
+      "slug": "zakat-purpose",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-purpose.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 11,
+      "group": "zakat",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.zakat-fitrah",
+      "type": "lesson",
+      "slug": "zakat-fitrah",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-fitrah.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 12,
+      "group": "zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    },
+    {
+      "id": "lesson.zakat-mal",
+      "type": "lesson",
+      "slug": "zakat-mal",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-mal.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 13,
+      "group": "zakat",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.zakat-obligation",
+      "type": "lesson",
+      "slug": "zakat-obligation",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-obligation.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 14,
+      "group": "zakat",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.zakat-recipients",
+      "type": "lesson",
+      "slug": "zakat-recipients",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-recipients.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 15,
+      "group": "zakat",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.zakat-calculator-guidance",
+      "type": "lesson",
+      "slug": "zakat-calculator-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-calculator-guidance.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 16,
+      "group": "zakat",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.hajj-umrah-rulings",
+      "type": "lesson",
+      "slug": "hajj-umrah-rulings",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-rulings.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 17,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-conditions",
+      "type": "lesson",
+      "slug": "hajj-umrah-conditions",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-conditions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 18,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.ihram",
+      "type": "lesson",
+      "slug": "ihram",
+      "status": "draft",
+      "path": "content/lessons/stage-4/ihram.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 19,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-sequence",
+      "type": "lesson",
+      "slug": "hajj-umrah-sequence",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-sequence.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 20,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.ihram-prohibitions",
+      "type": "lesson",
+      "slug": "ihram-prohibitions",
+      "status": "draft",
+      "path": "content/lessons/stage-4/ihram-prohibitions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 21,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-prayers",
+      "type": "lesson",
+      "slug": "hajj-umrah-prayers",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-prayers.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 22,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-travel",
+      "type": "lesson",
+      "slug": "hajj-umrah-travel",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-travel.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 23,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    }
+  ]
+}

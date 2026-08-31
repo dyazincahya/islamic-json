@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muakhkhir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muakhkhir",
+  "title": {
+    "id": "Al-Muakhiru",
+    "en": "Al-Mu'akhkhir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muakhiru",
+    "en": "Al-Mu'akhkhir"
+  },
+  "arabic": "الْمُؤَخِّرُ",
+  "transliteration": {
+    "id": "Al-Muakhiru",
+    "en": "Al-Mu'akhkhir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muakhkhir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengakhirkan",
+        "en": "The Delayer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

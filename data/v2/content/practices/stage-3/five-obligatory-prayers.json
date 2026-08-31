@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.five-obligatory-prayers",
+  "type": "practice",
+  "slug": "five-obligatory-prayers",
+  "title": {
+    "id": "Latihan lima salat wajib",
+    "en": "Five obligatory prayers practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 110,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.five-obligatory-prayers"
+    ],
+    "next": [
+      "practice.congregational-prayer"
+    ],
+    "related": [
+      "lesson.five-obligatory-prayers"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "five-prayers"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-4-103",
+    "source.quran-20-14"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.five-obligatory-prayers.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.five-obligatory-prayers.1",
+          "title": {
+            "id": "Susun urutan harian",
+            "en": "Map the daily order"
+          },
+          "body": {
+            "id": "Sebutkan Subuh, Zuhur, Asar, Magrib, dan Isya secara berurutan.",
+            "en": "Name Fajr, Dhuhr, Asr, Maghrib, and Isha in order."
+          }
+        },
+        {
+          "id": "step.five-obligatory-prayers.2",
+          "title": {
+            "id": "Ingat jumlah rakaat",
+            "en": "Recall the units"
+          },
+          "body": {
+            "id": "Latih jumlah dua, empat, empat, tiga, dan empat rakaat.",
+            "en": "Practice the counts of two, four, four, three, and four units."
+          }
+        },
+        {
+          "id": "step.five-obligatory-prayers.3",
+          "title": {
+            "id": "Hubungkan dengan jadwal",
+            "en": "Connect to the schedule"
+          },
+          "body": {
+            "id": "Cocokkan setiap salat dengan rentang waktu pada jadwal tepercaya.",
+            "en": "Match each prayer to its window in a trusted schedule."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.five-obligatory-prayers.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.five-obligatory-prayers.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.five-obligatory-prayers.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.five-obligatory-prayers.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

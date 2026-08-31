@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.good-character",
+  "type": "supplication",
+  "slug": "good-character",
+  "title": {
+    "id": "Doa Meminta Akhlak yang Baik",
+    "en": "Supplication for good character"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 37,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.good-character",
+    "arabic": "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+    "transliteration": {
+      "id": "allahumma kamaa hassanta kholqii fahassin khuluqii",
+      "en": "allahumma kamaa hassanta kholqii fahassin khuluqii"
+    },
+    "translation": {
+      "id": "Ya Allah, sebagaimana Engkau memperbagus badanku maka perbaguslah akhlaku.",
+      "en": "O Allah, just as You made my form beautiful, make my character beautiful."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.good-character.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Ahmad, dishahihkan al-Albani dalam al-Irwa', 1/115. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Ahmad, dishahihkan al-Albani dalam al-Irwa', 1/115. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Paras yang menawan tidaklah cukup sebagai bekal seorang muslim, tapi harus diiringi dengan akhlak yang mulia. Maka hendaklah seorang muslim terus meminta untuk diperbaiki dan diperindah akhlaknya.",
+    "en": "An attractive appearance is not enough for a Muslim; it should be accompanied by noble character, so a Muslim continually asks Allah to improve it."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.ghusl",
+  "type": "practice",
+  "slug": "ghusl",
+  "title": {
+    "id": "Daftar periksa ghusl",
+    "en": "Ghusl checklist"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 105,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.ghusl"
+    ],
+    "next": [
+      "practice.prayer-times"
+    ],
+    "related": [
+      "lesson.ghusl"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.ghusl.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.ghusl.1",
+          "title": {
+            "id": "Jaga privasi",
+            "en": "Protect privacy"
+          },
+          "body": {
+            "id": "Siapkan tempat aman dan tertutup serta gunakan air secukupnya.",
+            "en": "Prepare a safe private place and use water reasonably."
+          }
+        },
+        {
+          "id": "step.ghusl.2",
+          "title": {
+            "id": "Hilangkan najis dan berniat",
+            "en": "Remove najis and intend"
+          },
+          "body": {
+            "id": "Bersihkan najis bila ada lalu tetapkan niat ghusl.",
+            "en": "Remove any najis and make the intention for ghusl."
+          }
+        },
+        {
+          "id": "step.ghusl.3",
+          "title": {
+            "id": "Ratakan air",
+            "en": "Ensure full coverage"
+          },
+          "body": {
+            "id": "Pastikan air mencapai seluruh bagian luar tubuh yang wajib terkena air.",
+            "en": "Ensure water reaches the entire external body that must be washed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.ghusl.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.ghusl.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.ghusl.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.ghusl.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

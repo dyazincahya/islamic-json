@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.resident-prayer-for-traveler",
+  "type": "supplication",
+  "slug": "resident-prayer-for-traveler",
+  "title": {
+    "id": "Doa Bekal Takwa dari Orang Mukim Kepada yang Hendak Bersafar",
+    "en": "A resident's supplication that a traveler be provided with piety"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 20,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.resident-prayer-for-traveler",
+    "arabic": "زَوَّدَكَ اللَّهُ التَّقْوَى وَغَفَرَ ذَنْبَكَ وَيَسَّرَ لَكَ الْخَيْرَ حَيْثُمَا كُنْتَ",
+    "transliteration": {
+      "id": "zawwadakallahut taqwa, wa ghafara dzanbaka, wa yassara lakal khaira haitsumaa kunta",
+      "en": "zawwadakallahut taqwa, wa ghafara dzanbaka, wa yassara lakal khaira haitsumaa kunta"
+    },
+    "translation": {
+      "id": "Semoga Allah membekalimu ketakwaan, mengampuni dosamu, dan memudahkan kebaikan untukmu dimanapun kamu berada.",
+      "en": "May Allah provide you with piety, forgive your sin, and make goodness easy for you wherever you are."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.resident-prayer-for-traveler.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. at-Tirmidzi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. at-Tirmidzi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.travel",
+  "benefits": {
+    "id": "Taqwa adalah sebaik-baik bekal yang harus disiapkan seorang hamba menuju akhirat, sebab tidak ada keselamatan kecuali dengan berbekal dengan ketaqwaan.",
+    "en": "Mindfulness of Allah is the best provision a servant can prepare for the Hereafter."
+  }
+}

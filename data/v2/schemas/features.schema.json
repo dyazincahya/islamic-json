@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://islamic-json.dev/v2/schemas/features.schema.json",
+  "title": "Islamic JSON v2 feature registry",
+  "type": "object",
+  "required": ["schemaVersion", "type", "features"],
+  "properties": {
+    "schemaVersion": { "const": "2.0" },
+    "type": { "const": "feature-registry" },
+    "features": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "description"],
+        "properties": {
+          "id": {
+            "enum": [
+              "feature.prayer-schedule",
+              "feature.location",
+              "feature.audio",
+              "feature.reminders",
+              "feature.calculator",
+              "feature.reading",
+              "feature.bookmarks",
+              "feature.continuation-history"
+            ]
+          },
+          "label": { "$ref": "common.schema.json#/$defs/localizedString" },
+          "description": { "$ref": "common.schema.json#/$defs/localizedString" },
+          "optional": { "type": "boolean" },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "type", "required"],
+              "properties": {
+                "name": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9]*$" },
+                "type": { "enum": ["string", "number", "integer", "boolean"] },
+                "required": { "type": "boolean" },
+                "description": { "$ref": "common.schema.json#/$defs/localizedString" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

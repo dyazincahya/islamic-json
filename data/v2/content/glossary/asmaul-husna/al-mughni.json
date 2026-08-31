@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mughni",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mughni",
+  "title": {
+    "id": "Al-Mughnî",
+    "en": "Al-Mughni"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mughnî",
+    "en": "Al-Mughni"
+  },
+  "arabic": "الْمُغْنِيْ",
+  "transliteration": {
+    "id": "Al-Mughnî",
+    "en": "Al-Mughni"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mughni.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memberi Kekayaan",
+        "en": "The Enricher"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

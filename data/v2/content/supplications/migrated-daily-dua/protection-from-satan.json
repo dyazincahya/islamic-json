@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.protection-from-satan",
+  "type": "supplication",
+  "slug": "protection-from-satan",
+  "title": {
+    "id": "Doa Berlindung dari Syaitan",
+    "en": "Supplication for protection from Satan"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 38,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.protection-from-satan",
+    "arabic": "رَبِّ أَعُوْذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِيْنِ وَأَعُوْذُ بِكَ رَبِّ أَنْ يَحْضُرُوْنِ",
+    "transliteration": {
+      "id": "rabbi a'uudzu bika min hamazaatisy-syayaathiin wa a'uudzu bika rabbi ay yahdhuruun",
+      "en": "rabbi a'uudzu bika min hamazaatisy-syayaathiin wa a'uudzu bika rabbi ay yahdhuruun"
+    },
+    "translation": {
+      "id": "Ya Tuhanku aku berlindung kepada Engkau dari bisikan-bisikan syaitan dan aku berlindung (pula) kepada Engkau ya Tuhanku, dari kedatangan mereka kepadaku.",
+      "en": "My Lord, I seek refuge in You from the incitements of the devils, and I seek refuge in You, my Lord, from their presence."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.protection-from-satan.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: QS. Al-Mu'minun: 97-98. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: QS. Al-Mu'minun: 97-98. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Sesungguhnya Allah memerintahkan kepada nabi Muhammad dan seluruh ummat nya untuk berlindung dari bisikan syaitan dalam seluruh kegiatan dan terlebih saat menjelang kematian, yang mana syaitan membisikannya melalui hati seorang hamba dan membisikannya untuk melakukan kejelekan.",
+    "en": "The legacy note says Allah commands the Prophet Muhammad and his community to seek protection from Satan's whispers in all activities, especially near death."
+  }
+}

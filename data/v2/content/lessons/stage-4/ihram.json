@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.ihram",
+  "type": "lesson",
+  "slug": "ihram",
+  "title": {
+    "id": "Ihram",
+    "en": "Ihram"
+  },
+  "summary": {
+    "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
+    "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 19,
+  "group": "hajj-umrah",
+  "relationships": {
+    "prerequisites": [
+      "lesson.hajj-umrah-conditions"
+    ],
+    "next": [
+      "lesson.hajj-umrah-sequence"
+    ],
+    "related": []
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-2-197"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.hajj"
+  ],
+  "blocks": [
+    {
+      "id": "block.ihram-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
+        "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
+      }
+    },
+    {
+      "id": "block.ihram-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Ihram. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Ihram. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.ihram-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.ihram-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-197"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

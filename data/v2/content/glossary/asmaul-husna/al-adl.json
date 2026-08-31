@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-adl",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-adl",
+  "title": {
+    "id": "Al-`Adlu",
+    "en": "Al-'Adl"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-`Adlu",
+    "en": "Al-'Adl"
+  },
+  "arabic": "الْعَدْلُ",
+  "transliteration": {
+    "id": "Al-`Adlu",
+    "en": "Al-'Adl"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-adl.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahaadil",
+        "en": "The Utterly Just"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

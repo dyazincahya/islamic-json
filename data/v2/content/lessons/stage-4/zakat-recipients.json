@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.zakat-recipients",
+  "type": "lesson",
+  "slug": "zakat-recipients",
+  "title": {
+    "id": "Penerima zakat",
+    "en": "Eligible zakat recipients"
+  },
+  "summary": {
+    "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
+    "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 15,
+  "group": "zakat",
+  "relationships": {
+    "prerequisites": [
+      "lesson.zakat-obligation"
+    ],
+    "next": [
+      "lesson.zakat-calculator-guidance"
+    ],
+    "related": []
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-9-60"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.ramadan"
+  ],
+  "blocks": [
+    {
+      "id": "block.zakat-recipients-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
+        "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
+      }
+    },
+    {
+      "id": "block.zakat-recipients-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Penerima zakat. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Eligible zakat recipients. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.zakat-recipients-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.zakat-recipients-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-9-60"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

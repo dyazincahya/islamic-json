@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.resident-farewell-to-traveler",
+  "type": "supplication",
+  "slug": "resident-farewell-to-traveler",
+  "title": {
+    "id": "Doa Orang Mukim Kepada Orang yang Hendak Bersafar",
+    "en": "A resident's farewell supplication for a traveler"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 19,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.resident-farewell-to-traveler",
+    "arabic": "أَسْتَوْدِعُ اللَّهَ دِينَكَ وَأَمَانَتَكَ وَخَوَاتِيمَ عَمَلِكَ",
+    "transliteration": {
+      "id": "astawdi'ullaha diinaka, wa amaanataka, wa khawaatiima a'maalik",
+      "en": "astawdi'ullaha diinaka, wa amaanataka, wa khawaatiima a'maalik"
+    },
+    "translation": {
+      "id": "Aku menetipkan agamamu, amanahmu, dan amal terakhir kepada Allah.",
+      "en": "I entrust your religion, your trust, and the conclusions of your deeds to Allah."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.resident-farewell-to-traveler.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud: 2601. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud: 2601. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.travel",
+  "benefits": {
+    "id": "Tiga prioritas seorang hamba yang harus dijaga dimanapun, agama, amanah dan amal, sebab seseorang akan dimatikan sesuai dengan amalnya.",
+    "en": "The legacy note highlights religion, trust, and deeds as three priorities a servant should preserve wherever they are."
+  }
+}

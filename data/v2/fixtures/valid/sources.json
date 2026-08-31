@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "type": "source-registry",
+  "sources": [
+    {
+      "id": "source.quran-1-1",
+      "type": "quran-reference",
+      "citationLabel": { "id": "Al-Qur'an 1:1", "en": "Quran 1:1" },
+      "locator": { "surah": 1, "ayah": 1 }
+    },
+    {
+      "id": "source.hadith-fixture",
+      "type": "hadith-reference",
+      "citationLabel": { "id": "Hadis contoh nomor 1", "en": "Fixture hadith number 1" },
+      "locator": { "collection": "Fixture Collection", "number": "1" }
+    },
+    {
+      "id": "source.book-fixture",
+      "type": "book",
+      "citationLabel": { "id": "Buku contoh, halaman 10", "en": "Fixture Book, page 10" },
+      "title": "Fixture Book",
+      "authors": ["Example Author"],
+      "publisher": "Example Publisher",
+      "year": 2025,
+      "locator": "p. 10"
+    },
+    {
+      "id": "source.article-fixture",
+      "type": "article",
+      "citationLabel": { "id": "Artikel contoh", "en": "Fixture article" },
+      "title": "Fixture Article",
+      "authors": ["Example Author"],
+      "publication": "Example Journal",
+      "year": 2025,
+      "doi": "10.1234/fixture.1"
+    },
+    {
+      "id": "source.web-fixture",
+      "type": "web-resource",
+      "citationLabel": { "id": "Sumber web contoh", "en": "Fixture web resource" },
+      "title": "Fixture Web Resource",
+      "url": "https://example.org/reference",
+      "publisher": "Example Organization",
+      "accessedAt": "2026-08-25"
+    }
+  ]
+}

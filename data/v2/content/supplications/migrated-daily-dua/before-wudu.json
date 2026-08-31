@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.before-wudu",
+  "type": "supplication",
+  "slug": "before-wudu",
+  "title": {
+    "id": "Doa Sebelum Berwudhu",
+    "en": "Supplication before wudu"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 11,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.before-wudu",
+    "arabic": "بِسْمِ اللَّهِ",
+    "transliteration": {
+      "id": "bismillah",
+      "en": "bismillah"
+    },
+    "translation": {
+      "id": "Dengan nama Allah (aku mulai berwudhu).",
+      "en": "In the name of Allah, I begin wudu."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.before-wudu.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. at-Tirmidzi dan al-Baihaqi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. at-Tirmidzi dan al-Baihaqi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "purification.wudu",
+  "benefits": {
+    "id": "Disyariatkan memulai setiap perkara yang penting dengan mengucapkan bismillah dalam hal ibadah ataupun lainnya.",
+    "en": "It is prescribed to begin every important matter by mentioning Allah's name, whether in worship or otherwise."
+  }
+}

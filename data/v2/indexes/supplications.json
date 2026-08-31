@@ -1,0 +1,627 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.supplications",
+  "itemType": "supplication",
+  "title": {
+    "id": "Doa dan zikir",
+    "en": "Supplications and remembrance"
+  },
+  "items": [
+    {
+      "id": "supplication.migrated-daily-dua.before-sleep",
+      "type": "supplication",
+      "slug": "before-sleep",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-sleep.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 1,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.waking-up",
+      "type": "supplication",
+      "slug": "waking-up",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/waking-up.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 2,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.entering-restroom",
+      "type": "supplication",
+      "slug": "entering-restroom",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/entering-restroom.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 3,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.leaving-restroom",
+      "type": "supplication",
+      "slug": "leaving-restroom",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/leaving-restroom.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 4,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.before-eating",
+      "type": "supplication",
+      "slug": "before-eating",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-eating.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 5,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.remembering-basmala-during-meal",
+      "type": "supplication",
+      "slug": "remembering-basmala-during-meal",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/remembering-basmala-during-meal.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 6,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-eating",
+      "type": "supplication",
+      "slug": "after-eating",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-eating.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 7,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.going-to-mosque",
+      "type": "supplication",
+      "slug": "going-to-mosque",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/going-to-mosque.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 8,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.entering-mosque",
+      "type": "supplication",
+      "slug": "entering-mosque",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/entering-mosque.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 9,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.leaving-mosque",
+      "type": "supplication",
+      "slug": "leaving-mosque",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/leaving-mosque.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 10,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.before-wudu",
+      "type": "supplication",
+      "slug": "before-wudu",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-wudu.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 11,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-wudu",
+      "type": "supplication",
+      "slug": "after-wudu",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-wudu.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 12,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.breaking-fast",
+      "type": "supplication",
+      "slug": "breaking-fast",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/breaking-fast.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 13,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.entering-home-short-greeting",
+      "type": "supplication",
+      "slug": "entering-home-short-greeting",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/entering-home-short-greeting.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 14,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.entering-home-full-greeting",
+      "type": "supplication",
+      "slug": "entering-home-full-greeting",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/entering-home-full-greeting.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 15,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.leaving-home",
+      "type": "supplication",
+      "slug": "leaving-home",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/leaving-home.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 16,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.protection-when-leaving-home",
+      "type": "supplication",
+      "slug": "protection-when-leaving-home",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/protection-when-leaving-home.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 17,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.travel",
+      "type": "supplication",
+      "slug": "travel",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/travel.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 18,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.resident-farewell-to-traveler",
+      "type": "supplication",
+      "slug": "resident-farewell-to-traveler",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/resident-farewell-to-traveler.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 19,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.resident-prayer-for-traveler",
+      "type": "supplication",
+      "slug": "resident-prayer-for-traveler",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/resident-prayer-for-traveler.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 20,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.wearing-new-clothes",
+      "type": "supplication",
+      "slug": "wearing-new-clothes",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/wearing-new-clothes.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 21,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.wearing-clothes",
+      "type": "supplication",
+      "slug": "wearing-clothes",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/wearing-clothes.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 22,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.removing-clothes",
+      "type": "supplication",
+      "slug": "removing-clothes",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/removing-clothes.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 23,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.boarding-vehicle",
+      "type": "supplication",
+      "slug": "boarding-vehicle",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/boarding-vehicle.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 24,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.when-rain-falls",
+      "type": "supplication",
+      "slug": "when-rain-falls",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/when-rain-falls.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 25,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.during-heavy-rain",
+      "type": "supplication",
+      "slug": "during-heavy-rain",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/during-heavy-rain.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 26,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-rain",
+      "type": "supplication",
+      "slug": "after-rain",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-rain.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 27,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.during-strong-wind",
+      "type": "supplication",
+      "slug": "during-strong-wind",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/during-strong-wind.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 28,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.sayyid-al-istighfar",
+      "type": "supplication",
+      "slug": "sayyid-al-istighfar",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/sayyid-al-istighfar.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 29,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.ease-in-all-affairs",
+      "type": "supplication",
+      "slug": "ease-in-all-affairs",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/ease-in-all-affairs.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 30,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.when-afflicted-by-calamity",
+      "type": "supplication",
+      "slug": "when-afflicted-by-calamity",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/when-afflicted-by-calamity.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 31,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.relief-from-debt",
+      "type": "supplication",
+      "slug": "relief-from-debt",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/relief-from-debt.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 32,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.protection-from-laziness-sorrow-and-debt",
+      "type": "supplication",
+      "slug": "protection-from-laziness-sorrow-and-debt",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/protection-from-laziness-sorrow-and-debt.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 33,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-sneezing",
+      "type": "supplication",
+      "slug": "after-sneezing",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-sneezing.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 34,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.replying-to-sneezer",
+      "type": "supplication",
+      "slug": "replying-to-sneezer",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/replying-to-sneezer.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 35,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.sneezer-reply",
+      "type": "supplication",
+      "slug": "sneezer-reply",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/sneezer-reply.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 36,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.good-character",
+      "type": "supplication",
+      "slug": "good-character",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/good-character.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 37,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.protection-from-satan",
+      "type": "supplication",
+      "slug": "protection-from-satan",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/protection-from-satan.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 38,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-call-to-prayer",
+      "type": "supplication",
+      "slug": "after-call-to-prayer",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-call-to-prayer.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 39,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.forgiveness-for-parents",
+      "type": "supplication",
+      "slug": "forgiveness-for-parents",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/forgiveness-for-parents.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 40,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.looking-in-mirror",
+      "type": "supplication",
+      "slug": "looking-in-mirror",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/looking-in-mirror.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 41,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.before-study",
+      "type": "supplication",
+      "slug": "before-study",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-study.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 42,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-study",
+      "type": "supplication",
+      "slug": "after-study",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-study.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 43,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.before-reading-quran",
+      "type": "supplication",
+      "slug": "before-reading-quran",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-reading-quran.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 44,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.after-reading-quran",
+      "type": "supplication",
+      "slug": "after-reading-quran",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/after-reading-quran.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 45,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.before-travel",
+      "type": "supplication",
+      "slug": "before-travel",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-travel.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 46,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.arriving-at-destination",
+      "type": "supplication",
+      "slug": "arriving-at-destination",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/arriving-at-destination.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 47,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.before-dawn-prayer",
+      "type": "supplication",
+      "slug": "before-dawn-prayer",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/before-dawn-prayer.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 48,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.morning",
+      "type": "supplication",
+      "slug": "morning",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/morning.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 49,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.evening",
+      "type": "supplication",
+      "slug": "evening",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/evening.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 50,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.entering-market",
+      "type": "supplication",
+      "slug": "entering-market",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/entering-market.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 51,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.combing-hair",
+      "type": "supplication",
+      "slug": "combing-hair",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/combing-hair.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 52,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.sufficient-lawful-provision",
+      "type": "supplication",
+      "slug": "sufficient-lawful-provision",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/sufficient-lawful-provision.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 53,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.encountering-wild-animal",
+      "type": "supplication",
+      "slug": "encountering-wild-animal",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/encountering-wild-animal.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 54,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.migrated-daily-dua.beneficial-knowledge",
+      "type": "supplication",
+      "slug": "beneficial-knowledge",
+      "status": "draft",
+      "path": "content/supplications/migrated-daily-dua/beneficial-knowledge.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 55,
+      "group": "daily-supplications"
+    },
+    {
+      "id": "supplication.morning-dhikr-pending",
+      "type": "supplication",
+      "slug": "morning-dhikr-pending",
+      "status": "draft",
+      "path": "content/supplications/migrated-dhikr/morning-dhikr-pending.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 56,
+      "group": "morning-evening-dhikr"
+    },
+    {
+      "id": "supplication.migrated-breaking-fast",
+      "type": "supplication",
+      "slug": "migrated-breaking-fast",
+      "status": "under-review",
+      "path": "content/supplications/migrated-pillars/breaking-fast.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 2,
+      "group": "migrated-pillars.fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "supplication.migrated-zakat-fitrah-self",
+      "type": "supplication",
+      "slug": "migrated-zakat-fitrah-self",
+      "status": "draft",
+      "path": "content/supplications/migrated-pillars/zakat-fitrah-self.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 4,
+      "group": "migrated-pillars.zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    },
+    {
+      "id": "supplication.migrated-zakat-fitrah-wife",
+      "type": "supplication",
+      "slug": "migrated-zakat-fitrah-wife",
+      "status": "draft",
+      "path": "content/supplications/migrated-pillars/zakat-fitrah-wife.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 5,
+      "group": "migrated-pillars.zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    },
+    {
+      "id": "supplication.migrated-zakat-fitrah-family",
+      "type": "supplication",
+      "slug": "migrated-zakat-fitrah-family",
+      "status": "draft",
+      "path": "content/supplications/migrated-pillars/zakat-fitrah-family.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 6,
+      "group": "migrated-pillars.zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    }
+  ]
+}

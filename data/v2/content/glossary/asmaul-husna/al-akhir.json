@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-akhir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-akhir",
+  "title": {
+    "id": "Al-Âkhiru",
+    "en": "Al-Akhir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Âkhiru",
+    "en": "Al-Akhir"
+  },
+  "arabic": "الْآخِرُ",
+  "transliteration": {
+    "id": "Al-Âkhiru",
+    "en": "Al-Akhir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-akhir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahaakhir",
+        "en": "The Last"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.prayer-movements",
+  "type": "practice",
+  "slug": "prayer-movements",
+  "title": {
+    "id": "Latihan gerakan salat",
+    "en": "Prayer movement practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 107,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.prayer-movements"
+    ],
+    "next": [
+      "practice.prayer-recitations"
+    ],
+    "related": [
+      "lesson.prayer-movements"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-2-43"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.prayer-movements.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.prayer-movements.1",
+          "title": {
+            "id": "Latih urutan",
+            "en": "Practice the sequence"
+          },
+          "body": {
+            "id": "Berlatihlah berdiri, rukuk, bangkit, sujud, duduk, dan salam secara perlahan.",
+            "en": "Slowly practice standing, bowing, rising, prostrating, sitting, and salam."
+          }
+        },
+        {
+          "id": "step.prayer-movements.2",
+          "title": {
+            "id": "Jaga ketenangan",
+            "en": "Maintain composure"
+          },
+          "body": {
+            "id": "Berhenti sejenak dengan stabil pada setiap posisi.",
+            "en": "Pause with stability in each position."
+          }
+        },
+        {
+          "id": "step.prayer-movements.3",
+          "title": {
+            "id": "Sesuaikan dengan kemampuan",
+            "en": "Adapt to ability"
+          },
+          "body": {
+            "id": "Hentikan gerakan yang membahayakan dan tanyakan penyesuaian bagi kondisi kesehatan.",
+            "en": "Stop movements that cause harm and ask about adaptations for health conditions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-movements.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.prayer-movements.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-movements.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-movements.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

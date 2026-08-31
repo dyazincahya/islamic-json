@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.removing-clothes",
+  "type": "supplication",
+  "slug": "removing-clothes",
+  "title": {
+    "id": "Doa melepas pakaian",
+    "en": "Supplication when removing clothes"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 23,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.removing-clothes",
+    "arabic": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
+    "transliteration": {
+      "id": "bismillaahil ladzii laa ilaaha illaa huwa",
+      "en": "bismillaahil ladzii laa ilaaha illaa huwa"
+    },
+    "translation": {
+      "id": "Dengan nama Allah yang tiada Tuhan selain-Nya",
+      "en": "In the name of Allah, besides whom there is no deity."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

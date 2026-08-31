@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.during-strong-wind",
+  "type": "supplication",
+  "slug": "during-strong-wind",
+  "title": {
+    "id": "Doa Ketika Angin Kencang",
+    "en": "Supplication during strong wind"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 28,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.during-strong-wind",
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا، وَأَعُوْذُ بِكَ مِنْ شَرِّهَا",
+    "transliteration": {
+      "id": "allaahumma innii as-aluka khoirohaa wa a'uudzubika min syarrihaa",
+      "en": "allaahumma innii as-aluka khoirohaa wa a'uudzubika min syarrihaa"
+    },
+    "translation": {
+      "id": "Ya Allah, sesungguhnya aku memohon kepada-Mu kebaikan angin ini dan aku berlindung kepada-Mu dari keburukannya.",
+      "en": "O Allah, I ask You for its good and seek refuge in You from its evil."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.during-strong-wind.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud dan Ibnu Majah. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud dan Ibnu Majah. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Diantara tanda kuasa Allah adalah angin yang kencang yang bisa mendatangkan nikmat dan adzab, yakni kebaikan dan keburukan. Maka seyogyanya seorang hamba terus meminta kebaikan dan berlindung dari segala marabahaya.",
+    "en": "Strong wind is among Allah's signs and may bring benefit or harm, so a servant asks for its good and seeks protection from danger."
+  }
+}

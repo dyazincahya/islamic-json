@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-majid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-majid",
+  "title": {
+    "id": "Al-Majîdu",
+    "en": "Al-Majid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Majîdu",
+    "en": "Al-Majid"
+  },
+  "arabic": "الْمَجِيْدُ",
+  "transliteration": {
+    "id": "Al-Majîdu",
+    "en": "Al-Majid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-majid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mulia",
+        "en": "The Most Glorious"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

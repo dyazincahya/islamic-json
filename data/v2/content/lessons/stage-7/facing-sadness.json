@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.facing-sadness",
+  "type": "lesson",
+  "slug": "facing-sadness",
+  "title": {
+    "id": "Menghadapi kesedihan",
+    "en": "Facing sadness"
+  },
+  "summary": {
+    "id": "Hadapi kesedihan dengan doa, dukungan, kesabaran, dan bantuan profesional bila perlu.",
+    "en": "Meet sadness with supplication, support, patience, and professional help when needed."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.daily-life",
+  "stageOrder": 14,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-cleanliness"],
+    "next": ["lesson.facing-anxiety"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.facing-sadness-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.facing-sadness-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Kesedihan adalah pengalaman manusia dan tidak seharusnya diremehkan atau dipendam sendirian.",
+        "en": "Sadness is a human experience and should not be minimized or carried alone."
+      }
+    },
+    {
+      "id": "block.facing-sadness-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.facing-sadness-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang berbicara kepada orang tepercaya dan tetap menjaga kebutuhan dasar.",
+        "en": "A person talks to someone trustworthy and continues attending to basic needs."
+      }
+    },
+    {
+      "id": "block.facing-sadness-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.facing-sadness-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.facing-sadness-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Hubungi orang aman; cari bantuan segera bila ada risiko menyakiti diri.",
+            "en": "Contact a safe person; seek immediate help if there is risk of self-harm."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

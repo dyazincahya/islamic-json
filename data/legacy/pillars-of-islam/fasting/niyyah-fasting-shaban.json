@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Sunnah Sya'ban",
+        "en": "Niyyah Fasting Sunnah Sha'ban"
+    },
+    "content": {
+        "arrabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ شَعْبَانَ لِلهِ تَعَالَى",
+        "latin": "Nawaitu shauma ghadin 'an adaa'i sunnati Sya'bana lillâhi ta‘âlâ.",
+        "translation": {
+            "id": "Aku berniat puasa sunnah Syaban esok hari karena Allah ta’âlâ.",
+            "en": "I intend to perform the sunnah fast of Sha'ban tomorrow for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

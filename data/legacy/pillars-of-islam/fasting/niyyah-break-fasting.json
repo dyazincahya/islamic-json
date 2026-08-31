@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Berbuka Puasa",
+        "en": "Niyyah Break Fasting"
+    },
+    "content": {
+        "arrabic": "ذَهَبَ الظّـَمَأُ وَابْتَلّـَتِ الْعُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+        "latin": "Dzahabazh zhoma'u wabtallatil 'uruqu wa tsabatal ajru insya Allah.",
+        "translation": {
+            "id": "Telah hilanglah dahaga, telah basahlah kerongkongan, semoga ada pahala yang ditetapkan, jika Allah menghendaki.",
+            "en": "The thirst is gone, the throat is moistened, and may the reward be established, if Allah wills."
+        },
+        "extras": null
+    }
+}

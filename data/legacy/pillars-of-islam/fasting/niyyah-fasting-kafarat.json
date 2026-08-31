@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Kafarat",
+        "en": "Niyyah Fasting Kafarat"
+    },
+    "content": {
+        "arrabic": "نوَيْتُ صَوْمَ غَدٍ لِكَفَارَةِ فَرْضًا ِللهِ تَعَالَى",
+        "latin": "Nawaitu sauma gadin likafarati fardhon lillâhi ta’âlâ.",
+        "translation": {
+            "id": "Saya niat puasa esok hari untuk menunaikan kafarat (dalam hati menyebutkan puasa kafaratnya) fardhu karena Allah ta’âlâ.",
+            "en": "I intend to fast tomorrow to fulfill the expiation (mentioning the specific expiatory fast in the heart) as an obligation for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

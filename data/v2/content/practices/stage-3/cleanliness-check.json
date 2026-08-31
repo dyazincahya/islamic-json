@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.cleanliness-check",
+  "type": "practice",
+  "slug": "cleanliness-check",
+  "title": {
+    "id": "Pemeriksaan kebersihan sebelum ibadah",
+    "en": "Pre-worship cleanliness check"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 101,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.cleanliness"
+    ],
+    "next": [
+      "practice.najis-response"
+    ],
+    "related": [
+      "lesson.cleanliness"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-74-4"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.cleanliness-check.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.cleanliness-check.1",
+          "title": {
+            "id": "Periksa badan",
+            "en": "Check the body"
+          },
+          "body": {
+            "id": "Pastikan badan bersih dan tidak ada najis yang diketahui.",
+            "en": "Ensure the body is clean and no known najis remains."
+          }
+        },
+        {
+          "id": "step.cleanliness-check.2",
+          "title": {
+            "id": "Periksa pakaian",
+            "en": "Check clothing"
+          },
+          "body": {
+            "id": "Pastikan pakaian bersih, pantas, dan menutup aurat.",
+            "en": "Ensure clothing is clean, appropriate, and covers the awrah."
+          }
+        },
+        {
+          "id": "step.cleanliness-check.3",
+          "title": {
+            "id": "Periksa tempat",
+            "en": "Check the place"
+          },
+          "body": {
+            "id": "Pastikan tempat ibadah bersih dan aman.",
+            "en": "Ensure the worship place is clean and safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.cleanliness-check.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.cleanliness-check.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.cleanliness-check.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.cleanliness-check.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

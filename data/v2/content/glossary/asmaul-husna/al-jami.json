@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-jami",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-jami",
+  "title": {
+    "id": "Al-Jâmi`u",
+    "en": "Al-Jami'"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Jâmi`u",
+    "en": "Al-Jami'"
+  },
+  "arabic": "الْجَامِعُ",
+  "transliteration": {
+    "id": "Al-Jâmi`u",
+    "en": "Al-Jami'"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-jami.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengumpulkan",
+        "en": "The Gatherer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

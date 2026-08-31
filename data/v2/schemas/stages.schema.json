@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://islamic-json.dev/v2/schemas/stages.schema.json",
+  "title": "Islamic JSON v2 seven-stage catalog",
+  "type": "object",
+  "required": ["schemaVersion", "type", "stages"],
+  "properties": {
+    "schemaVersion": { "const": "2.0" },
+    "type": { "const": "stage-catalog" },
+    "stages": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "prefixItems": [
+        { "$ref": "#/$defs/stage1" },
+        { "$ref": "#/$defs/stage2" },
+        { "$ref": "#/$defs/stage3" },
+        { "$ref": "#/$defs/stage4" },
+        { "$ref": "#/$defs/stage5" },
+        { "$ref": "#/$defs/stage6" },
+        { "$ref": "#/$defs/stage7" }
+      ],
+      "items": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "stage": {
+      "type": "object",
+      "required": ["id", "order", "title", "goal", "entryContentId", "indexPath"],
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/semanticId" },
+        "order": { "type": "integer", "minimum": 1, "maximum": 7 },
+        "title": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "goal": { "$ref": "common.schema.json#/$defs/localizedString" },
+        "entryContentId": { "$ref": "common.schema.json#/$defs/semanticId" },
+        "indexPath": { "$ref": "common.schema.json#/$defs/relativePath" },
+        "contentIds": { "$ref": "common.schema.json#/$defs/idList" },
+        "adaptivePaths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "entryContentId"],
+            "properties": {
+              "id": { "$ref": "common.schema.json#/$defs/semanticId" },
+              "label": { "$ref": "common.schema.json#/$defs/localizedString" },
+              "entryContentId": { "$ref": "common.schema.json#/$defs/semanticId" },
+              "featureLinks": {
+                "type": "array",
+                "items": { "$ref": "common.schema.json#/$defs/featureLink" }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "stage1": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.introduction" }, "order": { "const": 1 } } }] },
+    "stage2": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.faith-foundations" }, "order": { "const": 2 } } }] },
+    "stage3": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.purification-prayer" }, "order": { "const": 3 } } }] },
+    "stage4": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.pillars-journey" }, "order": { "const": 4 } } }] },
+    "stage5": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.quran-learning" }, "order": { "const": 5 }, "adaptivePaths": { "minItems": 4, "maxItems": 4 } }, "required": ["adaptivePaths"] }] },
+    "stage6": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.hadith-character" }, "order": { "const": 6 } } }] },
+    "stage7": { "allOf": [{ "$ref": "#/$defs/stage" }, { "properties": { "id": { "const": "stage.daily-life" }, "order": { "const": 7 } } }] }
+  }
+}

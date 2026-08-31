@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-malik",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-malik",
+  "title": {
+    "id": "Al-Maliku",
+    "en": "Al-Malik"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Maliku",
+    "en": "Al-Malik"
+  },
+  "arabic": "الْمَلِكُ",
+  "transliteration": {
+    "id": "Al-Maliku",
+    "en": "Al-Malik"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-malik.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Merajai/Memerintah",
+        "en": "The King"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

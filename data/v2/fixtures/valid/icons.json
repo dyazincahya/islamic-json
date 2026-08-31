@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "2.0",
+  "type": "icon-registry",
+  "icons": [
+    {
+      "id": "general.info",
+      "label": { "id": "Informasi", "en": "Information" },
+      "fallbackId": null,
+      "providers": {
+        "materialSymbols": {
+          "name": "info",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "worship.prayer",
+      "label": { "id": "Salat", "en": "Prayer" },
+      "fallbackId": "general.info",
+      "asset": {
+        "path": "assets/icons/prayer.svg",
+        "viewBox": "0 0 24 24",
+        "style": "monochrome-fill",
+        "provenance": {
+          "provider": "islamic-json",
+          "sourceName": "Prayer semantic icon",
+          "version": "2.0.0",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "islamic-json contributors",
+          "redistributable": true
+        }
+      }
+    }
+  ]
+}

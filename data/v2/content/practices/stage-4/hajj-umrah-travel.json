@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.hajj-umrah-travel",
+  "type": "practice",
+  "slug": "hajj-umrah-travel",
+  "title": {
+    "id": "Latihan Perjalanan Haji dan Umrah",
+    "en": "Hajj and Umrah travel practice"
+  },
+  "summary": {
+    "id": "Siapkan langkah dan pertanyaan tanpa menetapkan hukum pribadi dari checklist ini.",
+    "en": "Prepare steps and questions without determining a personal ruling from this checklist."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 107,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.hajj-umrah-travel"
+    ],
+    "next": [],
+    "related": [
+      "lesson.hajj-umrah-travel"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.location",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ],
+  "sourceIds": [
+    "source.quran-3-97"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.hajj"
+  ],
+  "instructions": [
+    {
+      "id": "block.hajj-umrah-travel-instruction",
+      "type": "paragraph",
+      "text": {
+        "id": "Gunakan informasi terverifikasi dan konsultasikan hasil latihan kepada pembimbing tepercaya.",
+        "en": "Use verified information and consult a trusted instructor on the practice result."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan",
+      "en": "Review the practice"
+    },
+    "items": [
+      {
+        "id": "completion.hajj-umrah-travel-verified",
+        "label": {
+          "id": "Saya menandai hal yang perlu diverifikasi sebelum bertindak.",
+          "en": "I marked items requiring verification before acting."
+        }
+      }
+    ]
+  }
+}

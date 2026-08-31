@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.ease-in-all-affairs",
+  "type": "supplication",
+  "slug": "ease-in-all-affairs",
+  "title": {
+    "id": "Doa Meminta Kemudahan Dalam Segala Urusan",
+    "en": "Supplication for ease in all affairs"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 30,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.ease-in-all-affairs",
+    "arabic": "اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً وَأَنْتَ تَجْعَلُ الحَزْنَ إِذَا شِئْتَ سَهْلاً",
+    "transliteration": {
+      "id": "allahumma laa sahla illa maa ja'altahu sahlaa, wa anta taj'alul hazna idza syi'ta sahlaa",
+      "en": "allahumma laa sahla illa maa ja'altahu sahlaa, wa anta taj'alul hazna idza syi'ta sahlaa"
+    },
+    "translation": {
+      "id": "Ya Allah, tidak ada kemudahan kecuali Engkau buat mudah. Dan engkau menjadikan kesedihan (kesulitan), jika Engkau kehendaki pasti akan menjadi mudah.",
+      "en": "O Allah, there is no ease except what You make easy, and You make hardship easy if You will."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.ease-in-all-affairs.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Ibnu Hibban. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Ibnu Hibban. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Kemudahan hanya datang dari Allah. Sesuatu yang sulit sekalipun bisa menjadi mudah jika Allah kehendaki.",
+    "en": "Ease comes only from Allah. Even something difficult can become easy if Allah wills."
+  }
+}

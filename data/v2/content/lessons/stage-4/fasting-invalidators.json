@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.fasting-invalidators",
+  "type": "lesson",
+  "slug": "fasting-invalidators",
+  "title": {
+    "id": "Pembatal puasa",
+    "en": "Invalidators of fasting"
+  },
+  "summary": {
+    "id": "Pelajari tujuan, syarat, pelaksanaan, keringanan, dan tindak lanjut puasa tanpa menyederhanakan perbedaan keadaan.",
+    "en": "Learn fasting purpose, conditions, observance, concessions, and follow-up without oversimplifying differing circumstances."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 4,
+  "group": "fasting",
+  "relationships": {
+    "prerequisites": [
+      "lesson.fasting-pillars"
+    ],
+    "next": [
+      "lesson.suhur"
+    ],
+    "related": []
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-2-187"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.ramadan"
+  ],
+  "blocks": [
+    {
+      "id": "block.fasting-invalidators-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari tujuan, syarat, pelaksanaan, keringanan, dan tindak lanjut puasa tanpa menyederhanakan perbedaan keadaan.",
+        "en": "Learn fasting purpose, conditions, observance, concessions, and follow-up without oversimplifying differing circumstances."
+      }
+    },
+    {
+      "id": "block.fasting-invalidators-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Pembatal puasa. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Invalidators of fasting. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.fasting-invalidators-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.fasting-invalidators-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-187"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

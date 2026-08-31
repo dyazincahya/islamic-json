@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.when-afflicted-by-calamity",
+  "type": "supplication",
+  "slug": "when-afflicted-by-calamity",
+  "title": {
+    "id": "Doa Tertimpa Musibah",
+    "en": "Supplication when afflicted by calamity"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 31,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.when-afflicted-by-calamity",
+    "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ اللَّهُمَّ أْجُرْنِى فِى مُصِيبَتِى وَأَخْلِفْ لِى خَيْرًا مِنْهَا",
+    "transliteration": {
+      "id": "inna lillahi wa inna ilaihi rooj'un. allahumma'jurnii fii mushibatii wa akhlif lii khoiron minhaa",
+      "en": "inna lillahi wa inna ilaihi rooj'un. allahumma'jurnii fii mushibatii wa akhlif lii khoiron minhaa"
+    },
+    "translation": {
+      "id": "Segala sesuatu adalah milik Allah dan akan kembali pada-Nya. Ya Allah, berilah ganjaran terhadap musibah yang menimpaku dan berilah ganti dengan yang lebih baik.",
+      "en": "Indeed we belong to Allah and to Him we return. O Allah, reward me in my calamity and replace it for me with something better."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.when-afflicted-by-calamity.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Muslim. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Muslim. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Hendaklah seorang hamba membaca doa diatas ketika tertimpa musibah dengan rasa yakin dan harap, InsyaAllah dengan ini akan mendapatkan ganti yang lebih baik.",
+    "en": "A servant should recite this with certainty and hope when calamity strikes, hoping that Allah grants a better replacement."
+  }
+}

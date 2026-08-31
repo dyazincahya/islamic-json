@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.az-zahir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-az-zahir",
+  "title": {
+    "id": "Adh-Dhâhiru",
+    "en": "Az-Zahir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Adh-Dhâhiru",
+    "en": "Az-Zahir"
+  },
+  "arabic": "الظَّاهِرُ",
+  "transliteration": {
+    "id": "Adh-Dhâhiru",
+    "en": "Az-Zahir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.az-zahir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahanyata",
+        "en": "The Manifest"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

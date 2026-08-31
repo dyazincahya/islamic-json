@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.missing-locale",
+  "type": "lesson",
+  "slug": "missing-locale",
+  "title": { "id": "Bahasa Inggris tidak ada" },
+  "status": "draft",
+  "stageId": "stage.introduction",
+  "stageOrder": 1,
+  "group": "fixtures",
+  "blocks": [
+    {
+      "id": "block.missing-locale",
+      "type": "paragraph",
+      "text": { "id": "Contoh negatif.", "en": "Negative fixture." }
+    }
+  ]
+}

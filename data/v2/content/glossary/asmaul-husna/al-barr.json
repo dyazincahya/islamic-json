@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-barr",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-barr",
+  "title": {
+    "id": "Al-Barru",
+    "en": "Al-Barr"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Barru",
+    "en": "Al-Barr"
+  },
+  "arabic": "الْبَرُّ",
+  "transliteration": {
+    "id": "Al-Barru",
+    "en": "Al-Barr"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-barr.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Penderma",
+        "en": "The Source of Goodness"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

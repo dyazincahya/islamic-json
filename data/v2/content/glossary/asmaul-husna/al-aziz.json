@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-aziz",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-aziz",
+  "title": {
+    "id": "Al-`Azizu",
+    "en": "Al-'Aziz"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-`Azizu",
+    "en": "Al-'Aziz"
+  },
+  "arabic": "الْعَزِيْزُ",
+  "transliteration": {
+    "id": "Al-`Azizu",
+    "en": "Al-'Aziz"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-aziz.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Memiliki Mutlak Kegagahan",
+        "en": "The Almighty"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-3-18"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

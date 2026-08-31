@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.evening",
+  "type": "supplication",
+  "slug": "evening",
+  "title": {
+    "id": "Doa menyambut sore hari",
+    "en": "Evening supplication"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 50,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.evening",
+    "arabic": "اَللّٰهُمَّ بِكَ اَمْسَيْنَا وَبِكَ اَصْبَحْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ الْمَصِيْرُ",
+    "transliteration": {
+      "id": "allahumma bika amsainaa wa bika ashbahnaa wa bika nahyaa wa bika namuutu wa ilaikal mashiir",
+      "en": "allahumma bika amsainaa wa bika ashbahnaa wa bika nahyaa wa bika namuutu wa ilaikal mashiir"
+    },
+    "translation": {
+      "id": "Ya Allah, karena Engkau kami mengalami waktu petang dan waktu pagi, karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali.",
+      "en": "O Allah, by You we enter the evening and by You we enter the morning; by You we live and by You we die, and to You is the final return."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

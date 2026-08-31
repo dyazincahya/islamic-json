@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "2.0",
+  "datasetVersion": "2.0.0",
+  "type": "manifest",
+  "defaultLocale": "id",
+  "supportedLocales": ["id", "en"],
+  "stagesPath": "stages.json",
+  "assetBaseUrl": "https://cdn.jsdelivr.net/gh/dyazincahya/islamic-json@v2.0.0/data/v2/",
+  "registries": {
+    "sources": "registries/sources.json",
+    "icons": "registries/icons.json",
+    "features": "registries/features.json"
+  },
+  "collections": [
+    {
+      "id": "collection.lessons",
+      "itemType": "lesson",
+      "indexPath": "indexes/lessons.json"
+    },
+    {
+      "id": "collection.practices",
+      "itemType": "practice",
+      "indexPath": "indexes/practices.json"
+    },
+    {
+      "id": "collection.supplications",
+      "itemType": "supplication",
+      "indexPath": "indexes/supplications.json"
+    },
+    {
+      "id": "collection.sequences",
+      "itemType": "sequence",
+      "indexPath": "indexes/sequences.json"
+    },
+    {
+      "id": "collection.glossary",
+      "itemType": "glossary-entry",
+      "indexPath": "indexes/glossary.json"
+    }
+  ]
+}

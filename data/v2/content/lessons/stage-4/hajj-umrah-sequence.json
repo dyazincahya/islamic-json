@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.hajj-umrah-sequence",
+  "type": "lesson",
+  "slug": "hajj-umrah-sequence",
+  "title": {
+    "id": "Urutan Haji dan Umrah",
+    "en": "Hajj and Umrah sequence"
+  },
+  "summary": {
+    "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
+    "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 20,
+  "group": "hajj-umrah",
+  "relationships": {
+    "prerequisites": [
+      "lesson.ihram"
+    ],
+    "next": [
+      "lesson.ihram-prohibitions"
+    ],
+    "related": []
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-2-196"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.hajj"
+  ],
+  "blocks": [
+    {
+      "id": "block.hajj-umrah-sequence-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
+        "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
+      }
+    },
+    {
+      "id": "block.hajj-umrah-sequence-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Urutan Haji dan Umrah. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Hajj and Umrah sequence. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.hajj-umrah-sequence-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.hajj-umrah-sequence-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-196"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

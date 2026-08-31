@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.fixture-guidance",
+  "type": "supplication",
+  "slug": "fixture-guidance",
+  "title": { "id": "Doa memohon petunjuk", "en": "Supplication for guidance" },
+  "status": "under-review",
+  "stageId": "stage.daily-life",
+  "stageOrder": 2,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.fixture-guidance",
+    "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+    "transliteration": { "id": "Ihdinaṣ-ṣirāṭal-mustaqīm", "en": "Ihdinaṣ-ṣirāṭal-mustaqīm" },
+    "translation": { "id": "Tunjukilah kami jalan yang lurus.", "en": "Guide us to the straight path." },
+    "sourceIds": ["source.quran-1-6"]
+  },
+  "benefits": { "id": "Permohonan petunjuk kepada Allah.", "en": "A request for guidance from Allah." },
+  "context": [
+    {
+      "id": "block.supplication-context",
+      "type": "paragraph",
+      "text": { "id": "Dibaca sebagai permohonan petunjuk.", "en": "Recited as a request for guidance." }
+    }
+  ],
+  "review": {
+    "content": { "outcome": "in-progress" },
+    "locales": {
+      "id": { "outcome": "complete", "reviewerId": "reviewer.fixture-id", "reviewedAt": "2026-08-20" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

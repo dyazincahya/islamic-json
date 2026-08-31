@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.travel",
+  "type": "supplication",
+  "slug": "travel",
+  "title": {
+    "id": "Doa Safar",
+    "en": "Travel supplication"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 18,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.travel",
+    "arabic": "الله أَكْبَرُ،الله أَكْبَرُ،الله أَكْبَرُ،سُبْحَانَ الَّذِى سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ اللَّهُمَّ إِنَّا نَسْأَلُكَ فِى سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ اللَّهُمَّ أَنْتَ الصَّاحِبُ فِى السَّفَرِ وَالْخَلِيفَةُ فِى الأَهْلِ اللَّهُمَّ إِنِّى أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمَنْظَرِ وَسُوءِ الْمُنْقَلَبِ فِى الْمَالِ وَالأَهْلِ",
+    "transliteration": {
+      "id": "allahu akbar, allahu akbar, allahu akbar. subhaanal ladzi sakh-khara lanaa haadza wa maa kunna lahuu muqriniin wa inna ilaa rabbina lamun qalibuun. allahumma inna nas aluka fii safarina hadzaa al-birra wat taqwa wa minal amali maa tardhaa. allahumma hawwin 'alaina safarana haadza wathwi 'anna bu'dahu. allahumma anta shaahibu fi safar. wal khaliifatu fil ahli. allahumma inni a'uudzubika min wa'tsaa-issafari wa ka-aabatil mandzari wa suuil munqalabi fil maali wal ahli",
+      "en": "allahu akbar, allahu akbar, allahu akbar. subhaanal ladzi sakh-khara lanaa haadza wa maa kunna lahuu muqriniin wa inna ilaa rabbina lamun qalibuun. allahumma inna nas aluka fii safarina hadzaa al-birra wat taqwa wa minal amali maa tardhaa. allahumma hawwin 'alaina safarana haadza wathwi 'anna bu'dahu. allahumma anta shaahibu fi safar. wal khaliifatu fil ahli. allahumma inni a'uudzubika min wa'tsaa-issafari wa ka-aabatil mandzari wa suuil munqalabi fil maali wal ahli"
+    },
+    "translation": {
+      "id": "Allah Maha Besar, Allah Maha Besar, Allah Maha Besar. Maha Suci Allah yang telah menundukkan untuk kami kendaraan ini, padahal kami sebelumnya tidak mempunyai kemampuan untuk melakukannya, dan sesungguhnya hanya kepada Rabb kami, kami akan kembali. Ya Allah, sesungguhnya kami memohon kepada-Mu kebaikan, ketakwaan, dan amal yang Engkau ridhai dalam perjalanan kami ini. Ya Allah, mudahkanlah perjalanan kami ini, dekatkanlah bagi kami jarak yang jauh. Ya Allah, Engkau adalah rekan dalam perjalanan dan pengganti di tengah keluarga. Ya Allah, sesungguhnya aku berlindung kepada-Mu dari kesukaran perjalanan, tempat kembali yang menyedihkan, dan pemandangan yang buruk pada harta, keluarga, dan anak.",
+      "en": "Allah is the Greatest, Allah is the Greatest, Allah is the Greatest. Glory is to the One who subjected this to us though we could not have controlled it, and surely to our Lord we will return. O Allah, we ask You on this journey for righteousness, mindfulness of You, and deeds that please You. O Allah, make this journey easy for us and fold up its distance. O Allah, You are the companion on the journey and the guardian of the family. O Allah, I seek refuge in You from the hardship of travel, a distressing sight, and an unfortunate return concerning wealth and family."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.travel.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Muslim. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Muslim. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.travel",
+  "benefits": {
+    "id": "Didalam doa ini ada 2 bagian. Pertama adalah pujian kepada Allah ta'ala dan ketundukan diri hamba, yang kedua adalah permohonan kepada Allah untuk segala kemudahan baik dalam safar maupun urusan hal-hal yang seorang hamba tinggalkan di rumah.",
+    "en": "This supplication has two parts: praise of Allah and a servant's submission, followed by requests for ease in travel and care for what was left at home."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.basic-tajwid",
+  "type": "practice",
+  "slug": "basic-tajwid",
+  "title": {
+    "id": "Latihan tajwid dasar",
+    "en": "Basic tajwid practice"
+  },
+  "summary": {
+    "id": "Latih tajwid dasar dengan mendengar, meniru, dan meminta koreksi.",
+    "en": "Practice basic tajwid by listening, imitating, and seeking correction."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.tajwid",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 6,
+  "group": "tajwid",
+  "relationships": {
+    "prerequisites": [],
+    "next": ["lesson.quran-translation"],
+    "related": ["practice.quran-reading", "lesson.quran-paths"]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    },
+    {
+      "featureId": "feature.reading",
+      "required": false
+    }
+  ],
+  "instructions": [
+    {
+      "id": "block.basic-tajwid-focus",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Fokus latihan",
+        "en": "Practice focus"
+      }
+    },
+    {
+      "id": "block.basic-tajwid-intro",
+      "type": "paragraph",
+      "text": {
+        "id": "Ini pengantar; pengajar kompeten perlu memeriksa makhraj, panjang pendek, dan dengung.",
+        "en": "This is introductory; a competent teacher should check articulation, vowel length, and nasalization."
+      }
+    },
+    {
+      "id": "block.basic-tajwid-steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.basic-tajwid-1",
+          "title": {
+            "id": "Dengarkan",
+            "en": "Listen"
+          },
+          "body": {
+            "id": "Dengarkan satu contoh pendek melalui audio tepercaya.",
+            "en": "Listen to one short example through trusted audio."
+          }
+        },
+        {
+          "id": "step.basic-tajwid-2",
+          "title": {
+            "id": "Tirukan",
+            "en": "Imitate"
+          },
+          "body": {
+            "id": "Tirukan perlahan tanpa mengejar irama.",
+            "en": "Imitate slowly without chasing melody."
+          }
+        },
+        {
+          "id": "step.basic-tajwid-3",
+          "title": {
+            "id": "Minta koreksi",
+            "en": "Seek correction"
+          },
+          "body": {
+            "id": "Tandai satu bagian untuk diperiksa pengajar.",
+            "en": "Mark one part for a teacher to check."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Periksa latihan hari ini",
+      "en": "Check todays practice"
+    },
+    "items": [
+      {
+        "id": "completion.basic-tajwid-1",
+        "label": {
+          "id": "Dengarkan satu contoh pendek melalui audio tepercaya.",
+          "en": "Listen to one short example through trusted audio."
+        }
+      },
+      {
+        "id": "completion.basic-tajwid-2",
+        "label": {
+          "id": "Tirukan perlahan tanpa mengejar irama.",
+          "en": "Imitate slowly without chasing melody."
+        }
+      },
+      {
+        "id": "completion.basic-tajwid-3",
+        "label": {
+          "id": "Tandai satu bagian untuk diperiksa pengajar.",
+          "en": "Mark one part for a teacher to check."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

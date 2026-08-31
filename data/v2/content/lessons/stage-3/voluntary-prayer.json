@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.voluntary-prayer",
+  "type": "lesson",
+  "slug": "voluntary-prayer",
+  "title": {
+    "id": "Salat sunah",
+    "en": "Voluntary prayer"
+  },
+  "summary": {
+    "id": "Salat sunah melengkapi kebiasaan ibadah tanpa menggantikan prioritas lima salat wajib.",
+    "en": "Voluntary prayer enriches worship without replacing the priority of the five obligatory prayers."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 12,
+  "group": "prayer",
+  "relationships": {
+    "prerequisites": [
+      "lesson.congregational-prayer"
+    ],
+    "next": [
+      "lesson.fasting-purpose"
+    ],
+    "related": [
+      "practice.voluntary-prayer"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "voluntary-prayer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-17-79"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.voluntary-prayer.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Salat sunah melengkapi kebiasaan ibadah tanpa menggantikan prioritas lima salat wajib.",
+        "en": "Voluntary prayer enriches worship without replacing the priority of the five obligatory prayers."
+      }
+    },
+    {
+      "id": "block.voluntary-prayer.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.voluntary-prayer.1",
+          "text": {
+            "id": "Dahulukan salat wajib dan pelajari salat sunah secara bertahap.",
+            "en": "Prioritize obligatory prayers and learn voluntary prayers gradually."
+          }
+        },
+        {
+          "id": "item.voluntary-prayer.2",
+          "text": {
+            "id": "Kenali waktu yang dianjurkan dan waktu larangan sebelum menyusun kebiasaan.",
+            "en": "Know encouraged and prohibited times before forming a routine."
+          }
+        },
+        {
+          "id": "item.voluntary-prayer.3",
+          "text": {
+            "id": "Tahajud adalah salah satu salat malam yang dapat dilakukan sesuai kemampuan.",
+            "en": "Tahajjud is one form of night prayer that may be performed according to ability."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.voluntary-prayer.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.voluntary-prayer.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-17-79"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

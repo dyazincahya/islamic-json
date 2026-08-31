@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-kabir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-kabir",
+  "title": {
+    "id": "Al-Kabîru",
+    "en": "Al-Kabir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Kabîru",
+    "en": "Al-Kabir"
+  },
+  "arabic": "الْكَبِيْرُ",
+  "transliteration": {
+    "id": "Al-Kabîru",
+    "en": "Al-Kabir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-kabir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Besar",
+        "en": "The Most Great"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.najis-response",
+  "type": "practice",
+  "slug": "najis-response",
+  "title": {
+    "id": "Latihan menangani najis",
+    "en": "Najis response practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 102,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.najis"
+    ],
+    "next": [
+      "practice.wudu"
+    ],
+    "related": [
+      "lesson.najis"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-74-4"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.najis-response.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.najis-response.1",
+          "title": {
+            "id": "Kenali bagian terdampak",
+            "en": "Identify the affected area"
+          },
+          "body": {
+            "id": "Batasi pemeriksaan pada bagian yang diketahui terkena.",
+            "en": "Limit inspection to the area known to be affected."
+          }
+        },
+        {
+          "id": "step.najis-response.2",
+          "title": {
+            "id": "Hilangkan zatnya",
+            "en": "Remove the substance"
+          },
+          "body": {
+            "id": "Bersihkan najis dengan cara dan air yang sesuai.",
+            "en": "Remove the najis using an appropriate method and water."
+          }
+        },
+        {
+          "id": "step.najis-response.3",
+          "title": {
+            "id": "Akhiri pemeriksaan",
+            "en": "End the check"
+          },
+          "body": {
+            "id": "Setelah bersih, jangan mengulang karena keraguan tanpa bukti.",
+            "en": "Once clean, do not repeat because of unsupported doubt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.najis-response.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.najis-response.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.najis-response.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.najis-response.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

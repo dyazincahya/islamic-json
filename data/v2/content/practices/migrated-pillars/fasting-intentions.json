@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.migrated-fasting-intentions",
+  "type": "practice",
+  "slug": "migrated-fasting-intentions",
+  "title": {
+    "id": "Niat puasa dari data lama",
+    "en": "Fasting intentions from the legacy data"
+  },
+  "summary": {
+    "id": "Kumpulan 14 redaksi niat puasa wajib dan sunah yang dimigrasikan untuk ditinjau.",
+    "en": "A collection of 14 obligatory and voluntary fasting-intention formulas migrated for review."
+  },
+  "status": "draft",
+  "iconId": "worship.fasting",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 1,
+  "group": "migrated-pillars.fasting",
+  "seasonalTags": ["season.ramadan", "season.eid-al-fitr", "season.hajj"],
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "label": {
+        "id": "Dengarkan pelafalan niat puasa",
+        "en": "Listen to fasting-intention pronunciation"
+      },
+      "required": false,
+      "parameters": { "contentId": "practice.migrated-fasting-intentions" }
+    },
+    {
+      "featureId": "feature.reminders",
+      "label": {
+        "id": "Atur pengingat puasa",
+        "en": "Set fasting reminders"
+      },
+      "required": false,
+      "parameters": { "topic": "fasting" }
+    }
+  ],
+  "instructions": [
+    {
+      "id": "block.migrated-fasting-intentions.review-note",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Redaksi migrasi menunggu peninjauan",
+        "en": "Migrated formulas await review"
+      },
+      "body": {
+        "id": "Niat adalah maksud di dalam hati. Redaksi lisan berikut dipertahankan sebagai bahan belajar dari data lama dan belum dinyatakan sebagai bacaan wajib atau bersumber khusus.",
+        "en": "Intention is the resolve of the heart. The following verbal formulas are preserved as learning material from the legacy data and are not asserted to be required recitations or specifically sourced."
+      },
+      "iconId": "general.warning"
+    },
+    {
+      "id": "block.migrated-fasting-intentions.ramadan-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa Ramadan", "en": "Ramadan fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.ramadan",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-ramadan",
+        "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانِ هذِهِ السَّنَةِ لِلهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin 'an adâ'i fardhi syahri Ramadhâni hâdzihis sanati lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin 'an ada'i fardi shahri Ramadana hadhihis-sanati lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa esok hari untuk menunaikan kewajiban bulan Ramadan tahun ini karena Allah Ta'ala.",
+          "en": "I intend to fast tomorrow to fulfill the obligation of Ramadan this year for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.qadha-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa qada Ramadan", "en": "Make-up Ramadan fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.qadha",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-qadha",
+        "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ قَضَاءِ فَرْضِ شَهْرِ رَمَضَانَ لِلهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin 'an qadhâ'i fardhi syahri Ramadhâna lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin 'an qada'i fardi shahri Ramadana lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat mengqada puasa wajib bulan Ramadan esok hari karena Allah Ta'ala.",
+          "en": "I intend to make up an obligatory Ramadan fast tomorrow for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.kafarat-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa kafarat", "en": "Expiatory fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.kafarat",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-kafarat",
+        "arabic": "نوَيْتُ صَوْمَ غَدٍ لِكَفَارَةِ فَرْضًا ِللهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin likafârati fardhan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin li-kaffaratin fardan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa esok hari untuk menunaikan kafarat yang dimaksud di dalam hati, sebagai kewajiban karena Allah Ta'ala.",
+          "en": "I intend to fast tomorrow to fulfill the expiation specified in my heart, as an obligation for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.vow-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa nazar", "en": "Vowed fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.vow",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-vow",
+        "arabic": "نَوَيْتُ صَوْمَ النَّذَرِ لِلّٰهِ تَعَالىَ",
+        "transliteration": {
+          "id": "Nawaitu shauman-nadzri lillâhi ta'âlâ.",
+          "en": "Nawaytu sawman-nadhri lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa nazar karena Allah Ta'ala.",
+          "en": "I intend to perform the vowed fast for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.monday-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa sunah Senin", "en": "Monday voluntary fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.monday",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-monday",
+        "arabic": "نَوَيْتُ صَوْمَ يَوْمَ اْلاِثْنَيْنِ سُنَّةً ِللهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma yaumal itsnaini sunnatan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma yawmal-ithnayni sunnatan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa sunah hari Senin karena Allah Ta'ala.",
+          "en": "I intend to perform the voluntary Monday fast for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.thursday-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa sunah Kamis", "en": "Thursday voluntary fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.thursday",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-thursday",
+        "arabic": "نَوَيْتُ صَوْمَ يَوْمَ الْخَمِيْسِ سُنَّةً ِللهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma yaumal khamîsi sunnatan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma yawmal-khamisi sunnatan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa sunah hari Kamis karena Allah Ta'ala.",
+          "en": "I intend to perform the voluntary Thursday fast for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.dawud-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa sunah Daud", "en": "Dawud voluntary fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.dawud",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-dawud",
+        "arabic": "نَوَيْتُ صَوْمَ دَاوُدَ سَنَّةً لِلّٰهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma Dâwuda sunnatan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma Dawuda sunnatan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa Daud sebagai amalan sunah karena Allah Ta'ala.",
+          "en": "I intend to perform the fast of Dawud as a voluntary practice for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.white-days-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa Ayyamul Bidh", "en": "White Days fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.white-days",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-white-days",
+        "arabic": "نَوَيْتُ صَوْمَ اَيَّامَ اْلبِيْضِ سُنَّةً لِلهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma Ayyâmil Bidh sunnatan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma Ayyamil-Bid sunnatan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa Ayyamul Bidh sebagai amalan sunah karena Allah Ta'ala.",
+          "en": "I intend to perform the White Days fast as a voluntary practice for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.shaban-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa sunah Syakban", "en": "Sha'ban voluntary fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.shaban",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-shaban",
+        "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ شَعْبَانَ لِلهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin 'an adâ'i sunnati Sya'bâna lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin 'an ada'i sunnati Sha'bana lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa sunah Syakban esok hari karena Allah Ta'ala.",
+          "en": "I intend to perform a voluntary Sha'ban fast tomorrow for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.shawwal-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa enam hari Syawal", "en": "Six days of Shawwal" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.shawwal",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-shawwal",
+        "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَةِ سِتَةٍ مِنْ شَوَالٍ لِلّٰهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin 'an adâ'i sunnati sittatin min Syawwâlin lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin 'an ada'i sunnati sittatin min Shawwalin lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat menunaikan puasa sunah enam hari Syawal esok hari karena Allah Ta'ala.",
+          "en": "I intend to perform one of the six voluntary fasts of Shawwal tomorrow for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.tarwiyah-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa Tarwiyah", "en": "Tarwiyah fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.tarwiyah",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-tarwiyah",
+        "arabic": "نَوَيْتُ صَوْمَ تَرْوِيَةَ سُنَّةً لِلّٰهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma Tarwiyata sunnatan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma Tarwiyata sunnatan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa Tarwiyah sebagai amalan sunah karena Allah Ta'ala.",
+          "en": "I intend to perform the Tarwiyah fast as a voluntary practice for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.arafah-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa Arafah", "en": "Arafah fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.arafah",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-arafah",
+        "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ يَوْمِ عَرَفَةَ لِلّٰهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin 'an adâ'i sunnati yaumi 'Arafata lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin 'an ada'i sunnati yawmi 'Arafata lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa sunah Arafah esok hari karena Allah Ta'ala.",
+          "en": "I intend to perform the voluntary Arafah fast tomorrow for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.tasua-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa Tasua", "en": "Tasu'a fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.tasua",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-tasua",
+        "arabic": "نَوَيْتُ صَوْمَ تَاسُعَاءْ سُنَّةَ ِللهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma Tâsû'â sunnatan lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma Tasu'a sunnatan lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa Tasua sebagai amalan sunah karena Allah Ta'ala.",
+          "en": "I intend to perform the Tasu'a fast as a voluntary practice for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.ashura-heading",
+      "type": "heading",
+      "level": 2,
+      "text": { "id": "Puasa Asyura", "en": "Ashura fast" }
+    },
+    {
+      "id": "block.migrated-fasting-intentions.ashura",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-fasting-intention-ashura",
+        "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ ِعَا شُورَاء لِلهِ تَعَالَى",
+        "transliteration": {
+          "id": "Nawaitu shauma ghadin 'an adâ'i sunnati 'Âsyûrâ lillâhi ta'âlâ.",
+          "en": "Nawaytu sawma ghadin 'an ada'i sunnati 'Ashura lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Aku berniat puasa sunah Asyura karena Allah Ta'ala.",
+          "en": "I intend to perform the voluntary Ashura fast for Allah Most High."
+        }
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau niat puasa",
+      "en": "Review fasting intentions"
+    },
+    "items": [
+      {
+        "id": "completion.migrated-fasting-intentions.types",
+        "label": {
+          "id": "Saya dapat membedakan jenis puasa yang tercantum.",
+          "en": "I can distinguish the listed types of fast."
+        }
+      },
+      {
+        "id": "completion.migrated-fasting-intentions.heart",
+        "label": {
+          "id": "Saya memahami bahwa niat adalah maksud di dalam hati.",
+          "en": "I understand that intention is the resolve of the heart."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": {
+      "outcome": "pending",
+      "notes": {
+        "id": "Keempat belas redaksi, teks Arab, transliterasi, terjemahan, dan klasifikasi hukum menunggu verifikasi.",
+        "en": "All 14 formulas, Arabic texts, transliterations, translations, and legal classifications await verification."
+      }
+    },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

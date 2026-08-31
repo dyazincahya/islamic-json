@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.neighbors-guidance",
+  "type": "lesson",
+  "slug": "neighbors-guidance",
+  "title": {
+    "id": "Kebaikan kepada tetangga",
+    "en": "Kindness toward neighbors"
+  },
+  "summary": {
+    "id": "Hindari gangguan, jaga privasi, dan bantu sesuai kemampuan.",
+    "en": "Avoid harm, respect privacy, and help within your ability."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 8,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.sleeping-guidance"],
+    "next": ["lesson.seeking-knowledge-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.neighbors-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.neighbors-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Akhlak bertetangga mencakup tidak mengganggu, menjaga privasi, dan memberi bantuan.",
+        "en": "Neighborly character includes avoiding harm, respecting privacy, and offering help."
+      }
+    },
+    {
+      "id": "block.neighbors-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.neighbors-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang mengecilkan suara saat waktu istirahat dan membantu tetangga yang kesulitan.",
+        "en": "A person lowers noise during rest hours and helps a neighbor in difficulty."
+      }
+    },
+    {
+      "id": "block.neighbors-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.neighbors-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.neighbors-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Perbaiki satu kebiasaan rumah yang mungkin mengganggu lalu sapa tetangga dengan ramah.",
+            "en": "Improve one household habit that may disturb others, then greet a neighbor kindly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.neighbors-guidance-source",
+      "type": "source-reference",
+      "sourceIds": ["source.hadith-bukhari-6018"],
+      "note": {
+        "id": "Rujukan bibliografis hadis yang juga memuat tuntunan tentang tetangga; teks hadis tidak disalin di sini.",
+        "en": "Bibliographic reference for a hadith that also includes guidance concerning neighbors; the hadith text is not copied here."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "sourceIds": ["source.hadith-bukhari-6018"]
+}

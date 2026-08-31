@@ -1,0 +1,1133 @@
+{
+  "schemaVersion": "2.0",
+  "type": "icon-registry",
+  "icons": [
+    {
+      "id": "general.info",
+      "label": {
+        "id": "Informasi",
+        "en": "Information"
+      },
+      "fallbackId": null,
+      "providers": {
+        "fontAwesome": {
+          "name": "circle-info",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "info",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "general.check",
+      "label": {
+        "id": "Selesai",
+        "en": "Complete"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "circle-check",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "check_circle",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "general.warning",
+      "label": {
+        "id": "Perhatian",
+        "en": "Attention"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "triangle-exclamation",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "warning",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "general.book",
+      "label": {
+        "id": "Buku",
+        "en": "Book"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "book-open",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "menu_book",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "general.home",
+      "label": {
+        "id": "Beranda",
+        "en": "Home"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "house",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "home",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "faith.belief",
+      "label": {
+        "id": "Iman",
+        "en": "Faith"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "heart",
+          "style": "regular",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "favorite",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "faith.allah",
+      "label": {
+        "id": "Nama-nama Allah",
+        "en": "Names of Allah"
+      },
+      "fallbackId": "faith.belief"
+    },
+    {
+      "id": "faith.shahada",
+      "label": {
+        "id": "Syahadat",
+        "en": "Shahada"
+      },
+      "fallbackId": "faith.belief"
+    },
+    {
+      "id": "faith.tawhid",
+      "label": {
+        "id": "Tauhid",
+        "en": "Tawhid"
+      },
+      "fallbackId": "faith.belief"
+    },
+    {
+      "id": "faith.prophetic-guidance",
+      "label": {
+        "id": "Tuntunan Nabi",
+        "en": "Prophetic guidance"
+      },
+      "fallbackId": "general.book"
+    },
+    {
+      "id": "worship.prayer",
+      "label": {
+        "id": "Salat",
+        "en": "Prayer"
+      },
+      "fallbackId": "general.info",
+      "asset": {
+        "path": "assets/icons/prayer.svg",
+        "viewBox": "0 0 24 24",
+        "style": "monochrome-stroke",
+        "provenance": {
+          "provider": "islamic-json",
+          "sourceName": "Original prayer semantic icon",
+          "version": "2.0.0",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "Original work dedicated to the public domain by islamic-json contributors",
+          "redistributable": true
+        }
+      }
+    },
+    {
+      "id": "worship.fasting",
+      "label": {
+        "id": "Puasa",
+        "en": "Fasting"
+      },
+      "fallbackId": "worship.prayer"
+    },
+    {
+      "id": "worship.zakat",
+      "label": {
+        "id": "Zakat",
+        "en": "Zakat"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "hand-holding-dollar",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "volunteer_activism",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "worship.hajj",
+      "label": {
+        "id": "Haji dan umrah",
+        "en": "Hajj and Umrah"
+      },
+      "fallbackId": "location.mosque",
+      "providers": {
+        "fontAwesome": {
+          "name": "kaaba",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "worship.supplication",
+      "label": {
+        "id": "Doa",
+        "en": "Supplication"
+      },
+      "fallbackId": "worship.prayer",
+      "providers": {
+        "fontAwesome": {
+          "name": "hands-praying",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "self_improvement",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "worship.remembrance",
+      "label": {
+        "id": "Zikir",
+        "en": "Remembrance"
+      },
+      "fallbackId": "worship.supplication"
+    },
+    {
+      "id": "purification.cleanliness",
+      "label": {
+        "id": "Kebersihan",
+        "en": "Cleanliness"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "soap",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "clean_hands",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "purification.wudu",
+      "label": {
+        "id": "Wudu",
+        "en": "Wudu"
+      },
+      "fallbackId": "purification.cleanliness",
+      "asset": {
+        "path": "assets/icons/wudu.svg",
+        "viewBox": "0 0 24 24",
+        "style": "monochrome-stroke",
+        "provenance": {
+          "provider": "islamic-json",
+          "sourceName": "Original wudu semantic icon",
+          "version": "2.0.0",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "Original work dedicated to the public domain by islamic-json contributors",
+          "redistributable": true
+        }
+      }
+    },
+    {
+      "id": "purification.bathing",
+      "label": {
+        "id": "Mandi wajib",
+        "en": "Obligatory bathing"
+      },
+      "fallbackId": "purification.cleanliness",
+      "providers": {
+        "fontAwesome": {
+          "name": "shower",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "shower",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "purification.tayammum",
+      "label": {
+        "id": "Tayamum",
+        "en": "Tayammum"
+      },
+      "fallbackId": "purification.cleanliness",
+      "providers": {
+        "materialSymbols": {
+          "name": "landscape",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "quran-learning.quran",
+      "label": {
+        "id": "Al-Qur'an",
+        "en": "Quran"
+      },
+      "fallbackId": "general.book",
+      "providers": {
+        "fontAwesome": {
+          "name": "book-quran",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "menu_book",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "quran-learning.iqra",
+      "label": {
+        "id": "Belajar Iqra",
+        "en": "Iqra learning"
+      },
+      "fallbackId": "quran-learning.quran",
+      "asset": {
+        "path": "assets/icons/iqra-learning.svg",
+        "viewBox": "0 0 24 24",
+        "style": "monochrome-stroke",
+        "provenance": {
+          "provider": "islamic-json",
+          "sourceName": "Original Iqra learning semantic icon",
+          "version": "2.0.0",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "attribution": "Original work dedicated to the public domain by islamic-json contributors",
+          "redistributable": true
+        }
+      }
+    },
+    {
+      "id": "quran-learning.arabic-letters",
+      "label": {
+        "id": "Huruf Arab",
+        "en": "Arabic letters"
+      },
+      "fallbackId": "quran-learning.iqra",
+      "providers": {
+        "materialSymbols": {
+          "name": "translate",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "quran-learning.tajwid",
+      "label": {
+        "id": "Tajwid",
+        "en": "Tajwid"
+      },
+      "fallbackId": "quran-learning.quran",
+      "providers": {
+        "fontAwesome": {
+          "name": "microphone-lines",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "record_voice_over",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "quran-learning.meaning",
+      "label": {
+        "id": "Makna Al-Qur'an",
+        "en": "Quran meaning"
+      },
+      "fallbackId": "quran-learning.quran",
+      "providers": {
+        "fontAwesome": {
+          "name": "language",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "translate",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "quran-learning.consistency",
+      "label": {
+        "id": "Konsistensi membaca",
+        "en": "Reading consistency"
+      },
+      "fallbackId": "time.history"
+    },
+    {
+      "id": "daily-life.family",
+      "label": {
+        "id": "Keluarga",
+        "en": "Family"
+      },
+      "fallbackId": "general.home",
+      "providers": {
+        "fontAwesome": {
+          "name": "people-roof",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "family_restroom",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "daily-life.food",
+      "label": {
+        "id": "Makan dan minum",
+        "en": "Food and drink"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "utensils",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "restaurant",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "daily-life.travel",
+      "label": {
+        "id": "Perjalanan",
+        "en": "Travel"
+      },
+      "fallbackId": "location.current",
+      "providers": {
+        "fontAwesome": {
+          "name": "plane",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "luggage",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "daily-life.charity",
+      "label": {
+        "id": "Sedekah",
+        "en": "Charity"
+      },
+      "fallbackId": "worship.zakat",
+      "providers": {
+        "fontAwesome": {
+          "name": "hand-holding-heart",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "volunteer_activism",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "daily-life.health",
+      "label": {
+        "id": "Kesehatan",
+        "en": "Health"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "heart-pulse",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "health_and_safety",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "daily-life.sleep",
+      "label": {
+        "id": "Tidur",
+        "en": "Sleep"
+      },
+      "fallbackId": "general.home",
+      "providers": {
+        "fontAwesome": {
+          "name": "bed",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "bed",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "location.current",
+      "label": {
+        "id": "Lokasi saat ini",
+        "en": "Current location"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "location-crosshairs",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "my_location",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "location.mosque",
+      "label": {
+        "id": "Masjid",
+        "en": "Mosque"
+      },
+      "fallbackId": "location.current",
+      "providers": {
+        "fontAwesome": {
+          "name": "mosque",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "mosque",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "location.qibla",
+      "label": {
+        "id": "Arah kiblat",
+        "en": "Qibla direction"
+      },
+      "fallbackId": "location.current",
+      "providers": {
+        "fontAwesome": {
+          "name": "compass",
+          "style": "regular",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "explore",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "time.schedule",
+      "label": {
+        "id": "Jadwal",
+        "en": "Schedule"
+      },
+      "fallbackId": "general.info",
+      "providers": {
+        "fontAwesome": {
+          "name": "clock",
+          "style": "regular",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "schedule",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "time.calendar",
+      "label": {
+        "id": "Kalender",
+        "en": "Calendar"
+      },
+      "fallbackId": "time.schedule",
+      "providers": {
+        "fontAwesome": {
+          "name": "calendar-days",
+          "style": "regular",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "calendar_month",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "time.reminder",
+      "label": {
+        "id": "Pengingat",
+        "en": "Reminder"
+      },
+      "fallbackId": "time.schedule",
+      "providers": {
+        "fontAwesome": {
+          "name": "bell",
+          "style": "regular",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "notifications",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    },
+    {
+      "id": "time.history",
+      "label": {
+        "id": "Riwayat",
+        "en": "History"
+      },
+      "fallbackId": "time.schedule",
+      "providers": {
+        "fontAwesome": {
+          "name": "clock-rotate-left",
+          "style": "solid",
+          "provenance": {
+            "provider": "Fonticons, Inc.",
+            "sourceName": "Font Awesome Free",
+            "version": "6.7.2",
+            "license": "CC-BY-4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "attribution": "Font Awesome Free by Fonticons, Inc.",
+            "redistributable": true
+          }
+        },
+        "materialSymbols": {
+          "name": "history",
+          "style": "outlined",
+          "provenance": {
+            "provider": "Google",
+            "sourceName": "Material Symbols",
+            "version": "2026-01",
+            "license": "Apache-2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "attribution": "Material Symbols by Google",
+            "redistributable": true
+          }
+        }
+      }
+    }
+  ]
+}

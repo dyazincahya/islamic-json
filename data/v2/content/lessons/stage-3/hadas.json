@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.hadas",
+  "type": "lesson",
+  "slug": "hadas",
+  "title": {
+    "id": "Memahami hadas",
+    "en": "Understanding hadas"
+  },
+  "summary": {
+    "id": "Hadas adalah keadaan ritual yang memerlukan wudu, tayammum, atau ghusl sesuai sebab dan keadaan seseorang.",
+    "en": "Hadas is a ritual state requiring wudu, tayammum, or ghusl according to its cause and a person's circumstances."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 3,
+  "group": "purification",
+  "relationships": {
+    "prerequisites": [
+      "lesson.najis"
+    ],
+    "next": [
+      "lesson.wudu"
+    ],
+    "related": []
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.hadas.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Hadas adalah keadaan ritual yang memerlukan wudu, tayammum, atau ghusl sesuai sebab dan keadaan seseorang.",
+        "en": "Hadas is a ritual state requiring wudu, tayammum, or ghusl according to its cause and a person's circumstances."
+      }
+    },
+    {
+      "id": "block.hadas.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.hadas.1",
+          "text": {
+            "id": "Hadas berbeda dari najis: hadas adalah keadaan, sedangkan najis adalah zat.",
+            "en": "Hadas differs from najis: hadas is a state, while najis is a substance."
+          }
+        },
+        {
+          "id": "item.hadas.2",
+          "text": {
+            "id": "Hadas kecil umumnya disucikan dengan wudu dan hadas besar dengan ghusl.",
+            "en": "Minor hadas is generally lifted by wudu and major hadas by ghusl."
+          }
+        },
+        {
+          "id": "item.hadas.3",
+          "text": {
+            "id": "Tayammum menjadi pengganti yang diatur ketika air tidak tersedia atau tidak dapat digunakan.",
+            "en": "Tayammum is a regulated substitute when water is unavailable or cannot be used."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.hadas.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.hadas.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-5-6"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

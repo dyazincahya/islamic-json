@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.basic-transactions",
+  "type": "lesson",
+  "slug": "basic-transactions",
+  "title": {
+    "id": "Muamalah dan transaksi dasar",
+    "en": "Basic transactions"
+  },
+  "summary": {
+    "id": "Pastikan kerelaan serta kejelasan pihak, barang atau jasa, harga, dan kewajiban.",
+    "en": "Ensure consent and clarity about parties, goods or services, price, and obligations."
+  },
+  "status": "draft",
+  "iconId": "general.info",
+  "stageId": "stage.daily-life",
+  "stageOrder": 9,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-parents"],
+    "next": ["lesson.halal-food"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.basic-transactions-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.basic-transactions-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Transaksi dasar perlu jelas dan dicatat secara memadai agar hak setiap pihak terjaga.",
+        "en": "Basic transactions should be clear and adequately recorded to protect each partys rights."
+      }
+    },
+    {
+      "id": "block.basic-transactions-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.basic-transactions-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Pembeli dan penjual menyepakati harga, kondisi, penyerahan, dan pengembalian sebelum membayar.",
+        "en": "Buyer and seller agree on price, condition, delivery, and returns before payment."
+      }
+    },
+    {
+      "id": "block.basic-transactions-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.basic-transactions-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.basic-transactions-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Periksa pihak, objek, harga, dan kewajiban; tanyakan ahli untuk perkara rumit.",
+            "en": "Check parties, subject, price, and duties; consult an expert for complex matters."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.calculator",
+      "required": false
+    }
+  ]
+}

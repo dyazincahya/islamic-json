@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-waliyy",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-waliyy",
+  "title": {
+    "id": "Al-Waliyyu",
+    "en": "Al-Waliyy"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Waliyyu",
+    "en": "Al-Waliyy"
+  },
+  "arabic": "الْوَلِيُّ",
+  "transliteration": {
+    "id": "Al-Waliyyu",
+    "en": "Al-Waliyy"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-waliyy.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Melindungi",
+        "en": "The Protecting Friend"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

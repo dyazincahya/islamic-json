@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-latif",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-latif",
+  "title": {
+    "id": "Al-Lathîfu",
+    "en": "Al-Latif"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Lathîfu",
+    "en": "Al-Latif"
+  },
+  "arabic": "اللَّطِيْفُ",
+  "transliteration": {
+    "id": "Al-Lathîfu",
+    "en": "Al-Latif"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-latif.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahalembut",
+        "en": "The Most Subtle and Gentle"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

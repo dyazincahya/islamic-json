@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.following-sunnah",
+  "type": "lesson",
+  "slug": "following-sunnah",
+  "title": { "id": "Mengikuti Sunnah", "en": "Following the Sunnah" },
+  "summary": {
+    "id": "Mengenal Sunnah sebagai tuntunan Nabi Muhammad dalam memahami dan menjalankan Islam.",
+    "en": "Knowing the Sunnah as Prophet Muhammad's guidance for understanding and practicing Islam."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 4,
+  "group": "shahada-journey",
+  "relationships": {
+    "prerequisites": ["lesson.shahada", "lesson.prophet-muhammad"],
+    "next": ["lesson.understanding-hadith"],
+    "related": ["lesson.tawhid", "lesson.faith-in-messengers"]
+  },
+  "sourceIds": ["source.quran-33-21"],
+  "blocks": [
+    {
+      "id": "block.following-sunnah.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Mengikuti Sunnah berarti mempelajari dan meneladani tuntunan Nabi Muhammad dalam keyakinan, ibadah, dan akhlak berdasarkan riwayat yang dapat dipertanggungjawabkan.",
+        "en": "Following the Sunnah means learning and emulating Prophet Muhammad's guidance in belief, worship, and character through responsibly sourced reports."
+      }
+    },
+    {
+      "id": "block.following-sunnah.learning",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Untuk persoalan yang rumit, pelajar sebaiknya merujuk kepada sumber tepercaya dan orang berilmu.",
+        "en": "For complex questions, learners should consult reliable sources and qualified people of knowledge."
+      },
+      "iconId": "general.book"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami mengapa Muslim mempelajari dan mengikuti Sunnah.",
+      "en": "I understand why Muslims study and follow the Sunnah."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

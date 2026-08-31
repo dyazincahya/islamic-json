@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.going-to-mosque",
+  "type": "supplication",
+  "slug": "going-to-mosque",
+  "title": {
+    "id": "Doa Pergi Ke Masjid",
+    "en": "Supplication when going to the mosque"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 8,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.going-to-mosque",
+    "arabic": "اللَّهُمَّ اجْعَلْ فِى قَلْبِى نُورًا . وَفِى بَصَرِى نُورًا . وَفِى سَمْعِى نُورًا . وَعَنْ يَمِينِى نُورًا . وَعَنْ يَسَارِى نُورًا . وَفَوْقِى نُورًا . وَتَحْتِى نُورًا . وَأَمَامِى نُورًا . وَخَلْفِى نُورًا . وَاجْعَلْ لِى نُورًا",
+    "transliteration": {
+      "id": "alloohummaj’al fii qolbi nuuron. wa fii bashori nuuron. wa fii sam’i nuuron. wa ‘an yamiinii nuuron. wa ‘ay yasaarii nuuron. wa fauqi nuuron. wa tahti nuuron. wa amaamii nuuron. wakholqi nuuron. waj’al lii nuuron",
+      "en": "alloohummaj’al fii qolbi nuuron. wa fii bashori nuuron. wa fii sam’i nuuron. wa ‘an yamiinii nuuron. wa ‘ay yasaarii nuuron. wa fauqi nuuron. wa tahti nuuron. wa amaamii nuuron. wakholqi nuuron. waj’al lii nuuron"
+    },
+    "translation": {
+      "id": "Ya Allah, jadikanlah di dalam hatiku cahaya. Dalam penglihatanku cahaya. Pada pendengaranku cahaya. Sebelah kananku cahaya. Sebelah kiriku cahaya. Atasku cahaya. Bawahku cahaya. Depanku cahaya. Belakangku cahaya. Dan berikanlah cahaya kepadaku.",
+      "en": "O Allah, place light in my heart, light in my sight, light in my hearing, light on my right, light on my left, light above me, light below me, light before me, light behind me, and grant me light."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "location.mosque"
+}

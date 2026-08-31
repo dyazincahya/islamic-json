@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-eating",
+  "type": "lesson",
+  "slug": "daily-eating",
+  "title": {
+    "id": "Makan dan minum",
+    "en": "Eating and drinking"
+  },
+  "summary": {
+    "id": "Padukan syukur, adab, kecukupan, dan hindari pemborosan.",
+    "en": "Combine gratitude, manners, sufficiency, and avoid waste."
+  },
+  "status": "draft",
+  "iconId": "daily-life.food",
+  "stageId": "stage.daily-life",
+  "stageOrder": 4,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.morning-evening-dhikr"],
+    "next": ["lesson.daily-sleeping"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-eating-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-eating-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Kebiasaan makan seorang Muslim menjaga rasa syukur, kecukupan, dan kepedulian.",
+        "en": "A Muslims eating habits maintain gratitude, sufficiency, and care."
+      }
+    },
+    {
+      "id": "block.daily-eating-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-eating-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Saat makan bersama, seseorang mengambil porsi wajar agar orang lain juga memperoleh bagian.",
+        "en": "When sharing a meal, a person takes a reasonable portion so others also receive a share."
+      }
+    },
+    {
+      "id": "block.daily-eating-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-eating-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-eating-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Rencanakan satu waktu makan dengan porsi cukup dan pengelolaan sisa yang baik.",
+            "en": "Plan one meal with a sufficient portion and responsible handling of leftovers."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-bari",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-bari",
+  "title": {
+    "id": "Al-Bâri’u",
+    "en": "Al-Bari'"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Bâri’u",
+    "en": "Al-Bari'"
+  },
+  "arabic": "الْبَارِئُ",
+  "transliteration": {
+    "id": "Al-Bâri’u",
+    "en": "Al-Bari'"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-bari.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Melepaskan",
+        "en": "The Originator"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

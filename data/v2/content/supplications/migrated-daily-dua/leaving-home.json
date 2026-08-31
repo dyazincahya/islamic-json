@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.leaving-home",
+  "type": "supplication",
+  "slug": "leaving-home",
+  "title": {
+    "id": "Doa Keluar Rumah",
+    "en": "Supplication upon leaving the home"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 16,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.leaving-home",
+    "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+    "transliteration": {
+      "id": "bismillaah, tawakkaltu 'alallaah, laa haula wa laa quwwata illaa billaah",
+      "en": "bismillaah, tawakkaltu 'alallaah, laa haula wa laa quwwata illaa billaah"
+    },
+    "translation": {
+      "id": "Dengan nama Allah, aku bertawakkal kepada Allah, tiada daya dan kekuatan kecuali dengan pertolongan Allah.",
+      "en": "In the name of Allah, I place my trust in Allah. There is no power or strength except through Allah."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.leaving-home.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud dan at-Tirmidzi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud dan at-Tirmidzi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "general.home",
+  "benefits": {
+    "id": "Barang siapa yang membaca doa tersebut maka dikatakan kepadanya: \"Engkau akan diberi petunjuk, dicukupkan dan dijaga\". Syaitan pun akan menyingkir darinya. Syaitan yang lain akan mengatakan: \"Bagaimana mungkin engkau bisa mengganggu seseorang yang telah mendapatkan petunjuk, kecukupan dan penjagaan?!\"",
+    "en": "The legacy note states that the one who recites this is told that they are guided, sufficed, and protected, and that Satan withdraws from them."
+  }
+}

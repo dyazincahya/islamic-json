@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.remembering-basmala-during-meal",
+  "type": "supplication",
+  "slug": "remembering-basmala-during-meal",
+  "title": {
+    "id": "Doa Jika Terlupa Basmallah Diawal Makan",
+    "en": "Supplication when the basmala was forgotten at the start of a meal"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 6,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.remembering-basmala-during-meal",
+    "arabic": "بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ",
+    "transliteration": {
+      "id": "bismillahi awwaluhu wa aakhiruhu",
+      "en": "bismillahi awwaluhu wa aakhiruhu"
+    },
+    "translation": {
+      "id": "Dengan menyebut nama Allah, untuk awal dan akhir (makan).",
+      "en": "In the name of Allah at its beginning and its end."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.remembering-basmala-during-meal.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.food",
+  "benefits": {
+    "id": "Islam sangat memperhatikan adab, sekiranya anak adam lupa membaca doa makan di awal tetap dianjurkan membaca doa di pertengahan walaupun tersisa sesendok nasi.",
+    "en": "Islam gives close attention to manners; when someone forgets the supplication at the beginning of a meal, it is still recommended during the meal, even when little food remains."
+  }
+}

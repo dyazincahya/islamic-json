@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mumit",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mumit",
+  "title": {
+    "id": "Al-Mumîtu",
+    "en": "Al-Mumit"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mumîtu",
+    "en": "Al-Mumit"
+  },
+  "arabic": "الْمُمِيْتُ",
+  "transliteration": {
+    "id": "Al-Mumîtu",
+    "en": "Al-Mumit"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mumit.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mematikan",
+        "en": "The Bringer of Death"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

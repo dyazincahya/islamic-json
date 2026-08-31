@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.after-wudu",
+  "type": "supplication",
+  "slug": "after-wudu",
+  "title": {
+    "id": "Doa Sesudah Berwudhu",
+    "en": "Supplication after wudu"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 12,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.after-wudu",
+    "arabic": "أشْهَدُ أنْ لا إله إِلاَّ اللَّهُ وَحْدَهُ لا شَرِيك لَهُ ، وأشْهَدُ أنَّ مُحَمَّداً عَبْدُهُ وَرَسُولُهُ ، اللَّهُمَّ اجْعَلْنِي مِنَ التَوَّابِينَ ، واجْعَلْني مِنَ المُتَطَهِّرِينَ ، سُبْحانَكَ اللَّهُمَّ وبِحَمْدِكَ ، أشْهَدُ أنْ لا إلهَ إِلاَّ أنْتَ ، أسْتَغْفِرُكَ وأتُوبُ إِلَيْكَ",
+    "transliteration": {
+      "id": "asyhadu an laa ilaaha illa allah wadahu laa syariika lahu, wa asyhadu anna muhammadan 'abduhu wa rasuuluhu. allahummaj 'alni minat tawwaabiina waj 'alnii minal mutathaahiriina. subhaanaka allahumma wa bihamdika asyhadu an laa ilaaha illa anta astaghfiruka wa atuubu ilaika",
+      "en": "asyhadu an laa ilaaha illa allah wadahu laa syariika lahu, wa asyhadu anna muhammadan 'abduhu wa rasuuluhu. allahummaj 'alni minat tawwaabiina waj 'alnii minal mutathaahiriina. subhaanaka allahumma wa bihamdika asyhadu an laa ilaaha illa anta astaghfiruka wa atuubu ilaika"
+    },
+    "translation": {
+      "id": "Aku bersaksi bahwa tidak ada tuhan selain Allah semata yang tidak ada sekutu bagi-Nya dan aku pun bersaksi bahwa Muhammad adalah hamba sekaligus Rasul utusan-Nya. Ya Allah, jadikanlah aku termasuk orang-orang yang bertaubat dan jadikanlah aku termasuk orang-orang yang bersuci. Maha Suci Engkau wahai tuhan kami dan segala puji bagi-Mu. Aku bersaksi bahwa tiada tuhan selain Engkau. Aku memohon ampunan dan bertaubat kepada-Mu.",
+      "en": "I testify that there is no deity except Allah alone, with no partner, and I testify that Muhammad is His servant and messenger. O Allah, make me among those who repent and make me among those who purify themselves. Glory and praise are Yours, O Allah. I testify that there is no deity except You. I seek Your forgiveness and repent to You."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.after-wudu.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Muslim, at-Tirmidzi dan an-Nasa'i. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Muslim, at-Tirmidzi dan an-Nasa'i. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "purification.wudu",
+  "benefits": {
+    "id": "Barang siapa yang mengucapkan doa tersebut maka akan dibukakan baginya delapan pintu Surga. Dia memasukinya dari arah mana saja yang ia kehendaki.",
+    "en": "The legacy note states that whoever recites this supplication will have the eight gates of Paradise opened and may enter through whichever one is desired."
+  }
+}

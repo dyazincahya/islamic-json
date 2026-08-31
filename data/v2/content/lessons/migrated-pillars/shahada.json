@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.migrated-shahada",
+  "type": "lesson",
+  "slug": "migrated-shahada",
+  "title": { "id": "Syahadat", "en": "Shahada" },
+  "summary": { "id": "Migrasi bacaan dan penjelasan syahadat dari data pilar Islam lama.", "en": "A migration of the Shahada recitation and explanation from the legacy pillars data." },
+  "status": "under-review",
+  "iconId": "faith.shahada",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 2,
+  "group": "migrated-pillars",
+  "sourceIds": ["source.hadith-bukhari-8"],
+  "featureLinks": [
+    { "featureId": "feature.audio", "label": { "id": "Dengarkan pelafalan syahadat", "en": "Listen to the Shahada pronunciation" }, "required": false, "parameters": { "contentId": "recitation.migrated-shahada" } }
+  ],
+  "blocks": [
+    {
+      "id": "block.migrated-shahada.recitation",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-shahada",
+        "arabic": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُوْلُ الله",
+        "transliteration": { "id": "Asyhadu an laa ilaaha illallaahu, wa asyhadu anna Muhammadar rasuulullah.", "en": "Ashhadu an la ilaha illallah, wa ashhadu anna Muhammadan rasulullah." },
+        "translation": { "id": "Aku bersaksi bahwa tidak ada Tuhan yang berhak disembah selain Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah.", "en": "I testify that none is worthy of worship except Allah, and I testify that Muhammad is the Messenger of Allah." },
+        "sourceIds": ["source.hadith-bukhari-8"]
+      }
+    },
+    { "id": "block.migrated-shahada.meaning-heading", "type": "heading", "level": 2, "text": { "id": "Makna syahadat", "en": "The meaning of Shahada" } },
+    { "id": "block.migrated-shahada.meaning", "type": "paragraph", "text": { "id": "Syahadat adalah kesaksian atau ikrar yang merupakan rukun Islam pertama. Dua kalimat kesaksian ini menjadi dasar keimanan seorang Muslim.", "en": "The Shahada is a testimony or pledge that constitutes the first pillar of Islam. Its two testimonial statements form the foundation of a Muslim's faith." } },
+    { "id": "block.migrated-shahada.entry", "type": "paragraph", "text": { "id": "Syahadat merupakan pintu masuk seseorang ke dalam Islam. Dengan mengucapkannya dengan penuh keyakinan, seseorang menyatakan dirinya sebagai seorang Muslim.", "en": "The Shahada is the gateway through which a person enters Islam. By reciting it with full conviction, a person declares themselves a Muslim." } },
+    {
+      "id": "block.migrated-shahada.parts",
+      "type": "ordered-list",
+      "items": [
+        { "id": "item.migrated-shahada.tawhid", "text": { "id": "Syahadat tauhid: kesaksian bahwa tidak ada Tuhan yang berhak disembah selain Allah.", "en": "Testimony of tawhid: the testimony that none is worthy of worship except Allah." } },
+        { "id": "item.migrated-shahada.messenger", "text": { "id": "Syahadat rasul: kesaksian bahwa Muhammad adalah utusan Allah.", "en": "Testimony of the Messenger: the testimony that Muhammad is the Messenger of Allah." } }
+      ]
+    }
+  ],
+  "completionPrompt": { "type": "acknowledgement", "label": { "id": "Saya memahami dua bagian syahadat dan makna dasarnya.", "en": "I understand the two parts of the Shahada and their basic meaning." } },
+  "review": {
+    "content": { "outcome": "pending", "notes": { "id": "Bacaan dan penjelasan hasil migrasi menunggu verifikasi isi.", "en": "The migrated recitation and explanation await content verification." } },
+    "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } }
+  }
+}

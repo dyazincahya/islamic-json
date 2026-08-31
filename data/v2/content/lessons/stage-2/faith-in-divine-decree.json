@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.faith-in-divine-decree",
+  "type": "lesson",
+  "slug": "faith-in-divine-decree",
+  "title": { "id": "Iman kepada takdir", "en": "Faith in divine decree" },
+  "summary": {
+    "id": "Pilar iman keenam: beriman kepada ketetapan Allah sambil tetap berusaha dan bertanggung jawab.",
+    "en": "The sixth pillar of faith: believing in Allah's decree while continuing to strive and act responsibly."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 11,
+  "group": "pillars-of-faith",
+  "relationships": {
+    "prerequisites": ["lesson.faith-in-last-day"],
+    "next": [],
+    "related": ["lesson.faith-in-allah", "lesson.purpose-of-worship"]
+  },
+  "sourceIds": ["source.hadith-muslim-8a", "source.hadith-nawawi-2"],
+  "blocks": [
+    {
+      "id": "block.faith-in-divine-decree.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Iman kepada takdir berarti meyakini bahwa pengetahuan dan ketetapan Allah meliputi segala sesuatu. Manusia tetap diperintahkan untuk memilih kebaikan, berusaha, berdoa, dan bertanggung jawab atas tindakannya.",
+        "en": "Faith in divine decree means believing that Allah's knowledge and decree encompass all things. People are still commanded to choose good, strive, pray, and take responsibility for their actions."
+      }
+    },
+    {
+      "id": "block.faith-in-divine-decree.boundary",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Topik ini luas. Draf dasar ini menghindari rincian yang diperselisihkan dan memerlukan penelaahan sebelum diperdalam.",
+        "en": "This is a broad topic. This foundational draft avoids disputed details and requires review before deeper treatment."
+      },
+      "iconId": "general.info"
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Saya memahami keseimbangan dasar dalam pelajaran ini",
+      "en": "I understand the basic balance in this lesson"
+    },
+    "items": [
+      {
+        "id": "completion.faith-in-divine-decree.belief",
+        "label": {
+          "id": "Saya mengakui pengetahuan dan ketetapan Allah.",
+          "en": "I affirm Allah's knowledge and decree."
+        }
+      },
+      {
+        "id": "completion.faith-in-divine-decree.effort",
+        "label": {
+          "id": "Saya memahami kewajiban untuk tetap berusaha dan bertanggung jawab.",
+          "en": "I understand the duty to keep striving and acting responsibly."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

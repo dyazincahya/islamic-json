@@ -1,0 +1,433 @@
+{
+  "schemaVersion": "2.0",
+  "type": "source-registry",
+  "sources": [
+    {
+      "id": "source.quran-1-1",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Fatihah 1:1",
+        "en": "Quran, Al-Fatihah 1:1"
+      },
+      "locator": { "surah": 1, "ayah": 1 }
+    },
+    {
+      "id": "source.quran-2-21-22",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:21-22",
+        "en": "Quran, Al-Baqarah 2:21-22"
+      },
+      "locator": { "surah": 2, "ayah": 21, "ayahEnd": 22 }
+    },
+    {
+      "id": "source.quran-2-183",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:183",
+        "en": "Quran, Al-Baqarah 2:183"
+      },
+      "locator": { "surah": 2, "ayah": 183 }
+    },
+    {
+      "id": "source.quran-2-255",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:255",
+        "en": "Quran, Al-Baqarah 2:255"
+      },
+      "locator": { "surah": 2, "ayah": 255 }
+    },
+    {
+      "id": "source.quran-2-286",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:286",
+        "en": "Quran, Al-Baqarah 2:286"
+      },
+      "locator": { "surah": 2, "ayah": 286 }
+    },
+    {
+      "id": "source.quran-3-18",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Ali 'Imran 3:18",
+        "en": "Quran, Ali 'Imran 3:18"
+      },
+      "locator": { "surah": 3, "ayah": 18 }
+    },
+    {
+      "id": "source.quran-5-6",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Ma'idah 5:6",
+        "en": "Quran, Al-Ma'idah 5:6"
+      },
+      "locator": { "surah": 5, "ayah": 6 }
+    },
+    {
+      "id": "source.quran-7-180",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-A'raf 7:180",
+        "en": "Quran, Al-A'raf 7:180"
+      },
+      "locator": { "surah": 7, "ayah": 180 }
+    },
+    {
+      "id": "source.quran-9-60",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, At-Tawbah 9:60",
+        "en": "Quran, At-Tawbah 9:60"
+      },
+      "locator": { "surah": 9, "ayah": 60 }
+    },
+    {
+      "id": "source.quran-16-90",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, An-Nahl 16:90",
+        "en": "Quran, An-Nahl 16:90"
+      },
+      "locator": { "surah": 16, "ayah": 90 }
+    },
+    {
+      "id": "source.quran-17-23-24",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Isra 17:23-24",
+        "en": "Quran, Al-Isra 17:23-24"
+      },
+      "locator": { "surah": 17, "ayah": 23, "ayahEnd": 24 }
+    },
+    {
+      "id": "source.quran-20-14",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Taha 20:14",
+        "en": "Quran, Taha 20:14"
+      },
+      "locator": { "surah": 20, "ayah": 14 }
+    },
+    {
+      "id": "source.quran-33-21",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Ahzab 33:21",
+        "en": "Quran, Al-Ahzab 33:21"
+      },
+      "locator": { "surah": 33, "ayah": 21 }
+    },
+    {
+      "id": "source.quran-49-13",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Hujurat 49:13",
+        "en": "Quran, Al-Hujurat 49:13"
+      },
+      "locator": { "surah": 49, "ayah": 13 }
+    },
+    {
+      "id": "source.quran-51-56",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Adh-Dhariyat 51:56",
+        "en": "Quran, Adh-Dhariyat 51:56"
+      },
+      "locator": { "surah": 51, "ayah": 56 }
+    },
+    {
+      "id": "source.quran-96-1-5",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-'Alaq 96:1-5",
+        "en": "Quran, Al-'Alaq 96:1-5"
+      },
+      "locator": { "surah": 96, "ayah": 1, "ayahEnd": 5 }
+    },
+    {
+      "id": "source.quran-112-1-4",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Ikhlas 112:1-4",
+        "en": "Quran, Al-Ikhlas 112:1-4"
+      },
+      "locator": { "surah": 112, "ayah": 1, "ayahEnd": 4 }
+    },
+    {
+      "id": "source.quran-2-43",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:43",
+        "en": "Quran, Al-Baqarah 2:43"
+      },
+      "locator": { "surah": 2, "ayah": 43 }
+    },
+    {
+      "id": "source.quran-2-184",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:184",
+        "en": "Quran, Al-Baqarah 2:184"
+      },
+      "locator": { "surah": 2, "ayah": 184 }
+    },
+    {
+      "id": "source.quran-2-185",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:185",
+        "en": "Quran, Al-Baqarah 2:185"
+      },
+      "locator": { "surah": 2, "ayah": 185 }
+    },
+    {
+      "id": "source.quran-2-187",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:187",
+        "en": "Quran, Al-Baqarah 2:187"
+      },
+      "locator": { "surah": 2, "ayah": 187 }
+    },
+    {
+      "id": "source.quran-2-196",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:196",
+        "en": "Quran, Al-Baqarah 2:196"
+      },
+      "locator": { "surah": 2, "ayah": 196 }
+    },
+    {
+      "id": "source.quran-2-197",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:197",
+        "en": "Quran, Al-Baqarah 2:197"
+      },
+      "locator": { "surah": 2, "ayah": 197 }
+    },
+    {
+      "id": "source.quran-2-201",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:201",
+        "en": "Quran, Al-Baqarah 2:201"
+      },
+      "locator": { "surah": 2, "ayah": 201 }
+    },
+    {
+      "id": "source.quran-2-222",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:222",
+        "en": "Quran, Al-Baqarah 2:222"
+      },
+      "locator": { "surah": 2, "ayah": 222 }
+    },
+    {
+      "id": "source.quran-2-267",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Baqarah 2:267",
+        "en": "Quran, Al-Baqarah 2:267"
+      },
+      "locator": { "surah": 2, "ayah": 267 }
+    },
+    {
+      "id": "source.quran-3-97",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Ali 'Imran 3:97",
+        "en": "Quran, Ali 'Imran 3:97"
+      },
+      "locator": { "surah": 3, "ayah": 97 }
+    },
+    {
+      "id": "source.quran-4-103",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, An-Nisa 4:103",
+        "en": "Quran, An-Nisa 4:103"
+      },
+      "locator": { "surah": 4, "ayah": 103 }
+    },
+    {
+      "id": "source.quran-9-103",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, At-Tawbah 9:103",
+        "en": "Quran, At-Tawbah 9:103"
+      },
+      "locator": { "surah": 9, "ayah": 103 }
+    },
+    {
+      "id": "source.quran-17-79",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Isra 17:79",
+        "en": "Quran, Al-Isra 17:79"
+      },
+      "locator": { "surah": 17, "ayah": 79 }
+    },
+    {
+      "id": "source.quran-74-4",
+      "type": "quran-reference",
+      "citationLabel": {
+        "id": "Al-Qur'an, Al-Muddaththir 74:4",
+        "en": "Quran, Al-Muddaththir 74:4"
+      },
+      "locator": { "surah": 74, "ayah": 4 }
+    },
+    {
+      "id": "source.bukhari-1",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 1: amal bergantung pada niat",
+        "en": "Sahih al-Bukhari no. 1: actions depend on intentions"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 1 }
+    },
+    {
+      "id": "source.bukhari-8",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 8: Islam dibangun atas lima perkara",
+        "en": "Sahih al-Bukhari no. 8: Islam is built on five"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 8 }
+    },
+    {
+      "id": "source.hadith-bukhari-8",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 8: Islam dibangun atas lima perkara",
+        "en": "Sahih al-Bukhari no. 8: Islam is built on five"
+      },
+      "notes": {
+        "id": "ID kompatibilitas untuk konten migrasi; gunakan source.bukhari-8 untuk konten baru.",
+        "en": "Compatibility ID for migrated content; use source.bukhari-8 for new content."
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 8 }
+    },
+    {
+      "id": "source.hadith-bukhari-10",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 10: menjaga lisan dan tangan",
+        "en": "Sahih al-Bukhari no. 10: guarding the tongue and hand"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 10 }
+    },
+    {
+      "id": "source.hadith-bukhari-13",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 13: mencintai kebaikan bagi sesama",
+        "en": "Sahih al-Bukhari no. 13: loving good for others"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 13 }
+    },
+    {
+      "id": "source.hadith-bukhari-6018",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 6018: berkata baik atau diam",
+        "en": "Sahih al-Bukhari no. 6018: speak good or remain silent"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 6018 }
+    },
+    {
+      "id": "source.hadith-bukhari-6114",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 6114: jangan marah",
+        "en": "Sahih al-Bukhari no. 6114: do not become angry"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 6114 }
+    },
+    {
+      "id": "source.bukhari-6327",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih al-Bukhari no. 6327: doa memohon ampun setelah mengakui kezaliman diri",
+        "en": "Sahih al-Bukhari no. 6327: a supplication for forgiveness after acknowledging one's wrongdoing"
+      },
+      "locator": { "collection": "Sahih al-Bukhari", "number": 6327 }
+    },
+    {
+      "id": "source.muslim-8",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih Muslim no. 8: hadis Jibril tentang Islam, iman, dan ihsan",
+        "en": "Sahih Muslim no. 8: the Gabriel hadith on Islam, faith, and excellence"
+      },
+      "locator": { "collection": "Sahih Muslim", "number": 8 }
+    },
+    {
+      "id": "source.hadith-muslim-8a",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih Muslim no. 8a: hadis Jibril tentang Islam, iman, dan ihsan",
+        "en": "Sahih Muslim no. 8a: the Gabriel hadith on Islam, faith, and excellence"
+      },
+      "locator": { "collection": "Sahih Muslim", "number": "8a" }
+    },
+    {
+      "id": "source.muslim-713",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih Muslim no. 713: salat dua rakaat ketika memasuki masjid",
+        "en": "Sahih Muslim no. 713: praying two rak'ahs upon entering a mosque"
+      },
+      "locator": { "collection": "Sahih Muslim", "number": 713 }
+    },
+    {
+      "id": "source.hadith-muslim-223",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih Muslim no. 223: bersuci adalah separuh iman",
+        "en": "Sahih Muslim no. 223: purification is half of faith"
+      },
+      "locator": { "collection": "Sahih Muslim", "number": 223 }
+    },
+    {
+      "id": "source.hadith-muslim-2699",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Sahih Muslim no. 2699: menempuh jalan untuk mencari ilmu",
+        "en": "Sahih Muslim no. 2699: following a path to seek knowledge"
+      },
+      "locator": { "collection": "Sahih Muslim", "number": 2699 }
+    },
+    {
+      "id": "source.hadith-tirmidhi-1956",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Jami' at-Tirmidhi no. 1956: senyum sebagai sedekah",
+        "en": "Jami' at-Tirmidhi no. 1956: a smile as charity"
+      },
+      "locator": { "collection": "Jami' at-Tirmidhi", "number": 1956 }
+    },
+    {
+      "id": "source.hadith-tirmidhi-2516",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Jami' at-Tirmidhi no. 2516: menjaga Allah dan bertawakal",
+        "en": "Jami' at-Tirmidhi no. 2516: mindfulness of Allah and reliance"
+      },
+      "locator": { "collection": "Jami' at-Tirmidhi", "number": 2516 }
+    },
+    {
+      "id": "source.hadith-nawawi-2",
+      "type": "hadith-reference",
+      "citationLabel": {
+        "id": "Hadis Arbain an-Nawawi no. 2: Islam, iman, dan ihsan",
+        "en": "Nawawi's Forty Hadith no. 2: Islam, faith, and excellence"
+      },
+      "locator": { "collection": "Al-Arba'in al-Nawawiyyah", "number": 2 }
+    }
+  ]
+}

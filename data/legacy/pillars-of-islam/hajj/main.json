@@ -1,0 +1,184 @@
+[
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Persiapan dan Ihram",
+            "en": "Preparation and Ihram"
+        },
+        "content": {
+            "context": {
+                "id": "Mandi, berwudu, memakai pakaian ihram di miqat.",
+                "en": "Take a bath, perform ablution, and wear ihram clothing at the miqat."
+            },
+            "arrabic": "نَوَيْتُ الْحَجَّ وَأَحْرَمْتُ بِهِ لِلّٰهِ تَعَالَى"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Talbiyah",
+            "en": "Talbiyah"
+        },
+        "content": {
+            "context": {
+                "id": "Memperbanyak talbiyah selama perjalanan.",
+                "en": "Increase the recitation of talbiyah during the journey."
+            },
+            "arrabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيْكَ لَكَ لَبَّيْكَ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Tawaf Qudum",
+            "en": "Tawaf Qudum"
+        },
+        "content": {
+            "context": {
+                "id": "Mengelilingi Ka’bah 7 kali, dimulai dari Hajar Aswad.",
+                "en": "Circling the Kaaba 7 times, starting from the Black Stone."
+            },
+            "arrabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Sa’i Shafa-Marwah",
+            "en": "Sa’i Shafa-Marwah"
+        },
+        "content": {
+            "context": {
+                "id": "Berjalan 7 kali antara Shafa dan Marwah.",
+                "en": "Walk 7 times between Safa and Marwah."
+            },
+            "arrabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Wukuf di Arafah",
+            "en": "Wukuf in Arafah"
+        },
+        "content": {
+            "context": {
+                "id": "Berdiam diri di Arafah, berzikir dan berdoa.",
+                "en": "Staying still in Arafah, remembering Allah and praying."
+            },
+            "arrabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Mabit di Muzdalifah",
+            "en": "Mabit in Muzdalifah"
+        },
+        "content": {
+            "context": {
+                "id": "Bermalam di Muzdalifah, mengumpulkan batu.",
+                "en": "Spending the night in Muzdalifah, collecting stones."
+            },
+            "arrabic": "اللَّهُمَّ لَكَ الْحَمْدُ كَمَا نَقُولُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Lempar Jumrah Aqabah",
+            "en": "Throw pebbles at Jamarat Aqabah."
+        },
+        "content": {
+            "context": {
+                "id": "Melempar 7 batu ke Jumrah Aqabah di Mina.",
+                "en": "Throwing 7 stones at Jamarat Aqabah in Mina."
+            },
+            "arrabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Tahallul Awal",
+            "en": "Initial Tahallul"
+        },
+        "content": {
+            "context": {
+                "id": "Mencukur atau memotong rambut setelah Jumrah.",
+                "en": "Shaving or cutting hair after Jumrah."
+            },
+            "arrabic": ""
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Tawaf Ifadah",
+            "en": "Tawaf Ifadah"
+        },
+        "content": {
+            "context": {
+                "id": "Mengelilingi Ka’bah 7 kali sebagai rukun haji.",
+                "en": "Circumambulating the Kaaba 7 times as a pillar of Hajj."
+            },
+            "arrabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Sa’i (Jika Belum)",
+            "en": "Sa’i (If Not Yet)"
+        },
+        "content": {
+            "context": {
+                "id": "Sa’i setelah tawaf ifadah untuk haji tamattu’.",
+                "en": "Sa’i after tawaf ifadah for hajj tamattu’."
+            },
+            "arrabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Mabit di Mina",
+            "en": "Mabit in Mina"
+        },
+        "content": {
+            "context": {
+                "id": "Bermalam di Mina, lempar tiga jumrah.",
+                "en": "Stay overnight in Mina, throw stones at the three jamarat."
+            },
+            "arrabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Tahallul Tsani",
+            "en": "Tahallul Tsani"
+        },
+        "content": {
+            "context": {
+                "id": "Mencukur rambut lagi, semua larangan ihram dihalalkan.",
+                "en": "Shaving the hair again, all ihram prohibitions are lifted."
+            },
+            "arrabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ"
+        }
+    },
+    {
+        "icon": "fas fa-kaaba",
+        "title": {
+            "id": "Tawaf Wada",
+            "en": "Tawaf Wada"
+        },
+        "content": {
+            "context": {
+                "id": "Tawaf perpisahan sebelum meninggalkan Makkah.",
+                "en": "Farewell tawaf before leaving Mecca."
+            },
+            "arrabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ"
+        }
+    }
+]

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.purification-prayer",
+  "itemType": "lesson",
+  "title": {
+    "id": "Bersuci dan salat",
+    "en": "Purification and prayer"
+  },
+  "items": [
+    {
+      "id": "lesson.cleanliness",
+      "type": "lesson",
+      "slug": "cleanliness",
+      "status": "draft",
+      "path": "content/lessons/stage-3/cleanliness.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 1,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.migrated-five-obligatory-prayers",
+      "type": "lesson",
+      "slug": "migrated-five-obligatory-prayers",
+      "status": "draft",
+      "path": "content/lessons/migrated-pillars/five-obligatory-prayers.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 1,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "lesson.najis",
+      "type": "lesson",
+      "slug": "najis",
+      "status": "draft",
+      "path": "content/lessons/stage-3/najis.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 2,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.hadas",
+      "type": "lesson",
+      "slug": "hadas",
+      "status": "draft",
+      "path": "content/lessons/stage-3/hadas.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 3,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.wudu",
+      "type": "lesson",
+      "slug": "wudu",
+      "status": "draft",
+      "path": "content/lessons/stage-3/wudu.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 4,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.tayammum",
+      "type": "lesson",
+      "slug": "tayammum",
+      "status": "draft",
+      "path": "content/lessons/stage-3/tayammum.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 5,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.ghusl",
+      "type": "lesson",
+      "slug": "ghusl",
+      "status": "draft",
+      "path": "content/lessons/stage-3/ghusl.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 6,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.prayer-times",
+      "type": "lesson",
+      "slug": "prayer-times",
+      "status": "draft",
+      "path": "content/lessons/stage-3/prayer-times.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 7,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.prayer-movements",
+      "type": "lesson",
+      "slug": "prayer-movements",
+      "status": "draft",
+      "path": "content/lessons/stage-3/prayer-movements.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 8,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.prayer-recitations",
+      "type": "lesson",
+      "slug": "prayer-recitations",
+      "status": "draft",
+      "path": "content/lessons/stage-3/prayer-recitations.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 9,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.five-obligatory-prayers",
+      "type": "lesson",
+      "slug": "five-obligatory-prayers",
+      "status": "draft",
+      "path": "content/lessons/stage-3/five-obligatory-prayers.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 10,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.congregational-prayer",
+      "type": "lesson",
+      "slug": "congregational-prayer",
+      "status": "draft",
+      "path": "content/lessons/stage-3/congregational-prayer.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 11,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.voluntary-prayer",
+      "type": "lesson",
+      "slug": "voluntary-prayer",
+      "status": "draft",
+      "path": "content/lessons/stage-3/voluntary-prayer.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 12,
+      "group": "prayer"
+    }
+  ]
+}

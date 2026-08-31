@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Sunnah Ayyamul Bidh",
+        "en": "Niyyah Fasting Sunnah Ayyamul Bidh"
+    },
+    "content": {
+        "arrabic": "نَوَيْتُ صَوْمَ اَيَّامَ اْلبِيْضِ سُنَّةً لِلهِ تَعَالَى",
+        "latin": "Nawaitu sauma Ayyaamal Bidh sunnatan lillâhi ta‘âlâ.",
+        "translation": {
+            "id": "Saya niat puasa Ayyamul Bidh, sunnah karena Allah ta’âlâ.",
+            "en": "I intend to fast Ayyamul Bidh, a sunnah practice for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

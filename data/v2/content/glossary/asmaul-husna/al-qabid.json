@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-qabid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-qabid",
+  "title": {
+    "id": "Al-Qâbidlu",
+    "en": "Al-Qabid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Qâbidlu",
+    "en": "Al-Qabid"
+  },
+  "arabic": "الْقَابِضُ",
+  "transliteration": {
+    "id": "Al-Qâbidlu",
+    "en": "Al-Qabid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-qabid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Menyempitkan (makhluknya)",
+        "en": "The Withholder"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-azim",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-azim",
+  "title": {
+    "id": "Al-`Adhîmu",
+    "en": "Al-'Azim"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-`Adhîmu",
+    "en": "Al-'Azim"
+  },
+  "arabic": "الْعَظِيْمُ",
+  "transliteration": {
+    "id": "Al-`Adhîmu",
+    "en": "Al-'Azim"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-azim.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahaagung",
+        "en": "The Magnificent"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-2-255"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

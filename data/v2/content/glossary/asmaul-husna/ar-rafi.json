@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ar-rafi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ar-rafi",
+  "title": {
+    "id": "Ar-Râfi`u",
+    "en": "Ar-Rafi'"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Ar-Râfi`u",
+    "en": "Ar-Rafi'"
+  },
+  "arabic": "الرَّافِعُ",
+  "transliteration": {
+    "id": "Ar-Râfi`u",
+    "en": "Ar-Rafi'"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ar-rafi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Meninggikan (makhluknya)",
+        "en": "The Exalter"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

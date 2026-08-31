@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.dhul-jalali-wal-ikram",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-dhul-jalali-wal-ikram",
+  "title": {
+    "id": "Dzul-Jalâli wal-Ikram",
+    "en": "Dhul-Jalali wal-Ikram"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Dzul-Jalâli wal-Ikram",
+    "en": "Dhul-Jalali wal-Ikram"
+  },
+  "arabic": "ذُوْ الْجَلَالِ وَالْاِكْرَامِ",
+  "transliteration": {
+    "id": "Dzul-Jalâli wal-Ikram",
+    "en": "Dhul-Jalali wal-Ikram"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.dhul-jalali-wal-ikram.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemilik Kebesaran dan Kemuliaan",
+        "en": "The Possessor of Majesty and Honour"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

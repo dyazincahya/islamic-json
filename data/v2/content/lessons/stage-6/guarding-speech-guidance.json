@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.guarding-speech-guidance",
+  "type": "lesson",
+  "slug": "guarding-speech-guidance",
+  "title": {
+    "id": "Menjaga ucapan",
+    "en": "Guarding speech"
+  },
+  "summary": {
+    "id": "Pilih kata yang benar, bermanfaat, dan tidak menyakiti.",
+    "en": "Choose words that are truthful, beneficial, and not harmful."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 3,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.honesty-guidance"],
+    "next": ["lesson.parents-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.guarding-speech-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.guarding-speech-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Ucapan dijaga dengan memilih kata yang benar, bermanfaat, dan tidak membuka aib.",
+        "en": "Speech is guarded by choosing words that are truthful, beneficial, and do not expose faults."
+      }
+    },
+    {
+      "id": "block.guarding-speech-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.guarding-speech-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang tidak meneruskan kabar yang belum jelas dan mengalihkan percakapan dari gunjingan.",
+        "en": "A person does not forward an unclear report and redirects conversation away from gossip."
+      }
+    },
+    {
+      "id": "block.guarding-speech-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.guarding-speech-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.guarding-speech-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Jeda sebelum berbicara: apakah benar, perlu, dan disampaikan dengan baik.",
+            "en": "Pause before speaking: is it true, necessary, and expressed well."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.guarding-speech-guidance-source",
+      "type": "source-reference",
+      "sourceIds": ["source.hadith-bukhari-6018"],
+      "note": {
+        "id": "Rujukan bibliografis hadis tentang berkata baik atau diam; teks hadis tidak disalin di sini.",
+        "en": "Bibliographic reference for the hadith on speaking good or remaining silent; the hadith text is not copied here."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "sourceIds": ["source.hadith-bukhari-6018"]
+}

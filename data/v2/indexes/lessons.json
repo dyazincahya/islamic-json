@@ -1,0 +1,958 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.lessons",
+  "itemType": "lesson",
+  "title": {
+    "id": "Pelajaran",
+    "en": "Lessons"
+  },
+  "items": [
+    {
+      "id": "lesson.daily-supplications",
+      "type": "lesson",
+      "slug": "daily-supplications",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-supplications.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 1,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-dua",
+      "type": "lesson",
+      "slug": "daily-dua",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-dua.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 2,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.morning-evening-dhikr",
+      "type": "lesson",
+      "slug": "morning-evening-dhikr",
+      "status": "draft",
+      "path": "content/lessons/stage-7/morning-evening-dhikr.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 3,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-eating",
+      "type": "lesson",
+      "slug": "daily-eating",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-eating.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 4,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-sleeping",
+      "type": "lesson",
+      "slug": "daily-sleeping",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-sleeping.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 5,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-travel",
+      "type": "lesson",
+      "slug": "daily-travel",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-travel.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 6,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-family",
+      "type": "lesson",
+      "slug": "daily-family",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-family.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 7,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-parents",
+      "type": "lesson",
+      "slug": "daily-parents",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-parents.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 8,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.basic-transactions",
+      "type": "lesson",
+      "slug": "basic-transactions",
+      "status": "draft",
+      "path": "content/lessons/stage-7/basic-transactions.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 9,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.halal-food",
+      "type": "lesson",
+      "slug": "halal-food",
+      "status": "draft",
+      "path": "content/lessons/stage-7/halal-food.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 10,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-charity",
+      "type": "lesson",
+      "slug": "daily-charity",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-charity.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 11,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-health",
+      "type": "lesson",
+      "slug": "daily-health",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-health.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 12,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-cleanliness",
+      "type": "lesson",
+      "slug": "daily-cleanliness",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-cleanliness.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 13,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.facing-sadness",
+      "type": "lesson",
+      "slug": "facing-sadness",
+      "status": "draft",
+      "path": "content/lessons/stage-7/facing-sadness.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 14,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.facing-anxiety",
+      "type": "lesson",
+      "slug": "facing-anxiety",
+      "status": "draft",
+      "path": "content/lessons/stage-7/facing-anxiety.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 15,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.facing-trials",
+      "type": "lesson",
+      "slug": "facing-trials",
+      "status": "draft",
+      "path": "content/lessons/stage-7/facing-trials.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 16,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.shahada",
+      "type": "lesson",
+      "slug": "shahada",
+      "status": "draft",
+      "path": "content/lessons/stage-2/shahada.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 1,
+      "group": "shahada-journey"
+    },
+    {
+      "id": "lesson.knowing-allah",
+      "type": "lesson",
+      "slug": "knowing-allah",
+      "status": "draft",
+      "path": "content/lessons/stage-2/knowing-allah.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 2,
+      "group": "shahada-journey"
+    },
+    {
+      "id": "lesson.migrated-shahada",
+      "type": "lesson",
+      "slug": "migrated-shahada",
+      "status": "under-review",
+      "path": "content/lessons/migrated-pillars/shahada.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 2,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "lesson.tawhid",
+      "type": "lesson",
+      "slug": "tawhid",
+      "status": "draft",
+      "path": "content/lessons/stage-2/tawhid.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 3,
+      "group": "shahada-journey"
+    },
+    {
+      "id": "lesson.following-sunnah",
+      "type": "lesson",
+      "slug": "following-sunnah",
+      "status": "draft",
+      "path": "content/lessons/stage-2/following-sunnah.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 4,
+      "group": "shahada-journey"
+    },
+    {
+      "id": "lesson.understanding-hadith",
+      "type": "lesson",
+      "slug": "understanding-hadith",
+      "status": "draft",
+      "path": "content/lessons/stage-2/understanding-hadith.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 5,
+      "group": "shahada-journey"
+    },
+    {
+      "id": "lesson.faith-in-allah",
+      "type": "lesson",
+      "slug": "faith-in-allah",
+      "status": "draft",
+      "path": "content/lessons/stage-2/faith-in-allah.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 6,
+      "group": "pillars-of-faith"
+    },
+    {
+      "id": "lesson.faith-in-angels",
+      "type": "lesson",
+      "slug": "faith-in-angels",
+      "status": "draft",
+      "path": "content/lessons/stage-2/faith-in-angels.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 7,
+      "group": "pillars-of-faith"
+    },
+    {
+      "id": "lesson.faith-in-books",
+      "type": "lesson",
+      "slug": "faith-in-books",
+      "status": "draft",
+      "path": "content/lessons/stage-2/faith-in-books.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 8,
+      "group": "pillars-of-faith"
+    },
+    {
+      "id": "lesson.faith-in-messengers",
+      "type": "lesson",
+      "slug": "faith-in-messengers",
+      "status": "draft",
+      "path": "content/lessons/stage-2/faith-in-messengers.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 9,
+      "group": "pillars-of-faith"
+    },
+    {
+      "id": "lesson.faith-in-last-day",
+      "type": "lesson",
+      "slug": "faith-in-last-day",
+      "status": "draft",
+      "path": "content/lessons/stage-2/faith-in-last-day.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 10,
+      "group": "pillars-of-faith"
+    },
+    {
+      "id": "lesson.faith-in-divine-decree",
+      "type": "lesson",
+      "slug": "faith-in-divine-decree",
+      "status": "draft",
+      "path": "content/lessons/stage-2/faith-in-divine-decree.json",
+      "stageId": "stage.faith-foundations",
+      "stageOrder": 11,
+      "group": "pillars-of-faith"
+    },
+    {
+      "id": "lesson.intention-guidance",
+      "type": "lesson",
+      "slug": "intention-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/intention-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 1,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.honesty-guidance",
+      "type": "lesson",
+      "slug": "honesty-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/honesty-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 2,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.guarding-speech-guidance",
+      "type": "lesson",
+      "slug": "guarding-speech-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/guarding-speech-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 3,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.parents-guidance",
+      "type": "lesson",
+      "slug": "parents-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/parents-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 4,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.compassion-guidance",
+      "type": "lesson",
+      "slug": "compassion-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/compassion-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 5,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.eating-guidance",
+      "type": "lesson",
+      "slug": "eating-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/eating-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 6,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.sleeping-guidance",
+      "type": "lesson",
+      "slug": "sleeping-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/sleeping-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 7,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.neighbors-guidance",
+      "type": "lesson",
+      "slug": "neighbors-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/neighbors-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 8,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.seeking-knowledge-guidance",
+      "type": "lesson",
+      "slug": "seeking-knowledge-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-6/seeking-knowledge-guidance.json",
+      "stageId": "stage.hadith-character",
+      "stageOrder": 9,
+      "group": "thematic-guidance"
+    },
+    {
+      "id": "lesson.what-is-islam",
+      "type": "lesson",
+      "slug": "what-is-islam",
+      "status": "draft",
+      "path": "content/lessons/stage-1/what-is-islam.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 1,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.who-is-allah",
+      "type": "lesson",
+      "slug": "who-is-allah",
+      "status": "draft",
+      "path": "content/lessons/stage-1/who-is-allah.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 2,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.prophet-muhammad",
+      "type": "lesson",
+      "slug": "prophet-muhammad",
+      "status": "draft",
+      "path": "content/lessons/stage-1/prophet-muhammad.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 3,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.purpose-of-worship",
+      "type": "lesson",
+      "slug": "purpose-of-worship",
+      "status": "draft",
+      "path": "content/lessons/stage-1/purpose-of-worship.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 4,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.faith-islam-ihsan",
+      "type": "lesson",
+      "slug": "faith-islam-ihsan",
+      "status": "draft",
+      "path": "content/lessons/stage-1/faith-islam-ihsan.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 5,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.quran-and-hadith",
+      "type": "lesson",
+      "slug": "quran-and-hadith",
+      "status": "draft",
+      "path": "content/lessons/stage-1/quran-and-hadith.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 6,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.fasting-purpose",
+      "type": "lesson",
+      "slug": "fasting-purpose",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-purpose.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 1,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.fasting-conditions",
+      "type": "lesson",
+      "slug": "fasting-conditions",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-conditions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 2,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.fasting-pillars",
+      "type": "lesson",
+      "slug": "fasting-pillars",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-pillars.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 3,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.migrated-zakat-fitrah",
+      "type": "lesson",
+      "slug": "migrated-zakat-fitrah",
+      "status": "under-review",
+      "path": "content/lessons/migrated-pillars/zakat-fitrah.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 3,
+      "group": "migrated-pillars.zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    },
+    {
+      "id": "lesson.fasting-invalidators",
+      "type": "lesson",
+      "slug": "fasting-invalidators",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fasting-invalidators.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 4,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.suhur",
+      "type": "lesson",
+      "slug": "suhur",
+      "status": "draft",
+      "path": "content/lessons/stage-4/suhur.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 5,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.iftar",
+      "type": "lesson",
+      "slug": "iftar",
+      "status": "draft",
+      "path": "content/lessons/stage-4/iftar.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 6,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.ramadan",
+      "type": "lesson",
+      "slug": "ramadan",
+      "status": "draft",
+      "path": "content/lessons/stage-4/ramadan.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 7,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.voluntary-fasts",
+      "type": "lesson",
+      "slug": "voluntary-fasts",
+      "status": "draft",
+      "path": "content/lessons/stage-4/voluntary-fasts.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 8,
+      "group": "fasting",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.qada-fasting",
+      "type": "lesson",
+      "slug": "qada-fasting",
+      "status": "draft",
+      "path": "content/lessons/stage-4/qada-fasting.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 9,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.fidyah",
+      "type": "lesson",
+      "slug": "fidyah",
+      "status": "draft",
+      "path": "content/lessons/stage-4/fidyah.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 10,
+      "group": "fasting",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.zakat-purpose",
+      "type": "lesson",
+      "slug": "zakat-purpose",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-purpose.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 11,
+      "group": "zakat",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.zakat-fitrah",
+      "type": "lesson",
+      "slug": "zakat-fitrah",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-fitrah.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 12,
+      "group": "zakat",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr"
+      ]
+    },
+    {
+      "id": "lesson.zakat-mal",
+      "type": "lesson",
+      "slug": "zakat-mal",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-mal.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 13,
+      "group": "zakat",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.zakat-obligation",
+      "type": "lesson",
+      "slug": "zakat-obligation",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-obligation.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 14,
+      "group": "zakat",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.zakat-recipients",
+      "type": "lesson",
+      "slug": "zakat-recipients",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-recipients.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 15,
+      "group": "zakat",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "lesson.zakat-calculator-guidance",
+      "type": "lesson",
+      "slug": "zakat-calculator-guidance",
+      "status": "draft",
+      "path": "content/lessons/stage-4/zakat-calculator-guidance.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 16,
+      "group": "zakat",
+      "seasonalTags": []
+    },
+    {
+      "id": "lesson.hajj-umrah-rulings",
+      "type": "lesson",
+      "slug": "hajj-umrah-rulings",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-rulings.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 17,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-conditions",
+      "type": "lesson",
+      "slug": "hajj-umrah-conditions",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-conditions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 18,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.ihram",
+      "type": "lesson",
+      "slug": "ihram",
+      "status": "draft",
+      "path": "content/lessons/stage-4/ihram.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 19,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-sequence",
+      "type": "lesson",
+      "slug": "hajj-umrah-sequence",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-sequence.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 20,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.ihram-prohibitions",
+      "type": "lesson",
+      "slug": "ihram-prohibitions",
+      "status": "draft",
+      "path": "content/lessons/stage-4/ihram-prohibitions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 21,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-prayers",
+      "type": "lesson",
+      "slug": "hajj-umrah-prayers",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-prayers.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 22,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.hajj-umrah-travel",
+      "type": "lesson",
+      "slug": "hajj-umrah-travel",
+      "status": "draft",
+      "path": "content/lessons/stage-4/hajj-umrah-travel.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 23,
+      "group": "hajj-umrah",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "lesson.cleanliness",
+      "type": "lesson",
+      "slug": "cleanliness",
+      "status": "draft",
+      "path": "content/lessons/stage-3/cleanliness.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 1,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.migrated-five-obligatory-prayers",
+      "type": "lesson",
+      "slug": "migrated-five-obligatory-prayers",
+      "status": "draft",
+      "path": "content/lessons/migrated-pillars/five-obligatory-prayers.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 1,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "lesson.najis",
+      "type": "lesson",
+      "slug": "najis",
+      "status": "draft",
+      "path": "content/lessons/stage-3/najis.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 2,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.hadas",
+      "type": "lesson",
+      "slug": "hadas",
+      "status": "draft",
+      "path": "content/lessons/stage-3/hadas.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 3,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.wudu",
+      "type": "lesson",
+      "slug": "wudu",
+      "status": "draft",
+      "path": "content/lessons/stage-3/wudu.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 4,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.tayammum",
+      "type": "lesson",
+      "slug": "tayammum",
+      "status": "draft",
+      "path": "content/lessons/stage-3/tayammum.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 5,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.ghusl",
+      "type": "lesson",
+      "slug": "ghusl",
+      "status": "draft",
+      "path": "content/lessons/stage-3/ghusl.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 6,
+      "group": "purification"
+    },
+    {
+      "id": "lesson.prayer-times",
+      "type": "lesson",
+      "slug": "prayer-times",
+      "status": "draft",
+      "path": "content/lessons/stage-3/prayer-times.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 7,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.prayer-movements",
+      "type": "lesson",
+      "slug": "prayer-movements",
+      "status": "draft",
+      "path": "content/lessons/stage-3/prayer-movements.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 8,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.prayer-recitations",
+      "type": "lesson",
+      "slug": "prayer-recitations",
+      "status": "draft",
+      "path": "content/lessons/stage-3/prayer-recitations.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 9,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.five-obligatory-prayers",
+      "type": "lesson",
+      "slug": "five-obligatory-prayers",
+      "status": "draft",
+      "path": "content/lessons/stage-3/five-obligatory-prayers.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 10,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.congregational-prayer",
+      "type": "lesson",
+      "slug": "congregational-prayer",
+      "status": "draft",
+      "path": "content/lessons/stage-3/congregational-prayer.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 11,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.voluntary-prayer",
+      "type": "lesson",
+      "slug": "voluntary-prayer",
+      "status": "draft",
+      "path": "content/lessons/stage-3/voluntary-prayer.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 12,
+      "group": "prayer"
+    },
+    {
+      "id": "lesson.quran-paths",
+      "type": "lesson",
+      "slug": "quran-paths",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-paths.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 1,
+      "group": "adaptive-entry"
+    },
+    {
+      "id": "lesson.iqra-introduction",
+      "type": "lesson",
+      "slug": "iqra-introduction",
+      "status": "draft",
+      "path": "content/lessons/stage-5/iqra-introduction.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 2,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.arabic-letters",
+      "type": "lesson",
+      "slug": "arabic-letters",
+      "status": "draft",
+      "path": "content/lessons/stage-5/arabic-letters.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 3,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.quran-harakat",
+      "type": "lesson",
+      "slug": "quran-harakat",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-harakat.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 4,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.joined-letters",
+      "type": "lesson",
+      "slug": "joined-letters",
+      "status": "draft",
+      "path": "content/lessons/stage-5/joined-letters.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 5,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.quran-translation",
+      "type": "lesson",
+      "slug": "quran-translation",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-translation.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 6,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.brief-tafsir",
+      "type": "lesson",
+      "slug": "brief-tafsir",
+      "status": "draft",
+      "path": "content/lessons/stage-5/brief-tafsir.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 7,
+      "group": "quran-learning"
+    },
+    {
+      "id": "lesson.quran-themes",
+      "type": "lesson",
+      "slug": "quran-themes",
+      "status": "draft",
+      "path": "content/lessons/stage-5/quran-themes.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 8,
+      "group": "quran-learning"
+    }
+  ]
+}

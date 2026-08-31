@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.beneficial-knowledge",
+  "type": "supplication",
+  "slug": "beneficial-knowledge",
+  "title": {
+    "id": "Doa memohon ilmu yang bermanfaat",
+    "en": "Supplication for beneficial knowledge"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 55,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.beneficial-knowledge",
+    "arabic": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً",
+    "transliteration": {
+      "id": "allahumma innii as-aluka 'ilmaan naafi'aan wa rizqoon thoyyibaan wa 'amalaan mutaqobbalaan",
+      "en": "allahumma innii as-aluka 'ilmaan naafi'aan wa rizqoon thoyyibaan wa 'amalaan mutaqobbalaan"
+    },
+    "translation": {
+      "id": "Ya Allah, sesungguhnya aku mohon kepada-Mu ilmu yang berguna, rezki yang baik dan amal yang baik Diterima.",
+      "en": "O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.beneficial-knowledge.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: H.R. Ibnu Majah. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: H.R. Ibnu Majah. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

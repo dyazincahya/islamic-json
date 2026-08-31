@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Explicit path-only mapping from the pre-data-root public layout to the reorganized data layout.",
+  "compatibilityStrategy": {
+    "preMoveLayout": "A release maintainer creates an immutable pre-move Git tag before publishing the breaking layout.",
+    "newLayout": "New integrations use the paths under data/ and should pin an immutable release tag."
+  },
+  "moves": [
+    {
+      "from": "asmaul-husna/",
+      "to": "data/legacy/asmaul-husna/",
+      "dataset": "legacy",
+      "contentChanged": false
+    },
+    {
+      "from": "dhikr/",
+      "to": "data/legacy/dhikr/",
+      "dataset": "legacy",
+      "contentChanged": false
+    },
+    {
+      "from": "dua/",
+      "to": "data/legacy/dua/",
+      "dataset": "legacy",
+      "contentChanged": false
+    },
+    {
+      "from": "pillars-of-islam/",
+      "to": "data/legacy/pillars-of-islam/",
+      "dataset": "legacy",
+      "contentChanged": false
+    },
+    {
+      "from": "v2/",
+      "to": "data/v2/",
+      "dataset": "current-v2",
+      "contentChanged": false
+    },
+    {
+      "from": "holy-quran/",
+      "to": "data/holy-quran/",
+      "dataset": "independent-quran",
+      "contentChanged": false
+    }
+  ],
+  "checksumBaseline": "legacy-checksums.json",
+  "checksumPathTransformations": [
+    {
+      "fromPrefix": "asmaul-husna/",
+      "toPrefix": "data/legacy/asmaul-husna/"
+    },
+    {
+      "fromPrefix": "dhikr/",
+      "toPrefix": "data/legacy/dhikr/"
+    },
+    {
+      "fromPrefix": "dua/",
+      "toPrefix": "data/legacy/dua/"
+    },
+    {
+      "fromPrefix": "pillars-of-islam/",
+      "toPrefix": "data/legacy/pillars-of-islam/"
+    },
+    {
+      "fromPrefix": "holy-quran/",
+      "toPrefix": "data/holy-quran/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.before-sleep",
+  "type": "supplication",
+  "slug": "before-sleep",
+  "title": {
+    "id": "Doa Sebelum Tidur",
+    "en": "Supplication before sleeping"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 1,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.before-sleep",
+    "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوْتُ وَأَحْيَا",
+    "transliteration": {
+      "id": "bismika, allahumma amuutu wa ahyaa",
+      "en": "bismika, allahumma amuutu wa ahyaa"
+    },
+    "translation": {
+      "id": "Dengan menyebut nama-Mu, ya Allah! Aku mati dan dan hidup.",
+      "en": "In Your name, O Allah, I die and I live."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.before-sleep.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.sleep",
+  "benefits": {
+    "id": "Dahulu nabi shallallahu 'alaihi wa sallam senantiasa memulai dan mengakhiri harinya dengan berdzikir.",
+    "en": "The Prophet, peace and blessings be upon him, would begin and end his day with remembrance of Allah."
+  }
+}

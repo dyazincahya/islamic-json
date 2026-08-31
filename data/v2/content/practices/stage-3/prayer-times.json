@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.prayer-times",
+  "type": "practice",
+  "slug": "prayer-times",
+  "title": {
+    "id": "Latihan memeriksa waktu salat",
+    "en": "Prayer-time checking practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 106,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.prayer-times"
+    ],
+    "next": [
+      "practice.prayer-movements"
+    ],
+    "related": [
+      "lesson.prayer-times"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.location",
+      "required": false,
+      "parameters": {
+        "purpose": "prayer-schedule"
+      }
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "prayer-times"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-4-103"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.prayer-times.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.prayer-times.1",
+          "title": {
+            "id": "Pilih lokasi dan tanggal",
+            "en": "Select location and date"
+          },
+          "body": {
+            "id": "Gunakan lokasi dan tanggal yang benar pada jadwal tepercaya.",
+            "en": "Use the correct location and date in a trusted schedule."
+          }
+        },
+        {
+          "id": "step.prayer-times.2",
+          "title": {
+            "id": "Baca rentang waktu",
+            "en": "Read the time window"
+          },
+          "body": {
+            "id": "Bedakan awal waktu, waktu utama bila diketahui, dan akhir waktu.",
+            "en": "Distinguish the beginning, preferred period when known, and end of the time."
+          }
+        },
+        {
+          "id": "step.prayer-times.3",
+          "title": {
+            "id": "Siapkan pengingat",
+            "en": "Prepare a reminder"
+          },
+          "body": {
+            "id": "Bila dibutuhkan, atur pengingat di aplikasi tanpa mencatat preferensi dalam dataset.",
+            "en": "If useful, set an application reminder without recording preferences in the dataset."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-times.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.prayer-times.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-times.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-times.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

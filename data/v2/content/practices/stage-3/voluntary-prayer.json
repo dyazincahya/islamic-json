@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.voluntary-prayer",
+  "type": "practice",
+  "slug": "voluntary-prayer",
+  "title": {
+    "id": "Rencana salat sunah",
+    "en": "Voluntary prayer plan"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 112,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.voluntary-prayer"
+    ],
+    "next": [],
+    "related": [
+      "lesson.voluntary-prayer"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "voluntary-prayer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-17-79"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.voluntary-prayer.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.voluntary-prayer.1",
+          "title": {
+            "id": "Jaga prioritas",
+            "en": "Keep priorities"
+          },
+          "body": {
+            "id": "Pastikan rencana tidak mengganggu salat wajib dan kewajiban lain.",
+            "en": "Ensure the plan does not interfere with obligatory prayers or other duties."
+          }
+        },
+        {
+          "id": "step.voluntary-prayer.2",
+          "title": {
+            "id": "Pilih satu kebiasaan",
+            "en": "Choose one practice"
+          },
+          "body": {
+            "id": "Pilih salat sunah yang telah dipelajari dan realistis dilakukan.",
+            "en": "Choose one learned voluntary prayer that is realistic to perform."
+          }
+        },
+        {
+          "id": "step.voluntary-prayer.3",
+          "title": {
+            "id": "Tinjau dengan pembimbing",
+            "en": "Review with an instructor"
+          },
+          "body": {
+            "id": "Konfirmasikan waktu, jumlah rakaat, dan tata caranya sebelum membiasakan.",
+            "en": "Confirm its time, units, and method before forming the habit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.voluntary-prayer.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.voluntary-prayer.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.voluntary-prayer.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.voluntary-prayer.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

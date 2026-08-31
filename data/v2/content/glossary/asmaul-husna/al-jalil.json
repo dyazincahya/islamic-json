@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-jalil",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-jalil",
+  "title": {
+    "id": "Al-Jalîlu",
+    "en": "Al-Jalil"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Jalîlu",
+    "en": "Al-Jalil"
+  },
+  "arabic": "الْجَلِيْلُ",
+  "transliteration": {
+    "id": "Al-Jalîlu",
+    "en": "Al-Jalil"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-jalil.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahamulia",
+        "en": "The Majestic"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

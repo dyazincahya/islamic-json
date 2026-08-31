@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.tawhid",
+  "type": "lesson",
+  "slug": "tawhid",
+  "title": { "id": "Dasar tauhid", "en": "Foundations of tawhid" },
+  "summary": {
+    "id": "Memahami pengesaan Allah dalam keyakinan dan ibadah.",
+    "en": "Understanding Allah's oneness in belief and worship."
+  },
+  "status": "draft",
+  "iconId": "faith.tawhid",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 3,
+  "group": "shahada-journey",
+  "relationships": {
+    "prerequisites": ["lesson.knowing-allah"],
+    "next": ["lesson.following-sunnah"],
+    "related": [
+      "lesson.who-is-allah",
+      "lesson.purpose-of-worship",
+      "lesson.faith-in-allah"
+    ]
+  },
+  "sourceIds": ["source.quran-3-18", "source.quran-112-1-4"],
+  "blocks": [
+    {
+      "id": "block.tawhid.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Tauhid berarti mengesakan Allah: meyakini bahwa Dia satu-satunya Tuhan dan mengarahkan seluruh ibadah hanya kepada-Nya tanpa sekutu.",
+        "en": "Tawhid means affirming Allah's oneness: believing that He alone is God and directing every act of worship to Him without partners."
+      }
+    },
+    {
+      "id": "block.tawhid.application",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Doa, pengharapan, rasa takut dalam ibadah, dan bentuk pengabdian lainnya ditujukan kepada Allah semata.",
+        "en": "Supplication, hope, worshipful fear, and other forms of devotion are directed to Allah alone."
+      },
+      "iconId": "faith.tawhid"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami makna dasar tauhid.",
+      "en": "I understand the basic meaning of tawhid."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

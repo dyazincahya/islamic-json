@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.sequences",
+  "itemType": "sequence",
+  "title": {
+    "id": "Rangkaian ibadah",
+    "en": "Worship sequences"
+  },
+  "items": [
+    {
+      "id": "sequence.migrated-hajj",
+      "type": "sequence",
+      "slug": "migrated-hajj",
+      "status": "draft",
+      "path": "content/sequences/migrated-pillars/hajj.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 3,
+      "group": "migrated-pillars",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    }
+  ]
+}

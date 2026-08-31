@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.seeking-knowledge-guidance",
+  "type": "lesson",
+  "slug": "seeking-knowledge-guidance",
+  "title": {
+    "id": "Mencari ilmu",
+    "en": "Seeking knowledge"
+  },
+  "summary": {
+    "id": "Belajar dengan niat baik, sumber tepercaya, rendah hati, dan bertahap.",
+    "en": "Learn with sound intention, reliable sources, humility, and gradual practice."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 9,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.neighbors-guidance"],
+    "next": [],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.seeking-knowledge-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.seeking-knowledge-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Mencari ilmu memerlukan niat baik, sumber tepercaya, kerendahan hati, dan praktik bertahap.",
+        "en": "Seeking knowledge requires sound intention, reliable sources, humility, and gradual practice."
+      }
+    },
+    {
+      "id": "block.seeking-knowledge-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.seeking-knowledge-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajar mencatat pertanyaan dan tidak menyebarkan jawaban yang belum dipahami.",
+        "en": "A learner records questions and does not share answers not yet understood."
+      }
+    },
+    {
+      "id": "block.seeking-knowledge-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.seeking-knowledge-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.seeking-knowledge-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pilih satu topik dasar dari pengajar tepercaya lalu catat satu hal untuk diamalkan.",
+            "en": "Choose one foundational topic from a trusted teacher and note one point to practice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.seeking-knowledge-guidance-source",
+      "type": "source-reference",
+      "sourceIds": ["source.hadith-muslim-2699"],
+      "note": {
+        "id": "Rujukan bibliografis hadis tentang menempuh jalan untuk mencari ilmu; teks hadis tidak disalin di sini.",
+        "en": "Bibliographic reference for the hadith on following a path to seek knowledge; the hadith text is not copied here."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "sourceIds": ["source.hadith-muslim-2699"]
+}

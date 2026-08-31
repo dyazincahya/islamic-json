@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.prayer-readiness-checklist",
+  "type": "practice",
+  "slug": "prayer-readiness-checklist",
+  "title": {
+    "id": "Daftar kesiapan salat",
+    "en": "Prayer readiness checklist"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 109,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.five-obligatory-prayers"
+    ],
+    "next": [
+      "practice.five-obligatory-prayers"
+    ],
+    "related": [
+      "lesson.five-obligatory-prayers"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.location",
+      "required": false,
+      "parameters": {
+        "purpose": "qibla"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-4-103",
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.prayer-readiness-checklist.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.prayer-readiness-checklist.1",
+          "title": {
+            "id": "Pastikan waktu",
+            "en": "Confirm the time"
+          },
+          "body": {
+            "id": "Periksa bahwa waktu salat telah masuk.",
+            "en": "Check that the prayer time has begun."
+          }
+        },
+        {
+          "id": "step.prayer-readiness-checklist.2",
+          "title": {
+            "id": "Pastikan syarat kesiapan",
+            "en": "Confirm readiness conditions"
+          },
+          "body": {
+            "id": "Periksa bersuci, aurat, kiblat, pakaian, badan, dan tempat.",
+            "en": "Check purification, awrah, qiblah, clothing, body, and place."
+          }
+        },
+        {
+          "id": "step.prayer-readiness-checklist.3",
+          "title": {
+            "id": "Kurangi gangguan",
+            "en": "Reduce distractions"
+          },
+          "body": {
+            "id": "Siapkan ruang yang aman dan tenang sesuai kemampuan.",
+            "en": "Prepare a safe, calm space as circumstances allow."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-readiness-checklist.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.prayer-readiness-checklist.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-readiness-checklist.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-readiness-checklist.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

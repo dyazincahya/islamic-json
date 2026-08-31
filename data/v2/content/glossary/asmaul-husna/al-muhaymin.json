@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muhaymin",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muhaymin",
+  "title": {
+    "id": "Al-Muhaiminu",
+    "en": "Al-Muhaymin"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muhaiminu",
+    "en": "Al-Muhaymin"
+  },
+  "arabic": "الْمُهَيْمِنُ",
+  "transliteration": {
+    "id": "Al-Muhaiminu",
+    "en": "Al-Muhaymin"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muhaymin.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemelihara",
+        "en": "The Guardian"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.prayer-recitations",
+  "type": "practice",
+  "slug": "prayer-recitations",
+  "title": {
+    "id": "Latihan bacaan salat",
+    "en": "Prayer recitation practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 108,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.prayer-recitations"
+    ],
+    "next": [
+      "practice.prayer-readiness-checklist"
+    ],
+    "related": [
+      "lesson.prayer-recitations"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": {
+        "contentId": "practice.prayer-recitations"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-1-1"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.prayer-recitations.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.prayer-recitations.1",
+          "title": {
+            "id": "Pilih bagian pendek",
+            "en": "Choose a short section"
+          },
+          "body": {
+            "id": "Latih satu bacaan pada posisi yang benar sebelum melanjutkan.",
+            "en": "Practice one recitation in its proper position before continuing."
+          }
+        },
+        {
+          "id": "step.prayer-recitations.2",
+          "title": {
+            "id": "Dengar dan ulangi",
+            "en": "Listen and repeat"
+          },
+          "body": {
+            "id": "Gunakan audio terverifikasi untuk membantu makhraj dan kelancaran.",
+            "en": "Use verified audio to support pronunciation and fluency."
+          }
+        },
+        {
+          "id": "step.prayer-recitations.3",
+          "title": {
+            "id": "Periksa bersama guru",
+            "en": "Check with a teacher"
+          },
+          "body": {
+            "id": "Minta koreksi pelafalan dan pahami makna dasar bacaan.",
+            "en": "Request pronunciation correction and understand the basic meaning."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-recitations.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.prayer-recitations.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-recitations.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.prayer-recitations.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

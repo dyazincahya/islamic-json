@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.cleanliness",
+  "type": "lesson",
+  "slug": "cleanliness",
+  "title": {
+    "id": "Kebersihan dalam ibadah",
+    "en": "Cleanliness in worship"
+  },
+  "summary": {
+    "id": "Kebersihan badan, pakaian, dan tempat merupakan bagian penting dari kesiapan beribadah.",
+    "en": "Cleanliness of the body, clothing, and place is an important part of readiness for worship."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 1,
+  "group": "purification",
+  "relationships": {
+    "prerequisites": [],
+    "next": [
+      "lesson.najis"
+    ],
+    "related": [
+      "practice.cleanliness-check"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-2-222",
+    "source.quran-74-4"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.cleanliness.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Kebersihan badan, pakaian, dan tempat merupakan bagian penting dari kesiapan beribadah.",
+        "en": "Cleanliness of the body, clothing, and place is an important part of readiness for worship."
+      }
+    },
+    {
+      "id": "block.cleanliness.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.cleanliness.1",
+          "text": {
+            "id": "Jaga kebersihan rutin tanpa menyamakan setiap kotoran dengan najis.",
+            "en": "Maintain ordinary cleanliness without treating every kind of dirt as ritual impurity."
+          }
+        },
+        {
+          "id": "item.cleanliness.2",
+          "text": {
+            "id": "Periksa badan, pakaian, dan tempat salat sebelum beribadah.",
+            "en": "Check the body, clothing, and prayer place before worship."
+          }
+        },
+        {
+          "id": "item.cleanliness.3",
+          "text": {
+            "id": "Pelajari aturan bersuci secara bertahap agar tidak terjebak keraguan berlebihan.",
+            "en": "Learn purification rules gradually to avoid excessive doubt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.cleanliness.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.cleanliness.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-222",
+        "source.quran-74-4"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

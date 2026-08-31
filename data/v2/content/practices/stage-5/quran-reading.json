@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.quran-reading",
+  "type": "practice",
+  "slug": "quran-reading",
+  "title": {
+    "id": "Latihan membaca dasar",
+    "en": "Basic reading practice"
+  },
+  "summary": {
+    "id": "Gabungkan huruf, harakat, dan bentuk bersambung dalam bacaan pendek.",
+    "en": "Combine letters, vowel marks, and joined forms in short reading."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.quran",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 5,
+  "group": "reading",
+  "relationships": {
+    "prerequisites": ["lesson.joined-letters"],
+    "next": ["practice.basic-tajwid"],
+    "related": ["lesson.quran-paths"]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    },
+    {
+      "featureId": "feature.reading",
+      "required": false
+    }
+  ],
+  "instructions": [
+    {
+      "id": "block.quran-reading-focus",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Fokus latihan",
+        "en": "Practice focus"
+      }
+    },
+    {
+      "id": "block.quran-reading-intro",
+      "type": "paragraph",
+      "text": {
+        "id": "Utamakan ketepatan sebelum kecepatan tanpa menyalin data Al-Quran ke dokumen ini.",
+        "en": "Prioritize accuracy before speed without copying Quran data into this document."
+      }
+    },
+    {
+      "id": "block.quran-reading-steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.quran-reading-1",
+          "title": {
+            "id": "Lihat",
+            "en": "Observe"
+          },
+          "body": {
+            "id": "Amati huruf dan harakat sebelum membaca.",
+            "en": "Observe letters and marks before reading."
+          }
+        },
+        {
+          "id": "step.quran-reading-2",
+          "title": {
+            "id": "Baca",
+            "en": "Read"
+          },
+          "body": {
+            "id": "Baca perlahan sambil menunjuk setiap gabungan.",
+            "en": "Read slowly while pointing to each combination."
+          }
+        },
+        {
+          "id": "step.quran-reading-3",
+          "title": {
+            "id": "Koreksi",
+            "en": "Correct"
+          },
+          "body": {
+            "id": "Dengarkan contoh dan catat bunyi yang perlu diulang.",
+            "en": "Listen to a model and note sounds to repeat."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Periksa latihan hari ini",
+      "en": "Check todays practice"
+    },
+    "items": [
+      {
+        "id": "completion.quran-reading-1",
+        "label": {
+          "id": "Amati huruf dan harakat sebelum membaca.",
+          "en": "Observe letters and marks before reading."
+        }
+      },
+      {
+        "id": "completion.quran-reading-2",
+        "label": {
+          "id": "Baca perlahan sambil menunjuk setiap gabungan.",
+          "en": "Read slowly while pointing to each combination."
+        }
+      },
+      {
+        "id": "completion.quran-reading-3",
+        "label": {
+          "id": "Dengarkan contoh dan catat bunyi yang perlu diulang.",
+          "en": "Listen to a model and note sounds to repeat."
+        }
+      }
+    ]
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-basit",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-basit",
+  "title": {
+    "id": "Al-Bâsithu",
+    "en": "Al-Basit"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Bâsithu",
+    "en": "Al-Basit"
+  },
+  "arabic": "الْبَاسِطُ",
+  "transliteration": {
+    "id": "Al-Bâsithu",
+    "en": "Al-Basit"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-basit.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Melapangkan (makhluknya)",
+        "en": "The Expander"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

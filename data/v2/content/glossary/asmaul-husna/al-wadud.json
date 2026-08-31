@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-wadud",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-wadud",
+  "title": {
+    "id": "Al-Wadûdu",
+    "en": "Al-Wadud"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wadûdu",
+    "en": "Al-Wadud"
+  },
+  "arabic": "الْوَدُوْدُ",
+  "transliteration": {
+    "id": "Al-Wadûdu",
+    "en": "Al-Wadud"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-wadud.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pencinta",
+        "en": "The Most Loving"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

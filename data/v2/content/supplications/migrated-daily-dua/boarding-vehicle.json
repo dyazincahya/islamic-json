@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.boarding-vehicle",
+  "type": "supplication",
+  "slug": "boarding-vehicle",
+  "title": {
+    "id": "Doa Menaiki Kendaraan",
+    "en": "Supplication when boarding a vehicle"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 24,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.boarding-vehicle",
+    "arabic": "بِسْمِ اللَّهِ، بِسْمِ اللَّهِ، بِسْمِ اللَّهِ، الحَمْدُ للِه، سُبْحَانَ الَّذِى سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ، سُبْحَانَكَ إِنِّى قَدْ ظَلَمْتُ نَفْسِى فَاغْفِرْ لِى فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+    "transliteration": {
+      "id": "bismillah, bismillah, bismillah, alhamdulillah, subhaanalladzi sakh-khara lanaa haadzaa wa maa kunnaa lahuu muqriniin. wa innaa ilaa rabbinaa lamun qalibuun. subhaanaka inni qad dzalamtu nafsii, faghfirlii fa-innahuu laa yaghfirudz dzunuuba illaa anta",
+      "en": "bismillah, bismillah, bismillah, alhamdulillah, subhaanalladzi sakh-khara lanaa haadzaa wa maa kunnaa lahuu muqriniin. wa innaa ilaa rabbinaa lamun qalibuun. subhaanaka inni qad dzalamtu nafsii, faghfirlii fa-innahuu laa yaghfirudz dzunuuba illaa anta"
+    },
+    "translation": {
+      "id": "Dengan menyebut nama Allah (3x). Segala puji bagi Allah. Maha Suci Allah yang telah menundukkan semua ini bagi kami padahal kami sebelumnya tidak mampu menguasainya, dan sesungguhnya kami akan kembali kepada Rabb kami. Maha Suci Engkau, sesungguhnya aku telah mendzalimi diriku sendiri maka ampunilah aku, karena tidak ada yang mengampuni dosa-dosa selain Engkau.",
+      "en": "In the name of Allah, in the name of Allah, in the name of Allah. All praise is for Allah. Glory is to the One who subjected this to us though we could not have controlled it, and surely to our Lord we will return. Glory is Yours; I have wronged myself, so forgive me, for no one forgives sins except You."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.boarding-vehicle.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud dan at-Tirmidzi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud dan at-Tirmidzi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.travel",
+  "benefits": {
+    "id": "Dengan membaca doa naik kendaraan, perjalanan kita akan senantiasa mendapat perlindungan Allah ta'ala. Selain itu juga akan mendapat pahala, pertolongan dan hati yang lebih tenang.",
+    "en": "The legacy note says this supplication seeks Allah's protection during travel and brings reward, help, and tranquility."
+  }
+}

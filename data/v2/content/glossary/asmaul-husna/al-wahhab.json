@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-wahhab",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-wahhab",
+  "title": {
+    "id": "Al-Wahhâbu",
+    "en": "Al-Wahhab"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wahhâbu",
+    "en": "Al-Wahhab"
+  },
+  "arabic": "الْوَهَّابُ",
+  "transliteration": {
+    "id": "Al-Wahhâbu",
+    "en": "Al-Wahhab"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-wahhab.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemberi Karunia",
+        "en": "The Bestower"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

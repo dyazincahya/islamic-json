@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-fattah",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-fattah",
+  "title": {
+    "id": "Al-Fattâhu",
+    "en": "Al-Fattah"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Fattâhu",
+    "en": "Al-Fattah"
+  },
+  "arabic": "الْفَتَّاحُ",
+  "transliteration": {
+    "id": "Al-Fattâhu",
+    "en": "Al-Fattah"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-fattah.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pembuka Rahmat",
+        "en": "The Opener"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

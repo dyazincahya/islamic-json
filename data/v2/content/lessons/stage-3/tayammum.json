@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.tayammum",
+  "type": "lesson",
+  "slug": "tayammum",
+  "title": {
+    "id": "Dasar tayammum",
+    "en": "Tayammum essentials"
+  },
+  "summary": {
+    "id": "Tayammum adalah pengganti bersuci dengan media permukaan bumi yang bersih ketika penggunaan air tidak memungkinkan menurut ketentuan.",
+    "en": "Tayammum is a substitute purification using clean earth when water cannot be used under the applicable conditions."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 5,
+  "group": "purification",
+  "relationships": {
+    "prerequisites": [
+      "lesson.wudu"
+    ],
+    "next": [
+      "lesson.ghusl"
+    ],
+    "related": [
+      "practice.tayammum"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.tayammum.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Tayammum adalah pengganti bersuci dengan media permukaan bumi yang bersih ketika penggunaan air tidak memungkinkan menurut ketentuan.",
+        "en": "Tayammum is a substitute purification using clean earth when water cannot be used under the applicable conditions."
+      }
+    },
+    {
+      "id": "block.tayammum.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.tayammum.1",
+          "text": {
+            "id": "Pastikan ada alasan yang membolehkan tayammum, bukan sekadar kenyamanan.",
+            "en": "Confirm that a valid reason permits tayammum rather than mere convenience."
+          }
+        },
+        {
+          "id": "item.tayammum.2",
+          "text": {
+            "id": "Berniat, menyentuh media yang bersih, lalu mengusap wajah dan tangan sesuai tuntunan.",
+            "en": "Make the intention, touch a clean earthen surface, then wipe the face and hands as instructed."
+          }
+        },
+        {
+          "id": "item.tayammum.3",
+          "text": {
+            "id": "Ketika alasan berakhir dan air dapat digunakan, ikuti kembali aturan bersuci dengan air.",
+            "en": "When the reason ends and water can be used, return to the rules of purification with water."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.tayammum.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.tayammum.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-5-6"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

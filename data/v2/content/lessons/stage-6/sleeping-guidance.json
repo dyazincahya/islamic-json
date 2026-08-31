@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.sleeping-guidance",
+  "type": "lesson",
+  "slug": "sleeping-guidance",
+  "title": {
+    "id": "Adab tidur",
+    "en": "Sleeping manners"
+  },
+  "summary": {
+    "id": "Tutup hari dengan tertib, aman, mengingat Allah, dan cukup istirahat.",
+    "en": "Close the day in an orderly, safe way with remembrance and adequate rest."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 7,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.eating-guidance"],
+    "next": ["lesson.neighbors-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.sleeping-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.sleeping-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Adab tidur membantu menutup hari dengan tertib serta mempersiapkan tubuh untuk kewajiban berikutnya.",
+        "en": "Sleeping manners help close the day in order and prepare the body for upcoming duties."
+      }
+    },
+    {
+      "id": "block.sleeping-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.sleeping-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang menyiapkan alarm salat dan menjauhkan gangguan sebelum tidur.",
+        "en": "A person sets a prayer alarm and removes distractions before sleep."
+      }
+    },
+    {
+      "id": "block.sleeping-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.sleeping-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.sleeping-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Buat rutinitas malam singkat yang menjaga ibadah, kebersihan, keamanan, dan istirahat.",
+            "en": "Create a short evening routine protecting worship, cleanliness, safety, and rest."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

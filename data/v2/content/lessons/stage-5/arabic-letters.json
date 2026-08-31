@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.arabic-letters",
+  "type": "lesson",
+  "slug": "arabic-letters",
+  "title": {
+    "id": "Huruf Arab",
+    "en": "Arabic letters"
+  },
+  "summary": {
+    "id": "Kenali bentuk dan bunyi dasar huruf hijaiyah.",
+    "en": "Recognize the basic forms and sounds of Arabic letters."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.arabic-letters",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 3,
+  "group": "quran-learning",
+  "relationships": {
+    "prerequisites": ["lesson.iqra-introduction"],
+    "next": ["lesson.quran-harakat"],
+    "related": ["lesson.quran-paths"]
+  },
+  "blocks": [
+    {
+      "id": "block.arabic-letters-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.arabic-letters-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Huruf hijaiyah memiliki nama, bentuk, dan tempat keluarnya bunyi yang perlu dipelajari perlahan.",
+        "en": "Arabic letters have names, shapes, and articulation points that should be learned gradually."
+      }
+    },
+    {
+      "id": "block.arabic-letters-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.arabic-letters-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Bandingkan ب, ت, dan ث dengan memperhatikan jumlah serta posisi titik.",
+        "en": "Compare ب, ت, and ث by noticing the number and position of dots."
+      }
+    },
+    {
+      "id": "block.arabic-letters-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.arabic-letters-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.arabic-letters-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Latih kelompok kecil huruf, ucapkan, tunjuk bentuknya, lalu minta koreksi.",
+            "en": "Practice a small letter group, pronounce each one, point to its shape, then seek correction."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    }
+  ]
+}

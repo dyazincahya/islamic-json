@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ar-rauf",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ar-rauf",
+  "title": {
+    "id": "Ar-Ra’ûfu",
+    "en": "Ar-Ra'uf"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Ar-Ra’ûfu",
+    "en": "Ar-Ra'uf"
+  },
+  "arabic": "الرَّؤُوْفُ",
+  "transliteration": {
+    "id": "Ar-Ra’ûfu",
+    "en": "Ar-Ra'uf"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ar-rauf.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pengasih",
+        "en": "The Most Kind"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

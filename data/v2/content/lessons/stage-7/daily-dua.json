@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-dua",
+  "type": "lesson",
+  "slug": "daily-dua",
+  "title": {
+    "id": "Doa dalam keseharian",
+    "en": "Supplication in daily life"
+  },
+  "summary": {
+    "id": "Sertai kebutuhan, syukur, dan harapan dengan doa serta ikhtiar.",
+    "en": "Accompany needs, gratitude, and hope with supplication and effort."
+  },
+  "status": "draft",
+  "iconId": "worship.supplication",
+  "stageId": "stage.daily-life",
+  "stageOrder": 2,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-supplications"],
+    "next": ["lesson.morning-evening-dhikr"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-dua-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-dua-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Doa adalah ibadah dan ketergantungan kepada Allah yang tidak menggantikan usaha yang benar.",
+        "en": "Supplication is worship and reliance upon Allah and does not replace appropriate effort."
+      }
+    },
+    {
+      "id": "block.daily-dua-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-dua-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang berdoa saat menghadapi pilihan lalu tetap mencari informasi dan bertindak.",
+        "en": "A person supplicates when facing a choice, then still seeks information and acts."
+      }
+    },
+    {
+      "id": "block.daily-dua-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-dua-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-dua-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Mohon satu kebutuhan yang baik lalu lakukan ikhtiar yang benar.",
+            "en": "Ask for one sound need, then take appropriate action."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

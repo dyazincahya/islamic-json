@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-travel",
+  "type": "lesson",
+  "slug": "daily-travel",
+  "title": {
+    "id": "Perjalanan",
+    "en": "Travel"
+  },
+  "summary": {
+    "id": "Rencanakan ibadah, keselamatan, dokumen, biaya, dan kebutuhan perjalanan.",
+    "en": "Plan worship, safety, documents, costs, and travel needs."
+  },
+  "status": "draft",
+  "iconId": "daily-life.travel",
+  "stageId": "stage.daily-life",
+  "stageOrder": 6,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-sleeping"],
+    "next": ["lesson.daily-family"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-travel-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-travel-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Perjalanan memerlukan persiapan yang menjaga ibadah, keselamatan, dan hak orang lain.",
+        "en": "Travel requires preparation that protects worship, safety, and the rights of others."
+      }
+    },
+    {
+      "id": "block.daily-travel-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-travel-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Sebelum berangkat, seseorang memeriksa waktu salat, rute aman, dan pilihan makanan.",
+        "en": "Before departure, a person checks prayer times, a safe route, and food options."
+      }
+    },
+    {
+      "id": "block.daily-travel-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-travel-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-travel-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Buat daftar yang mencakup ibadah, keselamatan, dokumen, dan kontak darurat.",
+            "en": "Make a checklist covering worship, safety, documents, and emergency contacts."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.location",
+      "required": false
+    }
+  ]
+}

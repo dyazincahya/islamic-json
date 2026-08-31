@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mutakabbir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mutakabbir",
+  "title": {
+    "id": "Al-Mutakabbiru",
+    "en": "Al-Mutakabbir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mutakabbiru",
+    "en": "Al-Mutakabbir"
+  },
+  "arabic": "الْمُتَكَبِّرُ",
+  "transliteration": {
+    "id": "Al-Mutakabbiru",
+    "en": "Al-Mutakabbir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mutakabbir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Megah",
+        "en": "The Supreme"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

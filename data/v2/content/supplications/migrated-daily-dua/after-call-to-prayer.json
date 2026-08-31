@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.after-call-to-prayer",
+  "type": "supplication",
+  "slug": "after-call-to-prayer",
+  "title": {
+    "id": "Doa Sesudah Adzan",
+    "en": "Supplication after the call to prayer"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 39,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.after-call-to-prayer",
+    "arabic": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+    "transliteration": {
+      "id": "allahumma rabba haadzihid da'watit taammah, wasshalaatil qaaaimah, aati muhammadanil wasiilata wal fadhiiilata, wab'atshu maqaaman mahmuuda alladzii wa'adtah",
+      "en": "allahumma rabba haadzihid da'watit taammah, wasshalaatil qaaaimah, aati muhammadanil wasiilata wal fadhiiilata, wab'atshu maqaaman mahmuuda alladzii wa'adtah"
+    },
+    "translation": {
+      "id": "Ya Allah, pemilik seruan yang sempurna ini dan sholat yang ditegakkan, anugerahkanlah kepada Nabi Muhammad; wasilah (kedudukan yang tinggi di surga) dan keutamaan (melebihi seluruh makhluk), dan bangkitkanlah beliau dalam kedudukan terpuji (memberi syafa'at) yang telah Engkau janjikan.",
+      "en": "O Allah, Lord of this perfect call and the established prayer, grant Muhammad the means of approach and excellence, and raise him to the praised station You promised him."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.after-call-to-prayer.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud (529), at-Tirmidzi (211), an-Nasa'i (2:26), Ibnu Majah (722). Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud (529), at-Tirmidzi (211), an-Nasa'i (2:26), Ibnu Majah (722). This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "location.mosque",
+  "benefits": {
+    "id": "Doa tersebut adalah doa yang disunnahkan oleh Rasulullah shallallahu alaihi wa sallam bagi orang yang mendengar panggilan shalat. Doa ini memiliki banyak keutamaan, di antaranya adalah mendapatkan syafaat dari Rasulullah shallallahu alaihi wa sallam dihari kiamat, mendapatkan wasilah dan kemuliaan bagi Nabi Muhammad shallallahu alaihi wa sallam di surga, dan mendapatkan pahala yang besar dan terpuji di sisi Allah ta'ala. Doa ini juga merupakan penghormatan dan pengagungan kepada Allah subhanahu wa ta'ala dan Rasul-Nya, serta menunjukkan rasa cinta dan rindu kepada Nabi Muhammad shallallahu alaihi wa sallam yang merupakan suri tauladan bagi umat Islam.",
+    "en": "The legacy note describes this as a recommended supplication for one who hears the call to prayer and associates it with receiving the Prophet's intercession and honoring Allah and His Messenger."
+  }
+}

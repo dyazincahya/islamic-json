@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.faith-in-last-day",
+  "type": "lesson",
+  "slug": "faith-in-last-day",
+  "title": { "id": "Iman kepada Hari Akhir", "en": "Faith in the Last Day" },
+  "summary": {
+    "id": "Pilar iman kelima: beriman kepada kebangkitan, pengadilan, dan kehidupan akhirat.",
+    "en": "The fifth pillar of faith: believing in resurrection, judgment, and the life to come."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.faith-foundations",
+  "stageOrder": 10,
+  "group": "pillars-of-faith",
+  "relationships": {
+    "prerequisites": ["lesson.faith-in-messengers"],
+    "next": ["lesson.faith-in-divine-decree"],
+    "related": ["lesson.purpose-of-worship", "lesson.prophet-muhammad"]
+  },
+  "sourceIds": [
+    "source.quran-33-21",
+    "source.hadith-muslim-8a",
+    "source.hadith-nawawi-2"
+  ],
+  "blocks": [
+    {
+      "id": "block.faith-in-last-day.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Iman kepada Hari Akhir berarti meyakini bahwa manusia akan dibangkitkan, dimintai pertanggungjawaban, dan menerima balasan yang adil dari Allah.",
+        "en": "Faith in the Last Day means believing that people will be resurrected, held accountable, and receive Allah's just recompense."
+      }
+    },
+    {
+      "id": "block.faith-in-last-day.effect",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Keyakinan ini mendorong taubat, tanggung jawab, keadilan, dan kesungguhan dalam berbuat baik.",
+        "en": "This belief encourages repentance, responsibility, justice, and earnest good deeds."
+      },
+      "iconId": "faith.belief"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami dasar iman kepada Hari Akhir.",
+      "en": "I understand the foundation of faith in the Last Day."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

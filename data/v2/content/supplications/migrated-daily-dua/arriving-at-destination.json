@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.arriving-at-destination",
+  "type": "supplication",
+  "slug": "arriving-at-destination",
+  "title": {
+    "id": "Doa ketika sampai di tempat tujuan",
+    "en": "Supplication upon arriving at the destination"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 47,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.arriving-at-destination",
+    "arabic": "اَلْحَمْدُ ِللهِ الَّذِى سَلَمَنِى وَالَّذِى اَوَنِى وَالَّذِى جَمَعَ الشَّمْلَ بِ",
+    "transliteration": {
+      "id": "alhamdulillahil ladzi sallamani wal ladzi awani wal ladzi jama’asy syamla bi",
+      "en": "alhamdulillahil ladzi sallamani wal ladzi awani wal ladzi jama’asy syamla bi"
+    },
+    "translation": {
+      "id": "Segala puji bagi Allah, yang telah menyelamatkan akau dan yang telah melindungiku dan yang mengumpulkanku dengan keluargaku.",
+      "en": "All praise is for Allah who kept me safe, sheltered me, and reunited me with my family."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.travel"
+}

@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://islamic-json.dev/v2/schemas/common.schema.json",
+  "title": "Islamic JSON v2 shared definitions",
+  "$defs": {
+    "semanticId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 120
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 100
+    },
+    "locale": {
+      "type": "string",
+      "pattern": "^(?:(?:[A-Za-z]{2,3}(?:-[A-Za-z]{3}){0,3}|[A-Za-z]{4}|[A-Za-z]{5,8})(?:-[A-Za-z]{4})?(?:-(?:[A-Za-z]{2}|[0-9]{3}))?(?:-(?:[A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(?:-[0-9A-WY-Za-wy-z](?:-[A-Za-z0-9]{2,8})+)*(?:-x(?:-[A-Za-z0-9]{1,8})+)?|x(?:-[A-Za-z0-9]{1,8})+)$"
+    },
+    "plainText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?![\\s\\S]*<\\/?[A-Za-z][^>]*>)[\\s\\S]*\\S[\\s\\S]*$"
+    },
+    "localizedString": {
+      "type": "object",
+      "required": ["id", "en"],
+      "properties": {
+        "id": { "$ref": "#/$defs/plainText" },
+        "en": { "$ref": "#/$defs/plainText" }
+      },
+      "propertyNames": { "$ref": "#/$defs/locale" },
+      "additionalProperties": { "$ref": "#/$defs/plainText" }
+    },
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?![A-Za-z][A-Za-z0-9+.-]*:)(?![/\\\\])(?!.*(?:^|[/\\\\])\\.\\.(?:[/\\\\]|$))(?!.*\\\\)[A-Za-z0-9._/-]+$"
+    },
+    "publicationStatus": {
+      "enum": ["draft", "translated", "under-review", "reviewed", "deprecated"]
+    },
+    "idList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/semanticId" },
+      "uniqueItems": true
+    },
+    "relationships": {
+      "type": "object",
+      "properties": {
+        "prerequisites": { "$ref": "#/$defs/idList" },
+        "next": { "$ref": "#/$defs/idList" },
+        "related": { "$ref": "#/$defs/idList" }
+      },
+      "additionalProperties": false
+    },
+    "featureLink": {
+      "type": "object",
+      "required": ["featureId"],
+      "properties": {
+        "featureId": {
+          "allOf": [
+            { "$ref": "#/$defs/semanticId" },
+            { "pattern": "^feature\\." }
+          ]
+        },
+        "label": { "$ref": "#/$defs/localizedString" },
+        "required": { "type": "boolean", "default": false },
+        "parameters": {
+          "type": "object",
+          "additionalProperties": {
+            "type": ["string", "number", "integer", "boolean", "null"]
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "reviewDimension": {
+      "type": "object",
+      "required": ["outcome"],
+      "properties": {
+        "outcome": {
+          "enum": ["pending", "in-progress", "complete", "not-applicable"]
+        },
+        "reviewerId": { "$ref": "#/$defs/semanticId" },
+        "reviewedAt": { "type": "string", "format": "date" },
+        "notes": { "$ref": "#/$defs/localizedString" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "outcome": { "const": "complete" } },
+            "required": ["outcome"]
+          },
+          "then": { "required": ["reviewerId", "reviewedAt"] }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "reviewMetadata": {
+      "type": "object",
+      "properties": {
+        "content": { "$ref": "#/$defs/reviewDimension" },
+        "locales": {
+          "type": "object",
+          "properties": {
+            "id": { "$ref": "#/$defs/reviewDimension" },
+            "en": { "$ref": "#/$defs/reviewDimension" }
+          },
+          "additionalProperties": { "$ref": "#/$defs/reviewDimension" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "completedReviewMetadata": {
+      "type": "object",
+      "required": ["content", "locales"],
+      "properties": {
+        "content": { "$ref": "#/$defs/completedReviewDimension" },
+        "locales": {
+          "type": "object",
+          "required": ["id", "en"],
+          "properties": {
+            "id": { "$ref": "#/$defs/completedReviewDimension" },
+            "en": { "$ref": "#/$defs/completedReviewDimension" }
+          },
+          "additionalProperties": { "$ref": "#/$defs/reviewDimension" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "completedReviewDimension": {
+      "type": "object",
+      "required": ["outcome", "reviewerId", "reviewedAt"],
+      "properties": {
+        "outcome": { "const": "complete" },
+        "reviewerId": { "$ref": "#/$defs/semanticId" },
+        "reviewedAt": { "type": "string", "format": "date" },
+        "notes": { "$ref": "#/$defs/localizedString" }
+      },
+      "additionalProperties": false
+    },
+    "deprecation": {
+      "type": "object",
+      "required": ["reason"],
+      "properties": {
+        "reason": { "$ref": "#/$defs/localizedString" },
+        "replacementId": { "$ref": "#/$defs/semanticId" }
+      },
+      "additionalProperties": false
+    },
+    "completionPrompt": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "label"],
+          "properties": {
+            "type": { "const": "acknowledgement" },
+            "label": { "$ref": "#/$defs/localizedString" }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "label", "items"],
+          "properties": {
+            "type": { "const": "practice-checklist" },
+            "label": { "$ref": "#/$defs/localizedString" },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["id", "label"],
+                "properties": {
+                  "id": { "$ref": "#/$defs/semanticId" },
+                  "label": { "$ref": "#/$defs/localizedString" }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "documentEnvelope": {
+      "type": "object",
+      "required": ["schemaVersion", "id", "type", "slug", "title", "status"],
+      "properties": {
+        "schemaVersion": { "const": "2.0" },
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "type": "string" },
+        "slug": { "$ref": "#/$defs/slug" },
+        "title": { "$ref": "#/$defs/localizedString" },
+        "summary": { "$ref": "#/$defs/localizedString" },
+        "status": { "$ref": "#/$defs/publicationStatus" },
+        "iconId": { "$ref": "#/$defs/semanticId" },
+        "relationships": { "$ref": "#/$defs/relationships" },
+        "featureLinks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/featureLink" }
+        },
+        "sourceIds": { "$ref": "#/$defs/idList" },
+        "review": { "$ref": "#/$defs/reviewMetadata" },
+        "seasonalTags": {
+          "type": "array",
+          "items": {
+            "enum": ["season.ramadan", "season.eid-al-fitr", "season.hajj"]
+          },
+          "uniqueItems": true
+        },
+        "deprecation": { "$ref": "#/$defs/deprecation" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "reviewed" } },
+            "required": ["status"]
+          },
+          "then": {
+            "required": ["sourceIds", "review"],
+            "properties": {
+              "sourceIds": { "minItems": 1 },
+              "review": { "$ref": "#/$defs/completedReviewMetadata" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "status": { "const": "deprecated" } },
+            "required": ["status"]
+          },
+          "then": { "required": ["deprecation"] }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.honesty-guidance",
+  "type": "lesson",
+  "slug": "honesty-guidance",
+  "title": {
+    "id": "Kejujuran",
+    "en": "Honesty"
+  },
+  "summary": {
+    "id": "Selaraskan ucapan dan tindakan dengan keadaan sebenarnya.",
+    "en": "Align speech and action with reality."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 2,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.intention-guidance"],
+    "next": ["lesson.guarding-speech-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.honesty-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.honesty-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Kejujuran menyatukan ucapan, tindakan, dan keadaan sebenarnya serta membangun kepercayaan.",
+        "en": "Honesty aligns speech and action with reality and builds trust."
+      }
+    },
+    {
+      "id": "block.honesty-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.honesty-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang mengakui kesalahan dalam tugas dan memperbaikinya tanpa menyalahkan orang lain.",
+        "en": "A person admits a mistake in a task and corrects it without blaming others."
+      }
+    },
+    {
+      "id": "block.honesty-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.honesty-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.honesty-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Sampaikan satu fakta sulit dengan benar, lembut, dan tanpa melebihkan atau mengurangi.",
+            "en": "Communicate one difficult fact truthfully, gently, and without exaggeration or concealment."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

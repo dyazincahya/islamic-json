@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.leaving-mosque",
+  "type": "supplication",
+  "slug": "leaving-mosque",
+  "title": {
+    "id": "Doa Keluar Masjid",
+    "en": "Supplication upon leaving the mosque"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 10,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.leaving-mosque",
+    "arabic": "اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ مِنْ فَضْلِكَ",
+    "transliteration": {
+      "id": "allahumma innii as'aluka min fadhlika",
+      "en": "allahumma innii as'aluka min fadhlika"
+    },
+    "translation": {
+      "id": "Ya Allah, sesungguhnya aku memohon karunia-Mu.",
+      "en": "O Allah, I ask You for Your bounty."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.leaving-mosque.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Muslim No. 713. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Muslim No. 713. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "location.mosque",
+  "benefits": {
+    "id": "Bumi Allah sangatlah luas, ada banyak jalan mencari rezeki. Hendalkah seorang hamba meminta karunia kepada Allah agar dimudahkan untuk mendapat rezeki yang telah Allah bagikan kepada seluruh hamba-Nya.",
+    "en": "Allah's earth is vast and there are many ways to seek provision. A servant asks Allah for bounty and ease in receiving the provision He apportions."
+  }
+}

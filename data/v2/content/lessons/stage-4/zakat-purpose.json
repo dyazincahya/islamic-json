@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.zakat-purpose",
+  "type": "lesson",
+  "slug": "zakat-purpose",
+  "title": {
+    "id": "Tujuan zakat",
+    "en": "Purpose of zakat"
+  },
+  "summary": {
+    "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
+    "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 11,
+  "group": "zakat",
+  "relationships": {
+    "prerequisites": [
+      "lesson.fidyah"
+    ],
+    "next": [
+      "lesson.zakat-fitrah"
+    ],
+    "related": []
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-9-103"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [
+    "season.ramadan"
+  ],
+  "blocks": [
+    {
+      "id": "block.zakat-purpose-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
+        "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
+      }
+    },
+    {
+      "id": "block.zakat-purpose-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Tujuan zakat. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Purpose of zakat. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.zakat-purpose-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.zakat-purpose-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-9-103"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

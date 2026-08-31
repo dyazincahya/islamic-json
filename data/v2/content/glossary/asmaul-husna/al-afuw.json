@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-afuw",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-afuw",
+  "title": {
+    "id": "Al-`Afuwwu",
+    "en": "Al-'Afuww"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-`Afuwwu",
+    "en": "Al-'Afuww"
+  },
+  "arabic": "الْعَفُوُّ",
+  "transliteration": {
+    "id": "Al-`Afuwwu",
+    "en": "Al-'Afuww"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-afuw.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemaaf",
+        "en": "The Pardoner"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.congregational-prayer",
+  "type": "practice",
+  "slug": "congregational-prayer",
+  "title": {
+    "id": "Simulasi salat berjamaah",
+    "en": "Congregational prayer simulation"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 111,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.congregational-prayer"
+    ],
+    "next": [
+      "practice.voluntary-prayer"
+    ],
+    "related": [
+      "lesson.congregational-prayer"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.location",
+      "required": false,
+      "parameters": {
+        "purpose": "mosque"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-2-43"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.congregational-prayer.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.congregational-prayer.1",
+          "title": {
+            "id": "Bentuk peran",
+            "en": "Assign roles"
+          },
+          "body": {
+            "id": "Tentukan imam dan makmum untuk latihan tanpa mengganggu jamaah lain.",
+            "en": "Assign imam and follower roles for practice without disturbing others."
+          }
+        },
+        {
+          "id": "step.congregational-prayer.2",
+          "title": {
+            "id": "Ikuti imam",
+            "en": "Follow the imam"
+          },
+          "body": {
+            "id": "Latih perpindahan gerakan setelah imam tanpa mendahului.",
+            "en": "Practice changing positions after the imam without preceding them."
+          }
+        },
+        {
+          "id": "step.congregational-prayer.3",
+          "title": {
+            "id": "Latih kondisi terlambat",
+            "en": "Practice joining late"
+          },
+          "body": {
+            "id": "Simulasikan bergabung dan catat pertanyaan tentang rakaat yang tertinggal.",
+            "en": "Simulate joining late and note questions about missed units."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.congregational-prayer.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.congregational-prayer.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.congregational-prayer.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.congregational-prayer.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

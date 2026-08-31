@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.parents-guidance",
+  "type": "lesson",
+  "slug": "parents-guidance",
+  "title": {
+    "id": "Berbuat baik kepada orang tua",
+    "en": "Good conduct toward parents"
+  },
+  "summary": {
+    "id": "Tunjukkan hormat, perhatian, bantuan, dan komunikasi lembut.",
+    "en": "Show respect, care, help, and gentle communication."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 4,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.guarding-speech-guidance"],
+    "next": ["lesson.compassion-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.parents-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.parents-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Berbakti mencakup hormat, perhatian, bantuan, dan komunikasi lembut dalam perkara yang baik.",
+        "en": "Good conduct toward parents includes respect, care, help, and gentle communication in what is right."
+      }
+    },
+    {
+      "id": "block.parents-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.parents-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seorang anak mendengarkan kebutuhan orang tua dan menjawab tanpa membentak.",
+        "en": "A child listens to parental needs and answers without harshness."
+      }
+    },
+    {
+      "id": "block.parents-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.parents-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.parents-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Tanyakan kebutuhan orang tua lalu lakukan satu bantuan nyata.",
+            "en": "Ask what your parents need, then provide one practical help."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.brief-tafsir",
+  "type": "lesson",
+  "slug": "brief-tafsir",
+  "title": {
+    "id": "Pengantar tafsir ringkas",
+    "en": "Introduction to brief tafsir"
+  },
+  "summary": {
+    "id": "Kenali fungsi tafsir ringkas untuk menjelaskan konteks dan pesan ayat.",
+    "en": "Recognize how brief tafsir explains a verses context and message."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.meaning",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 7,
+  "group": "quran-learning",
+  "relationships": {
+    "prerequisites": ["lesson.quran-translation"],
+    "next": ["lesson.quran-themes"],
+    "related": ["lesson.quran-paths"]
+  },
+  "blocks": [
+    {
+      "id": "block.brief-tafsir-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.brief-tafsir-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Tafsir membantu memahami bahasa, konteks, hubungan antarayat, dan pelajaran.",
+        "en": "Tafsir helps explain language, context, connections between verses, and lessons."
+      }
+    },
+    {
+      "id": "block.brief-tafsir-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.brief-tafsir-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Pembaca memeriksa tafsir ketika terjemahan memuat istilah yang dapat dipahami dengan beberapa cara.",
+        "en": "A reader checks tafsir when a translation contains a term with several possible understandings."
+      }
+    },
+    {
+      "id": "block.brief-tafsir-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.brief-tafsir-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.brief-tafsir-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Baca terjemahan dan tafsir ringkas tepercaya, lalu tulis perbedaan fungsi keduanya.",
+            "en": "Read a trusted translation and brief tafsir, then write how their functions differ."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reading",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    }
+  ]
+}

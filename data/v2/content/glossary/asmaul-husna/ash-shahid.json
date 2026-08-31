@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ash-shahid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ash-shahid",
+  "title": {
+    "id": "Asy-Syahîdu",
+    "en": "Ash-Shahid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Asy-Syahîdu",
+    "en": "Ash-Shahid"
+  },
+  "arabic": "الشَّهِيْدُ",
+  "transliteration": {
+    "id": "Asy-Syahîdu",
+    "en": "Ash-Shahid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ash-shahid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Menyaksikan",
+        "en": "The Witness"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.encountering-wild-animal",
+  "type": "supplication",
+  "slug": "encountering-wild-animal",
+  "title": {
+    "id": "Doa bertemu binatang buas",
+    "en": "Supplication when encountering a wild animal"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 54,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.encountering-wild-animal",
+    "arabic": "إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+    "transliteration": {
+      "id": "innahụ min sulaimāna wa innahụ bismillāhir-raḥmānir-raḥīm",
+      "en": "innahụ min sulaimāna wa innahụ bismillāhir-raḥmānir-raḥīm"
+    },
+    "translation": {
+      "id": "Sesungguhnya surat itu, dari SuIaiman dan sesungguhnya (isi)nya: Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.",
+      "en": "Indeed, it is from Solomon, and indeed it reads: In the name of Allah, the Most Compassionate, the Most Merciful."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.encountering-wild-animal.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: Qs. An Naml: 30. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: Qs. An Naml: 30. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication"
+}

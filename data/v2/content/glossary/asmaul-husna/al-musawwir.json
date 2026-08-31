@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-musawwir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-musawwir",
+  "title": {
+    "id": "Al-Mushawwiru",
+    "en": "Al-Musawwir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mushawwiru",
+    "en": "Al-Musawwir"
+  },
+  "arabic": "الْمُصَوِّرُ",
+  "transliteration": {
+    "id": "Al-Mushawwiru",
+    "en": "Al-Musawwir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-musawwir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Membentuk Rupa (makhluknya)",
+        "en": "The Fashioner"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

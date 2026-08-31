@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.compassion-guidance",
+  "type": "lesson",
+  "slug": "compassion-guidance",
+  "title": {
+    "id": "Kasih sayang",
+    "en": "Compassion"
+  },
+  "summary": {
+    "id": "Kurangi kesulitan orang lain melalui kelembutan dan kepedulian.",
+    "en": "Reduce others hardship through gentleness and care."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 5,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.parents-guidance"],
+    "next": ["lesson.eating-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.compassion-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.compassion-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Kasih sayang tampak dalam kelembutan, kepedulian, dan usaha mengurangi kesulitan makhluk lain.",
+        "en": "Compassion appears through gentleness, care, and efforts to reduce the hardship of others."
+      }
+    },
+    {
+      "id": "block.compassion-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.compassion-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang mendengarkan teman yang kesulitan tanpa meremehkan dan menawarkan bantuan wajar.",
+        "en": "A person listens to a struggling friend without belittling them and offers reasonable help."
+      }
+    },
+    {
+      "id": "block.compassion-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.compassion-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.compassion-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Lakukan satu bantuan kecil tanpa menunggu balasan.",
+            "en": "Offer one small help without expecting repayment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.compassion-guidance-source",
+      "type": "source-reference",
+      "sourceIds": ["source.hadith-bukhari-13"],
+      "note": {
+        "id": "Rujukan bibliografis hadis tentang mencintai kebaikan bagi sesama; teks hadis tidak disalin di sini.",
+        "en": "Bibliographic reference for the hadith on loving good for others; the hadith text is not copied here."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "sourceIds": ["source.hadith-bukhari-13"]
+}

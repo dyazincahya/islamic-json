@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-baqi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-baqi",
+  "title": {
+    "id": "Al-Bâqî",
+    "en": "Al-Baqi"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Bâqî",
+    "en": "Al-Baqi"
+  },
+  "arabic": "الْبَاقِيْ",
+  "transliteration": {
+    "id": "Al-Bâqî",
+    "en": "Al-Baqi"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-baqi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahakekal",
+        "en": "The Everlasting"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

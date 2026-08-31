@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "type": "repository-manifest",
+  "name": "islamic-json",
+  "defaultDataset": "v2",
+  "documentation": {
+    "path": "docs/",
+    "pagesUrl": "https://dyazincahya.github.io/islamic-json/"
+  },
+  "datasets": [
+    {
+      "id": "v2",
+      "status": "current",
+      "path": "data/v2/",
+      "manifestPath": "data/v2/manifest.json",
+      "description": "Structured multilingual non-Quran and non-hadith learning data."
+    },
+    {
+      "id": "legacy",
+      "status": "deprecated",
+      "path": "data/legacy/",
+      "manifestPath": "data/legacy/manifest.json",
+      "description": "Original collections retained for compatibility in their existing formats."
+    },
+    {
+      "id": "holy-quran",
+      "status": "independent",
+      "path": "data/holy-quran/",
+      "description": "Independent Quran dataset; not legacy or deprecated."
+    }
+  ],
+  "migrationGuide": "MIGRATION.md"
+}

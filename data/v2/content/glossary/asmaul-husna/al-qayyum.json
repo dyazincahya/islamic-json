@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-qayyum",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-qayyum",
+  "title": {
+    "id": "Al-Qayyûmu",
+    "en": "Al-Qayyum"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Qayyûmu",
+    "en": "Al-Qayyum"
+  },
+  "arabic": "الْقَيُّوْمُ",
+  "transliteration": {
+    "id": "Al-Qayyûmu",
+    "en": "Al-Qayyum"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-qayyum.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahamandiri",
+        "en": "The Self-Subsisting"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-2-255"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

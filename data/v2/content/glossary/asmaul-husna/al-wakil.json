@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-wakil",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-wakil",
+  "title": {
+    "id": "Al-Wakîlu",
+    "en": "Al-Wakil"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wakîlu",
+    "en": "Al-Wakil"
+  },
+  "arabic": "الْوَكِيْلُ",
+  "transliteration": {
+    "id": "Al-Wakîlu",
+    "en": "Al-Wakil"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-wakil.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memelihara",
+        "en": "The Trustee"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

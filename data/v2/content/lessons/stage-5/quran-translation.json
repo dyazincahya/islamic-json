@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.quran-translation",
+  "type": "lesson",
+  "slug": "quran-translation",
+  "title": {
+    "id": "Memahami terjemahan Al-Quran",
+    "en": "Understanding Quran translation"
+  },
+  "summary": {
+    "id": "Gunakan terjemahan sebagai bantuan memahami makna, bukan pengganti teks Arab atau tafsir.",
+    "en": "Use translation as an aid to meaning, not as a replacement for Arabic text or tafsir."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.meaning",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 6,
+  "group": "quran-learning",
+  "relationships": {
+    "prerequisites": [],
+    "next": ["lesson.brief-tafsir"],
+    "related": ["lesson.quran-paths"]
+  },
+  "blocks": [
+    {
+      "id": "block.quran-translation-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.quran-translation-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Terjemahan menyampaikan pemahaman penerjemah; pilihan kata dapat berbeda sehingga konteks tetap penting.",
+        "en": "Translation conveys a translators understanding; wording can differ, so context remains important."
+      }
+    },
+    {
+      "id": "block.quran-translation-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.quran-translation-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Ketika terjemahan berbeda, pembaca mencatatnya dan mencari penjelasan tepercaya.",
+        "en": "When translations differ, a reader notes it and seeks reliable explanation."
+      }
+    },
+    {
+      "id": "block.quran-translation-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.quran-translation-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.quran-translation-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Baca bagian pendek melalui fitur membaca dan catat satu makna utama serta pertanyaan.",
+            "en": "Read a short passage through the reading feature and note one main meaning and questions."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reading",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-qadir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-qadir",
+  "title": {
+    "id": "Al-Qâdiru",
+    "en": "Al-Qadir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Qâdiru",
+    "en": "Al-Qadir"
+  },
+  "arabic": "الْقَادِرُ",
+  "transliteration": {
+    "id": "Al-Qâdiru",
+    "en": "Al-Qadir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-qadir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Menentukan, Maha Menyeimbangkan",
+        "en": "The All-Powerful"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

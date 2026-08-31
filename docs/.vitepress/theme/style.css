@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --oe-canvas: #ffffff;
+  --oe-surface: #f6f8fa;
+  --oe-surface-muted: #eef1f4;
+  --oe-border: #d0d7de;
+  --oe-fg: #1f2328;
+  --oe-muted: #59636e;
+  --oe-accent: #087f5b;
+  --oe-link: #0969da;
+  --oe-success: #1a7f37;
+  --oe-warning: #9a6700;
+  --oe-danger: #cf222e;
+  --vp-c-brand-1: var(--oe-accent);
+  --vp-c-brand-2: #0a6c4e;
+  --vp-c-brand-3: #075c42;
+  --vp-c-bg: var(--oe-canvas);
+  --vp-c-bg-alt: var(--oe-surface);
+  --vp-c-bg-soft: var(--oe-surface-muted);
+  --vp-c-border: var(--oe-border);
+  --vp-c-text-1: var(--oe-fg);
+  --vp-c-text-2: var(--oe-muted);
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --vp-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+:root.dark {
+  --oe-canvas: #0d1117;
+  --oe-surface: #161b22;
+  --oe-surface-muted: #21262d;
+  --oe-border: #30363d;
+  --oe-fg: #f0f6fc;
+  --oe-muted: #8b949e;
+  --oe-accent: #3fb950;
+  --oe-link: #58a6ff;
+  --oe-success: #3fb950;
+  --oe-warning: #d29922;
+  --oe-danger: #f85149;
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }
+body { background: var(--oe-canvas); color: var(--oe-fg); }
+:focus-visible { outline: 3px solid var(--oe-accent); outline-offset: 3px; }
+.oe-card { border: 1px solid var(--oe-border); border-radius: 8px; background: var(--oe-surface); padding: 1rem; }
+.oe-status { display: inline-flex; border: 1px solid currentColor; border-radius: 999px; padding: .15rem .5rem; font-size: .75rem; font-weight: 600; }
+.oe-status--draft, .oe-status--under-review { color: var(--oe-warning); }
+.oe-status--reviewed { color: var(--oe-success); }
+.oe-status--deprecated { color: var(--oe-danger); }
+.oe-arabic { font-family: "Noto Naskh Arabic", "Traditional Arabic", serif; font-size: 1.5rem; line-height: 2; }

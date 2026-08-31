@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-hadi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-hadi",
+  "title": {
+    "id": "Al-Hâdî",
+    "en": "Al-Hadi"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Hâdî",
+    "en": "Al-Hadi"
+  },
+  "arabic": "الْهَادِيْ",
+  "transliteration": {
+    "id": "Al-Hâdî",
+    "en": "Al-Hadi"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-hadi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemberi Petunjuk",
+        "en": "The Guide"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

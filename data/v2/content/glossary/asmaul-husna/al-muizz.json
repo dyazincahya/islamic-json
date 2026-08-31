@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muizz",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muizz",
+  "title": {
+    "id": "Al-Mu`izzu",
+    "en": "Al-Mu'izz"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mu`izzu",
+    "en": "Al-Mu'izz"
+  },
+  "arabic": "الْمُعِزُّ",
+  "transliteration": {
+    "id": "Al-Mu`izzu",
+    "en": "Al-Mu'izz"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muizz.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memuliakan (makhluknya)",
+        "en": "The Honourer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

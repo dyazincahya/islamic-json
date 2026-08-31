@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-zakat-fitrah-self",
+  "type": "supplication",
+  "slug": "migrated-zakat-fitrah-self",
+  "title": {
+    "id": "Niat zakat fitrah untuk diri sendiri",
+    "en": "Zakat al-Fitr intention for oneself"
+  },
+  "summary": {
+    "id": "Redaksi niat zakat fitrah untuk diri sendiri dari data lama.",
+    "en": "The legacy Zakat al-Fitr intention formula for oneself."
+  },
+  "status": "draft",
+  "iconId": "worship.zakat",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 4,
+  "group": "migrated-pillars.zakat",
+  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
+  "relationships": {
+    "related": ["lesson.migrated-zakat-fitrah"]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": { "contentId": "recitation.migrated-zakat-fitrah-self" }
+    }
+  ],
+  "recitation": {
+    "id": "recitation.migrated-zakat-fitrah-self",
+    "arabic": "نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ الْفِطْرِ عَنْ نَفْسِي فَرْضًا لِلَّهِ تَعَالَى",
+    "transliteration": {
+      "id": "Nawaitu an ukhrija zakâtal fithri 'an nafsî fardhan lillâhi ta'âlâ.",
+      "en": "Nawaytu an ukhrija zakatal-fitri 'an nafsi fardan lillahi ta'ala."
+    },
+    "translation": {
+      "id": "Aku berniat mengeluarkan zakat fitrah untuk diriku sendiri, sebagai kewajiban karena Allah Ta'ala.",
+      "en": "I intend to give Zakat al-Fitr for myself, as an obligation for Allah Most High."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-zakat-fitrah-self.note",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Redaksi lisan ini dimigrasikan sebagai bahan belajar dan belum dinyatakan sebagai bacaan wajib.",
+        "en": "This verbal formula is migrated as learning material and is not asserted to be a required recitation."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending",
+      "notes": {
+        "id": "Teks Arab dinormalisasi dari karakter presentasi Unicode; bacaan dan terjemahan menunggu verifikasi.",
+        "en": "The Arabic was normalized from Unicode presentation forms; the recitation and translation await verification."
+      }
+    },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

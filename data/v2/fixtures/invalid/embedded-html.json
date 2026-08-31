@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.embedded-html",
+  "type": "lesson",
+  "slug": "embedded-html",
+  "title": { "id": "HTML tertanam", "en": "Embedded HTML" },
+  "status": "draft",
+  "stageId": "stage.introduction",
+  "stageOrder": 1,
+  "group": "fixtures",
+  "blocks": [
+    {
+      "id": "block.embedded-html",
+      "type": "paragraph",
+      "text": {
+        "id": "Teks dengan <strong>markup</strong>.",
+        "en": "Text with <strong>markup</strong>."
+      }
+    }
+  ]
+}

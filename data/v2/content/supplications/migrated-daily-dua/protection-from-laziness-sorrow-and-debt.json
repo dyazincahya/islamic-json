@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.protection-from-laziness-sorrow-and-debt",
+  "type": "supplication",
+  "slug": "protection-from-laziness-sorrow-and-debt",
+  "title": {
+    "id": "Doa Memohon Perlindungan Dari Sifat Malas, Kesedihan, dan Lilitan Hutang",
+    "en": "Supplication for protection from laziness, sorrow, and debt"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 33,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.protection-from-laziness-sorrow-and-debt",
+    "arabic": "اَللّٰهُمَّ إِنِّى أَعُوْذُبِكَ مِنَ الْهَمِّ وَالْحَزْنِ وَأَعُوْذُبِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَأَعُوْذُبِكَ مِنَ الْجُبْنِ وَالْبُخْلِ وَأَعُوْذُبِكَ مِنْ غَلَبَتِ الدَّيْنِ وَقَهْرِ الرجال",
+    "transliteration": {
+      "id": "allahumma innii a'uudzu bika minal hammi wal hazan. wa a'udzu bika minal 'ajzi wal kasal. wa a'uudzu bika minal jubni wal bukhl. wa a'uudzu bika min ghalabatid daini wa qahrir rijaal",
+      "en": "allahumma innii a'uudzu bika minal hammi wal hazan. wa a'udzu bika minal 'ajzi wal kasal. wa a'uudzu bika minal jubni wal bukhl. wa a'uudzu bika min ghalabatid daini wa qahrir rijaal"
+    },
+    "translation": {
+      "id": "Ya Allah, aku berlindung kepada-Mu dari kebingungan dan kesedihan, aku berlindung kepada-Mu dari kelemahan dan kemalasan, aku berlindung kepada-Mu dari ketakutan dan kekikiran, aku berlindung kepada-Mu dari lilitan hutang dan tekanan orang-orang.",
+      "en": "O Allah, I seek refuge in You from anxiety and sorrow. I seek refuge in You from incapacity and laziness. I seek refuge in You from cowardice and miserliness. I seek refuge in You from being overcome by debt and overpowered by people."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.protection-from-laziness-sorrow-and-debt.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud No. 1555. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud No. 1555. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Abu Umamah lalu menuturkan: Setelah aku mengamalkan doa itu, Allah benar-benar menghilangkan kebingunganku dan memberi kemampuan melunasi hutang.",
+    "en": "The legacy note reports that after Abu Umamah practiced this supplication, Allah removed his anxiety and enabled him to repay his debt."
+  }
+}

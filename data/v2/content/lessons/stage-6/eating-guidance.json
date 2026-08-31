@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.eating-guidance",
+  "type": "lesson",
+  "slug": "eating-guidance",
+  "title": {
+    "id": "Adab makan",
+    "en": "Eating manners"
+  },
+  "summary": {
+    "id": "Latih syukur, kesederhanaan, kebersamaan, dan hindari pemborosan.",
+    "en": "Cultivate gratitude, moderation, fellowship, and avoid waste."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.hadith-character",
+  "stageOrder": 6,
+  "group": "thematic-guidance",
+  "relationships": {
+    "prerequisites": ["lesson.compassion-guidance"],
+    "next": ["lesson.sleeping-guidance"],
+    "related": []
+  },
+  "blocks": [
+    {
+      "id": "block.eating-guidance-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.eating-guidance-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Adab makan melatih syukur, kesederhanaan, kebersamaan, dan kepedulian.",
+        "en": "Eating manners cultivate gratitude, moderation, fellowship, and care."
+      }
+    },
+    {
+      "id": "block.eating-guidance-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.eating-guidance-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang mengambil porsi secukupnya dan menyimpan sisa yang masih layak.",
+        "en": "A person takes a sufficient portion and preserves usable leftovers."
+      }
+    },
+    {
+      "id": "block.eating-guidance-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.eating-guidance-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.eating-guidance-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pada waktu makan berikutnya, ambil porsi wajar dan kurangi pemborosan.",
+            "en": "At the next meal, take a reasonable portion and reduce waste."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

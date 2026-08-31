@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.prayer-movements",
+  "type": "lesson",
+  "slug": "prayer-movements",
+  "title": {
+    "id": "Gerakan salat",
+    "en": "Prayer movements"
+  },
+  "summary": {
+    "id": "Gerakan salat dipelajari sebagai rangkaian berdiri, rukuk, bangkit, sujud, duduk, dan salam dengan ketenangan.",
+    "en": "Prayer movements are learned as a sequence of standing, bowing, rising, prostrating, sitting, and ending with salam in composure."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 8,
+  "group": "prayer",
+  "relationships": {
+    "prerequisites": [
+      "lesson.prayer-times"
+    ],
+    "next": [
+      "lesson.prayer-recitations"
+    ],
+    "related": [
+      "practice.prayer-movements"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-2-43"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.prayer-movements.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Gerakan salat dipelajari sebagai rangkaian berdiri, rukuk, bangkit, sujud, duduk, dan salam dengan ketenangan.",
+        "en": "Prayer movements are learned as a sequence of standing, bowing, rising, prostrating, sitting, and ending with salam in composure."
+      }
+    },
+    {
+      "id": "block.prayer-movements.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.prayer-movements.1",
+          "text": {
+            "id": "Latih urutan gerakan sebelum menambah kecepatan.",
+            "en": "Practice the movement order before increasing pace."
+          }
+        },
+        {
+          "id": "item.prayer-movements.2",
+          "text": {
+            "id": "Jaga tuma'ninah, keseimbangan, dan batas kemampuan tubuh.",
+            "en": "Maintain composure, balance, and respect physical limits."
+          }
+        },
+        {
+          "id": "item.prayer-movements.3",
+          "text": {
+            "id": "Mintalah penyesuaian gerakan bila sakit atau memiliki keterbatasan.",
+            "en": "Ask about movement adaptations when ill or physically limited."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-movements.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.prayer-movements.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-43"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

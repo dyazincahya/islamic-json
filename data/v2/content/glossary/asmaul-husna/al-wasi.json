@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-wasi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-wasi",
+  "title": {
+    "id": "Al-Wâsi`u",
+    "en": "Al-Wasi'"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wâsi`u",
+    "en": "Al-Wasi'"
+  },
+  "arabic": "الْوَاسِعُ",
+  "transliteration": {
+    "id": "Al-Wâsi`u",
+    "en": "Al-Wasi'"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-wasi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Luas",
+        "en": "The All-Encompassing"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

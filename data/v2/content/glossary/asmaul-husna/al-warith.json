@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-warith",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-warith",
+  "title": {
+    "id": "Al-Wâritsu",
+    "en": "Al-Warith"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wâritsu",
+    "en": "Al-Warith"
+  },
+  "arabic": "الْوَارِثُ",
+  "transliteration": {
+    "id": "Al-Wâritsu",
+    "en": "Al-Warith"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-warith.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pewaris",
+        "en": "The Inheritor"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "2.0",
+  "id": "sequence.fixture-hajj",
+  "type": "sequence",
+  "slug": "fixture-hajj",
+  "title": { "id": "Urutan haji contoh", "en": "Fixture Hajj sequence" },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 3,
+  "group": "hajj",
+  "seasonalTags": ["season.hajj"],
+  "steps": [
+    {
+      "id": "step.sequence-ihram",
+      "order": 1,
+      "title": { "id": "Ihram", "en": "Ihram" },
+      "blocks": [
+        {
+          "id": "block.sequence-ihram",
+          "type": "paragraph",
+          "text": { "id": "Pelajari ketentuan ihram.", "en": "Learn the rules of ihram." }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": { "id": "Saya memahami urutannya.", "en": "I understand the sequence." }
+  }
+}

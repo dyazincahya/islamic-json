@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muqit",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muqit",
+  "title": {
+    "id": "Al-Muqîtu",
+    "en": "Al-Muqit"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muqîtu",
+    "en": "Al-Muqit"
+  },
+  "arabic": "الْمُقِيْتُ",
+  "transliteration": {
+    "id": "Al-Muqîtu",
+    "en": "Al-Muqit"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muqit.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pemberi Kecukupan",
+        "en": "The Sustainer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.breaking-fast",
+  "type": "supplication",
+  "slug": "breaking-fast",
+  "title": {
+    "id": "Doa Buka Puasa",
+    "en": "Supplication when breaking the fast"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 13,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.breaking-fast",
+    "arabic": "ذَهَبَ الظَّمَأُ وابْتَلَّتِ الْعُرُوقُ وثَبَتَ اْلأَجْرُ إِنْ شَاءَاللهُ",
+    "transliteration": {
+      "id": "dzahabazh zhoma'u wabtallatil 'uruqu wa tsabatal ajru insya allah",
+      "en": "dzahabazh zhoma'u wabtallatil 'uruqu wa tsabatal ajru insya allah"
+    },
+    "translation": {
+      "id": "Rasa haus telah hilang, urat-urat telah basah, dan pahala telah ditetapkan insya Allah.",
+      "en": "The thirst has gone, the veins are moistened, and the reward is established, if Allah wills."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.breaking-fast.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Daud, As-Sunan Al-Kubra Lil Baihaqi, Juz 4, Hal. 239, al-Hakim dalam Mustadrak 'alas Shahihain No. 1484. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Daud, As-Sunan Al-Kubra Lil Baihaqi, Juz 4, Hal. 239, al-Hakim dalam Mustadrak 'alas Shahihain No. 1484. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.fasting",
+  "benefits": {
+    "id": "Sangat dianjurkan bagi orang yang berpuasa untuk memperbanyak doa sebelum dan sesudah berbuka, karena doa orang yang berpuasa adalah salah satu 3 doa yang tak tertolak.",
+    "en": "A fasting person is encouraged to make abundant supplication before and after breaking the fast; the legacy note describes the fasting person's supplication as one of three that are not rejected."
+  }
+}

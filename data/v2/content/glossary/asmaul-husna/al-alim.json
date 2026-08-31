@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-alim",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-alim",
+  "title": {
+    "id": "Al-`Alîmu",
+    "en": "Al-'Alim"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-`Alîmu",
+    "en": "Al-'Alim"
+  },
+  "arabic": "الْعَلِيْمُ",
+  "transliteration": {
+    "id": "Al-`Alîmu",
+    "en": "Al-'Alim"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-alim.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengetahui (Memiliki Ilmu)",
+        "en": "The All-Knowing"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-2-255"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

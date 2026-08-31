@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.facing-anxiety",
+  "type": "lesson",
+  "slug": "facing-anxiety",
+  "title": {
+    "id": "Menghadapi kecemasan",
+    "en": "Facing anxiety"
+  },
+  "summary": {
+    "id": "Padukan mengingat Allah, langkah praktis, dukungan, dan penanganan profesional.",
+    "en": "Combine remembrance of Allah, practical steps, support, and professional care."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.daily-life",
+  "stageOrder": 15,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.facing-sadness"],
+    "next": ["lesson.facing-trials"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.facing-anxiety-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.facing-anxiety-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Kecemasan yang berat atau menetap perlu ditangani tanpa menyalahkan orang yang mengalaminya.",
+        "en": "Severe or persistent anxiety needs care without blaming the person experiencing it."
+      }
+    },
+    {
+      "id": "block.facing-anxiety-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.facing-anxiety-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang mengatur napas, membagi tugas menjadi langkah kecil, berdoa, dan meminta bantuan.",
+        "en": "A person regulates breathing, divides a task into small steps, supplicates, and asks for help."
+      }
+    },
+    {
+      "id": "block.facing-anxiety-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.facing-anxiety-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.facing-anxiety-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Tuliskan kekhawatiran, lakukan satu langkah, dan konsultasikan gejala berat.",
+            "en": "Write concerns down, take one step, and consult for severe symptoms."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

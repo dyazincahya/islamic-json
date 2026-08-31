@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-hakim",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-hakim",
+  "title": {
+    "id": "Al-Ḫakîmu",
+    "en": "Al-Hakim"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ḫakîmu",
+    "en": "Al-Hakim"
+  },
+  "arabic": "الْحَكِيْمُ",
+  "transliteration": {
+    "id": "Al-Ḫakîmu",
+    "en": "Al-Hakim"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-hakim.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Maka Bijaksana",
+        "en": "The All-Wise"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180",
+    "source.quran-3-18"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

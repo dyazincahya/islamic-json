@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.morning-evening-dhikr",
+  "type": "lesson",
+  "slug": "morning-evening-dhikr",
+  "title": {
+    "id": "Zikir pagi dan petang",
+    "en": "Morning and evening remembrance"
+  },
+  "summary": {
+    "id": "Buka dan tutup bagian hari dengan mengingat Allah.",
+    "en": "Open and close parts of the day with remembrance of Allah."
+  },
+  "status": "draft",
+  "iconId": "worship.remembrance",
+  "stageId": "stage.daily-life",
+  "stageOrder": 3,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-dua"],
+    "next": ["lesson.daily-eating"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.morning-evening-dhikr-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.morning-evening-dhikr-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Bacaan rinci zikir pagi dan petang memerlukan sumber, makna, dan pelafalan yang ditinjau.",
+        "en": "Exact morning and evening recitations require reviewed sources, meanings, and pronunciation."
+      }
+    },
+    {
+      "id": "block.morning-evening-dhikr-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.morning-evening-dhikr-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang menyediakan waktu singkat pada pagi dan petang tanpa mengabaikan kewajiban.",
+        "en": "A person reserves a short time morning and evening without neglecting duties."
+      }
+    },
+    {
+      "id": "block.morning-evening-dhikr-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.morning-evening-dhikr-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.morning-evening-dhikr-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Tetapkan waktu konsisten dan mulai dari bacaan yang telah diperiksa.",
+            "en": "Set a consistent time and begin with verified recitations."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    },
+    {
+      "featureId": "feature.continuation-history",
+      "required": false
+    }
+  ]
+}

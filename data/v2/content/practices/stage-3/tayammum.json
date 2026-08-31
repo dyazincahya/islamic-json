@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.tayammum",
+  "type": "practice",
+  "slug": "tayammum",
+  "title": {
+    "id": "Latihan tayammum",
+    "en": "Tayammum practice"
+  },
+  "summary": {
+    "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
+    "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 104,
+  "group": "guided-practice",
+  "relationships": {
+    "prerequisites": [
+      "lesson.tayammum"
+    ],
+    "next": [
+      "practice.ghusl"
+    ],
+    "related": [
+      "lesson.tayammum"
+    ]
+  },
+  "featureLinks": [],
+  "sourceIds": [
+    "source.quran-5-6"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "id": "block.tayammum.steps",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.tayammum.1",
+          "title": {
+            "id": "Konfirmasi alasan",
+            "en": "Confirm the reason"
+          },
+          "body": {
+            "id": "Tentukan bersama pembimbing bahwa air tidak tersedia atau tidak dapat digunakan.",
+            "en": "Confirm with an instructor that water is unavailable or cannot be used."
+          }
+        },
+        {
+          "id": "step.tayammum.2",
+          "title": {
+            "id": "Pilih media bersih",
+            "en": "Choose a clean surface"
+          },
+          "body": {
+            "id": "Gunakan media permukaan bumi yang bersih sesuai tuntunan yang dipelajari.",
+            "en": "Use a clean earthen surface according to the guidance learned."
+          }
+        },
+        {
+          "id": "step.tayammum.3",
+          "title": {
+            "id": "Latih urutan",
+            "en": "Practice the order"
+          },
+          "body": {
+            "id": "Berniat, sentuh media, lalu usap wajah dan tangan sesuai tuntunan.",
+            "en": "Make the intention, touch the surface, then wipe the face and hands as instructed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.tayammum.review-note-practice",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Berhenti bila latihan membahayakan atau menimbulkan keraguan hukum; mintalah bimbingan yang tepercaya.",
+        "en": "Stop if practice causes harm or a legal uncertainty; seek trusted guidance."
+      }
+    }
+  ],
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau latihan ini",
+      "en": "Review this practice"
+    },
+    "items": [
+      {
+        "id": "completion.tayammum.1",
+        "label": {
+          "id": "Saya menyelesaikan langkah 1 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 1 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.tayammum.2",
+        "label": {
+          "id": "Saya menyelesaikan langkah 2 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 2 safely and noted uncertainties."
+        }
+      },
+      {
+        "id": "completion.tayammum.3",
+        "label": {
+          "id": "Saya menyelesaikan langkah 3 dengan aman dan mencatat keraguan.",
+          "en": "I completed step 3 safely and noted uncertainties."
+        }
+      }
+    ]
+  }
+}

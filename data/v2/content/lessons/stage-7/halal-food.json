@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.halal-food",
+  "type": "lesson",
+  "slug": "halal-food",
+  "title": {
+    "id": "Makanan halal dan baik",
+    "en": "Halal and wholesome food"
+  },
+  "summary": {
+    "id": "Pertimbangkan bahan, proses, kebersihan, keamanan, dan informasi tepercaya.",
+    "en": "Consider ingredients, processes, cleanliness, safety, and reliable information."
+  },
+  "status": "draft",
+  "iconId": "daily-life.food",
+  "stageId": "stage.daily-life",
+  "stageOrder": 10,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.basic-transactions"],
+    "next": ["lesson.daily-charity"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.halal-food-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.halal-food-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Pemilihan makanan memerlukan perhatian pada kehalalan serta kebaikan dan keamanannya.",
+        "en": "Food choices require attention to lawfulness, wholesomeness, and safety."
+      }
+    },
+    {
+      "id": "block.halal-food-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.halal-food-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Saat label tidak jelas, seseorang memeriksa komposisi dan sertifikasi atau bertanya.",
+        "en": "When a label is unclear, a person checks ingredients and certification or asks."
+      }
+    },
+    {
+      "id": "block.halal-food-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.halal-food-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.halal-food-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Periksa satu produk dan catat bahan atau proses yang perlu diklarifikasi.",
+            "en": "Check one product and note ingredients or processes requiring clarification."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.location",
+      "required": false
+    }
+  ]
+}

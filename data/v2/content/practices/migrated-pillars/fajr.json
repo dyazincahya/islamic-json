@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "2.0",
+  "id": "practice.migrated-fajr",
+  "type": "practice",
+  "slug": "migrated-fajr",
+  "title": { "id": "Latihan salat Subuh", "en": "Fajr prayer practice" },
+  "summary": { "id": "Latihan mengenali niat lisan dan fakta dasar salat Subuh dari data lama.", "en": "Practice recognizing the legacy verbal intention and basic facts for Fajr prayer." },
+  "status": "draft",
+  "iconId": "worship.prayer",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 2,
+  "group": "migrated-pillars",
+  "relationships": { "prerequisites": ["lesson.migrated-five-obligatory-prayers"], "next": ["practice.migrated-dhuhr"] },
+  "featureLinks": [
+    { "featureId": "feature.prayer-schedule", "required": false },
+    { "featureId": "feature.audio", "required": false, "parameters": { "contentId": "recitation.migrated-fajr-intention" } },
+    { "featureId": "feature.reminders", "required": false, "parameters": { "topic": "fajr" } }
+  ],
+  "instructions": [
+    { "id": "block.migrated-fajr.fact", "type": "paragraph", "text": { "id": "Subuh terdiri dari 2 rakaat dan dilaksanakan menghadap kiblat.", "en": "Fajr consists of 2 rak'ahs and is performed facing the Qibla." } },
+    { "id": "block.migrated-fajr.recitation", "type": "recitation", "recitation": {
+      "id": "recitation.migrated-fajr-intention",
+      "arabic": "أُصَلِّي فَرْضَ الصُّبْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا/إِمَامًا) لِلَّهِ تَعَالَى",
+      "transliteration": { "id": "Ushalli fardhash shubhi rak'ataini mustaqbilal qiblati adaa'an (makmuman/imaman) lillaahi ta'aala.", "en": "Ushalli fardhas-subhi rak'atayni mustaqbilal-qiblati ada'an (ma'muman/imaman) lillahi ta'ala." },
+      "translation": { "id": "Saya berniat salat fardu Subuh dua rakaat menghadap kiblat, sebagai makmum atau imam, karena Allah Ta'ala.", "en": "I intend to perform the obligatory Fajr prayer of two rak'ahs facing the Qibla, as a follower or imam, for Allah Most High." }
+    } },
+    { "id": "block.migrated-fajr.note", "type": "callout", "kind": "note", "body": { "id": "Redaksi ini dimigrasikan sebagai bahan belajar dan menunggu peninjauan; niat adalah maksud di dalam hati.", "en": "This formula is migrated as learning material and awaits review; intention is the resolve of the heart." } }
+  ],
+  "completionPrompt": { "type": "practice-checklist", "label": { "id": "Periksa latihan Subuh", "en": "Check the Fajr practice" }, "items": [
+    { "id": "completion.migrated-fajr.count", "label": { "id": "Saya mengenali jumlah 2 rakaat.", "en": "I recognize the count of 2 rak'ahs." } },
+    { "id": "completion.migrated-fajr.recitation", "label": { "id": "Saya telah membaca dan memahami arti bacaan migrasi.", "en": "I read and understood the migrated recitation's meaning." } }
+  ] },
+  "review": { "content": { "outcome": "pending" }, "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } } }
+}

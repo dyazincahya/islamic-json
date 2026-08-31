@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-zakat-fitrah-family",
+  "type": "supplication",
+  "slug": "migrated-zakat-fitrah-family",
+  "title": {
+    "id": "Niat zakat fitrah untuk diri dan keluarga",
+    "en": "Zakat al-Fitr intention for oneself and family"
+  },
+  "summary": {
+    "id": "Redaksi niat zakat fitrah untuk diri sendiri dan keluarga yang menjadi tanggungan dari data lama.",
+    "en": "The legacy Zakat al-Fitr intention formula for oneself and dependent family members."
+  },
+  "status": "draft",
+  "iconId": "worship.zakat",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 6,
+  "group": "migrated-pillars.zakat",
+  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
+  "relationships": {
+    "related": ["lesson.migrated-zakat-fitrah"]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": { "contentId": "recitation.migrated-zakat-fitrah-family" }
+    }
+  ],
+  "recitation": {
+    "id": "recitation.migrated-zakat-fitrah-family",
+    "arabic": "نَوَيْتُ أَنْ أُخْرِجَ زَكَاةَ الْفِطْرِ عَنِّي وَعَنْ جَمِيعِ مَا يَلْزَمُنِي نَفَقَاتُهُمْ شَرْعًا فَرْضًا لِلَّهِ تَعَالَى",
+    "transliteration": {
+      "id": "Nawaitu an ukhrija zakâtal fithri 'annî wa 'an jamî'i mâ yalzamunî nafaqâtuhum syar'an fardhan lillâhi ta'âlâ.",
+      "en": "Nawaytu an ukhrija zakatal-fitri 'anni wa 'an jami'i ma yalzamuni nafaqatuhum shar'an fardan lillahi ta'ala."
+    },
+    "translation": {
+      "id": "Aku berniat mengeluarkan zakat fitrah untuk diriku dan semua orang yang nafkahnya menjadi tanggunganku menurut syariat, sebagai kewajiban karena Allah Ta'ala.",
+      "en": "I intend to give Zakat al-Fitr for myself and all those whose maintenance is my responsibility under Islamic law, as an obligation for Allah Most High."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-zakat-fitrah-family.note",
+      "type": "callout",
+      "kind": "warning",
+      "body": {
+        "id": "Redaksi dan cakupan tanggungan ini dimigrasikan sebagai bahan belajar. Siapa yang wajib ditanggung perlu ditentukan dengan panduan fikih dan lokal yang tepercaya.",
+        "en": "This formula and scope of responsibility are migrated as learning material. Who must be covered should be determined using trusted juristic and local guidance."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending",
+      "notes": {
+        "id": "Teks Arab dinormalisasi dari karakter presentasi Unicode; bacaan, terjemahan, dan cakupan tanggungan menunggu verifikasi.",
+        "en": "The Arabic was normalized from Unicode presentation forms; the recitation, translation, and scope of responsibility await verification."
+      }
+    },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

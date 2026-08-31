@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.empty-arabic",
+  "type": "supplication",
+  "slug": "empty-arabic",
+  "title": { "id": "Arab kosong", "en": "Empty Arabic" },
+  "status": "draft",
+  "recitation": {
+    "id": "recitation.empty-arabic",
+    "arabic": "",
+    "translation": { "id": "Terjemahan contoh", "en": "Fixture translation" }
+  }
+}

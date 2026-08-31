@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.practices",
+  "itemType": "practice",
+  "title": {
+    "id": "Praktik",
+    "en": "Practices"
+  },
+  "items": [
+    {
+      "id": "practice.migrated-fasting-intentions",
+      "type": "practice",
+      "slug": "migrated-fasting-intentions",
+      "status": "draft",
+      "path": "content/practices/migrated-pillars/fasting-intentions.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 1,
+      "group": "migrated-pillars.fasting",
+      "seasonalTags": [
+        "season.ramadan",
+        "season.eid-al-fitr",
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "practice.fasting-day-plan",
+      "type": "practice",
+      "slug": "fasting-day-plan",
+      "status": "draft",
+      "path": "content/practices/stage-4/fasting-day-plan.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 101,
+      "group": "guided-practice",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "practice.qada-fidyah-planning",
+      "type": "practice",
+      "slug": "qada-fidyah-planning",
+      "status": "draft",
+      "path": "content/practices/stage-4/qada-fidyah-planning.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 102,
+      "group": "guided-practice",
+      "seasonalTags": [
+        "season.ramadan"
+      ]
+    },
+    {
+      "id": "practice.zakat-obligation-check",
+      "type": "practice",
+      "slug": "zakat-obligation-check",
+      "status": "draft",
+      "path": "content/practices/stage-4/zakat-obligation-check.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 103,
+      "group": "guided-practice",
+      "seasonalTags": []
+    },
+    {
+      "id": "practice.zakat-estimate",
+      "type": "practice",
+      "slug": "zakat-estimate",
+      "status": "draft",
+      "path": "content/practices/stage-4/zakat-estimate.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 104,
+      "group": "guided-practice",
+      "seasonalTags": []
+    },
+    {
+      "id": "practice.hajj-umrah-sequence",
+      "type": "practice",
+      "slug": "hajj-umrah-sequence",
+      "status": "draft",
+      "path": "content/practices/stage-4/hajj-umrah-sequence.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 105,
+      "group": "guided-practice",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "practice.ihram-readiness",
+      "type": "practice",
+      "slug": "ihram-readiness",
+      "status": "draft",
+      "path": "content/practices/stage-4/ihram-readiness.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 106,
+      "group": "guided-practice",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "practice.hajj-umrah-travel",
+      "type": "practice",
+      "slug": "hajj-umrah-travel",
+      "status": "draft",
+      "path": "content/practices/stage-4/hajj-umrah-travel.json",
+      "stageId": "stage.pillars-journey",
+      "stageOrder": 107,
+      "group": "guided-practice",
+      "seasonalTags": [
+        "season.hajj"
+      ]
+    },
+    {
+      "id": "practice.migrated-fajr",
+      "type": "practice",
+      "slug": "migrated-fajr",
+      "status": "draft",
+      "path": "content/practices/migrated-pillars/fajr.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 2,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "practice.migrated-dhuhr",
+      "type": "practice",
+      "slug": "migrated-dhuhr",
+      "status": "draft",
+      "path": "content/practices/migrated-pillars/dhuhr.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 3,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "practice.migrated-asr",
+      "type": "practice",
+      "slug": "migrated-asr",
+      "status": "draft",
+      "path": "content/practices/migrated-pillars/asr.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 4,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "practice.migrated-maghrib",
+      "type": "practice",
+      "slug": "migrated-maghrib",
+      "status": "draft",
+      "path": "content/practices/migrated-pillars/maghrib.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 5,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "practice.migrated-isha",
+      "type": "practice",
+      "slug": "migrated-isha",
+      "status": "draft",
+      "path": "content/practices/migrated-pillars/isha.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 6,
+      "group": "migrated-pillars"
+    },
+    {
+      "id": "practice.cleanliness-check",
+      "type": "practice",
+      "slug": "cleanliness-check",
+      "status": "draft",
+      "path": "content/practices/stage-3/cleanliness-check.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 101,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.najis-response",
+      "type": "practice",
+      "slug": "najis-response",
+      "status": "draft",
+      "path": "content/practices/stage-3/najis-response.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 102,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.wudu",
+      "type": "practice",
+      "slug": "wudu",
+      "status": "draft",
+      "path": "content/practices/stage-3/wudu.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 103,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.tayammum",
+      "type": "practice",
+      "slug": "tayammum",
+      "status": "draft",
+      "path": "content/practices/stage-3/tayammum.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 104,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.ghusl",
+      "type": "practice",
+      "slug": "ghusl",
+      "status": "draft",
+      "path": "content/practices/stage-3/ghusl.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 105,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.prayer-times",
+      "type": "practice",
+      "slug": "prayer-times",
+      "status": "draft",
+      "path": "content/practices/stage-3/prayer-times.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 106,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.prayer-movements",
+      "type": "practice",
+      "slug": "prayer-movements",
+      "status": "draft",
+      "path": "content/practices/stage-3/prayer-movements.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 107,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.prayer-recitations",
+      "type": "practice",
+      "slug": "prayer-recitations",
+      "status": "draft",
+      "path": "content/practices/stage-3/prayer-recitations.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 108,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.prayer-readiness-checklist",
+      "type": "practice",
+      "slug": "prayer-readiness-checklist",
+      "status": "draft",
+      "path": "content/practices/stage-3/prayer-readiness-checklist.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 109,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.five-obligatory-prayers",
+      "type": "practice",
+      "slug": "five-obligatory-prayers",
+      "status": "draft",
+      "path": "content/practices/stage-3/five-obligatory-prayers.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 110,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.congregational-prayer",
+      "type": "practice",
+      "slug": "congregational-prayer",
+      "status": "draft",
+      "path": "content/practices/stage-3/congregational-prayer.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 111,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.voluntary-prayer",
+      "type": "practice",
+      "slug": "voluntary-prayer",
+      "status": "draft",
+      "path": "content/practices/stage-3/voluntary-prayer.json",
+      "stageId": "stage.purification-prayer",
+      "stageOrder": 112,
+      "group": "guided-practice"
+    },
+    {
+      "id": "practice.quran-reading",
+      "type": "practice",
+      "slug": "quran-reading",
+      "status": "draft",
+      "path": "content/practices/stage-5/quran-reading.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 5,
+      "group": "reading"
+    },
+    {
+      "id": "practice.basic-tajwid",
+      "type": "practice",
+      "slug": "basic-tajwid",
+      "status": "draft",
+      "path": "content/practices/stage-5/basic-tajwid.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 6,
+      "group": "tajwid"
+    },
+    {
+      "id": "practice.quran-consistency",
+      "type": "practice",
+      "slug": "quran-consistency",
+      "status": "draft",
+      "path": "content/practices/stage-5/quran-consistency.json",
+      "stageId": "stage.quran-learning",
+      "stageOrder": 11,
+      "group": "consistency"
+    }
+  ]
+}

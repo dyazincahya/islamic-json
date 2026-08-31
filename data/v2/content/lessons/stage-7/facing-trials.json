@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.facing-trials",
+  "type": "lesson",
+  "slug": "facing-trials",
+  "title": {
+    "id": "Menghadapi ujian hidup",
+    "en": "Facing life trials"
+  },
+  "summary": {
+    "id": "Hadapi ujian dengan sabar, ibadah, ikhtiar, nasihat tepat, dan dukungan.",
+    "en": "Meet trials with patience, worship, effort, sound advice, and support."
+  },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.daily-life",
+  "stageOrder": 16,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.facing-anxiety"],
+    "next": [],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.facing-trials-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.facing-trials-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Menghadapi ujian tidak berarti menyederhanakan penderitaan atau meninggalkan bantuan praktis.",
+        "en": "Facing trials does not mean minimizing suffering or abandoning practical help."
+      }
+    },
+    {
+      "id": "block.facing-trials-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.facing-trials-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Saat kehilangan pekerjaan, seseorang menjaga ibadah, menyusun anggaran, dan mencari peluang.",
+        "en": "After job loss, a person maintains worship, makes a budget, and seeks opportunities."
+      }
+    },
+    {
+      "id": "block.facing-trials-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.facing-trials-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.facing-trials-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pisahkan masalah menjadi kebutuhan segera, langkah berikutnya, dan pihak yang dapat membantu.",
+            "en": "Separate a problem into immediate needs, next steps, and people who can help."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.calculator",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

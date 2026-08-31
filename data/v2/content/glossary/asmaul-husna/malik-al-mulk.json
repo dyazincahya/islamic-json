@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.malik-al-mulk",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-malik-al-mulk",
+  "title": {
+    "id": "Mâlikul-mulki",
+    "en": "Malik al-Mulk"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Mâlikul-mulki",
+    "en": "Malik al-Mulk"
+  },
+  "arabic": "مَالِكُ الْمُلْكِ",
+  "transliteration": {
+    "id": "Mâlikul-mulki",
+    "en": "Malik al-Mulk"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.malik-al-mulk.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Penguasa Kerajaan (Semesta)",
+        "en": "The Owner of Sovereignty"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

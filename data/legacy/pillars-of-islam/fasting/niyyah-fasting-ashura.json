@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Sunnah 'Asyura",
+        "en": "Niyyah Fasting Sunnah Ashura"
+    },
+    "content": {
+        "arrabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ ِعَا شُورَاء لِلهِ تَعَالَى",
+        "latin": "Nawaitu shauma ghadin 'an ada'i sunnati 'Asyura lillâhi ta‘âlâ.",
+        "translation": {
+            "id": "Saya berniat berpuasa sunnah Asyura karena Allah ta’âlâ.",
+            "en": "I intend to perform the sunnah fast of Ashura for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

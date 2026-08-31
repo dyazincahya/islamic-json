@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "2.0",
+  "type": "feature-registry",
+  "features": [
+    {
+      "id": "feature.prayer-schedule",
+      "label": {
+        "id": "Jadwal salat",
+        "en": "Prayer schedule"
+      },
+      "description": {
+        "id": "Membuka jadwal salat aplikasi untuk tanggal dan lokasi yang dipilih pengguna.",
+        "en": "Opens the application's prayer schedule for the user's selected date and location."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "date",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "Tanggal awal opsional dalam format yang didukung aplikasi.",
+            "en": "Optional initial date in an application-supported format."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.location",
+      "label": {
+        "id": "Lokasi",
+        "en": "Location"
+      },
+      "description": {
+        "id": "Membuka pemilih lokasi atau fungsi berbasis lokasi milik aplikasi.",
+        "en": "Opens the application's location picker or location-based capability."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "purpose",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "Tujuan semantik seperti masjid, kiblat, atau jadwal salat.",
+            "en": "A semantic purpose such as mosque, qibla, or prayer schedule."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.audio",
+      "label": {
+        "id": "Audio",
+        "en": "Audio"
+      },
+      "description": {
+        "id": "Memutar audio bacaan, pelafalan, atau materi belajar yang relevan.",
+        "en": "Plays relevant recitation, pronunciation, or learning audio."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "contentId",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "ID konten atau bacaan yang dapat dipilih aplikasi.",
+            "en": "A content or recitation ID the application may select."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.reminders",
+      "label": {
+        "id": "Pengingat",
+        "en": "Reminders"
+      },
+      "description": {
+        "id": "Membuka pengaturan pengingat milik aplikasi tanpa menyimpan preferensi pengguna di dataset.",
+        "en": "Opens application-owned reminder settings without storing user preferences in the dataset."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "topic",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "Topik semantik untuk pengingat.",
+            "en": "Semantic topic for the reminder."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.calculator",
+      "label": {
+        "id": "Kalkulator",
+        "en": "Calculator"
+      },
+      "description": {
+        "id": "Membuka kalkulator pendukung non-otoritatif seperti zakat atau fidyah.",
+        "en": "Opens a non-authoritative supporting calculator such as zakat or fidyah."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "calculatorType",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "Jenis kalkulator yang diminta.",
+            "en": "The requested calculator type."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.reading",
+      "label": {
+        "id": "Halaman baca Al-Qur'an dan belajar Iqro",
+        "en": "Quran reading and Iqro learning pages"
+      },
+      "description": {
+        "id": "Membuka halaman membaca Al-Qur'an atau halaman belajar Iqro sesuai jalur kemampuan pengguna tanpa menyematkan data Al-Qur'an.",
+        "en": "Opens a Quran reading page or Iqro learning page suited to the user's ability path without embedding Quran data."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "mode",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "Mode semantik seperti quran-reader, iqra-learning, atau meaning.",
+            "en": "A semantic mode such as quran-reader, iqra-learning, or meaning."
+          }
+        },
+        {
+          "name": "surah",
+          "type": "integer",
+          "required": false,
+          "description": {
+            "id": "Nomor surah awal opsional yang diselesaikan aplikasi.",
+            "en": "Optional initial surah number resolved by the application."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.bookmarks",
+      "label": {
+        "id": "Markah",
+        "en": "Bookmarks"
+      },
+      "description": {
+        "id": "Membuka markah yang disimpan oleh aplikasi untuk bacaan atau materi belajar.",
+        "en": "Opens application-owned bookmarks for reading or learning material."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "contentId",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "ID konten awal opsional.",
+            "en": "Optional initial content ID."
+          }
+        }
+      ]
+    },
+    {
+      "id": "feature.continuation-history",
+      "label": {
+        "id": "Riwayat lanjutan",
+        "en": "Continuation history"
+      },
+      "description": {
+        "id": "Melanjutkan bacaan atau pembelajaran dari riwayat yang dimiliki aplikasi.",
+        "en": "Continues reading or learning from application-owned history."
+      },
+      "optional": true,
+      "parameters": [
+        {
+          "name": "journey",
+          "type": "string",
+          "required": false,
+          "description": {
+            "id": "Konteks perjalanan opsional yang akan dilanjutkan.",
+            "en": "Optional journey context to continue."
+          }
+        }
+      ]
+    }
+  ]
+}

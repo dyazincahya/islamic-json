@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.prayer-times",
+  "type": "lesson",
+  "slug": "prayer-times",
+  "title": {
+    "id": "Waktu-waktu salat",
+    "en": "Prayer times"
+  },
+  "summary": {
+    "id": "Lima salat wajib memiliki rentang waktu yang ditentukan dan perlu diperiksa berdasarkan tanggal serta lokasi.",
+    "en": "The five obligatory prayers have prescribed time windows that should be checked for the date and location."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 7,
+  "group": "prayer",
+  "relationships": {
+    "prerequisites": [
+      "lesson.ghusl"
+    ],
+    "next": [
+      "lesson.prayer-movements"
+    ],
+    "related": [
+      "practice.prayer-times"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.location",
+      "required": false,
+      "parameters": {
+        "purpose": "prayer-schedule"
+      }
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "obligatory-prayers"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-4-103"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.prayer-times.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Lima salat wajib memiliki rentang waktu yang ditentukan dan perlu diperiksa berdasarkan tanggal serta lokasi.",
+        "en": "The five obligatory prayers have prescribed time windows that should be checked for the date and location."
+      }
+    },
+    {
+      "id": "block.prayer-times.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.prayer-times.1",
+          "text": {
+            "id": "Subuh dimulai saat fajar yang benar dan berakhir sebelum matahari terbit.",
+            "en": "Fajr begins at true dawn and ends before sunrise."
+          }
+        },
+        {
+          "id": "item.prayer-times.2",
+          "text": {
+            "id": "Zuhur, Asar, Magrib, dan Isya masing-masing memiliki awal dan akhir waktu.",
+            "en": "Dhuhr, Asr, Maghrib, and Isha each have beginning and ending times."
+          }
+        },
+        {
+          "id": "item.prayer-times.3",
+          "text": {
+            "id": "Gunakan jadwal tepercaya dan aktifkan lokasi hanya melalui aplikasi bila diperlukan.",
+            "en": "Use a trusted schedule and enable location only through the application when needed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.prayer-times.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.prayer-times.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-4-103"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

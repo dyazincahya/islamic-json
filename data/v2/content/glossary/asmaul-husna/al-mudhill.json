@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mudhill",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mudhill",
+  "title": {
+    "id": "Al-Mudzillu",
+    "en": "Al-Mudhill"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mudzillu",
+    "en": "Al-Mudhill"
+  },
+  "arabic": "الْمُذِلُّ",
+  "transliteration": {
+    "id": "Al-Mudzillu",
+    "en": "Al-Mudhill"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mudhill.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Menghinakan (makhluknya)",
+        "en": "The Dishonourer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-wajid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-wajid",
+  "title": {
+    "id": "Al-Wâjidu",
+    "en": "Al-Wajid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wâjidu",
+    "en": "Al-Wajid"
+  },
+  "arabic": "الْوَاجِدُ",
+  "transliteration": {
+    "id": "Al-Wâjidu",
+    "en": "Al-Wajid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-wajid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Penemu",
+        "en": "The Finder"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

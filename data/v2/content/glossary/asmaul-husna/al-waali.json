@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-waali",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-waali",
+  "title": {
+    "id": "Al-Wâlî",
+    "en": "Al-Waali"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Wâlî",
+    "en": "Al-Waali"
+  },
+  "arabic": "الْوَالِي",
+  "transliteration": {
+    "id": "Al-Wâlî",
+    "en": "Al-Waali"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-waali.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memerintah",
+        "en": "The Governor"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

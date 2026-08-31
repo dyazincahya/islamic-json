@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.faith-islam-ihsan",
+  "type": "lesson",
+  "slug": "faith-islam-ihsan",
+  "title": { "id": "Iman, Islam, dan ihsan", "en": "Faith, Islam, and ihsan" },
+  "summary": { "id": "Mengenal hubungan antara keyakinan, ketundukan, dan kualitas beribadah.", "en": "Knowing the relationship between belief, submission, and excellence in worship." },
+  "status": "draft",
+  "iconId": "faith.belief",
+  "stageId": "stage.introduction",
+  "stageOrder": 5,
+  "group": "introduction",
+  "relationships": {
+    "prerequisites": ["lesson.purpose-of-worship"],
+    "next": ["lesson.quran-and-hadith"],
+    "related": ["lesson.what-is-islam", "lesson.faith-in-allah"]
+  },
+  "sourceIds": ["source.hadith-muslim-8a", "source.hadith-nawawi-2"],
+  "blocks": [
+    {
+      "id": "block.faith-islam-ihsan.overview",
+      "type": "paragraph",
+      "text": { "id": "Iman berkaitan dengan keyakinan, Islam dengan ketundukan yang tampak dalam amal, dan ihsan dengan beribadah secara sungguh-sungguh dalam kesadaran bahwa Allah melihat kita.", "en": "Faith concerns belief, Islam concerns submission expressed in deeds, and ihsan concerns worshipping with excellence in awareness that Allah sees us." }
+    },
+    {
+      "id": "block.faith-islam-ihsan.relationship",
+      "type": "callout",
+      "kind": "important",
+      "body": { "id": "Ketiganya saling melengkapi dalam membentuk keyakinan, amal, dan kesungguhan seorang Muslim.", "en": "Together they shape a Muslim's belief, actions, and spiritual excellence." },
+      "iconId": "faith.belief"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": { "id": "Saya dapat menjelaskan hubungan dasar iman, Islam, dan ihsan.", "en": "I can explain the basic relationship between faith, Islam, and ihsan." }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } }
+  }
+}

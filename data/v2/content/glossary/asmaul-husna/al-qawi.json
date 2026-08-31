@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-qawi",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-qawi",
+  "title": {
+    "id": "Al-Qawiyyu",
+    "en": "Al-Qawi"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Qawiyyu",
+    "en": "Al-Qawi"
+  },
+  "arabic": "الْقَوِيُّ",
+  "transliteration": {
+    "id": "Al-Qawiyyu",
+    "en": "Al-Qawi"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-qawi.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahakuat",
+        "en": "The All-Strong"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

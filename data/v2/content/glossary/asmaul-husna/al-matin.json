@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-matin",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-matin",
+  "title": {
+    "id": "Al-Matînu",
+    "en": "Al-Matin"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Matînu",
+    "en": "Al-Matin"
+  },
+  "arabic": "الْمَتِيْنُ",
+  "transliteration": {
+    "id": "Al-Matînu",
+    "en": "Al-Matin"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-matin.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Mahakokoh",
+        "en": "The Firm"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

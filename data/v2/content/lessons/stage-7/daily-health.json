@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-health",
+  "type": "lesson",
+  "slug": "daily-health",
+  "title": {
+    "id": "Menjaga kesehatan",
+    "en": "Caring for health"
+  },
+  "summary": {
+    "id": "Lakukan pencegahan, kebiasaan seimbang, perawatan tepat, dan cari bantuan profesional.",
+    "en": "Use prevention, balanced habits, appropriate care, and professional help."
+  },
+  "status": "draft",
+  "iconId": "daily-life.health",
+  "stageId": "stage.daily-life",
+  "stageOrder": 12,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-charity"],
+    "next": ["lesson.daily-cleanliness"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-health-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-health-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Menjaga kesehatan mencakup ikhtiar yang aman dan tidak menunda pertolongan yang diperlukan.",
+        "en": "Caring for health includes safe effort and not delaying needed help."
+      }
+    },
+    {
+      "id": "block.daily-health-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-health-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang tidak menunda pemeriksaan gejala serius dan meminta nasihat medis kompeten.",
+        "en": "A person does not delay evaluation of serious symptoms and seeks competent medical advice."
+      }
+    },
+    {
+      "id": "block.daily-health-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-health-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-health-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pilih satu kebiasaan realistis dan tentukan kapan perlu berkonsultasi.",
+            "en": "Choose one realistic habit and determine when consultation is needed."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

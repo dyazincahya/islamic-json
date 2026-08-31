@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.daily-life",
+  "itemType": "lesson",
+  "title": {
+    "id": "Kehidupan Muslim sehari-hari",
+    "en": "Daily Muslim life"
+  },
+  "items": [
+    {
+      "id": "lesson.daily-supplications",
+      "type": "lesson",
+      "slug": "daily-supplications",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-supplications.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 1,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-dua",
+      "type": "lesson",
+      "slug": "daily-dua",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-dua.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 2,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.morning-evening-dhikr",
+      "type": "lesson",
+      "slug": "morning-evening-dhikr",
+      "status": "draft",
+      "path": "content/lessons/stage-7/morning-evening-dhikr.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 3,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-eating",
+      "type": "lesson",
+      "slug": "daily-eating",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-eating.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 4,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-sleeping",
+      "type": "lesson",
+      "slug": "daily-sleeping",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-sleeping.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 5,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-travel",
+      "type": "lesson",
+      "slug": "daily-travel",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-travel.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 6,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-family",
+      "type": "lesson",
+      "slug": "daily-family",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-family.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 7,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-parents",
+      "type": "lesson",
+      "slug": "daily-parents",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-parents.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 8,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.basic-transactions",
+      "type": "lesson",
+      "slug": "basic-transactions",
+      "status": "draft",
+      "path": "content/lessons/stage-7/basic-transactions.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 9,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.halal-food",
+      "type": "lesson",
+      "slug": "halal-food",
+      "status": "draft",
+      "path": "content/lessons/stage-7/halal-food.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 10,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-charity",
+      "type": "lesson",
+      "slug": "daily-charity",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-charity.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 11,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-health",
+      "type": "lesson",
+      "slug": "daily-health",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-health.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 12,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.daily-cleanliness",
+      "type": "lesson",
+      "slug": "daily-cleanliness",
+      "status": "draft",
+      "path": "content/lessons/stage-7/daily-cleanliness.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 13,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.facing-sadness",
+      "type": "lesson",
+      "slug": "facing-sadness",
+      "status": "draft",
+      "path": "content/lessons/stage-7/facing-sadness.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 14,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.facing-anxiety",
+      "type": "lesson",
+      "slug": "facing-anxiety",
+      "status": "draft",
+      "path": "content/lessons/stage-7/facing-anxiety.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 15,
+      "group": "daily-life"
+    },
+    {
+      "id": "lesson.facing-trials",
+      "type": "lesson",
+      "slug": "facing-trials",
+      "status": "draft",
+      "path": "content/lessons/stage-7/facing-trials.json",
+      "stageId": "stage.daily-life",
+      "stageOrder": 16,
+      "group": "daily-life"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-hasib",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-hasib",
+  "title": {
+    "id": "Al-Ḫasîbu",
+    "en": "Al-Hasib"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ḫasîbu",
+    "en": "Al-Hasib"
+  },
+  "arabic": "الْحَسِيْبُ",
+  "transliteration": {
+    "id": "Al-Ḫasîbu",
+    "en": "Al-Hasib"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-hasib.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Membuat Perhitungan",
+        "en": "The Reckoner"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.an-nur",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-an-nur",
+  "title": {
+    "id": "An-Nûru",
+    "en": "An-Nur"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "An-Nûru",
+    "en": "An-Nur"
+  },
+  "arabic": "النُّوْرُ",
+  "transliteration": {
+    "id": "An-Nûru",
+    "en": "An-Nur"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.an-nur.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Bercahaya (Menerangi, Memberi Cahaya)",
+        "en": "The Light"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

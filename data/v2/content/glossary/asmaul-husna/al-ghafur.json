@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-ghafur",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-ghafur",
+  "title": {
+    "id": "Al-Ghafûru",
+    "en": "Al-Ghafur"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ghafûru",
+    "en": "Al-Ghafur"
+  },
+  "arabic": "الْغَفُوْرُ",
+  "transliteration": {
+    "id": "Al-Ghafûru",
+    "en": "Al-Ghafur"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-ghafur.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pengampun",
+        "en": "The All-Forgiving"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.waking-up",
+  "type": "supplication",
+  "slug": "waking-up",
+  "title": {
+    "id": "Doa Bangun Tidur",
+    "en": "Supplication upon waking"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 2,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.waking-up",
+    "arabic": "الحَمْدُ للهِ الَّذِي أَحْيَانَا بعْدَ مَا أماتَنَا وإِلَيْهِ النُّشُورُ",
+    "transliteration": {
+      "id": "alhamdulillahilladzi ahyaanaa ba'da maa amaatanaa wa ilaihin nusyuur",
+      "en": "alhamdulillahilladzi ahyaanaa ba'da maa amaatanaa wa ilaihin nusyuur"
+    },
+    "translation": {
+      "id": "Segala puji bagi Allah, yang telah membangunkan kami setelah menidurkan kami dan kepada-Nya lah kami dibangkitkan.",
+      "en": "All praise is for Allah who gave us life after causing us to die, and to Him is the resurrection."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.waking-up.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Bukhari: 6327. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Bukhari: 6327. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.sleep",
+  "benefits": {
+    "id": "Dengan membaca doa di atas, seorang hamba memulai harinya dengan memuji nama Allah yang Maha Menghidupkan dan Maha Mematikan.",
+    "en": "By reciting this supplication, a servant begins the day by praising Allah, the One who gives life and causes death."
+  }
+}

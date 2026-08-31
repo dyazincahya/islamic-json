@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.entering-home-full-greeting",
+  "type": "supplication",
+  "slug": "entering-home-full-greeting",
+  "title": {
+    "id": "Doa Masuk Rumah #2",
+    "en": "Supplication upon entering the home, full greeting"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 15,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.entering-home-full-greeting",
+    "arabic": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَا تُهُ",
+    "transliteration": {
+      "id": "assalaamu 'alaykum warahmatullaahi wabarakaatuh",
+      "en": "assalaamu 'alaykum warahmatullaahi wabarakaatuh"
+    },
+    "translation": {
+      "id": "Semoga keselamatan, rahmat dan keberkahan terlimpah untukmu.",
+      "en": "May peace, Allah's mercy, and His blessings be upon you."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.entering-home-full-greeting.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. at-Tirmidzi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. at-Tirmidzi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "general.home",
+  "benefits": {
+    "id": "Salam adalah doa pengharapan, pengharapan agar Anda selamat dari segala macam duka dan derita, serta diliputi rahmat dan keberkahan.",
+    "en": "The greeting of peace is a prayer that others be safe from sorrow and suffering and be surrounded by mercy and blessing."
+  }
+}

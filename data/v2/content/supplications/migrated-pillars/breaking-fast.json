@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-breaking-fast",
+  "type": "supplication",
+  "slug": "migrated-breaking-fast",
+  "title": {
+    "id": "Doa setelah berbuka puasa",
+    "en": "Supplication after breaking the fast"
+  },
+  "summary": {
+    "id": "Doa setelah berbuka yang dikoreksi dari label niat dalam data lama.",
+    "en": "A post-iftar supplication corrected from the intention label in the legacy data."
+  },
+  "status": "under-review",
+  "iconId": "worship.supplication",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 2,
+  "group": "migrated-pillars.fasting",
+  "seasonalTags": ["season.ramadan"],
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "label": {
+        "id": "Dengarkan doa setelah berbuka",
+        "en": "Listen to the post-iftar supplication"
+      },
+      "required": false,
+      "parameters": { "contentId": "recitation.migrated-breaking-fast" }
+    },
+    {
+      "featureId": "feature.reminders",
+      "label": {
+        "id": "Atur pengingat berbuka",
+        "en": "Set an iftar reminder"
+      },
+      "required": false,
+      "parameters": { "topic": "iftar" }
+    }
+  ],
+  "recitation": {
+    "id": "recitation.migrated-breaking-fast",
+    "arabic": "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ",
+    "transliteration": {
+      "id": "Dzahabazh zhama'u wabtallatil 'urûqu wa tsabatal ajru insyâ Allah.",
+      "en": "Dhahabaz-zama'u wabtallatil-'uruqu wa thabatal-ajru in sha' Allah."
+    },
+    "translation": {
+      "id": "Dahaga telah hilang, urat-urat telah basah, dan pahala telah ditetapkan, insyaallah.",
+      "en": "The thirst has gone, the veins are moistened, and the reward is assured, if Allah wills."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-breaking-fast.classification",
+      "type": "callout",
+      "kind": "important",
+      "title": {
+        "id": "Koreksi jenis konten",
+        "en": "Content-type correction"
+      },
+      "body": {
+        "id": "Teks ini adalah doa yang dibaca setelah berbuka, bukan redaksi niat untuk mulai berbuka.",
+        "en": "This text is a supplication recited after breaking the fast, not an intention formula for beginning iftar."
+      },
+      "iconId": "general.info"
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending",
+      "notes": {
+        "id": "Klasifikasi telah dikoreksi; teks dan terjemahan masih menunggu verifikasi sumber dan isi.",
+        "en": "The classification is corrected; the text and translation still await source and content verification."
+      }
+    },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

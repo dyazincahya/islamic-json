@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.leaving-restroom",
+  "type": "supplication",
+  "slug": "leaving-restroom",
+  "title": {
+    "id": "Doa Keluar Kamar Mandi",
+    "en": "Supplication upon leaving the restroom"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 4,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.leaving-restroom",
+    "arabic": "غُفْرَانَكَ",
+    "transliteration": {
+      "id": "ghuf-raanak",
+      "en": "ghuf-raanak"
+    },
+    "translation": {
+      "id": "Aku mohon ampunan-Mu (ya Allah).",
+      "en": "I seek Your forgiveness, O Allah."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.leaving-restroom.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. at-Tirmidzi. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. at-Tirmidzi. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Kamar mandi adalah salah satu rumah jin dan syaitan, maka dianjurkan meminta ampunan dari segala kesalahan yang sengaja maupun tidak sengaja selama di kamar mandi.",
+    "en": "The legacy note recommends seeking forgiveness for any deliberate or unintended wrongdoing while in the restroom."
+  }
+}

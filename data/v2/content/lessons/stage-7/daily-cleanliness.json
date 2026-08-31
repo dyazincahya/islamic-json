@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-cleanliness",
+  "type": "lesson",
+  "slug": "daily-cleanliness",
+  "title": {
+    "id": "Kebersihan sehari-hari",
+    "en": "Daily cleanliness"
+  },
+  "summary": {
+    "id": "Jaga kebersihan tubuh, pakaian, tempat, makanan, dan lingkungan.",
+    "en": "Maintain cleanliness of body, clothing, place, food, and environment."
+  },
+  "status": "draft",
+  "iconId": "purification.cleanliness",
+  "stageId": "stage.daily-life",
+  "stageOrder": 13,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-health"],
+    "next": ["lesson.facing-sadness"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-cleanliness-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-cleanliness-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Kebersihan mendukung ibadah, kesehatan, kenyamanan, dan tanggung jawab bersama.",
+        "en": "Cleanliness supports worship, health, comfort, and shared responsibility."
+      }
+    },
+    {
+      "id": "block.daily-cleanliness-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-cleanliness-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang membersihkan area bersama setelah digunakan dan membuang sampah dengan benar.",
+        "en": "A person cleans a shared area after use and disposes of waste properly."
+      }
+    },
+    {
+      "id": "block.daily-cleanliness-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-cleanliness-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-cleanliness-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pilih satu area kecil untuk dibersihkan secara rutin.",
+            "en": "Choose one small area to clean regularly."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

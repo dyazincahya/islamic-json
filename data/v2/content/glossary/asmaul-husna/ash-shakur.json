@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.ash-shakur",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-ash-shakur",
+  "title": {
+    "id": "Asy-Syakûru",
+    "en": "Ash-Shakur"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Asy-Syakûru",
+    "en": "Ash-Shakur"
+  },
+  "arabic": "الشَّكُوْرُ",
+  "transliteration": {
+    "id": "Asy-Syakûru",
+    "en": "Ash-Shakur"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.ash-shakur.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Pembalas Budi (Menghargai)",
+        "en": "The Most Appreciative"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

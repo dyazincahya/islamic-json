@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-basir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-basir",
+  "title": {
+    "id": "Al-Bashîru",
+    "en": "Al-Basir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Bashîru",
+    "en": "Al-Basir"
+  },
+  "arabic": "الْبَصِيْرُ",
+  "transliteration": {
+    "id": "Al-Bashîru",
+    "en": "Al-Basir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-basir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Melihat",
+        "en": "The All-Seeing"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

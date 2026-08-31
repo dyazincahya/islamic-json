@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.before-travel",
+  "type": "supplication",
+  "slug": "before-travel",
+  "title": {
+    "id": "Doa hendak berpergian",
+    "en": "Supplication before setting out on a journey"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 46,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.before-travel",
+    "arabic": "اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِعَنَّابُعْدَهُ اَللّٰهُمَّ اَنْتَ الصَّاحِبُ فِى السَّفَرِوَالْخَلِيْفَةُفِى الْاَهْلِ",
+    "transliteration": {
+      "id": "allahumma hawwin 'alainaa safaranaa hadzaa waatwi 'annaa bu'dahu. alloohumma antashookhibu fiissafari walkholiifatu fiil ahli",
+      "en": "allahumma hawwin 'alainaa safaranaa hadzaa waatwi 'annaa bu'dahu. alloohumma antashookhibu fiissafari walkholiifatu fiil ahli"
+    },
+    "translation": {
+      "id": "Ya Allah, mudahkanlah kami berpergian ini, dan dekatkanlah kejauhannya. Ya Allah yang menemani dalam berpergian, dan Engkau pula yang melindungi keluarga.",
+      "en": "O Allah, make this journey easy for us and shorten its distance. O Allah, You are the companion on the journey and the guardian of the family."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "daily-life.travel"
+}

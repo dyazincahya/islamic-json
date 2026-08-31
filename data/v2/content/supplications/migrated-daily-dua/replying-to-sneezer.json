@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.replying-to-sneezer",
+  "type": "supplication",
+  "slug": "replying-to-sneezer",
+  "title": {
+    "id": "Doa Saat Mendengar Orang Bersin",
+    "en": "Supplication upon hearing someone sneeze"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 35,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.replying-to-sneezer",
+    "arabic": "يَرْحَمُكَ اللهُ",
+    "transliteration": {
+      "id": "yarhamukallah",
+      "en": "yarhamukallah"
+    },
+    "translation": {
+      "id": "Semoga Allah merahmatimu.",
+      "en": "May Allah have mercy on you."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.replying-to-sneezer.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Sesungguhnya Allah mencintai bersin, sebab bersin menggerakan seseorang untuk beribadah. Dan anjuran membalas pujian atas Allah orang yang memuji Allah, begitu juga sebaliknya.",
+    "en": "The legacy note says Allah loves sneezing because it prompts worship, and it encourages responding to one who praises Allah after sneezing."
+  }
+}

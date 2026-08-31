@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-hafiz",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-hafiz",
+  "title": {
+    "id": "Al-Ḫafîdhu",
+    "en": "Al-Hafiz"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Ḫafîdhu",
+    "en": "Al-Hafiz"
+  },
+  "arabic": "الْحَفِيْظُ",
+  "transliteration": {
+    "id": "Al-Ḫafîdhu",
+    "en": "Al-Hafiz"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-hafiz.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Menjaga",
+        "en": "The Preserver"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

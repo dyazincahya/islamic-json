@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.protection-when-leaving-home",
+  "type": "supplication",
+  "slug": "protection-when-leaving-home",
+  "title": {
+    "id": "Doa Agar Tidak Menyebabkan Keburukan atau Terkena Keburukan Di luar Rumah",
+    "en": "Supplication for protection from causing or receiving harm outside the home"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 17,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.protection-when-leaving-home",
+    "arabic": "اللَّهُمَّ إِنِّى أَعُوذُ بِكَ أَنْ أَضِلَّ أَوْ أُضَلَّ أَوْ أَزِلَّ أَوْ أُزَلَّ أَوْ أَظْلِمَ أَوْ أُظْلَمَ أَوْ أَجْهَلَ أَوْ يُجْهَلَ عَلَىَّ",
+    "transliteration": {
+      "id": "allaahumma innii a'uudzu bika an adhilla au udholla, au azilla au azulla, au azhlima au uzhlama, au ajhala au yujhala 'alayya",
+      "en": "allaahumma innii a'uudzu bika an adhilla au udholla, au azilla au azulla, au azhlima au uzhlama, au ajhala au yujhala 'alayya"
+    },
+    "translation": {
+      "id": "Ya Allah, aku berlindung kepada-Mu, jangan sampai aku sesat atau disesatkan (setan atau orang yang berwatak setan), berbuat kesalahan atau disalahi, menganiaya atau dianiaya (orang), dan berbuat bodoh atau dibodohi.",
+      "en": "O Allah, I seek refuge in You lest I stray or be led astray, slip or be made to slip, wrong or be wronged, behave ignorantly or be treated ignorantly."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.protection-when-leaving-home.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Abu Dawud, at-Tirmidzi, Ibnu Majah dan an-Nasa'i. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Abu Dawud, at-Tirmidzi, Ibnu Majah dan an-Nasa'i. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "general.home",
+  "benefits": {
+    "id": "Ketika seseorang keluar rumah maka ia akan banyak menemui segala macam hal baik maupun buruk, terutama keburukan yang diperbuat oleh dirinya sendiri. Oleh karena itu diperintahkan untuk berlindung dari diri sendiri dan dari orang lain.",
+    "en": "Outside the home a person encounters good and bad, including harm caused by oneself. This supplication seeks protection from one's own wrongdoing and that of others."
+  }
+}

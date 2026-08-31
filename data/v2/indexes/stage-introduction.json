@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "2.0",
+  "type": "collection-index",
+  "id": "collection.introduction",
+  "itemType": "lesson",
+  "title": {
+    "id": "Pengenalan Islam",
+    "en": "Introduction to Islam"
+  },
+  "items": [
+    {
+      "id": "lesson.what-is-islam",
+      "type": "lesson",
+      "slug": "what-is-islam",
+      "status": "draft",
+      "path": "content/lessons/stage-1/what-is-islam.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 1,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.who-is-allah",
+      "type": "lesson",
+      "slug": "who-is-allah",
+      "status": "draft",
+      "path": "content/lessons/stage-1/who-is-allah.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 2,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.prophet-muhammad",
+      "type": "lesson",
+      "slug": "prophet-muhammad",
+      "status": "draft",
+      "path": "content/lessons/stage-1/prophet-muhammad.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 3,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.purpose-of-worship",
+      "type": "lesson",
+      "slug": "purpose-of-worship",
+      "status": "draft",
+      "path": "content/lessons/stage-1/purpose-of-worship.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 4,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.faith-islam-ihsan",
+      "type": "lesson",
+      "slug": "faith-islam-ihsan",
+      "status": "draft",
+      "path": "content/lessons/stage-1/faith-islam-ihsan.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 5,
+      "group": "introduction"
+    },
+    {
+      "id": "lesson.quran-and-hadith",
+      "type": "lesson",
+      "slug": "quran-and-hadith",
+      "status": "draft",
+      "path": "content/lessons/stage-1/quran-and-hadith.json",
+      "stageId": "stage.introduction",
+      "stageOrder": 6,
+      "group": "introduction"
+    }
+  ]
+}

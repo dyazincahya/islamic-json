@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mani",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mani",
+  "title": {
+    "id": "Al-Mâni`u",
+    "en": "Al-Mani'"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mâni`u",
+    "en": "Al-Mani'"
+  },
+  "arabic": "الْمَانِعُ",
+  "transliteration": {
+    "id": "Al-Mâni`u",
+    "en": "Al-Mani'"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mani.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mencegah",
+        "en": "The Preventer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

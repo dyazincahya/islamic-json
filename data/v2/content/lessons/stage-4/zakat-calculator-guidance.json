@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.zakat-calculator-guidance",
+  "type": "lesson",
+  "slug": "zakat-calculator-guidance",
+  "title": {
+    "id": "Panduan kalkulator zakat",
+    "en": "Zakat calculator guidance"
+  },
+  "summary": {
+    "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
+    "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
+  },
+  "status": "draft",
+  "stageId": "stage.pillars-journey",
+  "stageOrder": 16,
+  "group": "zakat",
+  "relationships": {
+    "prerequisites": [
+      "lesson.zakat-recipients"
+    ],
+    "next": [
+      "lesson.hajj-umrah-rulings"
+    ],
+    "related": []
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.calculator",
+      "required": false
+    }
+  ],
+  "sourceIds": [
+    "source.quran-2-267"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "seasonalTags": [],
+  "blocks": [
+    {
+      "id": "block.zakat-calculator-guidance-overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
+        "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
+      }
+    },
+    {
+      "id": "block.zakat-calculator-guidance-focus",
+      "type": "paragraph",
+      "text": {
+        "id": "Fokus topik: Panduan kalkulator zakat. Rincian yang memengaruhi praktik perlu dikonfirmasi.",
+        "en": "Topic focus: Zakat calculator guidance. Practice-affecting details require confirmation."
+      }
+    },
+    {
+      "id": "block.zakat-calculator-guidance-caution",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Materi draf ini bukan fatwa atau penetapan kewajiban pribadi.",
+        "en": "This draft is not a fatwa or a determination of personal obligation."
+      }
+    },
+    {
+      "id": "block.zakat-calculator-guidance-source",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-2-267"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami topik dan status drafnya.",
+      "en": "I understand the topic and its draft status."
+    }
+  }
+}

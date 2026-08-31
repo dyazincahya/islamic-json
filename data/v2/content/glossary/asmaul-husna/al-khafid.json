@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-khafid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-khafid",
+  "title": {
+    "id": "Al-Khâfidlu",
+    "en": "Al-Khafid"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Khâfidlu",
+    "en": "Al-Khafid"
+  },
+  "arabic": "الْخَافِضُ",
+  "transliteration": {
+    "id": "Al-Khâfidlu",
+    "en": "Al-Khafid"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-khafid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Merendahkan (makhluknya)",
+        "en": "The Abaser"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

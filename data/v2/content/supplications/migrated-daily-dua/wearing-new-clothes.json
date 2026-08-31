@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.wearing-new-clothes",
+  "type": "supplication",
+  "slug": "wearing-new-clothes",
+  "title": {
+    "id": "Doa Memakai Pakaian Baru",
+    "en": "Supplication when wearing new clothes"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 21,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.wearing-new-clothes",
+    "arabic": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا صُنِعَ لَهُ وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ",
+    "transliteration": {
+      "id": "allahumma lakal hamdu anta kasawtaniihi. as-aluka min khoirihi wa khoiri maa shuni'a lah, wa a'udzu bika min syarrihi wa syarri maa shuni'a lah",
+      "en": "allahumma lakal hamdu anta kasawtaniihi. as-aluka min khoirihi wa khoiri maa shuni'a lah, wa a'udzu bika min syarrihi wa syarri maa shuni'a lah"
+    },
+    "translation": {
+      "id": "Ya Allah, hanya milik-Mu lah segala pujian. Engkaulah yang memberi pakaian ini kepadaku. Aku memohon kepada-Mu agar memperoleh kebaikan dari pakaian ini dan kebaikan yang ia diciptakan karenanya. Aku berlindung kepada-Mu dari kejahatannya dan kejahatan yang diciptakan karenanya.",
+      "en": "O Allah, all praise is Yours. You clothed me with this. I ask You for its good and the good for which it was made, and I seek refuge in You from its evil and the evil for which it was made."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.wearing-new-clothes.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Ahmad, Abu Dawud, at-Tirmidzi dan Al-Hakim. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Ahmad, Abu Dawud, at-Tirmidzi dan Al-Hakim. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Dengan membaca doa ini, seseorang memohon agar baju yang telah dibeli dapat memberikan kebaikan sekaligus menjadi pelindung bagi berbagai keburukan.",
+    "en": "This supplication asks that new clothing bring goodness and protection from harm."
+  }
+}

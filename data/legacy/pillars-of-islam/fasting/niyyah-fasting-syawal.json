@@ -1,0 +1,16 @@
+{
+    "icon": "fas fa-moon",
+    "title": {
+        "id": "Niat Puasa Sunnah Syawal",
+        "en": "Niyyah Fasting Sunnah Shawwal"
+    },
+    "content": {
+        "arrabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَةِ سِتَةٍ مِنْ شَوَالٍ لِلّٰهِ تَعَالَى",
+        "latin": "Nawaitu shauma ghadin ‘an ada’i sunnati sittatin min syawwâlin lillâhi ta‘âlâ.",
+        "translation": {
+            "id": "Aku niat puasa sunah Syawal di esok hari karena Allah ta’âlâ.",
+            "en": "I intend to perform the Sunnah fast of Shawwal tomorrow for the sake of Allah Ta‘âlâ."
+        },
+        "extras": null
+    }
+}

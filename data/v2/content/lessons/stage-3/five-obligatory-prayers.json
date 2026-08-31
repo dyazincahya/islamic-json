@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.five-obligatory-prayers",
+  "type": "lesson",
+  "slug": "five-obligatory-prayers",
+  "title": {
+    "id": "Lima salat wajib",
+    "en": "The five obligatory prayers"
+  },
+  "summary": {
+    "id": "Muslim menunaikan Subuh, Zuhur, Asar, Magrib, dan Isya dengan jumlah rakaat serta waktu yang ditetapkan.",
+    "en": "Muslims perform Fajr, Dhuhr, Asr, Maghrib, and Isha with their prescribed units and times."
+  },
+  "status": "draft",
+  "stageId": "stage.purification-prayer",
+  "stageOrder": 10,
+  "group": "prayer",
+  "relationships": {
+    "prerequisites": [
+      "lesson.prayer-recitations"
+    ],
+    "next": [
+      "lesson.congregational-prayer"
+    ],
+    "related": [
+      "practice.five-obligatory-prayers"
+    ]
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "five-prayers"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-4-103",
+    "source.quran-20-14"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "block.five-obligatory-prayers.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Muslim menunaikan Subuh, Zuhur, Asar, Magrib, dan Isya dengan jumlah rakaat serta waktu yang ditetapkan.",
+        "en": "Muslims perform Fajr, Dhuhr, Asr, Maghrib, and Isha with their prescribed units and times."
+      }
+    },
+    {
+      "id": "block.five-obligatory-prayers.key-points",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.five-obligatory-prayers.1",
+          "text": {
+            "id": "Subuh dua rakaat, Zuhur empat, Asar empat, Magrib tiga, dan Isya empat.",
+            "en": "Fajr has two units, Dhuhr four, Asr four, Maghrib three, and Isha four."
+          }
+        },
+        {
+          "id": "item.five-obligatory-prayers.2",
+          "text": {
+            "id": "Persiapan mencakup bersuci, menutup aurat, menghadap kiblat, dan memastikan waktu.",
+            "en": "Preparation includes purification, covering the awrah, facing the qiblah, and confirming the time."
+          }
+        },
+        {
+          "id": "item.five-obligatory-prayers.3",
+          "text": {
+            "id": "Bangun kebiasaan menjaga salat tanpa menyimpan data pribadi di dataset.",
+            "en": "Build a habit of guarding prayers without storing personal data in the dataset."
+          }
+        }
+      ]
+    },
+    {
+      "id": "block.five-obligatory-prayers.review-note",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Draf ini menunggu telaah isi dan bahasa. Konfirmasikan rincian yang memengaruhi praktik kepada pembimbing tepercaya.",
+        "en": "This draft awaits content and language review. Confirm practice-affecting details with a trusted instructor."
+      }
+    },
+    {
+      "id": "block.five-obligatory-prayers.sources",
+      "type": "source-reference",
+      "sourceIds": [
+        "source.quran-4-103",
+        "source.quran-20-14"
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami pokok pelajaran dan status drafnya.",
+      "en": "I understand the lesson essentials and its draft status."
+    }
+  }
+}

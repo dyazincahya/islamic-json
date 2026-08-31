@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.wearing-clothes",
+  "type": "supplication",
+  "slug": "wearing-clothes",
+  "title": {
+    "id": "Doa Memakai Pakaian",
+    "en": "Supplication when getting dressed"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 22,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.wearing-clothes",
+    "arabic": "الْحَمْدُ لِلَّهِ الَّذِى كَسَانِى هَذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّى وَلاَ قُوَّةٍ",
+    "transliteration": {
+      "id": "alhamdu lillaahil ladzii kasaanii haadzaa wa rozaqoniihi min ghoiri hawlim minni wa laa quwwatin",
+      "en": "alhamdu lillaahil ladzii kasaanii haadzaa wa rozaqoniihi min ghoiri hawlim minni wa laa quwwatin"
+    },
+    "translation": {
+      "id": "Segala puji bagi Allah yang memberi pakaian ini kepadaku sebagai rezeki dari-Nya tanpa daya dan kekuatan dariku.",
+      "en": "All praise is for Allah who clothed me with this garment and provided it for me without any power or strength from me."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.wearing-clothes.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. seluruh penyusun kitab Sunan, kecuali Nasa'i. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. seluruh penyusun kitab Sunan, kecuali Nasa'i. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Keutamaan membaca doa ini, akan diampuni dosa yang telah lalu, InsyaAllah.",
+    "en": "The legacy note states that reciting this supplication is a cause for previous sins to be forgiven, if Allah wills."
+  }
+}

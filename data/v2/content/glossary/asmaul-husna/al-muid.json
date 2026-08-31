@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muid",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muid",
+  "title": {
+    "id": "Al-Mu`idu",
+    "en": "Al-Mu'id"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mu`idu",
+    "en": "Al-Mu'id"
+  },
+  "arabic": "الْمُعِيْدُ",
+  "transliteration": {
+    "id": "Al-Mu`idu",
+    "en": "Al-Mu'id"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muid.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mengembalikan Kehidupan",
+        "en": "The Restorer"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

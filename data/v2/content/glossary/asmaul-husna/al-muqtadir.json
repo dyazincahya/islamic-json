@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muqtadir",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muqtadir",
+  "title": {
+    "id": "Al-Muqtadiru",
+    "en": "Al-Muqtadir"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muqtadiru",
+    "en": "Al-Muqtadir"
+  },
+  "arabic": "الْمُقْتَدِرُ",
+  "transliteration": {
+    "id": "Al-Muqtadiru",
+    "en": "Al-Muqtadir"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muqtadir.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Berkuasa",
+        "en": "The Omnipotent"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-muqaddim",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-muqaddim",
+  "title": {
+    "id": "Al-Muqaddimu",
+    "en": "Al-Muqaddim"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Muqaddimu",
+    "en": "Al-Muqaddim"
+  },
+  "arabic": "الْمُقَدِّمُ",
+  "transliteration": {
+    "id": "Al-Muqaddimu",
+    "en": "Al-Muqaddim"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-muqaddim.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Mendahulukan",
+        "en": "The Expediter"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.who-is-allah",
+  "type": "lesson",
+  "slug": "who-is-allah",
+  "title": { "id": "Siapakah Allah?", "en": "Who is Allah?" },
+  "summary": {
+    "id": "Mengenal Allah sebagai satu-satunya Tuhan yang berhak disembah.",
+    "en": "Knowing Allah as the only God worthy of worship."
+  },
+  "status": "draft",
+  "iconId": "faith.tawhid",
+  "stageId": "stage.introduction",
+  "stageOrder": 2,
+  "group": "introduction",
+  "relationships": {
+    "prerequisites": ["lesson.what-is-islam"],
+    "next": ["lesson.prophet-muhammad"],
+    "related": [
+      "lesson.knowing-allah",
+      "lesson.tawhid",
+      "lesson.faith-in-allah"
+    ]
+  },
+  "sourceIds": ["source.quran-2-255", "source.quran-112-1-4"],
+  "blocks": [
+    {
+      "id": "block.who-is-allah.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Allah adalah Tuhan Yang Maha Esa, Pencipta dan Pemelihara seluruh makhluk. Dia tidak memiliki sekutu dan hanya Dia yang berhak disembah.",
+        "en": "Allah is the One God, the Creator and Sustainer of all creation. He has no partner, and He alone is worthy of worship."
+      }
+    },
+    {
+      "id": "block.who-is-allah.response",
+      "type": "callout",
+      "kind": "important",
+      "body": {
+        "id": "Mengenal Allah menumbuhkan cinta, rasa takut yang benar, harapan, syukur, dan ketergantungan kepada-Nya.",
+        "en": "Knowing Allah nurtures love, proper fear, hope, gratitude, and reliance upon Him."
+      },
+      "iconId": "faith.belief"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami bahwa hanya Allah yang berhak disembah.",
+      "en": "I understand that Allah alone is worthy of worship."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

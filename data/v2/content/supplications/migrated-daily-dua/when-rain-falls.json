@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.when-rain-falls",
+  "type": "supplication",
+  "slug": "when-rain-falls",
+  "title": {
+    "id": "Doa Ketika Turun Hujan",
+    "en": "Supplication when rain falls"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 25,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.when-rain-falls",
+    "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+    "transliteration": {
+      "id": "allahumma shayyiban naafi'aa",
+      "en": "allahumma shayyiban naafi'aa"
+    },
+    "translation": {
+      "id": "Ya Allah turunkanlah pada kami hujan yang bermanfaat.",
+      "en": "O Allah, make it beneficial rain."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.when-rain-falls.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. al-Bukhari No. 1032. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. al-Bukhari No. 1032. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Ajuran untuk berdo'a ketika turun hujan agar kebaikan dan keberkahan semakin bertambah, begitu pula semakin banyak kemanfaatan.",
+    "en": "Supplication is encouraged when rain falls so that its goodness, blessing, and benefit increase."
+  }
+}

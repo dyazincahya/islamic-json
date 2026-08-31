@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.relief-from-debt",
+  "type": "supplication",
+  "slug": "relief-from-debt",
+  "title": {
+    "id": "Doa Ketika Terlilit Hutang",
+    "en": "Supplication when burdened by debt"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 32,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.relief-from-debt",
+    "arabic": "اللَّهُمَّ اكْفِنِى بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِى بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+    "transliteration": {
+      "id": "allahumak-finii bi halaalika 'an haroomik, wa agh-niniy bi fadhlika 'amman siwaak",
+      "en": "allahumak-finii bi halaalika 'an haroomik, wa agh-niniy bi fadhlika 'amman siwaak"
+    },
+    "translation": {
+      "id": "Ya Allah cukupkanlah aku dengan yang halal dan jauhkanlah aku dari yang haram, dan cukupkanlah aku dengan karunia-Mu dari bergantung pada selain-Mu.",
+      "en": "O Allah, suffice me with what You have made lawful instead of what You have forbidden, and make me independent by Your bounty from everyone besides You."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.relief-from-debt.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. at-Tirmidzi No. 2563. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. at-Tirmidzi No. 2563. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "worship.supplication",
+  "benefits": {
+    "id": "Rezeki halal walaupun sedikit lebih baik dari harta haram yang jumlahnya melimpah.",
+    "en": "A small amount of lawful provision is better than abundant unlawful wealth."
+  }
+}

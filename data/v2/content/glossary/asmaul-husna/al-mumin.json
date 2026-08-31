@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2.0",
+  "id": "glossary.name-of-allah.al-mumin",
+  "type": "glossary-entry",
+  "slug": "asmaul-husna-al-mumin",
+  "title": {
+    "id": "Al-Mu’minu",
+    "en": "Al-Mu'min"
+  },
+  "status": "draft",
+  "iconId": "faith.allah",
+  "term": {
+    "id": "Al-Mu’minu",
+    "en": "Al-Mu'min"
+  },
+  "arabic": "الْمُؤْمِنُ",
+  "transliteration": {
+    "id": "Al-Mu’minu",
+    "en": "Al-Mu'min"
+  },
+  "definition": [
+    {
+      "id": "block.name-of-allah.al-mumin.meaning",
+      "type": "paragraph",
+      "text": {
+        "id": "Yang Maha Memberi Keamanan",
+        "en": "The Granter of Security"
+      }
+    }
+  ],
+  "sourceIds": [
+    "source.quran-7-180"
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  }
+}

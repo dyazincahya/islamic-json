@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "2.0",
+  "id": "supplication.migrated-daily-dua.entering-mosque",
+  "type": "supplication",
+  "slug": "entering-mosque",
+  "title": {
+    "id": "Doa Masuk Masjid",
+    "en": "Supplication upon entering the mosque"
+  },
+  "status": "draft",
+  "stageId": "stage.daily-life",
+  "stageOrder": 9,
+  "group": "daily-supplications",
+  "recitation": {
+    "id": "recitation.migrated-daily-dua.entering-mosque",
+    "arabic": "اَللَّهُمَّ افْتَحْ لِيْ أَبْوَابَ رَحْمَتِكَ",
+    "transliteration": {
+      "id": "allahummaftah lii abwaaba rahmatika",
+      "en": "allahummaftah lii abwaaba rahmatika"
+    },
+    "translation": {
+      "id": "Ya Allah, bukalah pintu-pintu rahmat-Mu untukku.",
+      "en": "O Allah, open for me the doors of Your mercy."
+    }
+  },
+  "context": [
+    {
+      "id": "block.migrated-daily-dua.entering-mosque.legacy-source",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Catatan sumber warisan (belum diverifikasi)",
+        "en": "Legacy source note (unverified)"
+      },
+      "body": {
+        "id": "Rujukan warisan: HR. Muslim. Catatan ini belum diverifikasi dan bukan sumber terstruktur.",
+        "en": "Legacy citation: HR. Muslim. This note is unverified and is not a structured source reference."
+      }
+    }
+  ],
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "iconId": "location.mosque",
+  "benefits": {
+    "id": "Masjid adalah rumah Allah, hendaknya seorang hamba mengagungkannya dan berharap rahmat Allah di dalamnya.",
+    "en": "A mosque is a house of Allah; a servant should honor it and hope for Allah's mercy within it."
+  }
+}

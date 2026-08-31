@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.prophet-muhammad",
+  "type": "lesson",
+  "slug": "prophet-muhammad",
+  "title": { "id": "Mengenal Nabi Muhammad", "en": "Knowing Prophet Muhammad" },
+  "summary": {
+    "id": "Pengantar tentang Nabi Muhammad sebagai utusan Allah dan teladan bagi umat Islam.",
+    "en": "An introduction to Prophet Muhammad as Allah's messenger and an example for Muslims."
+  },
+  "status": "draft",
+  "iconId": "faith.prophetic-guidance",
+  "stageId": "stage.introduction",
+  "stageOrder": 3,
+  "group": "introduction",
+  "relationships": {
+    "prerequisites": ["lesson.who-is-allah"],
+    "next": ["lesson.purpose-of-worship"],
+    "related": ["lesson.following-sunnah", "lesson.faith-in-messengers"]
+  },
+  "sourceIds": ["source.quran-33-21"],
+  "blocks": [
+    {
+      "id": "block.prophet-muhammad.overview",
+      "type": "paragraph",
+      "text": {
+        "id": "Muhammad adalah utusan Allah yang menyampaikan wahyu dan mengajarkan Islam. Umat Islam mencintai, menghormati, dan mempelajari tuntunannya tanpa menyembah beliau.",
+        "en": "Muhammad is Allah's messenger who conveyed revelation and taught Islam. Muslims love, honor, and study his guidance without worshipping him."
+      }
+    },
+    {
+      "id": "block.prophet-muhammad.example",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Al-Qur'an memperkenalkan Rasulullah sebagai teladan yang baik bagi orang yang mengharap Allah dan Hari Akhir.",
+        "en": "The Quran presents the Messenger of Allah as a good example for those who hope in Allah and the Last Day."
+      },
+      "iconId": "faith.prophetic-guidance"
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami peran dasar Nabi Muhammad sebagai utusan Allah.",
+      "en": "I understand Prophet Muhammad's basic role as Allah's messenger."
+    }
+  },
+  "review": {
+    "content": { "outcome": "pending" },
+    "locales": {
+      "id": { "outcome": "pending" },
+      "en": { "outcome": "pending" }
+    }
+  }
+}

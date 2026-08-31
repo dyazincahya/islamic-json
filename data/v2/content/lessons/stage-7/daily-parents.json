@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-parents",
+  "type": "lesson",
+  "slug": "daily-parents",
+  "title": {
+    "id": "Mendampingi orang tua",
+    "en": "Caring for parents"
+  },
+  "summary": {
+    "id": "Terapkan hormat, komunikasi, bantuan, dan kesabaran sesuai kebutuhan orang tua.",
+    "en": "Practice respect, communication, help, and patience according to parental needs."
+  },
+  "status": "draft",
+  "iconId": "daily-life.family",
+  "stageId": "stage.daily-life",
+  "stageOrder": 8,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.daily-family"],
+    "next": ["lesson.basic-transactions"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-parents-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-parents-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Perhatian kepada orang tua menjaga martabat mereka sambil memberi bantuan yang berguna.",
+        "en": "Care for parents preserves their dignity while offering useful help."
+      }
+    },
+    {
+      "id": "block.daily-parents-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-parents-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang membantu urusan kesehatan atau digital sambil menghormati pilihan orang tuanya.",
+        "en": "A person helps with health or digital matters while respecting parental choices."
+      }
+    },
+    {
+      "id": "block.daily-parents-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-parents-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-parents-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Tanyakan satu kebutuhan orang tua dan sepakati bantuan yang tepat.",
+            "en": "Ask about one parental need and agree on suitable help."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reminders",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.iqra-introduction",
+  "type": "lesson",
+  "slug": "iqra-introduction",
+  "title": {
+    "id": "Pengantar Iqra",
+    "en": "Introduction to Iqra"
+  },
+  "summary": {
+    "id": "Kenali Iqra sebagai metode bertahap untuk belajar membaca tulisan Arab.",
+    "en": "Recognize Iqra as a gradual method for learning to read Arabic script."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.iqra",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 2,
+  "group": "quran-learning",
+  "relationships": {
+    "prerequisites": [],
+    "next": ["lesson.arabic-letters"],
+    "related": ["lesson.quran-paths"]
+  },
+  "blocks": [
+    {
+      "id": "block.iqra-introduction-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.iqra-introduction-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Mulailah dari tingkat yang sesuai, dengarkan contoh guru, lalu ulangi dengan tenang.",
+        "en": "Start at a suitable level, listen to a teacher model, then repeat calmly."
+      }
+    },
+    {
+      "id": "block.iqra-introduction-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.iqra-introduction-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seorang pemula melatih satu baris dengan benar sebelum menambah baris berikutnya.",
+        "en": "A beginner practices one line correctly before adding the next."
+      }
+    },
+    {
+      "id": "block.iqra-introduction-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.iqra-introduction-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.iqra-introduction-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Jadwalkan sepuluh menit bersama pengajar atau audio tepercaya untuk mengenali bunyi.",
+            "en": "Schedule ten minutes with a teacher or trusted audio to recognize sounds."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    }
+  ]
+}

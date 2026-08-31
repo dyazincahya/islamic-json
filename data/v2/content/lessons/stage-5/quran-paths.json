@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.quran-paths",
+  "type": "lesson",
+  "slug": "quran-paths",
+  "title": {
+    "id": "Jalur belajar Al-Quran",
+    "en": "Quran learning paths"
+  },
+  "summary": {
+    "id": "Pilih jalur sesuai kemampuan dan tujuan belajar saat ini.",
+    "en": "Choose a path suited to your current ability and learning goal."
+  },
+  "status": "draft",
+  "iconId": "quran-learning.quran",
+  "stageId": "stage.quran-learning",
+  "stageOrder": 1,
+  "group": "adaptive-entry",
+  "relationships": {
+    "prerequisites": [],
+    "next": [
+      "lesson.iqra-introduction",
+      "practice.basic-tajwid",
+      "lesson.quran-translation",
+      "practice.quran-consistency"
+    ],
+    "related": ["practice.quran-reading"]
+  },
+  "blocks": [
+    {
+      "id": "block.quran-paths-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Pilih jalur belajar",
+        "en": "Choose a learning path"
+      }
+    },
+    {
+      "id": "block.quran-paths-intro",
+      "type": "paragraph",
+      "text": {
+        "id": "Mulailah dari kemampuan saat ini. Setiap jalur dapat dipilih tanpa harus menuntaskan jalur lain terlebih dahulu.",
+        "en": "Begin from your current ability. Each path can be chosen without completing another path first."
+      }
+    },
+    {
+      "id": "block.quran-paths-options",
+      "type": "unordered-list",
+      "items": [
+        {
+          "id": "item.quran-paths-beginner",
+          "text": {
+            "id": "Belum dapat membaca: mulai dari pengantar Iqra dan huruf Arab.",
+            "en": "Cannot read yet: begin with the Iqra introduction and Arabic letters."
+          }
+        },
+        {
+          "id": "item.quran-paths-tajwid",
+          "text": {
+            "id": "Sudah membaca: latih tajwid dasar dengan bantuan audio aplikasi bila tersedia.",
+            "en": "Already reading: practice basic tajwid with application audio when available."
+          }
+        },
+        {
+          "id": "item.quran-paths-meaning",
+          "text": {
+            "id": "Ingin memahami: pelajari terjemahan, tafsir ringkas, dan tema ayat.",
+            "en": "Want understanding: learn about translation, brief tafsir, and verse themes."
+          }
+        },
+        {
+          "id": "item.quran-paths-consistency",
+          "text": {
+            "id": "Ingin konsisten: bangun kebiasaan membaca yang ringan dan teratur.",
+            "en": "Want consistency: build a light and regular reading habit."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.reading",
+      "required": false
+    },
+    {
+      "featureId": "feature.audio",
+      "required": false
+    },
+    {
+      "featureId": "feature.bookmarks",
+      "required": false
+    },
+    {
+      "featureId": "feature.continuation-history",
+      "required": false
+    }
+  ]
+}

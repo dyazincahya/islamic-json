@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "2.0",
+  "id": "lesson.daily-charity",
+  "type": "lesson",
+  "slug": "daily-charity",
+  "title": {
+    "id": "Sedekah dan kepedulian",
+    "en": "Charity and care"
+  },
+  "summary": {
+    "id": "Berikan harta, waktu, tenaga, atau manfaat lain dengan ikhlas dan bertanggung jawab.",
+    "en": "Offer wealth, time, effort, or other benefit sincerely and responsibly."
+  },
+  "status": "draft",
+  "iconId": "daily-life.charity",
+  "stageId": "stage.daily-life",
+  "stageOrder": 11,
+  "group": "daily-life",
+  "relationships": {
+    "prerequisites": ["lesson.halal-food"],
+    "next": ["lesson.daily-health"],
+    "related": ["lesson.daily-supplications"]
+  },
+  "blocks": [
+    {
+      "id": "block.daily-charity-explanation-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Penjelasan",
+        "en": "Explanation"
+      }
+    },
+    {
+      "id": "block.daily-charity-explanation",
+      "type": "paragraph",
+      "text": {
+        "id": "Sedekah diarahkan kepada kebutuhan nyata melalui cara yang aman dan dapat dipercaya.",
+        "en": "Charity addresses real needs through safe and trustworthy means."
+      }
+    },
+    {
+      "id": "block.daily-charity-example-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Contoh dalam kehidupan",
+        "en": "Life example"
+      }
+    },
+    {
+      "id": "block.daily-charity-example",
+      "type": "paragraph",
+      "text": {
+        "id": "Seseorang membantu melalui lembaga transparan atau memberi waktu kepada tetangga.",
+        "en": "A person helps through a transparent organization or gives time to a neighbor."
+      }
+    },
+    {
+      "id": "block.daily-charity-action-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Langkah tindakan",
+        "en": "Action step"
+      }
+    },
+    {
+      "id": "block.daily-charity-action",
+      "type": "steps",
+      "items": [
+        {
+          "id": "step.daily-charity-action",
+          "title": {
+            "id": "Praktikkan",
+            "en": "Put it into practice"
+          },
+          "body": {
+            "id": "Pilih satu bentuk sedekah dan periksa kebutuhan serta penyalurannya.",
+            "en": "Choose one form of charity and verify the need and delivery."
+          }
+        }
+      ]
+    }
+  ],
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
+      "en": "I have read, reflected, and chosen one step to practice."
+    }
+  },
+  "review": {
+    "content": {
+      "outcome": "pending"
+    },
+    "locales": {
+      "id": {
+        "outcome": "pending"
+      },
+      "en": {
+        "outcome": "pending"
+      }
+    }
+  },
+  "featureLinks": [
+    {
+      "featureId": "feature.calculator",
+      "required": false
+    }
+  ]
+}
