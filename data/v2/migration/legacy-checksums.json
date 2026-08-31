@@ -5,737 +5,737 @@
   "items": [
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/juz.json",
-      "sha256": "e26883d82d4f93c20d85f9fe6d2f552d5d79d5860a169bc066a143cc0a0d4ef5",
+      "sha256": "1aec748e1c2ed529c245d67325ef3713ef4be39d01358d76ebe0f4c42e5f0c9a",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/1.json",
-      "sha256": "b8d2cae0c25d9c9f0f950f0898babc2707e3d2e79a41e9425b54c00817c43564",
+      "sha256": "3497528442a6e1cc7d136bde9b25e0efc9607492e202598dd3dab088c6fa8db9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/10.json",
-      "sha256": "b186b2c29c830245391d8adf1496bdab972ab5b45383147adc853871ee2772c6",
+      "sha256": "9fb79a22e1a5724dc417e565c7357c15eece9be8761b66995fdd1fcf778ea473",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/100.json",
-      "sha256": "b77bc26162378e7f0031b5c6808fa213d66447d4578f76ad74ec6aaec283436e",
+      "sha256": "20b9a3ae2bc61b3599b1ca1f959b1dd26cc9e8cfec6a131d2c307a217433d303",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/101.json",
-      "sha256": "8ebc0273752ec96f2a36363d100a0cd61ab1f3a95cf4d135df76343cf19576c8",
+      "sha256": "2c4f3dadd942a5cd4e2a9d099634dddb4266af61bad4152e25a83d0e62739907",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/102.json",
-      "sha256": "d0cdc57fbdc526883ba9988d9716ab2af2a384023bc085f945fa41b724f1d9c1",
+      "sha256": "2bbcd1a42a63baaf274a2fd5e5ca86e8400c58ca2d985f0b77a2af5f327f4504",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/103.json",
-      "sha256": "2454fec6636caec46e5b516f599a2500c1bba033c94df2928b2be234f295ad45",
+      "sha256": "1bfc744412bd440d06523d1ccb1cc1735b8aa949776316ab907d31654c2c42ac",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/104.json",
-      "sha256": "8a239d28901e3368b81743d83cb6400a03e6bb9317bfa06422364f636db11d2f",
+      "sha256": "b91cd73c08fa2f2577304e875a6c46d2f6940390e2cbbd0e0fde496b0f897de9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/105.json",
-      "sha256": "797803926e280986178ddeb622d4f30de1efdae89fd9b458b63450eee733cd21",
+      "sha256": "ceb68624374fe707e7c3332baa6d0c71406e4450092be8dbeeb6f09a76a7f8cd",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/106.json",
-      "sha256": "9b5708523eb32fd62a6a6be3c40aa96ed3eb44113cdef2ae88c89e8267fc4d27",
+      "sha256": "c93907eb023dd1751993c751ae2da527614faf483c8db26afc4149a498e463b4",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/107.json",
-      "sha256": "fcbd45a21e54e7fda13523d2f7cd5d8a80fff246d00559a6f6353a3a20cd60da",
+      "sha256": "711f946d771ace74e6b64ca0e546d02405aca7041bcfa9215d90c4a64348c5b9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/108.json",
-      "sha256": "b3714871be33379ca147c3fbc3a2a077cde4a771f7a164e1326276ba60cc6466",
+      "sha256": "ce9733325fe1e930e6f5dbb0cf58e9eeb207fb30112149da53778937f13f79a0",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/109.json",
-      "sha256": "d46100a248701e88867f76c94c8c0e4b43f4adb77c5f8e4c48e54ffebb8ef5a1",
+      "sha256": "361ab73ce0f5bfe1851b55043706dfbf53a0045cf55d201e53e88ba504fbbdc2",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/11.json",
-      "sha256": "fb3bda391b6d1a971d8940fa02fdd82d604ab56928706d2dbb9798bce998e5d4",
+      "sha256": "de554fc277ade33faa9362baae63b66996b48716e64c8ab50d8111a7e2895684",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/110.json",
-      "sha256": "3b2c1ee55f756ec6ce1b1b08bef441bab4aa88c452a578745933384c57fe21c2",
+      "sha256": "e220709ddb8e74e8bf798da67f83cfecaeaaebcf1de580fb62fc3096d47fb374",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/111.json",
-      "sha256": "cc7629409474f58a8d06875915cd6b2131f4cde553a6e1d104fa41fc58b8e35d",
+      "sha256": "f18164b9ee13608f2b0e00768a7dc4c5b8451a00321d8fb361f682ad1deb939d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/112.json",
-      "sha256": "c6103578dea836d9c8a6bdac0dcc3cfacbfb11918925d5303213e9da71c3a422",
+      "sha256": "43516c34ac10be585ae5856c0792b1d20278964ebc6504a7530497ef4de31bc3",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/113.json",
-      "sha256": "357865f7c1592d1ce5e9abfe46bf2dc690711de3630587542a8eead7673d6d8a",
+      "sha256": "62453edcdb05f6b08e86cde9deccaff77f9c8100612787b4fe100ebbfc037f2a",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/114.json",
-      "sha256": "6adf2a760c23bec481a1e070089665bf4f0a91742d6ba9169aedcc9a7c66c4b3",
+      "sha256": "93b7af892a01f3c4f62e7107503a9ec858f706f855c41d3e0a1da5a0860e40c9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/12.json",
-      "sha256": "d50f1c0bf99482a6f4068af24b485af54328aa9152ccd307aaa4fbaa651eb6c4",
+      "sha256": "26dc6149384e0e37b53b746631d8d57a2868363dfdf865d5851a184c809f7b16",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/13.json",
-      "sha256": "6ed0f850732143044a6a7c9bfd2414a38c8b678f1d9f34dc3dc5ecbcd02a7de9",
+      "sha256": "343aa9e6fc5a230ba6e57196af627febf7b63d53de85f621847bc9057a8fcd7b",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/14.json",
-      "sha256": "e17c3f75d70da6ef49a7b8e871bf849cfe415f49859b2d3a4a53c10beff6629d",
+      "sha256": "2517b96bea0f81c54bcbe254b3137605ed152791650ceaa74a00751d66fa40e6",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/15.json",
-      "sha256": "8b945711721917c8f5a4ef7513928b4557085bef86fea188fc3abea13663e5e2",
+      "sha256": "cd5bed3da4958126f6baca07480d75f377a87005a8f6d8714be8a7fd0cd1d9d9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/16.json",
-      "sha256": "52f28f9000a639e034ff0c178f2169748507477ba3cd1b8efd2ed9f553823309",
+      "sha256": "3592b6305eec261469c98409df6fbfa27d2a6590b6e2f9780b9d27465a00094a",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/17.json",
-      "sha256": "6628d9d9dd3d1e74655efcf5c1cc962fee4a78dff0e58f2557cdcedfc2f25c96",
+      "sha256": "f1fe4780752eabae8dcafadfa427a45ec5729cf0e969f9032dec0e8685641762",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/18.json",
-      "sha256": "dce21e6f15cd50c3c57362c259a590308443f90f344fc305fdb66627c6dd2295",
+      "sha256": "4fa733799a22d173eb58d2205757ed49900672ba1f5e09e99fed6700be4496da",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/19.json",
-      "sha256": "f9c808e94d1e75a5ba461a357607b0fb70c73c9dce080580941e7dd7ea09e84e",
+      "sha256": "7bbb951d9b49a1c6dc171f6eee7ac24462478d3afe42ee3e209b7f91f3277720",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/2.json",
-      "sha256": "72950cefa92a5409330a971a519a84b189a54d93d6948e4fca937813ce1df315",
+      "sha256": "dfe866a53e9dc330582ae051daaea09dd50178700358db8a2dbe8d14ebd7c42e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/20.json",
-      "sha256": "3c2cf32ac490cc8e471c714dcae4d7a2d27d99f83d1734b7fa0f7be1cc3d0225",
+      "sha256": "632532cc710001c02586fb985b48bbfa1c44acd17f7313634021893133bcf0f1",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/21.json",
-      "sha256": "ad0812fdcffab4eea2def2c3a228f4976d9d2cc651ead4c978331c3fac7ccde5",
+      "sha256": "2ed62231af03fc97c941ba80919fd87b2553385ecd5b3a14e97ac3148ca37f5b",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/22.json",
-      "sha256": "a3ab386624dbd84ab7d4d5a8fc3bfe2b39d45a363c253a0e7e3e6706eeb8cfaf",
+      "sha256": "9f2ac79713a4e79fae081feb896dd8378fef66a74ce3fd01eef5ed759c474f2f",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/23.json",
-      "sha256": "4f6c98a9053648a17158df6b349e177e731cf8d66f0f38f2d136a00d3dda5aea",
+      "sha256": "017a4f7c77156aed073842690f428609db847e89a03c7b42e340abd975c7a7e2",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/24.json",
-      "sha256": "ee28c60978f558ace340d2490d4c6e029394d40321cfe4621908aae2e91cef0d",
+      "sha256": "f9a5299a8652b2259cec7d569bd70f7d5729fb17f810117ec0ba415dbf68056d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/25.json",
-      "sha256": "8c79bc7529e041d493a3700f911dd62bd762d4a96635c046f13a88ffee344bcc",
+      "sha256": "e13c2d943a866965f430a1f6a6dabd012bbd7f72d01d039ac651c1fa09dfadb2",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/26.json",
-      "sha256": "89b515d3ca91b9ab795d125f1fb92487fb97b701960de74273a52ae8db60329e",
+      "sha256": "ed0fce1d37244ebba961a9c45c02252b02806aad1b8e21dc5e4bdcdc3fdfff9b",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/27.json",
-      "sha256": "426b8cf403239830af1e827d8169c0a2b8057fa0023c359aff0dcd55ee042d3d",
+      "sha256": "80fb1448afa22e7a89b1f5a58cbc4fddd6ac2fe37d4617792b06fcfbe2d01d04",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/28.json",
-      "sha256": "be834cfaeeffd4e5a9001361cae5aaeff36bef0dc1eca03e8837a003d4eb6f28",
+      "sha256": "ec42af290c41c192768e5aaef4b082818fee91c455566e329d052579525c071f",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/29.json",
-      "sha256": "da1e1ec2c3c11b4e3a98dc77dcf0463b3f97984603646989b3f5fcd2e1e15df1",
+      "sha256": "b0e4218983487e22e45da220cec4a8e24e72c2a28816d8a817374d4a007d207d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/3.json",
-      "sha256": "5784c9d6b4c739c3457d35154c335d7a755adf0be85d517815106867378c470f",
+      "sha256": "cc0e6e04673e91405bc0a8388f47e8a607249676294193493f90d146d9a53ba9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/30.json",
-      "sha256": "53415687a615426798375f49ba5085aee3623e6074a80fd95a879b7aa57fc69b",
+      "sha256": "0179600543c2ac6bb5264d37f4fe132393ef6a168e87a450f93c25e1506c6713",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/31.json",
-      "sha256": "dc83023bab3169e1421904429e58ea9786982c60aa24324aa180c121a6ca7f33",
+      "sha256": "5a7fce0939a02c1e22611af9bd5b50743174fb1376b5ef587e36bc2cd35bc517",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/32.json",
-      "sha256": "70058458bb4937fb749c732802b7ce2db09c5df79838e3ef72fdb7c59098901b",
+      "sha256": "10404b041dc5609b35ab97e3816894d254e35b67876e92e203a620728ed2dfdd",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/33.json",
-      "sha256": "8a6f51360be03f8bea2651879a94c0827bb94817a0188a86f98b1fe227109690",
+      "sha256": "52291a1b22f60f68625612208e1c899349eafb43c3134c95b8e7c05ed7932f7e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/34.json",
-      "sha256": "0fa403c654b2341c96d27e1aee668c5da235cbef22d410712d30e6cc46402295",
+      "sha256": "245661e7a53e1b78557ffcf4f693a23e1d117ba945076810f071b58e981d5fbb",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/35.json",
-      "sha256": "fd29c4a1d105873488204f0810ba0dac27356e301cb510987198e7b5cec5cea2",
+      "sha256": "457a67996c679930ef41b49d2b76fd2d50737f96b888f99bba43a0d57e6a106f",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/36.json",
-      "sha256": "8de157b1277ca533588c7859a3afaf9c4359f3cf1bca523bd6aa95c29f553fc2",
+      "sha256": "7905080dbd11465dc9f273387f05428cae9c79591e986d9f3102f6390e41ad73",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/37.json",
-      "sha256": "45a8200e4051affadfcb3e3444220796cbea9067ed36cbce0f9826cdb3799b39",
+      "sha256": "653ffc12de289f643a77ff5f913f0e8284d98ac1bdfa352245f228a18a03c1ea",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/38.json",
-      "sha256": "f347f778bd5611c08735bfdd3288c6241051d878db40a2caa27510e336d004d3",
+      "sha256": "0bcd98c0be3b2e080245486e47721f74cb818744d4e58dacd66bf04f2eb732a9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/39.json",
-      "sha256": "f91e9cb1f9b10249e4d5d0e2569a022ef4ff5916e6c646bd5f2a2f19302a6b5f",
+      "sha256": "732e3e6a1e8ed96e976360c35dd6d95ee3c8d6813d0d02d3b57e88fd9cdf37a2",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/4.json",
-      "sha256": "31d7f7469da0254554f132feca69af9fc9aeb8c48f3dfe06f93904d8ac3f25f4",
+      "sha256": "b802fa9adfd567e086708e71aff0dfcbb16a659403255dbd47c10e487a8603fb",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/40.json",
-      "sha256": "3279bb377d7c4179640192b04ee8543a0ed1e1ec78835fddfeba2986498b716c",
+      "sha256": "0a650e1a5f8eb7e63dcc811b1146ee2dff7199bff2659ff62337ddc7a3fbe86c",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/41.json",
-      "sha256": "0272e522069fef991ae004d837cafd68ac2a7b13d94438f410a62eee1df8e210",
+      "sha256": "35e072b9a14e6ac6b6a291bd40f4e569ad3a6f23f848f7459f11c2084aabad5b",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/42.json",
-      "sha256": "d3779ebebccbe7dcbb3841e9f52862d8965b8a51ca3614b44f4ebb3402b7d558",
+      "sha256": "df0effa1d9e8a75fdd664c30224d2f6aa508069a06bf9c8ba34f6682809ec961",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/43.json",
-      "sha256": "4ffe03d3361e57cea777d1abba56aa1c8f435dc2daee8192e058db067fc7fb1a",
+      "sha256": "460f41ac2cd0797156c6b4af4f706deb2af52ded84e5bf1b7671a4a981231501",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/44.json",
-      "sha256": "853603fcb2735547dbdc917c171f6f2be2f3c701b61acc6fcbb7a3253a3edadb",
+      "sha256": "e38453f47ccb2d08437ca0f78353fdcf13c092714cfb8f9fdfb87a6e81bb7e6d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/45.json",
-      "sha256": "2de46cda6d28324c213be7ba83f3144246803a7047ff02852e38d2fa49cae308",
+      "sha256": "afbfa8ea966a4b6939c5f81dc91805cd6fa17138bac2a8b20c626e883dfc19ef",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/46.json",
-      "sha256": "5a24793990847b0543542cf4c57133780fa09909eda0b87ab88867fc21ba9417",
+      "sha256": "ecd5ac3673abaf3dc12c83d329497d86396d77f13c442cbc6e1c33094d19063a",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/47.json",
-      "sha256": "d1c2b97c66f415c1c91c2a23da5797ae6907d03eb35e6eea6ca24a2790d2e8fc",
+      "sha256": "02bad71b39eed0090e060e9c18d9cd38ff56f3bc7cdb2dc4668a2b668418274e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/48.json",
-      "sha256": "5401cb5707c5ed9b0d093dcc17ef1921f8e27b99403cc7ceeb5566ac6d9c5958",
+      "sha256": "7c28328ec3eaaff367ccf4dc59d1fa32ffed60f47d66ae9f00ff9a849662a301",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/49.json",
-      "sha256": "09cb406d767c48d2eb46ec5abdcd52a7e043d6cda07d16ddd517550b4e45408e",
+      "sha256": "9e222ed1f9aba9cdb12df898f2a596a73e95d22acef7d6654e4f0307a6ce5c5e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/5.json",
-      "sha256": "9e56ce0692c1c66a0eb3c2f294866c5df79bb913b4641d95cb25ea6c19091e12",
+      "sha256": "e82cbc813bae0ddadebc868c482a594938b801cfe2942d8edb68c3547365065f",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/50.json",
-      "sha256": "264834a5667a4a405b128569675dc843d807ea0e71ecf25bbf1c3bfe3306be42",
+      "sha256": "235255bc56fbaa16fdfc5bd23cda82af2d38bbaf5c87fd9be4007f475ee3f7cd",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/51.json",
-      "sha256": "1768041f414447ab75ebc30256bb08f896110c9f41b6d0fd7f0783cb41de2049",
+      "sha256": "7403145c636be8bf06c92b201eed42c779cd19ebd895044ed2c4e3a99be69390",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/52.json",
-      "sha256": "df0574073e65e820d8e29678d9b95eac37d0a62bb1d8515b8af02b44a18d17c3",
+      "sha256": "b4d60f2a4c16ea9ccbdfa0b9f264d440e59cabc7f34b1c43c70eabdfb7a51e33",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/53.json",
-      "sha256": "9f37ee9f43ddb7f9c94b0f5c40078dabd7dac2d1de71c2cf2b9fb028e6d01af9",
+      "sha256": "3a708a0797a42757f9f3f80ff79e546852410e8227c31769688a276c747ef791",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/54.json",
-      "sha256": "9bfdf6ae17790f0b70c28a7be22c00b61c76ee9923d90ee301af1c6609bdc4f2",
+      "sha256": "00cf2ab58cf338b7886017b9c838c65a46d928c435f110eaa19b8cad572732b2",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/55.json",
-      "sha256": "391f837dd1e13fa408a77069b50fc6bc344593cee6534eb216d01eacbab5ab3b",
+      "sha256": "caa98c883bf02bf4b4216a29b500f460272ff2ef89a05a88211f8c615d8bbf9d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/56.json",
-      "sha256": "6dc3b963883702985238bf2228ac76f0f06de9b29ca0525aee2401deab5ba4f8",
+      "sha256": "d1e6de6dbf2b13ed433d577f406065db5cf4183013fe7a3ae65646db1e782a61",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/57.json",
-      "sha256": "08335212a5397e9084bb1ec6b531f5fd82a206c121ce3ca7ceecdb3a654eefb6",
+      "sha256": "149e9b94762ca3a27d88be3172bbf0369a373dc4b7305f2d46a800d797e8945e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/58.json",
-      "sha256": "bcc6a7101b84a3c8064378944e4641529c53d1c32e8292663a56514bac5f0ae7",
+      "sha256": "061afb113c5248d6d3beb29a676160bc754201bcabc6f68a7b0abbf2f31d0d2d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/59.json",
-      "sha256": "de394902886d51e6c1a2837c288f94958483d727a9b9eab97dbe70233efef1d4",
+      "sha256": "03aa87e8cca6ebed0ae69bb48ff5a7b6e15eff94223febb50399264c31513d79",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/6.json",
-      "sha256": "44c25fc802687fd7fdcc6aefa0e66d704e3a74131b680ab62822af6da1d7774b",
+      "sha256": "e098ac992b6afbee610a2c43e767f4ae956afff6cca77898615dc92f01d7bf1d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/60.json",
-      "sha256": "5fcc1b21e239bd31b69cee3b8cd8f28a08e32e9b3fd4c15a23a13421905dbb54",
+      "sha256": "89561d3187032d0de22ff5735ccfa2760317113dcd391b96150c14650f6b1026",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/61.json",
-      "sha256": "271e2bb3cfc72692c16e5f53ff244ebc697ea6265186f934df7e6a9b653bf6b4",
+      "sha256": "dd323d143392d3b0efb0c743de8b786fb6d12e9e4786f8ac2dcd4dabe7ea8717",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/62.json",
-      "sha256": "4ddb3512200a15c9f8be83dd8584a5dcfb0ec65c8176999ae441239e9037eea5",
+      "sha256": "1735df07ef0d50488ff9cdbd65bd107a5b8d693000af21af6b7ae2a7c4a97dcc",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/63.json",
-      "sha256": "99fc04e8dd4c456d62f817750a94d28cc3135934080933bf4a00f0584d2f0752",
+      "sha256": "0fd44c91a468a99506491757bf4555788b61fb0314db0fed5ded58fdf35dcf73",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/64.json",
-      "sha256": "45532976b57f5129d5e68933716fc545332cb7c1c150855d46febb6f7b452184",
+      "sha256": "76d0d16f9b72265782d3fdcbaf00780c62db7afdada542530f6cc68e653dca8e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/65.json",
-      "sha256": "3974bb53a170b948900167e7d2b572127205e65ac14d2f3a5ff8ea67471198dc",
+      "sha256": "b5d066649e6489e36f7e6e07591bc95ddac40df56495494ab8fcf9e28c215f07",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/66.json",
-      "sha256": "fc9682e07d7f37e73adee73c763474cc88f930aad7b61e34fd2ec90278e8bf8c",
+      "sha256": "92ab20099ce042b5a2fb3de3f3efb03f3f887fe72b31e60c5be90bcc8858975e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/67.json",
-      "sha256": "11b62ebce6c500d82dbf2ba12e17a8d0f7bb25b191ab48099662ad4d574c1831",
+      "sha256": "36131d6bccbd35a385a115c25df545442870355bdfa040ad90174ad68ce1d4a9",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/68.json",
-      "sha256": "19829f4843cce3db7870e3f3d3413d271470e15500b23ef806a76d096c2b4cdb",
+      "sha256": "7955b27c8aba03c18a0c13d2347de62fa200bdfb3bb3baa2c5312cc471a6c397",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/69.json",
-      "sha256": "b5550a55c27feb8232b743bc65cab0bd7c022a90caba0c05f4679a429f1ef98d",
+      "sha256": "44fa4d3e63581beefff64b87161beac784cbffff1e626d0193e5e9c50443cfa2",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/7.json",
-      "sha256": "90d369d89dbc796e1f8369d51d3a2d043e27b719d1f8c74b11810c7f54d40477",
+      "sha256": "3bdc7a52babc28a1ac44e827e2a3db2f260b7702bcf35e8efadec6ddbc60579a",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/70.json",
-      "sha256": "26cce6899c4468bf773f00003ae1a5d2f135c35ff16d6206056c9041225e1976",
+      "sha256": "5ca25292076721060601c52d9aaa9a2ade6854013e956f4ad8c9e65ee3641c00",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/71.json",
-      "sha256": "04adc5c80b9a57b47737498ae1f69b4107f38ac03205c91940c7fcf31a7ec7c5",
+      "sha256": "f1402de619f3b7f43216ad2f9ac877bf4fc90bc1b1e5312aaedf0488e51f68b7",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/72.json",
-      "sha256": "7a9694d3ac20be9fec288a3e9c7a736783219306437fb972689b86b1915c42f8",
+      "sha256": "a2b0d685f5fcd9c10b61200301fd2da830562e2751c86c82d932184ea0e59359",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/73.json",
-      "sha256": "f33f183c20871142cd2db6f945c3a9f0b9c5b8e809067ff9d89a2f86db973a90",
+      "sha256": "72d90fd1c85f253e4ea5ccecfabb180b1db16d7f709363cf107eae00bf3adfff",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/74.json",
-      "sha256": "fd59c64df3a89159c4c450a4ef0e94e5bf75deae2e20b836d07a84017b6cdb41",
+      "sha256": "8da6a085858af7877457f3cf82473b3b6e076b1921d3d39ffd1eeee8e7619898",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/75.json",
-      "sha256": "464930d67c9beea965793d3792aa8a80e534d22f850f1dc257d43c8f4164bd2f",
+      "sha256": "ec258e4e2dd66ebc72928490acfc6a8715e58e004c13b4a4edce587971050277",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/76.json",
-      "sha256": "001cd477724c091649fbaa1543a087ea841efa8306bbdbe6f0b0c58ff98e8e46",
+      "sha256": "2a9ad6500209614b27165cc882107586e98e51e40e7bc3c9dd30ee67357f46df",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/77.json",
-      "sha256": "65c0dfb7402738ed19d8034a400b07eb252749f0d010cee9ee9e5217d534e92e",
+      "sha256": "a2fd64f123363f034241ec226468898823b1bb1345e61f40c777a00248ee0d47",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/78.json",
-      "sha256": "0632a7c56e1885623c510288e796d4119f023d266675ffd4c637defee3b76a6c",
+      "sha256": "a47f2d1f006a625d2c1dc48d5d8a5b77b3e32e9bb11e3c78c3451f17fab0aec7",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/79.json",
-      "sha256": "5f4c8f3c5da0e0e5397c464f962ff6fade87e9330b7ede02dc82792db6728d05",
+      "sha256": "a9f20b438c01ae521c73534008e8fc7a222628b9211a96fdf425f5e144b74732",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/8.json",
-      "sha256": "3d2ec0e358615fd8d2e2a66229a706cd12d49e955ed6eebcb76269de2872e586",
+      "sha256": "4524e81d516887ae9f2f07d8207124a00c745f7cacd2363ff95dac8b4350c32f",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/80.json",
-      "sha256": "17327adaec4ab8b36a78e086f3fb88946b4ad8c469e96ad97e4045c04d210982",
+      "sha256": "0850b2bdf11328492c104b9aa50f567ac52f49bf744c1d88dd31246ef02baa69",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/81.json",
-      "sha256": "ec88b55cd61d5610ef03e143fbeafe471a14a2027d62603438c45b01c775f7b8",
+      "sha256": "a8326a811d044da502642f7df592b3bccb911b6af01557f2454e651b63e79975",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/82.json",
-      "sha256": "4278bd7b39f3516b50e98dc34ff50475986c161a17ac72ebb8889df09d8ace0d",
+      "sha256": "7f43df542970db4c4bc2ee1598df63ac5612b2b9ce88c7c76cd9b6c31710c5be",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/83.json",
-      "sha256": "4dc78a0e991893de6077448dc5c90a21a07b1deeea49ddc5bc995f863fe96adb",
+      "sha256": "cefd2a631bcbbf4d24f0d34d3dc8736207baab75ee9e5ab65e2214cd4097982e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/84.json",
-      "sha256": "30468802eff2aaa8def1be2d01bf258415e71d80c5f8e4a126348a41db9f7a07",
+      "sha256": "ef264191ac8d923338aa8f6f69852afef2e2cb31afb732e6e6d36de9bf509116",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/85.json",
-      "sha256": "4b791c22acc536de018e92c5c078f14d76161fcaa22b979beee9979c850869ef",
+      "sha256": "8033f8f88fb541d3590530d84cf385056bd0446683a296cdf5f9f5b0301284fe",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/86.json",
-      "sha256": "b3086baa7ae60c970f963f693887798765f3f01b46c141f88b551f6ee301a0ae",
+      "sha256": "b9bad0fbbf1b168c179c5d6b41f4f748554f7580cc81cf16ca5115daee08f31d",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/87.json",
-      "sha256": "2e715b6fbf287faf8a2bf269d9a92d10d827402c725cb859ba284fdc79551c0b",
+      "sha256": "876a53d81b083c7b9bbc284868b8afa5ef84142a5af1117f5b69d3eccd54e0dc",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/88.json",
-      "sha256": "3065fa384a5f41950ebe42e50e84ea8352511005be407fbc82d156328cb349f6",
+      "sha256": "20694add4e540a5c2c4b3b8a4193999c75715804c76ac70c5ee1dd9606af7c26",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/89.json",
-      "sha256": "4d100067d890e7b5ad657bdd7b4e37a1079902e268baf71107e901ca3f46dd5a",
+      "sha256": "07c745150663ba39ada19363fcc790f72bc73bbb488f5cb2b984c207fd48d010",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/9.json",
-      "sha256": "1a00bcbd47a5b6e7481f1bf9bf3f762638414d2570466e756a7944f716e9a6ff",
+      "sha256": "21b260b6a40876a41c6df3061788eb2a40e8f63cb9da96c620939df36249cb13",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/90.json",
-      "sha256": "0f8fbd2049e222a947768419172ceae4cbccf88053a476c838a88faa2bc18f48",
+      "sha256": "bcef6ec86d17531e5b0e5e58898963e0ed0748f2f58edf9cce5610837501b26f",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/91.json",
-      "sha256": "9f70ae194022dcc7639e8a75873e9faa82d1970a5a2d3926038914f6e40863af",
+      "sha256": "a226068187da9d92378ca089a08d0c043736294085e06b8b274a03328c76a254",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/92.json",
-      "sha256": "ef091920ce2654841eee2f595fcf35c64247436de0376a09ef08779c90710dfe",
+      "sha256": "0506928176b60d7d0571aa7ed69d15e59a33f75814590969c2f0cdd916093735",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/93.json",
-      "sha256": "aeac5ea4657337fd4af8796f678c39db04bfe8c305bf90c10df78d022e80441c",
+      "sha256": "e313a8e5ed32abc0e4cfb0469b8d97a477342c7091ce302224d88a5236ecd91b",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/94.json",
-      "sha256": "30b29c765159858b2583a4908dc2f178ce29b5b93dfbe9c69f8e0f7e1a99b5d5",
+      "sha256": "3a8df51a086534733411657e94d4147838c56fafd4c77087d7c90ee426201ce5",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/95.json",
-      "sha256": "1ee62291e74d342c26ef0bb6986a7fbca41b246984c52f802aa2001bfb46afb6",
+      "sha256": "67a92f477ad046732fc7c2a1d4e7d3a616fdbd8c8cb905d9df0cac3b5968564a",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/96.json",
-      "sha256": "ca9424c22ab9eba1e219207b397545bc9e45a3f3769243fee25d56537c01cf36",
+      "sha256": "d5371391b2fab24605319e2f7aea5bb2ca6557e070c1674f07c22c0804fba305",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/97.json",
-      "sha256": "0db319347967e1265d8d57cbc8ebedb9a96737d5ac2d5ef8011eb9772171b578",
+      "sha256": "ad110637c63842813f5befde586abc0a899507a20c713f50ba86b4679a848f99",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/98.json",
-      "sha256": "0d97326768005dce6018c68d881ac2dfe72132d0ae48e37782a281ca0018bbcb",
+      "sha256": "7c7a07c2f08d5f6b625dca42057ff0cd2c900fc78572cbbee0843c5ff215f5ff",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/99.json",
-      "sha256": "36afc5797472faa29edc23752416c9240c196ad2b94d3e50296059985882c9f8",
+      "sha256": "47f6a2395423680de3fe8885d82a89477f2d275ffbc1406e291b2fba8750e86e",
       "protected": true
     },
     {
       "path": "data/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json",
-      "sha256": "e40a2de69b647cbdba2dab426d1e854caa34f1e1098c719408670dee74fd9103",
+      "sha256": "8f359ff0d6e78e38048a887590e2fe36eb433e3006892d612751fcad1f244270",
       "protected": true
     },
     {
       "path": "data/holy-quran/quran-full.json",
-      "sha256": "5f6fb762b1b72520788680b99d663445e254287e06ba8ca63955d96a6e16022c",
+      "sha256": "eef4709fb123036923e94d3f1903627da5bd9111d83d1ce28d3d23f869e0256a",
       "protected": true
     },
     {
       "path": "data/legacy/asmaul-husna/asmaul-husna.json",
-      "sha256": "d11c2bcc400903a87da982c47bdd938c905532f7762c666b060a69815ac3c058",
+      "sha256": "6828b4e2678e3d9d5742cbc01365d9b4e5b887f225a7c7a7fb33ac1d78393e1a",
       "protected": false
     },
     {
       "path": "data/legacy/dhikr/categories.json",
-      "sha256": "579c549f788d2a006bf8207f6af01b0eea4126ab097ee2defecaa3d349abfd32",
+      "sha256": "2537d095d4322e6114f982b112a621be8911c43ff9be4d4967e5b1f0472c3868",
       "protected": false
     },
     {
       "path": "data/legacy/dhikr/data/morning-dhikr.json",
-      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "protected": false
     },
     {
       "path": "data/legacy/dua/categories.json",
-      "sha256": "555ae4895b40da61b034f920d939c3e562a29dd1313b80f6ce4436833383fd12",
+      "sha256": "f0426a81a39b26d5ea30d70f0d1cf47680df56222b88316a70fa6f7712eeb538",
       "protected": false
     },
     {
       "path": "data/legacy/dua/data/daily-dua.json",
-      "sha256": "daf0d1ce216f259600a8449935cbebbda56bbc955797068230a85104fa725b83",
+      "sha256": "22a198faec16bd38d5f0f9792248f5e4605ea73b97463482660effd6ba5cd65d",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-break-fasting.json",
-      "sha256": "345ebad2850576625d2dcc0b4f504f278f52df1b0d37cff1bd1ab5c7da296a48",
+      "sha256": "77f54f4278bc4f9d0115f481b0bdfff826b59937da52aa7002d63d0a3cbeaec1",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-arafah.json",
-      "sha256": "0fe792f10173585e40aa38f90621aad30e0319dee0a8079aeb94430cbe15d056",
+      "sha256": "81d1ead3a53244d8230a74cae5aa31afa107f2b925206ce85bffeec1b0ebd764",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-ashura.json",
-      "sha256": "e93e0a2a84b6c55fb1c04cab17b7834289ca637150cc44d53d28c7e38cac4dc7",
+      "sha256": "0b13b6e2bf761127ef2ec5cb2d1798f3cde5ac9a2846f2e1aa0f1f26f9f1bf37",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-ayyamul-bidh.json",
-      "sha256": "2ec2d532b229187907e54c87ec12312d4e62cf6e87be9001483b756eb953c824",
+      "sha256": "0304d68e384772a07946360991c442cf9709c81ce4f914393eb8494d56f2b2b4",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-dawud.json",
-      "sha256": "ec02cb96a972c23b26db58d8225017b4d835e60e2843db8fe404d6fb42942915",
+      "sha256": "44859d5aabc5a7e0322f11499f75dcce9d92c5890eca72ab00d2bdd53e435bea",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-kafarat.json",
-      "sha256": "7bd67088f499d794b6d72141b5e8b2f87d590074f0b595410f5efc8840852607",
+      "sha256": "d44dbecac49974fe3913b505b5b6a0ecac37a185e44cfaf398a64513cca5b64c",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-moday.json",
-      "sha256": "533fc338cac0e5f86e87c171f36b98c4b9bfe122960d32810594abef75dd02d7",
+      "sha256": "e71980cbe016da3a2e8a7a2063e38bda91c7ad4cb20b558a045f62893e997fe3",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-nazar.json",
-      "sha256": "7954f5b8103035c3e09f4bcefb3b0623e3d7751f621b4ab084e1881b1cbcced0",
+      "sha256": "cd176e4a7b2509f418098a9749e626203106ebb78f351143ff02c2c96d73e533",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-qadha.json",
-      "sha256": "12f72ffb444752a51d7ca2c53832f069adb3fbd5faf2e7b2f593c45320ae98ef",
+      "sha256": "8c0d6b43d1924c0ef1c17eaa814fdda954452c95cbb81ca956132188b5408550",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-ramadhan.json",
-      "sha256": "9b4d85663aa157c83b31bc1a17b3170f1a2ead41b596f1f8fdb17f3bf05ff0dd",
+      "sha256": "c22a056ce29a5301244ac4f7041c4e4e3bf17efa6c932b2185205e9dff6a8a55",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-shaban.json",
-      "sha256": "b5b901709183bd42c0bdd17e17a21403b5ac95269d9b8871562f229578188ec7",
+      "sha256": "242b1700c9fc3caa2f31ad0952aa8d7d0d1904c1b2a68caebe99a7ac16431c38",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-syawal.json",
-      "sha256": "a3bfdb7f0e1a882b476170f5ce15219507cb79f4c6679459dafb0ced6434e603",
+      "sha256": "083f8893655f067d00ec7d7c816b9803b9971b12b4c58a81d66b029afb2d2d47",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-tarwiyah.json",
-      "sha256": "5adbbaba07e06bbe2d78a2fcb020d1310a5ac5fb336c56cccfd56dab75344987",
+      "sha256": "b6d5baae8251c159ecd98659a8f9c8da5b1e0a9eff32cb545f80ed966a68eb9a",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-tasua.json",
-      "sha256": "daf7dc69dd320090d4302616358d7a7a3dcb6965c58e566c1b44d1c2052e6d27",
+      "sha256": "1b94dd3cc3dafc785ab3d217e760924bda1093f6171e7333e780cfe7ef01eaae",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-thursday.json",
-      "sha256": "891c333c275f6cefd09bab69e4abd09b7952721350fc4016558ea60f2902580c",
+      "sha256": "c9e6ab4fd83150bd079e9be8e366d29d5e1f2e9cffd5bc6c38d962ef9588b2fb",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/hajj/main.json",
-      "sha256": "39b1df5a29c4d129511b5f5b6ca92c9ec4e4462655f42f6982de55892a4d7242",
+      "sha256": "5ad6fd7bf914eac7ff09c76d53859fc7504d65502af0ce3f4527c8d1d4cac4fd",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/asr.json",
-      "sha256": "a043f77a3d94b9609f6a6204afa6623c8847135fdc52597ba709b33dadb25407",
+      "sha256": "f4c02735f87fbac03c330141e54d8465418170f8c320116f7ee4fb6ee0549c84",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/dhuhr.json",
-      "sha256": "2f5873632d617d8618d2846dd6a47c5911f93cfea0f1ed5e9fb92eeb5a3f9807",
+      "sha256": "5904fd1255b45c6c76461cf7431e4583ab35ce1c9fb44692130b11c7d5d38b91",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/isha.json",
-      "sha256": "74865acec9975e07c9f77ed2653f8550480d39bbe478fa2bb8efaeb88d856645",
+      "sha256": "66457e06d6489d8db0be32614d69b856ea5f0ebf36b08d9f0ea3dee68d7d526a",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/maghrib.json",
-      "sha256": "e07fbe4a77092448220e484698771c96e20722c20803040e67899674d96a8ebd",
+      "sha256": "646ad70c72cf71c72391eb33c9dfba1ca07f3c0617caa2270d74e45cf9d1b110",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/subuh.json",
-      "sha256": "2e69397e4ef917a44c0aaccbdf9f1305fbac0fbb9f6002ef07e226a5c4116a52",
+      "sha256": "d422fcb92220613555040e026d9636170e41f22907e3c82ca015a1509ac1b5f2",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/shahada/main.json",
-      "sha256": "12ca3c51d4bef454d3d3d56b630042615da74a0775197f2d7b015710ac69b799",
+      "sha256": "f3cd3ffb41abeea40e55e612a300c0c6d1743d0314bfe99125ce56aa35563601",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/zakat/zakat-fitrah-family.json",
-      "sha256": "3a04e10f38378ff8fb34b954a1c97ff890337bb96c2f3e4466504c58577ea2bd",
+      "sha256": "283e8b649bb4f9f67237709008e1a2690cfc55626de73bc7181cf0d8b6fa0999",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/zakat/zakat-fitrah-self.json",
-      "sha256": "8f5747f79baf759c734d56132c777dd1f2e70ec217f499af6d61db931ab14766",
+      "sha256": "0e06bf774e74861aba9cffd3d05c0d5be95c7f16f1982a7e4c9f1a31cbaac579",
       "protected": false
     },
     {
       "path": "data/legacy/pillars-of-islam/zakat/zakat-fitrah-wife.json",
-      "sha256": "5d8e4e7e939bb05fe246634bfb8cc301b55016a8568a02a975ffb0eea35cc27d",
+      "sha256": "cac77d67dd872741eb8d9b40e852568b2bbdd914f3e8a93a05e11174e005b0fb",
       "protected": false
     }
   ]

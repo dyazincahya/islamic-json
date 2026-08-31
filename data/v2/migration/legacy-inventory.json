@@ -5,7 +5,7 @@
   "items": [
     {
       "path": "data/legacy/asmaul-husna/asmaul-husna.json",
-      "bytes": 12970,
+      "bytes": 12374,
       "validJson": true,
       "rootType": "array",
       "itemCount": 99,
@@ -18,7 +18,7 @@
     },
     {
       "path": "data/legacy/dhikr/categories.json",
-      "bytes": 99,
+      "bytes": 92,
       "validJson": true,
       "rootType": "array",
       "itemCount": 1,
@@ -30,13 +30,13 @@
     },
     {
       "path": "data/legacy/dhikr/data/morning-dhikr.json",
-      "bytes": 2,
+      "bytes": 1,
       "validJson": false,
-      "parseError": "Expecting value: line 2 column 1 (char 2)"
+      "parseError": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "path": "data/legacy/dua/categories.json",
-      "bytes": 90,
+      "bytes": 83,
       "validJson": true,
       "rootType": "array",
       "itemCount": 1,
@@ -48,7 +48,7 @@
     },
     {
       "path": "data/legacy/dua/data/daily-dua.json",
-      "bytes": 41427,
+      "bytes": 40929,
       "validJson": true,
       "rootType": "array",
       "itemCount": 55,
@@ -64,7 +64,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-break-fasting.json",
-      "bytes": 743,
+      "bytes": 727,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -76,7 +76,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-arafah.json",
-      "bytes": 690,
+      "bytes": 674,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -88,7 +88,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-ashura.json",
-      "bytes": 662,
+      "bytes": 646,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -100,7 +100,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-ayyamul-bidh.json",
-      "bytes": 645,
+      "bytes": 629,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -112,7 +112,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-dawud.json",
-      "bytes": 608,
+      "bytes": 592,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -124,7 +124,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-kafarat.json",
-      "bytes": 753,
+      "bytes": 737,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -136,7 +136,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-moday.json",
-      "bytes": 636,
+      "bytes": 620,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -148,7 +148,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-nazar.json",
-      "bytes": 528,
+      "bytes": 512,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -160,7 +160,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-qadha.json",
-      "bytes": 695,
+      "bytes": 679,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -172,7 +172,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-ramadhan.json",
-      "bytes": 797,
+      "bytes": 781,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -184,7 +184,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-shaban.json",
-      "bytes": 676,
+      "bytes": 660,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -196,7 +196,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-syawal.json",
-      "bytes": 712,
+      "bytes": 696,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -208,7 +208,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-tarwiyah.json",
-      "bytes": 614,
+      "bytes": 598,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -220,7 +220,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-tasua.json",
-      "bytes": 627,
+      "bytes": 611,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -232,7 +232,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/fasting/niyyah-fasting-thursday.json",
-      "bytes": 637,
+      "bytes": 621,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -244,7 +244,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/hajj/main.json",
-      "bytes": 6260,
+      "bytes": 6076,
       "validJson": true,
       "rootType": "array",
       "itemCount": 13,
@@ -256,7 +256,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/asr.json",
-      "bytes": 1278,
+      "bytes": 1259,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -268,7 +268,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/dhuhr.json",
-      "bytes": 1347,
+      "bytes": 1328,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -280,7 +280,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/isha.json",
-      "bytes": 1273,
+      "bytes": 1254,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -292,7 +292,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/maghrib.json",
-      "bytes": 1277,
+      "bytes": 1258,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -304,7 +304,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/salah/subuh.json",
-      "bytes": 1250,
+      "bytes": 1231,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -316,7 +316,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/shahada/main.json",
-      "bytes": 2034,
+      "bytes": 2015,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -328,7 +328,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/zakat/zakat-fitrah-family.json",
-      "bytes": 6633,
+      "bytes": 6614,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -340,7 +340,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/zakat/zakat-fitrah-self.json",
-      "bytes": 4379,
+      "bytes": 4360,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
@@ -352,7 +352,7 @@
     },
     {
       "path": "data/legacy/pillars-of-islam/zakat/zakat-fitrah-wife.json",
-      "bytes": 5471,
+      "bytes": 5452,
       "validJson": true,
       "rootType": "object",
       "itemCount": 1,
