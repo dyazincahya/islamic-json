@@ -1,0 +1,9 @@
+# Local agent configuration and runtime caches
+.agent/
+.agents/
+__pycache__/
+*.py[cod]
+
+# JavaScript dependencies and local package-manager residue
+node_modules/
+yarn.lock

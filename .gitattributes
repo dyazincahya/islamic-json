@@ -1,0 +1,2 @@
+# JSON datasets are byte-addressable public assets. Do not normalize line endings.
+*.json -text
