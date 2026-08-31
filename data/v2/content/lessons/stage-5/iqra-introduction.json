@@ -11,15 +11,18 @@
     "id": "Kenali Iqra sebagai metode bertahap untuk belajar membaca tulisan Arab.",
     "en": "Recognize Iqra as a gradual method for learning to read Arabic script."
   },
-  "status": "draft",
   "iconId": "quran-learning.iqra",
   "stageId": "stage.quran-learning",
   "stageOrder": 2,
   "group": "quran-learning",
   "relationships": {
     "prerequisites": [],
-    "next": ["lesson.arabic-letters"],
-    "related": ["lesson.quran-paths"]
+    "next": [
+      "lesson.arabic-letters"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +91,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

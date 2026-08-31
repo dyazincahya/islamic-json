@@ -11,15 +11,20 @@
     "id": "Buka dan tutup bagian hari dengan mengingat Allah.",
     "en": "Open and close parts of the day with remembrance of Allah."
   },
-  "status": "draft",
   "iconId": "worship.remembrance",
   "stageId": "stage.daily-life",
   "stageOrder": 3,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.daily-dua"],
-    "next": ["lesson.daily-eating"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.daily-dua"
+    ],
+    "next": [
+      "lesson.daily-eating"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

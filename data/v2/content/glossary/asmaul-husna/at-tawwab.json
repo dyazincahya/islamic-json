@@ -7,7 +7,6 @@
     "id": "At-Tawwabu",
     "en": "At-Tawwab"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "At-Tawwabu",
@@ -30,18 +29,5 @@
   ],
   "sourceIds": [
     "source.quran-7-180"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

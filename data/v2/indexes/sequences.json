@@ -12,7 +12,6 @@
       "id": "sequence.migrated-hajj",
       "type": "sequence",
       "slug": "migrated-hajj",
-      "status": "draft",
       "path": "content/sequences/migrated-pillars/hajj.json",
       "stageId": "stage.pillars-journey",
       "stageOrder": 3,

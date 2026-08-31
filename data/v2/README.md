@@ -4,7 +4,7 @@
 
 - Default locale: Indonesian (`id`)
 - Additional locale: English (`en`)
-- Content: typed JSON documents with semantic IDs, review state, source references, and structured blocks
+- Content: typed JSON documents with semantic IDs, source references, and structured blocks
 - Assets: optional SVG icons under `assets/icons/`
 
 Run the repository tools from the project root:

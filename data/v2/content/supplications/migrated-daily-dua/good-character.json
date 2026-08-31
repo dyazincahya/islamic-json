@@ -7,7 +7,6 @@
     "id": "Doa Meminta Akhlak yang Baik",
     "en": "Supplication for good character"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 37,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Paras yang menawan tidaklah cukup sebagai bekal seorang muslim, tapi harus diiringi dengan akhlak yang mulia. Maka hendaklah seorang muslim terus meminta untuk diperbaiki dan diperindah akhlaknya.",

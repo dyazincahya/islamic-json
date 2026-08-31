@@ -11,7 +11,6 @@
     "id": "Bangun rutinitas membaca yang kecil, realistis, dan berkelanjutan.",
     "en": "Build a small, realistic, and sustainable reading routine."
   },
-  "status": "draft",
   "iconId": "quran-learning.consistency",
   "stageId": "stage.quran-learning",
   "stageOrder": 11,
@@ -19,7 +18,10 @@
   "relationships": {
     "prerequisites": [],
     "next": [],
-    "related": ["lesson.quran-paths", "lesson.quran-themes"]
+    "related": [
+      "lesson.quran-paths",
+      "lesson.quran-themes"
+    ]
   },
   "featureLinks": [
     {
@@ -126,18 +128,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
   }
 }

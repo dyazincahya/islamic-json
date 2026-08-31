@@ -7,7 +7,6 @@
     "id": "Doa sebelum membaca al-qur'an",
     "en": "Supplication before reading the Quran"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 44,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Ya Allah bukakanlah hikmahMu padaku, bentangkanlah rahmatMu padaku dan ingatkanlah aku terhadap apa yang aku lupa, wahai Dzat yang memiliki keagungan dan kemuliaan",
       "en": "O Allah, open Your wisdom to me, spread Your mercy over me, and remind me of what I forget, O Possessor of Majesty and Honor."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "quran-learning.quran"

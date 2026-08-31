@@ -11,7 +11,6 @@
     "id": "Pelajari Haji dan Umrah sebelum perjalanan dengan membedakan aturan dan urutan masing-masing.",
     "en": "Learn Hajj and Umrah before travel while distinguishing their respective rules and sequences."
   },
-  "status": "draft",
   "stageId": "stage.pillars-journey",
   "stageOrder": 22,
   "group": "hajj-umrah",
@@ -33,19 +32,6 @@
   "sourceIds": [
     "source.quran-2-201"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "seasonalTags": [
     "season.hajj"
   ],

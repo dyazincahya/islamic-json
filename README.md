@@ -32,11 +32,11 @@ data/v2/
 
 ### Content conventions
 
-- Each item has an immutable semantic `id`, URL `slug`, `type`, and publication `status`.
+- Each item has an immutable semantic `id`, URL `slug`, and `type`.
 - Localized user-facing fields use `{ "id": "…", "en": "…" }`; IDs never contain translated text.
 - Rich content uses typed `blocks`, not HTML.
 - Arabic recitation uses `arabic`; transliteration and meaning translations are separate localized fields.
-- `sourceIds` point to the structured source registry. Technical validation is not scholarly approval.
+- `sourceIds` point to the structured source registry.
 - Content uses semantic `iconId` values. Consumers can map them to Font Awesome, Material Symbols, local assets, or optional repository SVGs.
 - User progress, location, reminders, and bookmarks belong to consuming applications.
 
@@ -102,7 +102,7 @@ python scripts/validate_v2.py
 python -m unittest discover -s scripts/tests -v
 ```
 
-Contributors must preserve both supported locales, use schema-defined blocks and semantic registry IDs, and keep unverified material as `draft`, `translated`, or `under-review`. See [`data/v2/migration/README.md`](data/v2/migration/README.md) for v2 scope and validation notes.
+Contributors must preserve both supported locales and use schema-defined blocks, source references, and semantic registry IDs. See [`data/v2/migration/README.md`](data/v2/migration/README.md) for v2 scope and validation notes.
 
 ## Dataset boundaries
 

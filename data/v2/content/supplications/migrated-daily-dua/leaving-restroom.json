@@ -7,7 +7,6 @@
     "id": "Doa Keluar Kamar Mandi",
     "en": "Supplication upon leaving the restroom"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 4,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Kamar mandi adalah salah satu rumah jin dan syaitan, maka dianjurkan meminta ampunan dari segala kesalahan yang sengaja maupun tidak sengaja selama di kamar mandi.",

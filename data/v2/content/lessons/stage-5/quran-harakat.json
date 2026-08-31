@@ -11,15 +11,20 @@
     "id": "Pelajari fathah, kasrah, dan dammah sebagai tanda bunyi pendek.",
     "en": "Learn fathah, kasrah, and dammah as short-vowel marks."
   },
-  "status": "draft",
   "iconId": "quran-learning.arabic-letters",
   "stageId": "stage.quran-learning",
   "stageOrder": 4,
   "group": "quran-learning",
   "relationships": {
-    "prerequisites": ["lesson.arabic-letters"],
-    "next": ["lesson.joined-letters"],
-    "related": ["lesson.quran-paths"]
+    "prerequisites": [
+      "lesson.arabic-letters"
+    ],
+    "next": [
+      "lesson.joined-letters"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

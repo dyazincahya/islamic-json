@@ -7,7 +7,6 @@
     "id": "Al-Ḫakîmu",
     "en": "Al-Hakim"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Al-Ḫakîmu",
@@ -31,18 +30,5 @@
   "sourceIds": [
     "source.quran-7-180",
     "source.quran-3-18"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

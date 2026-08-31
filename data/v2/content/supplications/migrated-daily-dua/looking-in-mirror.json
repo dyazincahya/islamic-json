@@ -7,7 +7,6 @@
     "id": "Doa ketika bercermin",
     "en": "Supplication when looking in a mirror"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 41,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Segala puji bagi Allah, baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku",
       "en": "All praise is for Allah. Make my character beautiful just as You made my appearance beautiful."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "worship.supplication"

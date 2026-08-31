@@ -11,15 +11,20 @@
     "id": "Hadapi kesedihan dengan doa, dukungan, kesabaran, dan bantuan profesional bila perlu.",
     "en": "Meet sadness with supplication, support, patience, and professional help when needed."
   },
-  "status": "draft",
   "iconId": "faith.belief",
   "stageId": "stage.daily-life",
   "stageOrder": 14,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.daily-cleanliness"],
-    "next": ["lesson.facing-anxiety"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.daily-cleanliness"
+    ],
+    "next": [
+      "lesson.facing-anxiety"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   }
 }

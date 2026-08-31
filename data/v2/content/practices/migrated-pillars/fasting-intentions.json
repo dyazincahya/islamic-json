@@ -11,12 +11,15 @@
     "id": "Kumpulan 14 redaksi niat puasa wajib dan sunah yang dimigrasikan untuk ditinjau.",
     "en": "A collection of 14 obligatory and voluntary fasting-intention formulas migrated for review."
   },
-  "status": "draft",
   "iconId": "worship.fasting",
   "stageId": "stage.pillars-journey",
   "stageOrder": 1,
   "group": "migrated-pillars.fasting",
-  "seasonalTags": ["season.ramadan", "season.eid-al-fitr", "season.hajj"],
+  "seasonalTags": [
+    "season.ramadan",
+    "season.eid-al-fitr",
+    "season.hajj"
+  ],
   "featureLinks": [
     {
       "featureId": "feature.audio",
@@ -25,7 +28,9 @@
         "en": "Listen to fasting-intention pronunciation"
       },
       "required": false,
-      "parameters": { "contentId": "practice.migrated-fasting-intentions" }
+      "parameters": {
+        "contentId": "practice.migrated-fasting-intentions"
+      }
     },
     {
       "featureId": "feature.reminders",
@@ -34,7 +39,9 @@
         "en": "Set fasting reminders"
       },
       "required": false,
-      "parameters": { "topic": "fasting" }
+      "parameters": {
+        "topic": "fasting"
+      }
     }
   ],
   "instructions": [
@@ -56,7 +63,10 @@
       "id": "block.migrated-fasting-intentions.ramadan-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa Ramadan", "en": "Ramadan fast" }
+      "text": {
+        "id": "Puasa Ramadan",
+        "en": "Ramadan fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.ramadan",
@@ -78,7 +88,10 @@
       "id": "block.migrated-fasting-intentions.qadha-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa qada Ramadan", "en": "Make-up Ramadan fast" }
+      "text": {
+        "id": "Puasa qada Ramadan",
+        "en": "Make-up Ramadan fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.qadha",
@@ -100,7 +113,10 @@
       "id": "block.migrated-fasting-intentions.kafarat-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa kafarat", "en": "Expiatory fast" }
+      "text": {
+        "id": "Puasa kafarat",
+        "en": "Expiatory fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.kafarat",
@@ -122,7 +138,10 @@
       "id": "block.migrated-fasting-intentions.vow-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa nazar", "en": "Vowed fast" }
+      "text": {
+        "id": "Puasa nazar",
+        "en": "Vowed fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.vow",
@@ -144,7 +163,10 @@
       "id": "block.migrated-fasting-intentions.monday-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa sunah Senin", "en": "Monday voluntary fast" }
+      "text": {
+        "id": "Puasa sunah Senin",
+        "en": "Monday voluntary fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.monday",
@@ -166,7 +188,10 @@
       "id": "block.migrated-fasting-intentions.thursday-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa sunah Kamis", "en": "Thursday voluntary fast" }
+      "text": {
+        "id": "Puasa sunah Kamis",
+        "en": "Thursday voluntary fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.thursday",
@@ -188,7 +213,10 @@
       "id": "block.migrated-fasting-intentions.dawud-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa sunah Daud", "en": "Dawud voluntary fast" }
+      "text": {
+        "id": "Puasa sunah Daud",
+        "en": "Dawud voluntary fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.dawud",
@@ -210,7 +238,10 @@
       "id": "block.migrated-fasting-intentions.white-days-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa Ayyamul Bidh", "en": "White Days fast" }
+      "text": {
+        "id": "Puasa Ayyamul Bidh",
+        "en": "White Days fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.white-days",
@@ -232,7 +263,10 @@
       "id": "block.migrated-fasting-intentions.shaban-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa sunah Syakban", "en": "Sha'ban voluntary fast" }
+      "text": {
+        "id": "Puasa sunah Syakban",
+        "en": "Sha'ban voluntary fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.shaban",
@@ -254,7 +288,10 @@
       "id": "block.migrated-fasting-intentions.shawwal-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa enam hari Syawal", "en": "Six days of Shawwal" }
+      "text": {
+        "id": "Puasa enam hari Syawal",
+        "en": "Six days of Shawwal"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.shawwal",
@@ -276,7 +313,10 @@
       "id": "block.migrated-fasting-intentions.tarwiyah-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa Tarwiyah", "en": "Tarwiyah fast" }
+      "text": {
+        "id": "Puasa Tarwiyah",
+        "en": "Tarwiyah fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.tarwiyah",
@@ -298,7 +338,10 @@
       "id": "block.migrated-fasting-intentions.arafah-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa Arafah", "en": "Arafah fast" }
+      "text": {
+        "id": "Puasa Arafah",
+        "en": "Arafah fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.arafah",
@@ -320,7 +363,10 @@
       "id": "block.migrated-fasting-intentions.tasua-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa Tasua", "en": "Tasu'a fast" }
+      "text": {
+        "id": "Puasa Tasua",
+        "en": "Tasu'a fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.tasua",
@@ -342,7 +388,10 @@
       "id": "block.migrated-fasting-intentions.ashura-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Puasa Asyura", "en": "Ashura fast" }
+      "text": {
+        "id": "Puasa Asyura",
+        "en": "Ashura fast"
+      }
     },
     {
       "id": "block.migrated-fasting-intentions.ashura",
@@ -383,18 +432,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": {
-      "outcome": "pending",
-      "notes": {
-        "id": "Keempat belas redaksi, teks Arab, transliterasi, terjemahan, dan klasifikasi hukum menunggu verifikasi.",
-        "en": "All 14 formulas, Arabic texts, transliterations, translations, and legal classifications await verification."
-      }
-    },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
   }
 }

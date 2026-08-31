@@ -7,7 +7,6 @@
     "id": "Doa ketika sampai di tempat tujuan",
     "en": "Supplication upon arriving at the destination"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 47,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Segala puji bagi Allah, yang telah menyelamatkan akau dan yang telah melindungiku dan yang mengumpulkanku dengan keluargaku.",
       "en": "All praise is for Allah who kept me safe, sheltered me, and reunited me with my family."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "daily-life.travel"

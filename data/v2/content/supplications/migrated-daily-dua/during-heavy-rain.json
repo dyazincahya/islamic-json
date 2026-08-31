@@ -7,7 +7,6 @@
     "id": "Doa Ketika Hujan Lebat",
     "en": "Supplication during heavy rain"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 26,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Bahwa do'a di atas dibaca ketika hujan semakin lebat atau khawatir hujan akan membawa dampak bahaya.",

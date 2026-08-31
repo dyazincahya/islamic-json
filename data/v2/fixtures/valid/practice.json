@@ -3,8 +3,10 @@
   "id": "practice.fixture-wudu",
   "type": "practice",
   "slug": "fixture-wudu",
-  "title": { "id": "Latihan wudu", "en": "Wudu practice" },
-  "status": "translated",
+  "title": {
+    "id": "Latihan wudu",
+    "en": "Wudu practice"
+  },
   "stageId": "stage.purification-prayer",
   "stageOrder": 1,
   "group": "purification",
@@ -12,14 +14,26 @@
     {
       "id": "block.practice-instruction",
       "type": "paragraph",
-      "text": { "id": "Ikuti langkah dengan tertib.", "en": "Follow the steps in order." }
+      "text": {
+        "id": "Ikuti langkah dengan tertib.",
+        "en": "Follow the steps in order."
+      }
     }
   ],
   "completionPrompt": {
     "type": "practice-checklist",
-    "label": { "id": "Periksa latihan", "en": "Check your practice" },
+    "label": {
+      "id": "Periksa latihan",
+      "en": "Check your practice"
+    },
     "items": [
-      { "id": "completion.practice-order", "label": { "id": "Saya mengikuti urutan.", "en": "I followed the order." } }
+      {
+        "id": "completion.practice-order",
+        "label": {
+          "id": "Saya mengikuti urutan.",
+          "en": "I followed the order."
+        }
+      }
     ]
   }
 }

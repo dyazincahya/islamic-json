@@ -11,15 +11,20 @@
     "id": "Bangun keluarga dengan tanggung jawab, kasih sayang, keadilan, dan komunikasi.",
     "en": "Build family life through responsibility, compassion, fairness, and communication."
   },
-  "status": "draft",
   "iconId": "daily-life.family",
   "stageId": "stage.daily-life",
   "stageOrder": 7,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.daily-travel"],
-    "next": ["lesson.daily-parents"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.daily-travel"
+    ],
+    "next": [
+      "lesson.daily-parents"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   }
 }

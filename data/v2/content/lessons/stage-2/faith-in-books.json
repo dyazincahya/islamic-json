@@ -3,33 +3,59 @@
   "id": "lesson.faith-in-books",
   "type": "lesson",
   "slug": "faith-in-books",
-  "title": { "id": "Iman kepada kitab-kitab Allah", "en": "Faith in Allah's books" },
-  "summary": { "id": "Pilar iman ketiga: beriman kepada kitab-kitab yang Allah wahyukan.", "en": "The third pillar of faith: believing in the books Allah revealed." },
-  "status": "draft",
+  "title": {
+    "id": "Iman kepada kitab-kitab Allah",
+    "en": "Faith in Allah's books"
+  },
+  "summary": {
+    "id": "Pilar iman ketiga: beriman kepada kitab-kitab yang Allah wahyukan.",
+    "en": "The third pillar of faith: believing in the books Allah revealed."
+  },
   "iconId": "quran-learning.quran",
   "stageId": "stage.faith-foundations",
   "stageOrder": 8,
   "group": "pillars-of-faith",
   "relationships": {
-    "prerequisites": ["lesson.faith-in-angels"],
-    "next": ["lesson.faith-in-messengers"],
-    "related": ["lesson.quran-and-hadith", "lesson.understanding-hadith"]
+    "prerequisites": [
+      "lesson.faith-in-angels"
+    ],
+    "next": [
+      "lesson.faith-in-messengers"
+    ],
+    "related": [
+      "lesson.quran-and-hadith",
+      "lesson.understanding-hadith"
+    ]
   },
-  "sourceIds": ["source.hadith-muslim-8a", "source.hadith-nawawi-2"],
+  "sourceIds": [
+    "source.hadith-muslim-8a",
+    "source.hadith-nawawi-2"
+  ],
   "blocks": [
     {
       "id": "block.faith-in-books.overview",
       "type": "paragraph",
-      "text": { "id": "Iman kepada kitab-kitab Allah berarti meyakini bahwa Allah menurunkan wahyu sebagai petunjuk kepada para rasul-Nya. Al-Qur'an adalah kitab yang diturunkan kepada Nabi Muhammad dan menjadi pedoman bagi umatnya.", "en": "Faith in Allah's books means believing that Allah sent revelation as guidance to His messengers. The Quran is the book revealed to Prophet Muhammad and is guidance for his community." }
+      "text": {
+        "id": "Iman kepada kitab-kitab Allah berarti meyakini bahwa Allah menurunkan wahyu sebagai petunjuk kepada para rasul-Nya. Al-Qur'an adalah kitab yang diturunkan kepada Nabi Muhammad dan menjadi pedoman bagi umatnya.",
+        "en": "Faith in Allah's books means believing that Allah sent revelation as guidance to His messengers. The Quran is the book revealed to Prophet Muhammad and is guidance for his community."
+      }
     },
     {
       "id": "block.faith-in-books.response",
       "type": "callout",
       "kind": "note",
-      "body": { "id": "Iman kepada kitab-kitab Allah mendorong kita menghormati wahyu serta membaca, mempelajari, dan mengamalkan Al-Qur'an.", "en": "Faith in Allah's books encourages us to honor revelation and to recite, study, and live by the Quran." },
+      "body": {
+        "id": "Iman kepada kitab-kitab Allah mendorong kita menghormati wahyu serta membaca, mempelajari, dan mengamalkan Al-Qur'an.",
+        "en": "Faith in Allah's books encourages us to honor revelation and to recite, study, and live by the Quran."
+      },
       "iconId": "general.book"
     }
   ],
-  "completionPrompt": { "type": "acknowledgement", "label": { "id": "Saya memahami dasar iman kepada kitab-kitab Allah.", "en": "I understand the foundation of faith in Allah's books." } },
-  "review": { "content": { "outcome": "pending" }, "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } } }
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya memahami dasar iman kepada kitab-kitab Allah.",
+      "en": "I understand the foundation of faith in Allah's books."
+    }
+  }
 }

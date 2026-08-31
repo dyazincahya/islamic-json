@@ -7,7 +7,6 @@
     "id": "Al-Wâsi`u",
     "en": "Al-Wasi'"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Al-Wâsi`u",
@@ -30,18 +29,5 @@
   ],
   "sourceIds": [
     "source.quran-7-180"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

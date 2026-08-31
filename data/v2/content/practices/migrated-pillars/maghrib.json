@@ -3,32 +3,102 @@
   "id": "practice.migrated-maghrib",
   "type": "practice",
   "slug": "migrated-maghrib",
-  "title": { "id": "Latihan salat Magrib", "en": "Maghrib prayer practice" },
-  "summary": { "id": "Latihan mengenali niat lisan dan fakta dasar salat Magrib dari data lama.", "en": "Practice recognizing the legacy verbal intention and basic facts for Maghrib prayer." },
-  "status": "draft",
+  "title": {
+    "id": "Latihan salat Magrib",
+    "en": "Maghrib prayer practice"
+  },
+  "summary": {
+    "id": "Latihan mengenali niat lisan dan fakta dasar salat Magrib dari data lama.",
+    "en": "Practice recognizing the legacy verbal intention and basic facts for Maghrib prayer."
+  },
   "iconId": "worship.prayer",
   "stageId": "stage.purification-prayer",
   "stageOrder": 5,
   "group": "migrated-pillars",
-  "relationships": { "prerequisites": ["lesson.migrated-five-obligatory-prayers"], "next": ["practice.migrated-isha"] },
+  "relationships": {
+    "prerequisites": [
+      "lesson.migrated-five-obligatory-prayers"
+    ],
+    "next": [
+      "practice.migrated-isha"
+    ]
+  },
   "featureLinks": [
-    { "featureId": "feature.prayer-schedule", "required": false },
-    { "featureId": "feature.audio", "required": false, "parameters": { "contentId": "recitation.migrated-maghrib-intention" } },
-    { "featureId": "feature.reminders", "required": false, "parameters": { "topic": "maghrib" } }
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": {
+        "contentId": "recitation.migrated-maghrib-intention"
+      }
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "maghrib"
+      }
+    }
   ],
   "instructions": [
-    { "id": "block.migrated-maghrib.fact", "type": "paragraph", "text": { "id": "Magrib terdiri dari 3 rakaat dan dilaksanakan menghadap kiblat.", "en": "Maghrib consists of 3 rak'ahs and is performed facing the Qibla." } },
-    { "id": "block.migrated-maghrib.recitation", "type": "recitation", "recitation": {
-      "id": "recitation.migrated-maghrib-intention",
-      "arabic": "أُصَلِّي فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا/إِمَامًا) لِلَّهِ تَعَالَى",
-      "transliteration": { "id": "Ushalli fardhal maghribi tsalaatsa raka'aatin mustaqbilal qiblati adaa'an (makmuman/imaman) lillaahi ta'aala.", "en": "Ushalli fardhal-maghribi thalatha raka'atin mustaqbilal-qiblati ada'an (ma'muman/imaman) lillahi ta'ala." },
-      "translation": { "id": "Saya berniat salat fardu Magrib tiga rakaat menghadap kiblat, sebagai makmum atau imam, karena Allah Ta'ala.", "en": "I intend to perform the obligatory Maghrib prayer of three rak'ahs facing the Qibla, as a follower or imam, for Allah Most High." }
-    } },
-    { "id": "block.migrated-maghrib.note", "type": "callout", "kind": "note", "body": { "id": "Redaksi ini dimigrasikan sebagai bahan belajar dan menunggu peninjauan; niat adalah maksud di dalam hati.", "en": "This formula is migrated as learning material and awaits review; intention is the resolve of the heart." } }
+    {
+      "id": "block.migrated-maghrib.fact",
+      "type": "paragraph",
+      "text": {
+        "id": "Magrib terdiri dari 3 rakaat dan dilaksanakan menghadap kiblat.",
+        "en": "Maghrib consists of 3 rak'ahs and is performed facing the Qibla."
+      }
+    },
+    {
+      "id": "block.migrated-maghrib.recitation",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-maghrib-intention",
+        "arabic": "أُصَلِّي فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا/إِمَامًا) لِلَّهِ تَعَالَى",
+        "transliteration": {
+          "id": "Ushalli fardhal maghribi tsalaatsa raka'aatin mustaqbilal qiblati adaa'an (makmuman/imaman) lillaahi ta'aala.",
+          "en": "Ushalli fardhal-maghribi thalatha raka'atin mustaqbilal-qiblati ada'an (ma'muman/imaman) lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Saya berniat salat fardu Magrib tiga rakaat menghadap kiblat, sebagai makmum atau imam, karena Allah Ta'ala.",
+          "en": "I intend to perform the obligatory Maghrib prayer of three rak'ahs facing the Qibla, as a follower or imam, for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-maghrib.note",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Redaksi ini dimigrasikan sebagai bahan belajar dan menunggu peninjauan; niat adalah maksud di dalam hati.",
+        "en": "This formula is migrated as learning material and awaits review; intention is the resolve of the heart."
+      }
+    }
   ],
-  "completionPrompt": { "type": "practice-checklist", "label": { "id": "Periksa latihan Magrib", "en": "Check the Maghrib practice" }, "items": [
-    { "id": "completion.migrated-maghrib.count", "label": { "id": "Saya mengenali jumlah 3 rakaat.", "en": "I recognize the count of 3 rak'ahs." } },
-    { "id": "completion.migrated-maghrib.recitation", "label": { "id": "Saya telah membaca dan memahami arti bacaan migrasi.", "en": "I read and understood the migrated recitation's meaning." } }
-  ] },
-  "review": { "content": { "outcome": "pending" }, "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } } }
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Periksa latihan Magrib",
+      "en": "Check the Maghrib practice"
+    },
+    "items": [
+      {
+        "id": "completion.migrated-maghrib.count",
+        "label": {
+          "id": "Saya mengenali jumlah 3 rakaat.",
+          "en": "I recognize the count of 3 rak'ahs."
+        }
+      },
+      {
+        "id": "completion.migrated-maghrib.recitation",
+        "label": {
+          "id": "Saya telah membaca dan memahami arti bacaan migrasi.",
+          "en": "I read and understood the migrated recitation's meaning."
+        }
+      }
+    ]
+  }
 }

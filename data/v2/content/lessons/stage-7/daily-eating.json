@@ -11,15 +11,20 @@
     "id": "Padukan syukur, adab, kecukupan, dan hindari pemborosan.",
     "en": "Combine gratitude, manners, sufficiency, and avoid waste."
   },
-  "status": "draft",
   "iconId": "daily-life.food",
   "stageId": "stage.daily-life",
   "stageOrder": 4,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.morning-evening-dhikr"],
-    "next": ["lesson.daily-sleeping"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.morning-evening-dhikr"
+    ],
+    "next": [
+      "lesson.daily-sleeping"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   }
 }

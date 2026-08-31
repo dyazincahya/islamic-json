@@ -3,59 +3,107 @@
   "id": "lesson.fixture-blocks",
   "type": "lesson",
   "slug": "fixture-blocks",
-  "title": { "id": "Contoh semua blok", "en": "All block examples" },
-  "summary": { "id": "Pelajaran untuk menguji kosakata blok.", "en": "A lesson for testing the block vocabulary." },
-  "status": "draft",
+  "title": {
+    "id": "Contoh semua blok",
+    "en": "All block examples"
+  },
+  "summary": {
+    "id": "Pelajaran untuk menguji kosakata blok.",
+    "en": "A lesson for testing the block vocabulary."
+  },
   "iconId": "faith.learning",
   "stageId": "stage.introduction",
   "stageOrder": 1,
   "group": "foundations",
   "relationships": {
     "prerequisites": [],
-    "next": ["practice.fixture-wudu"],
-    "related": ["glossary.fixture-wudu"]
+    "next": [
+      "practice.fixture-wudu"
+    ],
+    "related": [
+      "glossary.fixture-wudu"
+    ]
   },
-  "featureLinks": [{ "featureId": "feature.audio", "required": false }],
-  "sourceIds": ["source.quran-1-1"],
+  "featureLinks": [
+    {
+      "featureId": "feature.audio",
+      "required": false
+    }
+  ],
+  "sourceIds": [
+    "source.quran-1-1"
+  ],
   "blocks": [
     {
       "id": "block.fixture-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Judul bagian", "en": "Section heading" }
+      "text": {
+        "id": "Judul bagian",
+        "en": "Section heading"
+      }
     },
     {
       "id": "block.fixture-paragraph",
       "type": "paragraph",
-      "text": { "id": "Teks penjelasan tanpa HTML.", "en": "Explanatory text without HTML." }
+      "text": {
+        "id": "Teks penjelasan tanpa HTML.",
+        "en": "Explanatory text without HTML."
+      }
     },
     {
       "id": "block.fixture-ordered",
       "type": "ordered-list",
       "items": [
-        { "id": "item.fixture-ordered-first", "text": { "id": "Langkah pertama", "en": "First item" } }
+        {
+          "id": "item.fixture-ordered-first",
+          "text": {
+            "id": "Langkah pertama",
+            "en": "First item"
+          }
+        }
       ]
     },
     {
       "id": "block.fixture-unordered",
       "type": "unordered-list",
       "items": [
-        { "id": "item.fixture-unordered-one", "text": { "id": "Satu manfaat", "en": "One benefit" } }
+        {
+          "id": "item.fixture-unordered-one",
+          "text": {
+            "id": "Satu manfaat",
+            "en": "One benefit"
+          }
+        }
       ]
     },
     {
       "id": "block.fixture-quotation",
       "type": "quotation",
-      "text": { "id": "Kutipan yang dapat dilacak.", "en": "An auditable quotation." },
-      "attribution": { "id": "Sumber contoh", "en": "Fixture source" },
-      "sourceIds": ["source.book-fixture"]
+      "text": {
+        "id": "Kutipan yang dapat dilacak.",
+        "en": "An auditable quotation."
+      },
+      "attribution": {
+        "id": "Sumber contoh",
+        "en": "Fixture source"
+      },
+      "sourceIds": [
+        "source.book-fixture"
+      ]
     },
     {
       "id": "block.fixture-callout",
       "type": "callout",
       "kind": "important",
-      "title": { "id": "Perhatian", "en": "Important" },
-      "body": { "id": "Periksa sumber sebelum publikasi.", "en": "Verify sources before publication." },
+      "title": {
+        "id": "Perhatian",
+        "en": "Important"
+      },
+      "body": {
+        "id": "Periksa sumber sebelum publikasi.",
+        "en": "Verify sources before publication."
+      },
       "iconId": "general.info"
     },
     {
@@ -64,15 +112,23 @@
       "recitation": {
         "id": "recitation.fixture-basmala",
         "arabic": "بِسْمِ اللَّهِ",
-        "transliteration": { "id": "Bismillāh", "en": "Bismillāh" },
-        "translation": { "id": "Dengan nama Allah", "en": "In the name of Allah" },
+        "transliteration": {
+          "id": "Bismillāh",
+          "en": "Bismillāh"
+        },
+        "translation": {
+          "id": "Dengan nama Allah",
+          "en": "In the name of Allah"
+        },
         "audio": {
           "src": "assets/audio/basmala.mp3",
           "mimeType": "audio/mpeg",
           "durationSeconds": 2.5,
           "speaker": "Fixture reciter"
         },
-        "sourceIds": ["source.quran-1-1"]
+        "sourceIds": [
+          "source.quran-1-1"
+        ]
       }
     },
     {
@@ -81,8 +137,14 @@
       "items": [
         {
           "id": "step.fixture-intention",
-          "title": { "id": "Niat", "en": "Intention" },
-          "body": { "id": "Tetapkan niat yang benar.", "en": "Set a sound intention." }
+          "title": {
+            "id": "Niat",
+            "en": "Intention"
+          },
+          "body": {
+            "id": "Tetapkan niat yang benar.",
+            "en": "Set a sound intention."
+          }
         }
       ]
     },
@@ -90,37 +152,64 @@
       "id": "block.fixture-checklist",
       "type": "checklist",
       "items": [
-        { "id": "check.fixture-read", "text": { "id": "Saya telah membaca pelajaran.", "en": "I read the lesson." } }
+        {
+          "id": "check.fixture-read",
+          "text": {
+            "id": "Saya telah membaca pelajaran.",
+            "en": "I read the lesson."
+          }
+        }
       ]
     },
     {
       "id": "block.fixture-image",
       "type": "image",
       "src": "assets/images/fixture.png",
-      "alt": { "id": "Ilustrasi edukatif", "en": "Educational illustration" },
-      "caption": { "id": "Gambar hanya contoh.", "en": "Fixture image only." },
+      "alt": {
+        "id": "Ilustrasi edukatif",
+        "en": "Educational illustration"
+      },
+      "caption": {
+        "id": "Gambar hanya contoh.",
+        "en": "Fixture image only."
+      },
       "licenseSourceId": "source.web-fixture"
     },
     {
       "id": "block.fixture-audio",
       "type": "audio-reference",
-      "label": { "id": "Dengarkan contoh", "en": "Listen to the example" },
+      "label": {
+        "id": "Dengarkan contoh",
+        "en": "Listen to the example"
+      },
       "audio": {
         "src": "https://cdn.example.org/audio/fixture.mp3",
         "mimeType": "audio/mpeg",
         "durationSeconds": 8,
-        "transcript": { "id": "Transkrip contoh", "en": "Fixture transcript" }
+        "transcript": {
+          "id": "Transkrip contoh",
+          "en": "Fixture transcript"
+        }
       }
     },
     {
       "id": "block.fixture-source",
       "type": "source-reference",
-      "sourceIds": ["source.quran-1-1", "source.hadith-fixture"],
-      "note": { "id": "Baca rujukan terstruktur.", "en": "Consult the structured references." }
+      "sourceIds": [
+        "source.quran-1-1",
+        "source.hadith-fixture"
+      ],
+      "note": {
+        "id": "Baca rujukan terstruktur.",
+        "en": "Consult the structured references."
+      }
     }
   ],
   "completionPrompt": {
     "type": "acknowledgement",
-    "label": { "id": "Saya memahami contoh ini.", "en": "I understand this example." }
+    "label": {
+      "id": "Saya memahami contoh ini.",
+      "en": "I understand this example."
+    }
   }
 }

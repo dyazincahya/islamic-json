@@ -7,7 +7,6 @@
     "id": "Doa Sesudah Adzan",
     "en": "Supplication after the call to prayer"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 39,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "location.mosque",
   "benefits": {
     "id": "Doa tersebut adalah doa yang disunnahkan oleh Rasulullah shallallahu alaihi wa sallam bagi orang yang mendengar panggilan shalat. Doa ini memiliki banyak keutamaan, di antaranya adalah mendapatkan syafaat dari Rasulullah shallallahu alaihi wa sallam dihari kiamat, mendapatkan wasilah dan kemuliaan bagi Nabi Muhammad shallallahu alaihi wa sallam di surga, dan mendapatkan pahala yang besar dan terpuji di sisi Allah ta'ala. Doa ini juga merupakan penghormatan dan pengagungan kepada Allah subhanahu wa ta'ala dan Rasul-Nya, serta menunjukkan rasa cinta dan rindu kepada Nabi Muhammad shallallahu alaihi wa sallam yang merupakan suri tauladan bagi umat Islam.",

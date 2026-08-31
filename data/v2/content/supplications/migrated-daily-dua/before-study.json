@@ -7,7 +7,6 @@
     "id": "Doa sebelum belajar",
     "en": "Supplication before studying"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 42,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman",
       "en": "My Lord, increase me in knowledge and grant me understanding."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "worship.supplication"

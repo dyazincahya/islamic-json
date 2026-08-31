@@ -7,7 +7,6 @@
     "id": "Doa bertemu binatang buas",
     "en": "Supplication when encountering a wild animal"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 54,
   "group": "daily-supplications",
@@ -38,18 +37,5 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication"
 }

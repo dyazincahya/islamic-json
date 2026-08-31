@@ -3,8 +3,10 @@
   "id": "lesson.unsupported-block",
   "type": "lesson",
   "slug": "unsupported-block",
-  "title": { "id": "Blok tidak didukung", "en": "Unsupported block" },
-  "status": "draft",
+  "title": {
+    "id": "Blok tidak didukung",
+    "en": "Unsupported block"
+  },
   "stageId": "stage.introduction",
   "stageOrder": 1,
   "group": "fixtures",

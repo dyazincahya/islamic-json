@@ -11,7 +11,6 @@
     "id": "Muslim menunaikan Subuh, Zuhur, Asar, Magrib, dan Isya dengan jumlah rakaat serta waktu yang ditetapkan.",
     "en": "Muslims perform Fajr, Dhuhr, Asr, Maghrib, and Isha with their prescribed units and times."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 10,
   "group": "prayer",
@@ -43,19 +42,6 @@
     "source.quran-4-103",
     "source.quran-20-14"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.five-obligatory-prayers.overview",

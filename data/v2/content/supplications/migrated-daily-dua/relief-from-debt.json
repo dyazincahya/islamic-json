@@ -7,7 +7,6 @@
     "id": "Doa Ketika Terlilit Hutang",
     "en": "Supplication when burdened by debt"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 32,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Rezeki halal walaupun sedikit lebih baik dari harta haram yang jumlahnya melimpah.",

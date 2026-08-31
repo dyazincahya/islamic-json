@@ -11,13 +11,14 @@
     "id": "Belajar dengan niat baik, sumber tepercaya, rendah hati, dan bertahap.",
     "en": "Learn with sound intention, reliable sources, humility, and gradual practice."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.hadith-character",
   "stageOrder": 9,
   "group": "thematic-guidance",
   "relationships": {
-    "prerequisites": ["lesson.neighbors-guidance"],
+    "prerequisites": [
+      "lesson.neighbors-guidance"
+    ],
     "next": [],
     "related": []
   },
@@ -85,7 +86,9 @@
     {
       "id": "block.seeking-knowledge-guidance-source",
       "type": "source-reference",
-      "sourceIds": ["source.hadith-muslim-2699"],
+      "sourceIds": [
+        "source.hadith-muslim-2699"
+      ],
       "note": {
         "id": "Rujukan bibliografis hadis tentang menempuh jalan untuk mencari ilmu; teks hadis tidak disalin di sini.",
         "en": "Bibliographic reference for the hadith on following a path to seek knowledge; the hadith text is not copied here."
@@ -99,18 +102,7 @@
       "en": "I have read, reflected, and chosen one step to practice."
     }
   },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
-  "sourceIds": ["source.hadith-muslim-2699"]
+  "sourceIds": [
+    "source.hadith-muslim-2699"
+  ]
 }

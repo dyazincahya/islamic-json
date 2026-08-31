@@ -11,20 +11,26 @@
     "id": "Redaksi niat zakat fitrah untuk diri sendiri dari data lama.",
     "en": "The legacy Zakat al-Fitr intention formula for oneself."
   },
-  "status": "draft",
   "iconId": "worship.zakat",
   "stageId": "stage.pillars-journey",
   "stageOrder": 4,
   "group": "migrated-pillars.zakat",
-  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
+  "seasonalTags": [
+    "season.ramadan",
+    "season.eid-al-fitr"
+  ],
   "relationships": {
-    "related": ["lesson.migrated-zakat-fitrah"]
+    "related": [
+      "lesson.migrated-zakat-fitrah"
+    ]
   },
   "featureLinks": [
     {
       "featureId": "feature.audio",
       "required": false,
-      "parameters": { "contentId": "recitation.migrated-zakat-fitrah-self" }
+      "parameters": {
+        "contentId": "recitation.migrated-zakat-fitrah-self"
+      }
     }
   ],
   "recitation": {
@@ -49,18 +55,5 @@
         "en": "This verbal formula is migrated as learning material and is not asserted to be a required recitation."
       }
     }
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending",
-      "notes": {
-        "id": "Teks Arab dinormalisasi dari karakter presentasi Unicode; bacaan dan terjemahan menunggu verifikasi.",
-        "en": "The Arabic was normalized from Unicode presentation forms; the recitation and translation await verification."
-      }
-    },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
-  }
+  ]
 }

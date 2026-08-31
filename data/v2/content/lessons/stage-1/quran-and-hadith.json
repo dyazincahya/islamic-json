@@ -3,26 +3,35 @@
   "id": "lesson.quran-and-hadith",
   "type": "lesson",
   "slug": "quran-and-hadith",
-  "title": { "id": "Al-Qur'an dan hadis", "en": "The Quran and hadith" },
+  "title": {
+    "id": "Al-Qur'an dan hadis",
+    "en": "The Quran and hadith"
+  },
   "summary": {
     "id": "Mengenal peran Al-Qur'an dan hadis dalam mempelajari petunjuk Islam.",
     "en": "Knowing the roles of the Quran and hadith in learning Islamic guidance."
   },
-  "status": "draft",
   "iconId": "quran-learning.quran",
   "stageId": "stage.introduction",
   "stageOrder": 6,
   "group": "introduction",
   "relationships": {
-    "prerequisites": ["lesson.faith-islam-ihsan"],
-    "next": ["lesson.shahada"],
+    "prerequisites": [
+      "lesson.faith-islam-ihsan"
+    ],
+    "next": [
+      "lesson.shahada"
+    ],
     "related": [
       "lesson.understanding-hadith",
       "lesson.following-sunnah",
       "lesson.faith-in-books"
     ]
   },
-  "sourceIds": ["source.quran-33-21", "source.hadith-muslim-8a"],
+  "sourceIds": [
+    "source.quran-33-21",
+    "source.hadith-muslim-8a"
+  ],
   "blocks": [
     {
       "id": "block.quran-and-hadith.quran",
@@ -46,13 +55,6 @@
     "label": {
       "id": "Saya memahami peran dasar Al-Qur'an dan hadis.",
       "en": "I understand the basic roles of the Quran and hadith."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

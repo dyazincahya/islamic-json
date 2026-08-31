@@ -3,22 +3,33 @@
   "id": "lesson.prophet-muhammad",
   "type": "lesson",
   "slug": "prophet-muhammad",
-  "title": { "id": "Mengenal Nabi Muhammad", "en": "Knowing Prophet Muhammad" },
+  "title": {
+    "id": "Mengenal Nabi Muhammad",
+    "en": "Knowing Prophet Muhammad"
+  },
   "summary": {
     "id": "Pengantar tentang Nabi Muhammad sebagai utusan Allah dan teladan bagi umat Islam.",
     "en": "An introduction to Prophet Muhammad as Allah's messenger and an example for Muslims."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.introduction",
   "stageOrder": 3,
   "group": "introduction",
   "relationships": {
-    "prerequisites": ["lesson.who-is-allah"],
-    "next": ["lesson.purpose-of-worship"],
-    "related": ["lesson.following-sunnah", "lesson.faith-in-messengers"]
+    "prerequisites": [
+      "lesson.who-is-allah"
+    ],
+    "next": [
+      "lesson.purpose-of-worship"
+    ],
+    "related": [
+      "lesson.following-sunnah",
+      "lesson.faith-in-messengers"
+    ]
   },
-  "sourceIds": ["source.quran-33-21"],
+  "sourceIds": [
+    "source.quran-33-21"
+  ],
   "blocks": [
     {
       "id": "block.prophet-muhammad.overview",
@@ -44,13 +55,6 @@
     "label": {
       "id": "Saya memahami peran dasar Nabi Muhammad sebagai utusan Allah.",
       "en": "I understand Prophet Muhammad's basic role as Allah's messenger."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

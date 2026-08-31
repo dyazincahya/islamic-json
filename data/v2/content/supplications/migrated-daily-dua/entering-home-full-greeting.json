@@ -7,7 +7,6 @@
     "id": "Doa Masuk Rumah #2",
     "en": "Supplication upon entering the home, full greeting"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 15,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "general.home",
   "benefits": {
     "id": "Salam adalah doa pengharapan, pengharapan agar Anda selamat dari segala macam duka dan derita, serta diliputi rahmat dan keberkahan.",

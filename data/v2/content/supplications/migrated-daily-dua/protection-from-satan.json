@@ -7,7 +7,6 @@
     "id": "Doa Berlindung dari Syaitan",
     "en": "Supplication for protection from Satan"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 38,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Sesungguhnya Allah memerintahkan kepada nabi Muhammad dan seluruh ummat nya untuk berlindung dari bisikan syaitan dalam seluruh kegiatan dan terlebih saat menjelang kematian, yang mana syaitan membisikannya melalui hati seorang hamba dan membisikannya untuk melakukan kejelekan.",

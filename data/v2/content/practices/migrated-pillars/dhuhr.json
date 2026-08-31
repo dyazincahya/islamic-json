@@ -3,32 +3,102 @@
   "id": "practice.migrated-dhuhr",
   "type": "practice",
   "slug": "migrated-dhuhr",
-  "title": { "id": "Latihan salat Zuhur", "en": "Dhuhr prayer practice" },
-  "summary": { "id": "Latihan mengenali niat lisan dan fakta dasar salat Zuhur dari data lama.", "en": "Practice recognizing the legacy verbal intention and basic facts for Dhuhr prayer." },
-  "status": "draft",
+  "title": {
+    "id": "Latihan salat Zuhur",
+    "en": "Dhuhr prayer practice"
+  },
+  "summary": {
+    "id": "Latihan mengenali niat lisan dan fakta dasar salat Zuhur dari data lama.",
+    "en": "Practice recognizing the legacy verbal intention and basic facts for Dhuhr prayer."
+  },
   "iconId": "worship.prayer",
   "stageId": "stage.purification-prayer",
   "stageOrder": 3,
   "group": "migrated-pillars",
-  "relationships": { "prerequisites": ["lesson.migrated-five-obligatory-prayers"], "next": ["practice.migrated-asr"] },
+  "relationships": {
+    "prerequisites": [
+      "lesson.migrated-five-obligatory-prayers"
+    ],
+    "next": [
+      "practice.migrated-asr"
+    ]
+  },
   "featureLinks": [
-    { "featureId": "feature.prayer-schedule", "required": false },
-    { "featureId": "feature.audio", "required": false, "parameters": { "contentId": "recitation.migrated-dhuhr-intention" } },
-    { "featureId": "feature.reminders", "required": false, "parameters": { "topic": "dhuhr" } }
+    {
+      "featureId": "feature.prayer-schedule",
+      "required": false
+    },
+    {
+      "featureId": "feature.audio",
+      "required": false,
+      "parameters": {
+        "contentId": "recitation.migrated-dhuhr-intention"
+      }
+    },
+    {
+      "featureId": "feature.reminders",
+      "required": false,
+      "parameters": {
+        "topic": "dhuhr"
+      }
+    }
   ],
   "instructions": [
-    { "id": "block.migrated-dhuhr.fact", "type": "paragraph", "text": { "id": "Zuhur terdiri dari 4 rakaat dan dilaksanakan menghadap kiblat.", "en": "Dhuhr consists of 4 rak'ahs and is performed facing the Qibla." } },
-    { "id": "block.migrated-dhuhr.recitation", "type": "recitation", "recitation": {
-      "id": "recitation.migrated-dhuhr-intention",
-      "arabic": "أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا/إِمَامًا) لِلَّهِ تَعَالَى",
-      "transliteration": { "id": "Ushalli fardhaz zhuhri arba'a raka'aatin mustaqbilal qiblati adaa'an (makmuman/imaman) lillaahi ta'aala.", "en": "Ushalli fardhaz-zuhri arba'a raka'atin mustaqbilal-qiblati ada'an (ma'muman/imaman) lillahi ta'ala." },
-      "translation": { "id": "Saya berniat salat fardu Zuhur empat rakaat menghadap kiblat, sebagai makmum atau imam, karena Allah Ta'ala.", "en": "I intend to perform the obligatory Dhuhr prayer of four rak'ahs facing the Qibla, as a follower or imam, for Allah Most High." }
-    } },
-    { "id": "block.migrated-dhuhr.note", "type": "callout", "kind": "note", "body": { "id": "Redaksi ini dimigrasikan sebagai bahan belajar dan menunggu peninjauan; niat adalah maksud di dalam hati.", "en": "This formula is migrated as learning material and awaits review; intention is the resolve of the heart." } }
+    {
+      "id": "block.migrated-dhuhr.fact",
+      "type": "paragraph",
+      "text": {
+        "id": "Zuhur terdiri dari 4 rakaat dan dilaksanakan menghadap kiblat.",
+        "en": "Dhuhr consists of 4 rak'ahs and is performed facing the Qibla."
+      }
+    },
+    {
+      "id": "block.migrated-dhuhr.recitation",
+      "type": "recitation",
+      "recitation": {
+        "id": "recitation.migrated-dhuhr-intention",
+        "arabic": "أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا/إِمَامًا) لِلَّهِ تَعَالَى",
+        "transliteration": {
+          "id": "Ushalli fardhaz zhuhri arba'a raka'aatin mustaqbilal qiblati adaa'an (makmuman/imaman) lillaahi ta'aala.",
+          "en": "Ushalli fardhaz-zuhri arba'a raka'atin mustaqbilal-qiblati ada'an (ma'muman/imaman) lillahi ta'ala."
+        },
+        "translation": {
+          "id": "Saya berniat salat fardu Zuhur empat rakaat menghadap kiblat, sebagai makmum atau imam, karena Allah Ta'ala.",
+          "en": "I intend to perform the obligatory Dhuhr prayer of four rak'ahs facing the Qibla, as a follower or imam, for Allah Most High."
+        }
+      }
+    },
+    {
+      "id": "block.migrated-dhuhr.note",
+      "type": "callout",
+      "kind": "note",
+      "body": {
+        "id": "Redaksi ini dimigrasikan sebagai bahan belajar dan menunggu peninjauan; niat adalah maksud di dalam hati.",
+        "en": "This formula is migrated as learning material and awaits review; intention is the resolve of the heart."
+      }
+    }
   ],
-  "completionPrompt": { "type": "practice-checklist", "label": { "id": "Periksa latihan Zuhur", "en": "Check the Dhuhr practice" }, "items": [
-    { "id": "completion.migrated-dhuhr.count", "label": { "id": "Saya mengenali jumlah 4 rakaat.", "en": "I recognize the count of 4 rak'ahs." } },
-    { "id": "completion.migrated-dhuhr.recitation", "label": { "id": "Saya telah membaca dan memahami arti bacaan migrasi.", "en": "I read and understood the migrated recitation's meaning." } }
-  ] },
-  "review": { "content": { "outcome": "pending" }, "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } } }
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Periksa latihan Zuhur",
+      "en": "Check the Dhuhr practice"
+    },
+    "items": [
+      {
+        "id": "completion.migrated-dhuhr.count",
+        "label": {
+          "id": "Saya mengenali jumlah 4 rakaat.",
+          "en": "I recognize the count of 4 rak'ahs."
+        }
+      },
+      {
+        "id": "completion.migrated-dhuhr.recitation",
+        "label": {
+          "id": "Saya telah membaca dan memahami arti bacaan migrasi.",
+          "en": "I read and understood the migrated recitation's meaning."
+        }
+      }
+    ]
+  }
 }

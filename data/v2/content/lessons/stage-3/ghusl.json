@@ -11,7 +11,6 @@
     "id": "Ghusl mengangkat hadas besar dengan niat dan mengalirkan air ke seluruh tubuh sesuai tuntunan.",
     "en": "Ghusl lifts major ritual impurity through intention and ensuring water reaches the whole body as instructed."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 6,
   "group": "purification",
@@ -30,19 +29,6 @@
   "sourceIds": [
     "source.quran-5-6"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.ghusl.overview",

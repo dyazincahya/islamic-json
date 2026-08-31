@@ -7,7 +7,6 @@
     "id": "Doa Jika Terlupa Basmallah Diawal Makan",
     "en": "Supplication when the basmala was forgotten at the start of a meal"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 6,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.food",
   "benefits": {
     "id": "Islam sangat memperhatikan adab, sekiranya anak adam lupa membaca doa makan di awal tetap dianjurkan membaca doa di pertengahan walaupun tersisa sesendok nasi.",

@@ -7,7 +7,6 @@
     "id": "Doa Sebelum Tidur",
     "en": "Supplication before sleeping"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 1,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.sleep",
   "benefits": {
     "id": "Dahulu nabi shallallahu 'alaihi wa sallam senantiasa memulai dan mengakhiri harinya dengan berdzikir.",

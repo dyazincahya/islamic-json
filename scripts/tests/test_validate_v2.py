@@ -65,7 +65,6 @@ def create_live_dataset(root: Path) -> None:
                     "id": "lesson.alpha",
                     "type": "lesson",
                     "slug": "alpha",
-                    "status": "reviewed",
                     "path": "content/lessons/alpha.json",
                 }
             ]
@@ -77,26 +76,17 @@ def create_live_dataset(root: Path) -> None:
             "id": "lesson.alpha",
             "type": "lesson",
             "slug": "alpha",
-            "status": "reviewed",
             "title": {"id": "Alfa", "en": "Alpha"},
             "stageId": "stage.stage-1",
             "nextIds": ["lesson.alpha"],
             "sourceIds": ["source.one"],
             "featureIds": ["feature.reading"],
             "iconId": "general.default",
-            "review": {
-                "contentReview": {"status": "approved"},
-                "localeReviews": {
-                    "id": {"status": "approved"},
-                    "en": {"status": "approved"},
-                },
-                "reviewedBy": "reviewer.one",
-                "reviewedAt": "2026-08-25",
-            },
         },
     )
     write_json(
-        root / "data" / "v2" / "registries" / "sources.json", {"sources": [{"id": "source.one"}]}
+        root / "data" / "v2" / "registries" / "sources.json",
+        {"sources": [{"id": "source.one"}]},
     )
     write_json(
         root / "data" / "v2" / "registries" / "features.json",
@@ -145,7 +135,13 @@ class ValidatorCliTests(unittest.TestCase):
                 {"valid": True},
             )
             write_json(
-                root / "data" / "v2" / "fixtures" / "invalid" / "content" / "lesson.json",
+                root
+                / "data"
+                / "v2"
+                / "fixtures"
+                / "invalid"
+                / "content"
+                / "lesson.json",
                 {"valid": False},
             )
 
@@ -159,7 +155,13 @@ class ValidatorCliTests(unittest.TestCase):
             root = Path(directory)
             create_schemas(root)
             write_json(
-                root / "data" / "v2" / "fixtures" / "invalid" / "content" / "lesson.json",
+                root
+                / "data"
+                / "v2"
+                / "fixtures"
+                / "invalid"
+                / "content"
+                / "lesson.json",
                 {"valid": True},
             )
 
@@ -172,7 +174,9 @@ class ValidatorCliTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             create_schemas(root)
-            path = root / "data" / "v2" / "fixtures" / "valid" / "content" / "empty.json"
+            path = (
+                root / "data" / "v2" / "fixtures" / "valid" / "content" / "empty.json"
+            )
             path.parent.mkdir(parents=True)
             path.write_text("  \n", encoding="utf-8")
 
@@ -180,7 +184,8 @@ class ValidatorCliTests(unittest.TestCase):
 
             self.assertEqual(result.returncode, 1)
             self.assertIn(
-                "data/v2/fixtures/valid/content/empty.json: empty JSON file", result.stderr
+                "data/v2/fixtures/valid/content/empty.json: empty JSON file",
+                result.stderr,
             )
 
     def test_protected_json_is_hashed_without_json_parsing(self) -> None:
@@ -208,7 +213,9 @@ class ValidatorCliTests(unittest.TestCase):
 
             self.assertEqual(result.returncode, 0, result.stderr)
 
-    def test_live_dataset_integrity_and_reviewed_gates(self) -> None:
+    def test_live_dataset_accepts_no_status_or_review_and_rejects_unknown_source(
+        self,
+    ) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             create_live_dataset(root)
@@ -219,15 +226,13 @@ class ValidatorCliTests(unittest.TestCase):
             content_path = root / "data" / "v2" / "content" / "lessons" / "alpha.json"
             content = json.loads(content_path.read_text(encoding="utf-8"))
             content["sourceIds"] = ["source.missing"]
-            content["review"].pop("reviewedBy")
             content["sources"] = ["free-form citation"]
             write_json(content_path, content)
 
             invalid = run_validator(root, "--skip-compatibility")
             self.assertEqual(invalid.returncode, 1)
             self.assertIn("unknown source ID 'source.missing'", invalid.stderr)
-            self.assertIn("lacks reviewer attribution", invalid.stderr)
-            self.assertIn("uses free-form source text", invalid.stderr)
+            self.assertNotIn("free-form source text", invalid.stderr)
 
     def test_deprecation_icon_cycle_and_provider_metadata_are_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -235,16 +240,12 @@ class ValidatorCliTests(unittest.TestCase):
             create_live_dataset(root)
             content_path = root / "data" / "v2" / "content" / "lessons" / "alpha.json"
             content = json.loads(content_path.read_text(encoding="utf-8"))
-            content["status"] = "deprecated"
             content["deprecation"] = {
                 "reason": {"id": "", "en": "Superseded"},
                 "replacementId": "lesson.missing",
             }
             write_json(content_path, content)
-            index_path = root / "data" / "v2" / "indexes" / "lessons.json"
-            index = json.loads(index_path.read_text(encoding="utf-8"))
-            index["items"][0]["status"] = "deprecated"
-            write_json(index_path, index)
+
             write_json(
                 root / "data" / "v2" / "registries" / "icons.json",
                 {

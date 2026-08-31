@@ -11,15 +11,20 @@
     "id": "Gabungkan huruf, harakat, dan bentuk bersambung dalam bacaan pendek.",
     "en": "Combine letters, vowel marks, and joined forms in short reading."
   },
-  "status": "draft",
   "iconId": "quran-learning.quran",
   "stageId": "stage.quran-learning",
   "stageOrder": 5,
   "group": "reading",
   "relationships": {
-    "prerequisites": ["lesson.joined-letters"],
-    "next": ["practice.basic-tajwid"],
-    "related": ["lesson.quran-paths"]
+    "prerequisites": [
+      "lesson.joined-letters"
+    ],
+    "next": [
+      "practice.basic-tajwid"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "featureLinks": [
     {
@@ -118,18 +123,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
   }
 }

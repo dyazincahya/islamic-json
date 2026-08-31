@@ -11,7 +11,6 @@
     "id": "Pilih jalur sesuai kemampuan dan tujuan belajar saat ini.",
     "en": "Choose a path suited to your current ability and learning goal."
   },
-  "status": "draft",
   "iconId": "quran-learning.quran",
   "stageId": "stage.quran-learning",
   "stageOrder": 1,
@@ -24,7 +23,9 @@
       "lesson.quran-translation",
       "practice.quran-consistency"
     ],
-    "related": ["practice.quran-reading"]
+    "related": [
+      "practice.quran-reading"
+    ]
   },
   "blocks": [
     {
@@ -84,19 +85,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

@@ -11,12 +11,13 @@
     "id": "Doa setelah berbuka yang dikoreksi dari label niat dalam data lama.",
     "en": "A post-iftar supplication corrected from the intention label in the legacy data."
   },
-  "status": "under-review",
   "iconId": "worship.supplication",
   "stageId": "stage.pillars-journey",
   "stageOrder": 2,
   "group": "migrated-pillars.fasting",
-  "seasonalTags": ["season.ramadan"],
+  "seasonalTags": [
+    "season.ramadan"
+  ],
   "featureLinks": [
     {
       "featureId": "feature.audio",
@@ -25,7 +26,9 @@
         "en": "Listen to the post-iftar supplication"
       },
       "required": false,
-      "parameters": { "contentId": "recitation.migrated-breaking-fast" }
+      "parameters": {
+        "contentId": "recitation.migrated-breaking-fast"
+      }
     },
     {
       "featureId": "feature.reminders",
@@ -34,7 +37,9 @@
         "en": "Set an iftar reminder"
       },
       "required": false,
-      "parameters": { "topic": "iftar" }
+      "parameters": {
+        "topic": "iftar"
+      }
     }
   ],
   "recitation": {
@@ -64,18 +69,5 @@
       },
       "iconId": "general.info"
     }
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending",
-      "notes": {
-        "id": "Klasifikasi telah dikoreksi; teks dan terjemahan masih menunggu verifikasi sumber dan isi.",
-        "en": "The classification is corrected; the text and translation still await source and content verification."
-      }
-    },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
-  }
+  ]
 }

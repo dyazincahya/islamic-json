@@ -7,7 +7,6 @@
     "id": "Ash-Shamadu",
     "en": "As-Samad"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Ash-Shamadu",
@@ -31,18 +30,5 @@
   "sourceIds": [
     "source.quran-7-180",
     "source.quran-112-1-4"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

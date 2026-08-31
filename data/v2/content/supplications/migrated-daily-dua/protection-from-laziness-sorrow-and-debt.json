@@ -7,7 +7,6 @@
     "id": "Doa Memohon Perlindungan Dari Sifat Malas, Kesedihan, dan Lilitan Hutang",
     "en": "Supplication for protection from laziness, sorrow, and debt"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 33,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Abu Umamah lalu menuturkan: Setelah aku mengamalkan doa itu, Allah benar-benar menghilangkan kebingunganku dan memberi kemampuan melunasi hutang.",

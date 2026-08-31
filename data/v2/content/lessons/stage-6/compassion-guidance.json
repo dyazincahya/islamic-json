@@ -11,14 +11,17 @@
     "id": "Kurangi kesulitan orang lain melalui kelembutan dan kepedulian.",
     "en": "Reduce others hardship through gentleness and care."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.hadith-character",
   "stageOrder": 5,
   "group": "thematic-guidance",
   "relationships": {
-    "prerequisites": ["lesson.parents-guidance"],
-    "next": ["lesson.eating-guidance"],
+    "prerequisites": [
+      "lesson.parents-guidance"
+    ],
+    "next": [
+      "lesson.eating-guidance"
+    ],
     "related": []
   },
   "blocks": [
@@ -85,7 +88,9 @@
     {
       "id": "block.compassion-guidance-source",
       "type": "source-reference",
-      "sourceIds": ["source.hadith-bukhari-13"],
+      "sourceIds": [
+        "source.hadith-bukhari-13"
+      ],
       "note": {
         "id": "Rujukan bibliografis hadis tentang mencintai kebaikan bagi sesama; teks hadis tidak disalin di sini.",
         "en": "Bibliographic reference for the hadith on loving good for others; the hadith text is not copied here."
@@ -99,18 +104,7 @@
       "en": "I have read, reflected, and chosen one step to practice."
     }
   },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
-  "sourceIds": ["source.hadith-bukhari-13"]
+  "sourceIds": [
+    "source.hadith-bukhari-13"
+  ]
 }

@@ -7,7 +7,6 @@
     "id": "Doa Sesudah Makan",
     "en": "Supplication after eating"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 7,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.food",
   "benefits": {
     "id": "Rasulullah ﷺ bersabda jika seseorang membaca doa tersebut maka diampuni dosanya yang telah lalu.",

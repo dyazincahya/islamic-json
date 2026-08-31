@@ -8,25 +8,43 @@
     "schemaVersion": { "const": "2.0" },
     "type": { "const": "collection-index" },
     "id": { "$ref": "common.schema.json#/$defs/semanticId" },
-    "itemType": { "enum": ["lesson", "practice", "supplication", "sequence", "glossary-entry"] },
+    "itemType": {
+      "enum": [
+        "lesson",
+        "practice",
+        "supplication",
+        "sequence",
+        "glossary-entry"
+      ]
+    },
     "title": { "$ref": "common.schema.json#/$defs/localizedString" },
     "items": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "type", "slug", "status", "path"],
+        "required": ["id", "type", "slug", "path"],
         "properties": {
           "id": { "$ref": "common.schema.json#/$defs/semanticId" },
-          "type": { "enum": ["lesson", "practice", "supplication", "sequence", "glossary-entry"] },
+          "type": {
+            "enum": [
+              "lesson",
+              "practice",
+              "supplication",
+              "sequence",
+              "glossary-entry"
+            ]
+          },
           "slug": { "$ref": "common.schema.json#/$defs/slug" },
-          "status": { "$ref": "common.schema.json#/$defs/publicationStatus" },
+
           "path": { "$ref": "common.schema.json#/$defs/relativePath" },
           "stageId": { "$ref": "common.schema.json#/$defs/semanticId" },
           "stageOrder": { "type": "integer", "minimum": 1 },
           "group": { "type": "string", "minLength": 1 },
           "seasonalTags": {
             "type": "array",
-            "items": { "enum": ["season.ramadan", "season.eid-al-fitr", "season.hajj"] },
+            "items": {
+              "enum": ["season.ramadan", "season.eid-al-fitr", "season.hajj"]
+            },
             "uniqueItems": true
           }
         },

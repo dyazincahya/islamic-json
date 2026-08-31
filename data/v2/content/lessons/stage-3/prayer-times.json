@@ -11,7 +11,6 @@
     "id": "Lima salat wajib memiliki rentang waktu yang ditentukan dan perlu diperiksa berdasarkan tanggal serta lokasi.",
     "en": "The five obligatory prayers have prescribed time windows that should be checked for the date and location."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 7,
   "group": "prayer",
@@ -49,19 +48,6 @@
   "sourceIds": [
     "source.quran-4-103"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.prayer-times.overview",

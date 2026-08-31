@@ -11,14 +11,15 @@
     "id": "Bangun kebiasaan doa dan zikir dari sumber yang telah diperiksa.",
     "en": "Build a habit of supplication and remembrance from verified sources."
   },
-  "status": "draft",
   "iconId": "worship.supplication",
   "stageId": "stage.daily-life",
   "stageOrder": 1,
   "group": "daily-life",
   "relationships": {
     "prerequisites": [],
-    "next": ["lesson.daily-dua"],
+    "next": [
+      "lesson.daily-dua"
+    ],
     "related": []
   },
   "blocks": [
@@ -88,19 +89,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

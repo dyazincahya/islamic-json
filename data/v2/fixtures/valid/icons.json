@@ -4,7 +4,10 @@
   "icons": [
     {
       "id": "general.info",
-      "label": { "id": "Informasi", "en": "Information" },
+      "label": {
+        "id": "Informasi",
+        "en": "Information"
+      },
       "fallbackId": null,
       "providers": {
         "materialSymbols": {
@@ -24,7 +27,10 @@
     },
     {
       "id": "worship.prayer",
-      "label": { "id": "Salat", "en": "Prayer" },
+      "label": {
+        "id": "Salat",
+        "en": "Prayer"
+      },
       "fallbackId": "general.info",
       "asset": {
         "path": "assets/icons/prayer.svg",

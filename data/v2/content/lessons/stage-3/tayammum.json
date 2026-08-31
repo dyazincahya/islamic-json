@@ -11,7 +11,6 @@
     "id": "Tayammum adalah pengganti bersuci dengan media permukaan bumi yang bersih ketika penggunaan air tidak memungkinkan menurut ketentuan.",
     "en": "Tayammum is a substitute purification using clean earth when water cannot be used under the applicable conditions."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 5,
   "group": "purification",
@@ -30,19 +29,6 @@
   "sourceIds": [
     "source.quran-5-6"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.tayammum.overview",

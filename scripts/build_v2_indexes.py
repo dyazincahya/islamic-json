@@ -38,7 +38,7 @@ def main():
         value = json.loads(path.read_text(encoding="utf-8"))
         kind = value["type"]
         relative = path.relative_to(V2).as_posix()
-        entry = {key: value[key] for key in ("id", "type", "slug", "status")}
+        entry = {key: value[key] for key in ("id", "type", "slug")}
         entry["path"] = relative
         for key in ("stageId", "stageOrder", "group", "seasonalTags"):
             if key in value:

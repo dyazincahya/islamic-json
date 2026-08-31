@@ -32,15 +32,7 @@ SCHEMA_FILES = {
 }
 CONTENT_TYPES = {"lesson", "practice", "supplication", "sequence", "glossary-entry"}
 SEMANTIC_ID = re.compile(r"^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$")
-REVIEW_COMPLETE = {
-    "approved",
-    "complete",
-    "completed",
-    "reviewed",
-    "verified",
-    "pass",
-    "passed",
-}
+
 PROTECTED_NAMES = ("holy-quran", "hadith", "hadist")
 LEGACY_EXCLUDED_PARTS = {".git", ".agent", ".agents", "openspec", "docs"}
 REFERENCE_FIELDS = {
@@ -493,8 +485,6 @@ def validate_indexes(
                 "id": target_value.get("id"),
                 "type": target_value.get("type") or target_value.get("documentType"),
                 "slug": target_value.get("slug"),
-                "status": target_value.get("status")
-                or target_value.get("publicationStatus"),
             }
             for field, actual in comparisons.items():
                 if field in entry and entry[field] != actual:
@@ -596,44 +586,6 @@ def validate_manifest(
                     )
 
 
-def completed_review(value: Any) -> bool:
-    if value is True:
-        return True
-    if isinstance(value, str):
-        return value.lower() in REVIEW_COMPLETE
-    if isinstance(value, dict):
-        for key in ("status", "outcome", "result", "state"):
-            if key in value:
-                return completed_review(value[key])
-        if "complete" in value:
-            return value["complete"] is True
-    return False
-
-
-def find_first(mapping: Any, names: set[str]) -> Any:
-    if not isinstance(mapping, dict):
-        return None
-    for key, value in mapping.items():
-        if key in names:
-            return value
-    for value in mapping.values():
-        found = find_first(value, names)
-        if found is not None:
-            return found
-    return None
-
-
-def is_localized_map(value: Any) -> bool:
-    if not isinstance(value, dict) or not ("id" in value or "en" in value):
-        return False
-    locale_key = re.compile(r"^[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$")
-    return (
-        bool(value)
-        and all(isinstance(key, str) and locale_key.fullmatch(key) for key in value)
-        and any(isinstance(entry, str) for entry in value.values())
-    )
-
-
 def localized_complete(value: Any) -> bool:
     return isinstance(value, dict) and all(
         isinstance(value.get(locale), str) and value[locale].strip()
@@ -641,120 +593,40 @@ def localized_complete(value: Any) -> bool:
     )
 
 
-def validate_publication(
+def validate_deprecations(
     live: Sequence[Document], namespaces: Mapping[str, set[str]], reporter: Reporter
 ) -> None:
     for document in (item for item in live if item.role == "content"):
-        if not isinstance(document.value, dict):
+        if not isinstance(document.value, dict) or "deprecation" not in document.value:
             continue
         item = document.value
         identifier = item.get("id", document.relative)
-        status = item.get("status") or item.get("publicationStatus")
-        if status == "reviewed":
-            for pointer, value in walk(item):
-                if is_localized_map(value) and not localized_complete(value):
-                    reporter.error(
-                        document.relative,
-                        f"reviewed item {identifier!r} has incomplete localization at {json_pointer(pointer)}",
-                    )
-            review = (
-                item.get("review") or item.get("reviewMetadata") or item.get("reviews")
+        if not isinstance(item.get("id"), str) or not item["id"].strip():
+            reporter.error(
+                document.relative, "deprecated item does not retain a stable ID"
             )
-            content_review = find_first(
-                review, {"content", "contentReview", "scholarlyReview"}
+        deprecation_value = item.get("deprecation")
+        deprecation: dict[str, Any] = (
+            deprecation_value if isinstance(deprecation_value, dict) else {}
+        )
+        reason = deprecation.get("reason")
+        if not localized_complete(reason):
+            reporter.error(
+                document.relative,
+                f"deprecated item {identifier!r} lacks a non-empty bilingual reason",
             )
-            if not completed_review(content_review):
+        replacement = deprecation.get("replacementId")
+        if replacement is not None:
+            if replacement == item.get("id"):
                 reporter.error(
                     document.relative,
-                    f"reviewed item {identifier!r} lacks a completed content review",
+                    f"deprecated item {identifier!r} cannot replace itself",
                 )
-            locale_reviews = find_first(
-                review,
-                {"locales", "localeReviews", "translationReview", "translationReviews"},
-            )
-            if not isinstance(locale_reviews, dict) or any(
-                not completed_review(locale_reviews.get(locale))
-                for locale in ("id", "en")
-            ):
+            elif replacement not in namespaces.get("entity", set()):
                 reporter.error(
                     document.relative,
-                    f"reviewed item {identifier!r} lacks completed id and en locale reviews",
+                    f"deprecated item {identifier!r} has unknown replacement ID {replacement!r}",
                 )
-            reviewer = find_first(review, {"reviewer", "reviewerId", "reviewedBy"})
-            if not isinstance(reviewer, str) or not reviewer.strip():
-                reporter.error(
-                    document.relative,
-                    f"reviewed item {identifier!r} lacks reviewer attribution",
-                )
-            review_date = find_first(review, {"date", "reviewDate", "reviewedAt"})
-            if not isinstance(review_date, str) or not review_date.strip():
-                reporter.error(
-                    document.relative,
-                    f"reviewed item {identifier!r} lacks a review date",
-                )
-
-            structured_sources = item.get("sourceIds")
-            if not (isinstance(structured_sources, list) and structured_sources):
-                sources = item.get("sources") or item.get("sourceReferences")
-                structured_sources = (
-                    sources
-                    if isinstance(sources, list)
-                    and sources
-                    and all(isinstance(source, dict) for source in sources)
-                    else None
-                )
-            if not structured_sources:
-                reporter.error(
-                    document.relative,
-                    f"reviewed item {identifier!r} lacks structured source references",
-                )
-            for pointer, value in walk(item):
-                if pointer and str(pointer[-1]).lower() in {
-                    "source",
-                    "sources",
-                    "citation",
-                    "citations",
-                }:
-                    strings = (
-                        [value]
-                        if isinstance(value, str)
-                        else [entry for entry in value if isinstance(entry, str)]
-                        if isinstance(value, list)
-                        else []
-                    )
-                    if strings:
-                        reporter.error(
-                            document.relative,
-                            f"reviewed item {identifier!r} uses free-form source text at {json_pointer(pointer)}",
-                        )
-
-        if status == "deprecated":
-            if not isinstance(item.get("id"), str) or not item["id"].strip():
-                reporter.error(
-                    document.relative, "deprecated item does not retain a stable ID"
-                )
-            deprecation_value = item.get("deprecation")
-            deprecation: dict[str, Any] = (
-                deprecation_value if isinstance(deprecation_value, dict) else {}
-            )
-            reason = deprecation.get("reason") or item.get("deprecationReason")
-            if not localized_complete(reason):
-                reporter.error(
-                    document.relative,
-                    f"deprecated item {identifier!r} lacks a non-empty bilingual reason",
-                )
-            replacement = deprecation.get("replacementId") or item.get("replacementId")
-            if replacement is not None:
-                if replacement == item.get("id"):
-                    reporter.error(
-                        document.relative,
-                        f"deprecated item {identifier!r} cannot replace itself",
-                    )
-                elif replacement not in namespaces.get("entity", set()):
-                    reporter.error(
-                        document.relative,
-                        f"deprecated item {identifier!r} has unknown replacement ID {replacement!r}",
-                    )
 
 
 def stage_entries(document: Document) -> list[dict[str, Any]]:
@@ -1154,7 +1026,7 @@ def validate_integrity(
     validate_manifest(live, v2_dir, reporter)
     validate_indexes(live, v2_dir, namespaces, reporter)
     validate_references(live, namespaces, reporter)
-    validate_publication(live, namespaces, reporter)
+    validate_deprecations(live, namespaces, reporter)
     validate_stages(live, namespaces, reporter)
     validate_icon_registry(live, root, v2_dir, reporter)
     validate_asset_base_url(live, reporter)

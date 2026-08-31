@@ -2,7 +2,7 @@
 
 The repository is a static JSON dataset consumed directly through public CDN URLs. Its non-Quran/non-hadith content currently has several incompatible shapes: raw arrays and standalone objects; `arab`, `arabic`, and misspelled `arrabic`; `indo` and `id` used inconsistently as locales or identifiers; HTML embedded in `extras`; free-form citations; UI-library icon classes; and one malformed empty JSON file. There is no package manifest, schema set, or validation command.
 
-Existing URLs may already be consumed externally and cannot be assumed safe to change. The dataset also contains religious guidance where syntactic validity, translation review, source traceability, and scholarly review are distinct concerns. See `proposal.md` for motivation and scope.
+Existing URLs may already be consumed externally and cannot be assumed safe to change. The dataset contains religious guidance where syntactic validity and structured source traceability are distinct concerns. See `proposal.md` for motivation and scope.
 
 ## Goals / Non-Goals
 
@@ -11,16 +11,16 @@ Existing URLs may already be consumed externally and cannot be assumed safe to c
 - Establish one authoring and consumption contract for new non-Quran/non-hadith content.
 - Preserve stable legacy CDN URLs while allowing a clean v2 model.
 - Support Indonesian and English without tying identity or structure to either language.
-- Make learning order, cross-content links, sources, review state, and icons machine-readable.
+- Make learning order, cross-content links, sources, and icons machine-readable.
 - Keep output usable as static files through GitHub-backed CDNs and native application caches.
-- Make invalid syntax, schema drift, unresolved references, unsafe assets, and false reviewed status detectable before publication.
+- Make invalid syntax, schema drift, unresolved references, and unsafe assets detectable before publication.
 
 **Non-Goals:**
 
 - Changing, normalizing, or repackaging files under `holy-quran` or any hadith-library dataset.
 - Storing user progress, location, reminder preferences, bookmarks, or reading history.
 - Defining application routing, UI components, calculation algorithms, or a backend API.
-- Treating automated schema validation as scholarly approval.
+
 - Bundling every Font Awesome or Material Symbols asset.
 
 ## Decisions
@@ -84,17 +84,11 @@ A deeply nested stage JSON tree was rejected because shared items would be dupli
 
 Feature links use semantic tokens, for example `feature.prayer-schedule` or `feature.audio`, with optional parameters. Applications map supported tokens to routes or capabilities and ignore unsupported optional links.
 
-### 7. Separate technical publication status from review dimensions
-
-Each item has a controlled publication state. Review metadata independently records content review and locale translation review. `reviewed` is a gated state enforced by validation: required locales, source structures, completed review dimensions, and reviewer attribution must all be present.
-
-A single boolean was rejected because it cannot distinguish untranslated, unsourced, translation-reviewed, and scholarly-reviewed states. Reviewer identity is metadata, not an authorization mechanism; repository governance determines who may approve changes.
-
 ### 8. Store bibliographic locators, not copies of excluded datasets
 
 Sources use typed records for Quran references, hadith references, books, articles, and web resources. Quran and hadith references contain locators and bilingual display labels, but do not copy or mutate the source datasets. Reusable references may be centralized in a registry; item-local references remain acceptable where they are not shared.
 
-Free-form citation strings may survive only as supplementary notes during draft migration. They cannot satisfy reviewed readiness.
+Free-form citation strings may be retained as supplementary notes during migration but do not replace declared structured locators.
 
 ### 9. Make semantic icon IDs the contract and SVG an optional default
 
@@ -106,7 +100,7 @@ When SVG is included, a version-pinned manifest base URL plus relative path reso
 
 ### 10. Validate schema and cross-file integrity in two layers
 
-JSON Schema validates document-local syntax, required fields, enums, patterns, and type-specific structures. A repository validation script handles dataset-wide properties JSON Schema cannot reliably enforce: unique IDs, file/index agreement, relationship resolution, stage membership, source/icon references, fallback cycles, reviewed-state gates, excluded-path protection, and SVG safety/provenance.
+JSON Schema validates document-local syntax, required fields, enums, patterns, and type-specific structures. A repository validation script handles dataset-wide properties JSON Schema cannot reliably enforce: unique IDs, file/index agreement, relationship resolution, stage membership, source/icon references, fallback cycles, excluded-path protection, and SVG safety/provenance.
 
 The validator will target v2 plus explicit migration checks. Legacy data is inventoried but is not required to conform to v2 in place.
 

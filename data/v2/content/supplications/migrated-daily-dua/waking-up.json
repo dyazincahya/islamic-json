@@ -7,7 +7,6 @@
     "id": "Doa Bangun Tidur",
     "en": "Supplication upon waking"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 2,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.sleep",
   "benefits": {
     "id": "Dengan membaca doa di atas, seorang hamba memulai harinya dengan memuji nama Allah yang Maha Menghidupkan dan Maha Mematikan.",

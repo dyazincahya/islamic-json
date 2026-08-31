@@ -11,15 +11,20 @@
     "id": "Berikan harta, waktu, tenaga, atau manfaat lain dengan ikhlas dan bertanggung jawab.",
     "en": "Offer wealth, time, effort, or other benefit sincerely and responsibly."
   },
-  "status": "draft",
   "iconId": "daily-life.charity",
   "stageId": "stage.daily-life",
   "stageOrder": 11,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.halal-food"],
-    "next": ["lesson.daily-health"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.halal-food"
+    ],
+    "next": [
+      "lesson.daily-health"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

@@ -7,7 +7,6 @@
     "id": "Doa Masuk Kamar Mandi",
     "en": "Supplication before entering the restroom"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 3,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Doa ini menjadi penghalang antara aurat seorang hamba dengan jin ketika memasuki Al-khala' (kamar mandi).",

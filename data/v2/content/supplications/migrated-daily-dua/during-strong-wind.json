@@ -7,7 +7,6 @@
     "id": "Doa Ketika Angin Kencang",
     "en": "Supplication during strong wind"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 28,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Diantara tanda kuasa Allah adalah angin yang kencang yang bisa mendatangkan nikmat dan adzab, yakni kebaikan dan keburukan. Maka seyogyanya seorang hamba terus meminta kebaikan dan berlindung dari segala marabahaya.",

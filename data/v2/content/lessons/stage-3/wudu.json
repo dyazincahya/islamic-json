@@ -11,7 +11,6 @@
     "id": "Wudu mempersiapkan seseorang untuk salat dengan membasuh dan mengusap anggota yang ditetapkan disertai niat.",
     "en": "Wudu prepares a person for prayer by washing and wiping the prescribed parts with intention."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 4,
   "group": "purification",
@@ -38,19 +37,6 @@
   "sourceIds": [
     "source.quran-5-6"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.wudu.overview",

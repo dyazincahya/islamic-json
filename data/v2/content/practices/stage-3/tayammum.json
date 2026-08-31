@@ -11,7 +11,6 @@
     "id": "Latihan terarah untuk menerapkan pelajaran dengan aman dan tanpa menyimpan kemajuan pengguna di dataset.",
     "en": "A guided practice for applying the lesson safely without storing user progress in the dataset."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 104,
   "group": "guided-practice",
@@ -30,19 +29,6 @@
   "sourceIds": [
     "source.quran-5-6"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "instructions": [
     {
       "id": "block.tayammum.steps",

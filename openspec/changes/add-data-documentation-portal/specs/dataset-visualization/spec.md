@@ -6,7 +6,7 @@ Defines interactive views that turn current v2, legacy compatibility, and indepe
 
 ### Requirement: Dataset dashboard
 
-The portal SHALL derive and display dataset version, locales, collection counts, content totals, stage totals, and publication-state summaries from the bundled manifest and indexes rather than hardcoded metrics.
+The portal SHALL derive and display dataset version, locales, collection counts, content totals, and stage totals from the bundled manifest and indexes rather than hardcoded metrics.
 
 #### Scenario: Dataset content count changes
 
@@ -24,11 +24,11 @@ The portal SHALL display all seven ordered stages, goals, entry content, content
 
 ### Requirement: Collection explorer
 
-The portal SHALL let users search and filter indexed items by collection type, stage, publication status, group, season, and locale-aware text, with usable empty, loading, and error states.
+The portal SHALL let users search and filter indexed items by collection type, stage, group, season, and locale-aware text, with usable empty, loading, and error states.
 
-#### Scenario: User filters reviewed practices
+#### Scenario: User filters practices
 
-- **WHEN** collection type is practice and status is reviewed
+- **WHEN** collection type is practice
 - **THEN** only matching indexed items are displayed and the active filters remain visible
 
 ### Requirement: Typed content rendering

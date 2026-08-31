@@ -7,7 +7,6 @@
     "id": "Doa Buka Puasa",
     "en": "Supplication when breaking the fast"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 13,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.fasting",
   "benefits": {
     "id": "Sangat dianjurkan bagi orang yang berpuasa untuk memperbanyak doa sebelum dan sesudah berbuka, karena doa orang yang berpuasa adalah salah satu 3 doa yang tak tertolak.",

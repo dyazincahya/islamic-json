@@ -6,7 +6,7 @@ Defines an accessible bilingual documentation portal that combines developer ref
 
 ### Requirement: Documentation information architecture
 
-The portal SHALL provide discoverable overview, guide, reference, Demo UI, explorer, API, migration, and contributing sections covering manifests, collections, content types, localization, blocks, relationships, sources, review, semantic icons, validation, CDN usage, and dataset boundaries.
+The portal SHALL provide discoverable overview, guide, reference, Demo UI, explorer, API, migration, and contributing sections covering manifests, collections, content types, localization, blocks, relationships, sources, semantic icons, validation, CDN usage, and dataset boundaries.
 
 #### Scenario: New developer enters portal
 
@@ -15,12 +15,12 @@ The portal SHALL provide discoverable overview, guide, reference, Demo UI, explo
 
 ### Requirement: Obsidian Emerald design system
 
-The portal SHALL use semantic design tokens with black, gray, and white foundations, restrained emerald accents, minimal borders/shadows, readable code styling, appropriate Arabic typography, and visible semantic status colors.
+The portal SHALL use semantic design tokens with black, gray, and white foundations, restrained emerald accents, minimal borders/shadows, readable code styling, appropriate Arabic typography, and accessible semantic presentation colors.
 
-#### Scenario: Draft content is displayed
+#### Scenario: Portal presents semantic interface tokens
 
-- **WHEN** the portal renders a draft item
-- **THEN** it shows an explicit text status badge and does not imply the content is reviewed solely through color
+- **WHEN** a user opens the portal in light or dark mode
+- **THEN** the canvas, surfaces, text, links, focus indicator, and component states use the corresponding semantic tokens
 
 ### Requirement: Theme and locale controls
 
@@ -57,12 +57,3 @@ The portal SHALL distinguish API documentation from a click-through Demo UI and 
 
 - **WHEN** a user opens the Demo UI section
 - **THEN** the user can select v2 Learning, Legacy Browser, or Holy Quran Browser and can see the selected dataset's status and scope
-
-### Requirement: Clear review disclaimer
-
-The portal SHALL explain that successful technical validation is not scholarly approval and SHALL visibly identify draft, translated, under-review, reviewed, and deprecated states.
-
-#### Scenario: User views under-review guidance
-
-- **WHEN** content has under-review status
-- **THEN** the portal displays its status and review disclaimer near the content rather than only in a separate documentation page

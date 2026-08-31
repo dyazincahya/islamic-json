@@ -7,7 +7,6 @@
     "id": "Doa Balasan Kepada yang Mendoakan Kamu Bersin",
     "en": "The sneezer's reply to one who prayed for them"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 36,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Sesungguhnya Allah mencintai bersin, sebab bersin menggerakan seseorang untuk beribadah. Dan anjuran membalas pujian atas Allah orang yang memuji Allah, begitu juga sebaliknya.",

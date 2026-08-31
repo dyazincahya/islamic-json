@@ -7,7 +7,6 @@
     "id": "Doa Meminta Kemudahan Dalam Segala Urusan",
     "en": "Supplication for ease in all affairs"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 30,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Kemudahan hanya datang dari Allah. Sesuatu yang sulit sekalipun bisa menjadi mudah jika Allah kehendaki.",

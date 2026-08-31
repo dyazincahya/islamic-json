@@ -3,20 +3,29 @@
   "id": "lesson.faith-in-messengers",
   "type": "lesson",
   "slug": "faith-in-messengers",
-  "title": { "id": "Iman kepada para rasul", "en": "Faith in the messengers" },
+  "title": {
+    "id": "Iman kepada para rasul",
+    "en": "Faith in the messengers"
+  },
   "summary": {
     "id": "Pilar iman keempat: beriman kepada para utusan Allah.",
     "en": "The fourth pillar of faith: believing in Allah's messengers."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.faith-foundations",
   "stageOrder": 9,
   "group": "pillars-of-faith",
   "relationships": {
-    "prerequisites": ["lesson.faith-in-books"],
-    "next": ["lesson.faith-in-last-day"],
-    "related": ["lesson.prophet-muhammad", "lesson.following-sunnah"]
+    "prerequisites": [
+      "lesson.faith-in-books"
+    ],
+    "next": [
+      "lesson.faith-in-last-day"
+    ],
+    "related": [
+      "lesson.prophet-muhammad",
+      "lesson.following-sunnah"
+    ]
   },
   "sourceIds": [
     "source.quran-33-21",
@@ -48,13 +57,6 @@
     "label": {
       "id": "Saya memahami dasar iman kepada para rasul.",
       "en": "I understand the foundation of faith in the messengers."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

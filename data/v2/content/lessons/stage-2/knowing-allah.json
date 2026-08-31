@@ -3,39 +3,59 @@
   "id": "lesson.knowing-allah",
   "type": "lesson",
   "slug": "knowing-allah",
-  "title": { "id": "Mengenal Allah", "en": "Knowing Allah" },
-  "summary": { "id": "Memperdalam pengenalan kepada Allah melalui nama dan sifat-Nya yang disebutkan dalam wahyu.", "en": "Deepening knowledge of Allah through His names and attributes mentioned in revelation." },
-  "status": "draft",
+  "title": {
+    "id": "Mengenal Allah",
+    "en": "Knowing Allah"
+  },
+  "summary": {
+    "id": "Memperdalam pengenalan kepada Allah melalui nama dan sifat-Nya yang disebutkan dalam wahyu.",
+    "en": "Deepening knowledge of Allah through His names and attributes mentioned in revelation."
+  },
   "iconId": "faith.tawhid",
   "stageId": "stage.faith-foundations",
   "stageOrder": 2,
   "group": "shahada-journey",
   "relationships": {
-    "prerequisites": ["lesson.shahada"],
-    "next": ["lesson.tawhid"],
-    "related": ["lesson.who-is-allah", "lesson.faith-in-allah"]
+    "prerequisites": [
+      "lesson.shahada"
+    ],
+    "next": [
+      "lesson.tawhid"
+    ],
+    "related": [
+      "lesson.who-is-allah",
+      "lesson.faith-in-allah"
+    ]
   },
-  "sourceIds": ["source.quran-2-255", "source.quran-112-1-4"],
+  "sourceIds": [
+    "source.quran-2-255",
+    "source.quran-112-1-4"
+  ],
   "blocks": [
     {
       "id": "block.knowing-allah.revelation",
       "type": "paragraph",
-      "text": { "id": "Kita mengenal Allah melalui keterangan yang benar dalam Al-Qur'an dan tuntunan Rasul-Nya. Allah Maha Esa, Mahahidup, memelihara seluruh makhluk, dan tidak menyerupai ciptaan-Nya.", "en": "We know Allah through truthful descriptions in the Quran and the Messenger's guidance. Allah is One, Ever-Living, sustains all creation, and is unlike His creation." }
+      "text": {
+        "id": "Kita mengenal Allah melalui keterangan yang benar dalam Al-Qur'an dan tuntunan Rasul-Nya. Allah Maha Esa, Mahahidup, memelihara seluruh makhluk, dan tidak menyerupai ciptaan-Nya.",
+        "en": "We know Allah through truthful descriptions in the Quran and the Messenger's guidance. Allah is One, Ever-Living, sustains all creation, and is unlike His creation."
+      }
     },
     {
       "id": "block.knowing-allah.effect",
       "type": "callout",
       "kind": "note",
-      "body": { "id": "Pengenalan yang benar kepada Allah menguatkan cinta, pengharapan, ketakwaan, dan tawakal kepada-Nya.", "en": "Sound knowledge of Allah strengthens love, hope, mindfulness, and reliance upon Him." },
+      "body": {
+        "id": "Pengenalan yang benar kepada Allah menguatkan cinta, pengharapan, ketakwaan, dan tawakal kepada-Nya.",
+        "en": "Sound knowledge of Allah strengthens love, hope, mindfulness, and reliance upon Him."
+      },
       "iconId": "faith.belief"
     }
   ],
   "completionPrompt": {
     "type": "acknowledgement",
-    "label": { "id": "Saya memahami bahwa Allah dikenal melalui wahyu yang benar.", "en": "I understand that Allah is known through truthful revelation." }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } }
+    "label": {
+      "id": "Saya memahami bahwa Allah dikenal melalui wahyu yang benar.",
+      "en": "I understand that Allah is known through truthful revelation."
+    }
   }
 }

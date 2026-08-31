@@ -7,7 +7,6 @@
     "id": "Al-Ḫakamu",
     "en": "Al-Hakam"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Al-Ḫakamu",
@@ -30,18 +29,5 @@
   ],
   "sourceIds": [
     "source.quran-7-180"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

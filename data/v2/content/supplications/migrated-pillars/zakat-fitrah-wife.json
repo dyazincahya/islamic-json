@@ -11,20 +11,26 @@
     "id": "Redaksi niat zakat fitrah untuk istri dari data lama.",
     "en": "The legacy Zakat al-Fitr intention formula for one's wife."
   },
-  "status": "draft",
   "iconId": "worship.zakat",
   "stageId": "stage.pillars-journey",
   "stageOrder": 5,
   "group": "migrated-pillars.zakat",
-  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
+  "seasonalTags": [
+    "season.ramadan",
+    "season.eid-al-fitr"
+  ],
   "relationships": {
-    "related": ["lesson.migrated-zakat-fitrah"]
+    "related": [
+      "lesson.migrated-zakat-fitrah"
+    ]
   },
   "featureLinks": [
     {
       "featureId": "feature.audio",
       "required": false,
-      "parameters": { "contentId": "recitation.migrated-zakat-fitrah-wife" }
+      "parameters": {
+        "contentId": "recitation.migrated-zakat-fitrah-wife"
+      }
     }
   ],
   "recitation": {
@@ -49,18 +55,5 @@
         "en": "This formula and responsibility detail are migrated as learning material. Applying responsibility for zakat should follow trusted juristic and local guidance."
       }
     }
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending",
-      "notes": {
-        "id": "Teks Arab dinormalisasi dari karakter presentasi Unicode; bacaan, terjemahan, dan klaim tanggungan menunggu verifikasi.",
-        "en": "The Arabic was normalized from Unicode presentation forms; the recitation, translation, and responsibility claim await verification."
-      }
-    },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
-  }
+  ]
 }

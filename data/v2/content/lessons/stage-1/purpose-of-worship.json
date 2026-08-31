@@ -3,22 +3,33 @@
   "id": "lesson.purpose-of-worship",
   "type": "lesson",
   "slug": "purpose-of-worship",
-  "title": { "id": "Tujuan beribadah", "en": "The purpose of worship" },
+  "title": {
+    "id": "Tujuan beribadah",
+    "en": "The purpose of worship"
+  },
   "summary": {
     "id": "Memahami ibadah sebagai tujuan penciptaan manusia dan pengabdian hanya kepada Allah.",
     "en": "Understanding worship as the purpose of human creation and devotion to Allah alone."
   },
-  "status": "draft",
   "iconId": "worship.prayer",
   "stageId": "stage.introduction",
   "stageOrder": 4,
   "group": "introduction",
   "relationships": {
-    "prerequisites": ["lesson.prophet-muhammad"],
-    "next": ["lesson.faith-islam-ihsan"],
-    "related": ["lesson.who-is-allah", "lesson.tawhid"]
+    "prerequisites": [
+      "lesson.prophet-muhammad"
+    ],
+    "next": [
+      "lesson.faith-islam-ihsan"
+    ],
+    "related": [
+      "lesson.who-is-allah",
+      "lesson.tawhid"
+    ]
   },
-  "sourceIds": ["source.quran-51-56"],
+  "sourceIds": [
+    "source.quran-51-56"
+  ],
   "blocks": [
     {
       "id": "block.purpose-of-worship.overview",
@@ -44,13 +55,6 @@
     "label": {
       "id": "Saya memahami bahwa ibadah ditujukan hanya kepada Allah.",
       "en": "I understand that worship is directed to Allah alone."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

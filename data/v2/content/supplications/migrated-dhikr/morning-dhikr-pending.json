@@ -11,7 +11,6 @@
     "id": "Dokumen draf yang dapat ditemukan untuk migrasi dzikir pagi.",
     "en": "An indexable draft document for the morning dhikr migration."
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 56,
   "group": "morning-evening-dhikr",
@@ -41,18 +40,5 @@
         "en": "The legacy morning dhikr source is empty or not valid JSON. Arabic content, transliteration, translation, benefits, and sources are pending migration and review; the legacy file remains unchanged."
       }
     }
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

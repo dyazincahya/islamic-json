@@ -7,7 +7,6 @@
     "id": "Dzul-Jalâli wal-Ikram",
     "en": "Dhul-Jalali wal-Ikram"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Dzul-Jalâli wal-Ikram",
@@ -30,18 +29,5 @@
   ],
   "sourceIds": [
     "source.quran-7-180"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

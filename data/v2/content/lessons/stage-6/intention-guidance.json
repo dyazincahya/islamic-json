@@ -11,14 +11,15 @@
     "id": "Niat mengarahkan tujuan amal dan membantu memeriksa alasan bertindak.",
     "en": "Intention directs actions and helps examine why one acts."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.hadith-character",
   "stageOrder": 1,
   "group": "thematic-guidance",
   "relationships": {
     "prerequisites": [],
-    "next": ["lesson.honesty-guidance"],
+    "next": [
+      "lesson.honesty-guidance"
+    ],
     "related": []
   },
   "blocks": [
@@ -85,7 +86,9 @@
     {
       "id": "block.intention-guidance-source",
       "type": "source-reference",
-      "sourceIds": ["source.bukhari-1"],
+      "sourceIds": [
+        "source.bukhari-1"
+      ],
       "note": {
         "id": "Rujukan bibliografis hadis tentang niat; teks hadis tidak disalin di sini.",
         "en": "Bibliographic reference for the hadith on intention; the hadith text is not copied here."
@@ -99,18 +102,7 @@
       "en": "I have read, reflected, and chosen one step to practice."
     }
   },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
-  "sourceIds": ["source.bukhari-1"]
+  "sourceIds": [
+    "source.bukhari-1"
+  ]
 }

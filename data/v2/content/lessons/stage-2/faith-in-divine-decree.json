@@ -3,22 +3,32 @@
   "id": "lesson.faith-in-divine-decree",
   "type": "lesson",
   "slug": "faith-in-divine-decree",
-  "title": { "id": "Iman kepada takdir", "en": "Faith in divine decree" },
+  "title": {
+    "id": "Iman kepada takdir",
+    "en": "Faith in divine decree"
+  },
   "summary": {
     "id": "Pilar iman keenam: beriman kepada ketetapan Allah sambil tetap berusaha dan bertanggung jawab.",
     "en": "The sixth pillar of faith: believing in Allah's decree while continuing to strive and act responsibly."
   },
-  "status": "draft",
   "iconId": "faith.belief",
   "stageId": "stage.faith-foundations",
   "stageOrder": 11,
   "group": "pillars-of-faith",
   "relationships": {
-    "prerequisites": ["lesson.faith-in-last-day"],
+    "prerequisites": [
+      "lesson.faith-in-last-day"
+    ],
     "next": [],
-    "related": ["lesson.faith-in-allah", "lesson.purpose-of-worship"]
+    "related": [
+      "lesson.faith-in-allah",
+      "lesson.purpose-of-worship"
+    ]
   },
-  "sourceIds": ["source.hadith-muslim-8a", "source.hadith-nawawi-2"],
+  "sourceIds": [
+    "source.hadith-muslim-8a",
+    "source.hadith-nawawi-2"
+  ],
   "blocks": [
     {
       "id": "block.faith-in-divine-decree.overview",
@@ -61,12 +71,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
   }
 }

@@ -7,7 +7,6 @@
     "id": "Doa sesudah membaca al-qur'an",
     "en": "Supplication after reading the Quran"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 45,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Ya Allah, rahmatilah aku dengan Al-Quran yang agung, jadikanlah ia bagiku ikutan cahaya petunjuk rahmat. Ya Allah, ingatkanlah apa yang telah aku lupa dan ajarkan kepadaku apa yang tidak aku ketahui darinya, anugerahkanlah padaku kesempatan membacanya pada sebagian malam dan siang, jadikanlah ia hujjah yang kuat bagiku, wahai Tuhan seru sekalian alam.",
       "en": "O Allah, have mercy on me through the Quran and make it for me a leader, light, guidance, and mercy. O Allah, remind me of what I forget from it and teach me what I do not know from it. Grant me its recitation during the night and the ends of the day, and make it a proof for me, Lord of all worlds."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "quran-learning.quran"

@@ -7,7 +7,6 @@
     "id": "Doa Masuk Masjid",
     "en": "Supplication upon entering the mosque"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 9,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "location.mosque",
   "benefits": {
     "id": "Masjid adalah rumah Allah, hendaknya seorang hamba mengagungkannya dan berharap rahmat Allah di dalamnya.",

@@ -7,7 +7,6 @@
     "id": "Doa Memakai Pakaian Baru",
     "en": "Supplication when wearing new clothes"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 21,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Dengan membaca doa ini, seseorang memohon agar baju yang telah dibeli dapat memberikan kebaikan sekaligus menjadi pelindung bagi berbagai keburukan.",

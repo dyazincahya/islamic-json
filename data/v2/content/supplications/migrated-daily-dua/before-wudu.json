@@ -7,7 +7,6 @@
     "id": "Doa Sebelum Berwudhu",
     "en": "Supplication before wudu"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 11,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "purification.wudu",
   "benefits": {
     "id": "Disyariatkan memulai setiap perkara yang penting dengan mengucapkan bismillah dalam hal ibadah ataupun lainnya.",

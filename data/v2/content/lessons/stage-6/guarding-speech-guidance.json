@@ -11,14 +11,17 @@
     "id": "Pilih kata yang benar, bermanfaat, dan tidak menyakiti.",
     "en": "Choose words that are truthful, beneficial, and not harmful."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.hadith-character",
   "stageOrder": 3,
   "group": "thematic-guidance",
   "relationships": {
-    "prerequisites": ["lesson.honesty-guidance"],
-    "next": ["lesson.parents-guidance"],
+    "prerequisites": [
+      "lesson.honesty-guidance"
+    ],
+    "next": [
+      "lesson.parents-guidance"
+    ],
     "related": []
   },
   "blocks": [
@@ -85,7 +88,9 @@
     {
       "id": "block.guarding-speech-guidance-source",
       "type": "source-reference",
-      "sourceIds": ["source.hadith-bukhari-6018"],
+      "sourceIds": [
+        "source.hadith-bukhari-6018"
+      ],
       "note": {
         "id": "Rujukan bibliografis hadis tentang berkata baik atau diam; teks hadis tidak disalin di sini.",
         "en": "Bibliographic reference for the hadith on speaking good or remaining silent; the hadith text is not copied here."
@@ -99,18 +104,7 @@
       "en": "I have read, reflected, and chosen one step to practice."
     }
   },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
-  "sourceIds": ["source.hadith-bukhari-6018"]
+  "sourceIds": [
+    "source.hadith-bukhari-6018"
+  ]
 }

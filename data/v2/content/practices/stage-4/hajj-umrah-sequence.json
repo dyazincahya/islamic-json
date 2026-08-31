@@ -11,7 +11,6 @@
     "id": "Siapkan langkah dan pertanyaan tanpa menetapkan hukum pribadi dari checklist ini.",
     "en": "Prepare steps and questions without determining a personal ruling from this checklist."
   },
-  "status": "draft",
   "stageId": "stage.pillars-journey",
   "stageOrder": 105,
   "group": "guided-practice",
@@ -30,19 +29,6 @@
   "sourceIds": [
     "source.quran-2-196"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "seasonalTags": [
     "season.hajj"
   ],

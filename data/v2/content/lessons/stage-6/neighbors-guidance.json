@@ -11,14 +11,17 @@
     "id": "Hindari gangguan, jaga privasi, dan bantu sesuai kemampuan.",
     "en": "Avoid harm, respect privacy, and help within your ability."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.hadith-character",
   "stageOrder": 8,
   "group": "thematic-guidance",
   "relationships": {
-    "prerequisites": ["lesson.sleeping-guidance"],
-    "next": ["lesson.seeking-knowledge-guidance"],
+    "prerequisites": [
+      "lesson.sleeping-guidance"
+    ],
+    "next": [
+      "lesson.seeking-knowledge-guidance"
+    ],
     "related": []
   },
   "blocks": [
@@ -85,7 +88,9 @@
     {
       "id": "block.neighbors-guidance-source",
       "type": "source-reference",
-      "sourceIds": ["source.hadith-bukhari-6018"],
+      "sourceIds": [
+        "source.hadith-bukhari-6018"
+      ],
       "note": {
         "id": "Rujukan bibliografis hadis yang juga memuat tuntunan tentang tetangga; teks hadis tidak disalin di sini.",
         "en": "Bibliographic reference for a hadith that also includes guidance concerning neighbors; the hadith text is not copied here."
@@ -99,18 +104,7 @@
       "en": "I have read, reflected, and chosen one step to practice."
     }
   },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
-  "sourceIds": ["source.hadith-bukhari-6018"]
+  "sourceIds": [
+    "source.hadith-bukhari-6018"
+  ]
 }

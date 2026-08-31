@@ -7,7 +7,6 @@
     "id": "Doa masuk pasar",
     "en": "Supplication upon entering the market"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 51,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Tiada tuhan selain Allah Yang Maha Esa, tiada sekutu bagiNya. Dia yang mempunyai kerajaan dan segala pujian. Dialah yang menghidupkan dan mematikan, dan Dia Mahahidup yang tidak mati. Di tangan-Nya segala kebaikan dan Dia Mahakuasa atas segala sesuatu.",
       "en": "There is no deity except Allah alone, with no partner. His is the dominion and His is all praise. He gives life and causes death, and He is the Ever-Living who does not die. In His hand is all good, and He has power over all things."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "worship.supplication"

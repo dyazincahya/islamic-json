@@ -3,7 +3,10 @@
   "datasetVersion": "2.0.0",
   "type": "manifest",
   "defaultLocale": "id",
-  "supportedLocales": ["id", "en"],
+  "supportedLocales": [
+    "id",
+    "en"
+  ],
   "stagesPath": "stages.json",
   "assetBaseUrl": "https://cdn.jsdelivr.net/gh/example/islamic-json@v2.0.0/data/v2/",
   "registries": {

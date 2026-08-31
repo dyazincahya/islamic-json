@@ -11,15 +11,19 @@
     "id": "Latih tajwid dasar dengan mendengar, meniru, dan meminta koreksi.",
     "en": "Practice basic tajwid by listening, imitating, and seeking correction."
   },
-  "status": "draft",
   "iconId": "quran-learning.tajwid",
   "stageId": "stage.quran-learning",
   "stageOrder": 6,
   "group": "tajwid",
   "relationships": {
     "prerequisites": [],
-    "next": ["lesson.quran-translation"],
-    "related": ["practice.quran-reading", "lesson.quran-paths"]
+    "next": [
+      "lesson.quran-translation"
+    ],
+    "related": [
+      "practice.quran-reading",
+      "lesson.quran-paths"
+    ]
   },
   "featureLinks": [
     {
@@ -118,18 +122,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
   }
 }

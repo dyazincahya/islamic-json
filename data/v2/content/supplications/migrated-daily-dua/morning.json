@@ -7,7 +7,6 @@
     "id": "Doa menyambut pagi hari",
     "en": "Morning supplication"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 49,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Ya Allah, karena Engkau kami mengalami waktu pagi dan waktu petang, dan karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali.",
       "en": "O Allah, by You we enter the morning and by You we enter the evening; by You we live and by You we die, and to You is the resurrection."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "worship.supplication"

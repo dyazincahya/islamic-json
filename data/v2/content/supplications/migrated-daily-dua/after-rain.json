@@ -7,7 +7,6 @@
     "id": "Doa Setelah Turun Hujan",
     "en": "Supplication after rainfall"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 27,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Dengan membaca doa tersebut maka ia telah mengimani bahwasanya hujan turun atas kehendak Allah (keutamaan Allah), bukan dengan bintang-bintang sehingga mereka menjadi kufur kepada Allah.",

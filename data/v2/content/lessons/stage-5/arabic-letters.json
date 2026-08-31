@@ -11,15 +11,20 @@
     "id": "Kenali bentuk dan bunyi dasar huruf hijaiyah.",
     "en": "Recognize the basic forms and sounds of Arabic letters."
   },
-  "status": "draft",
   "iconId": "quran-learning.arabic-letters",
   "stageId": "stage.quran-learning",
   "stageOrder": 3,
   "group": "quran-learning",
   "relationships": {
-    "prerequisites": ["lesson.iqra-introduction"],
-    "next": ["lesson.quran-harakat"],
-    "related": ["lesson.quran-paths"]
+    "prerequisites": [
+      "lesson.iqra-introduction"
+    ],
+    "next": [
+      "lesson.quran-harakat"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

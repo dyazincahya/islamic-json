@@ -7,7 +7,6 @@
     "id": "Doa Memohon Ampunan untuk Kedua Orang Tua",
     "en": "Supplication for forgiveness for both parents"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 40,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Doa tersebut adalah doa Nabi Ibrahim 'alaihissalam yang mengajarkan kita untuk menghormati dan menyayangi orang tua, mengingat hari akhir, dan peduli terhadap sesama mukmin. Dengan berdoa seperti ini, kita berharap Allah subhanahu wa ta'ala mengampuni dosa-dosa kita dan menjadikan kita orang-orang yang beriman.",

@@ -11,15 +11,18 @@
     "id": "Hadapi ujian dengan sabar, ibadah, ikhtiar, nasihat tepat, dan dukungan.",
     "en": "Meet trials with patience, worship, effort, sound advice, and support."
   },
-  "status": "draft",
   "iconId": "faith.belief",
   "stageId": "stage.daily-life",
   "stageOrder": 16,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.facing-anxiety"],
+    "prerequisites": [
+      "lesson.facing-anxiety"
+    ],
     "next": [],
-    "related": ["lesson.daily-supplications"]
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +91,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

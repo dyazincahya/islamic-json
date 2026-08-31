@@ -3,22 +3,34 @@
   "id": "lesson.faith-in-angels",
   "type": "lesson",
   "slug": "faith-in-angels",
-  "title": { "id": "Iman kepada malaikat", "en": "Faith in angels" },
+  "title": {
+    "id": "Iman kepada malaikat",
+    "en": "Faith in angels"
+  },
   "summary": {
     "id": "Pilar iman kedua: beriman kepada para malaikat Allah.",
     "en": "The second pillar of faith: believing in Allah's angels."
   },
-  "status": "draft",
   "iconId": "faith.belief",
   "stageId": "stage.faith-foundations",
   "stageOrder": 7,
   "group": "pillars-of-faith",
   "relationships": {
-    "prerequisites": ["lesson.faith-in-allah"],
-    "next": ["lesson.faith-in-books"],
-    "related": ["lesson.faith-islam-ihsan", "lesson.faith-in-messengers"]
+    "prerequisites": [
+      "lesson.faith-in-allah"
+    ],
+    "next": [
+      "lesson.faith-in-books"
+    ],
+    "related": [
+      "lesson.faith-islam-ihsan",
+      "lesson.faith-in-messengers"
+    ]
   },
-  "sourceIds": ["source.hadith-muslim-8a", "source.hadith-nawawi-2"],
+  "sourceIds": [
+    "source.hadith-muslim-8a",
+    "source.hadith-nawawi-2"
+  ],
   "blocks": [
     {
       "id": "block.faith-in-angels.overview",
@@ -44,13 +56,6 @@
     "label": {
       "id": "Saya memahami dasar iman kepada malaikat.",
       "en": "I understand the foundation of faith in angels."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

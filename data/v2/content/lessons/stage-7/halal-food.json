@@ -11,15 +11,20 @@
     "id": "Pertimbangkan bahan, proses, kebersihan, keamanan, dan informasi tepercaya.",
     "en": "Consider ingredients, processes, cleanliness, safety, and reliable information."
   },
-  "status": "draft",
   "iconId": "daily-life.food",
   "stageId": "stage.daily-life",
   "stageOrder": 10,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.basic-transactions"],
-    "next": ["lesson.daily-charity"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.basic-transactions"
+    ],
+    "next": [
+      "lesson.daily-charity"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

@@ -3,18 +3,22 @@
   "id": "lesson.shahada",
   "type": "lesson",
   "slug": "shahada",
-  "title": { "id": "Memahami syahadat", "en": "Understanding the Shahada" },
+  "title": {
+    "id": "Memahami syahadat",
+    "en": "Understanding the Shahada"
+  },
   "summary": {
     "id": "Pengantar kepada dua kesaksian dan cabang belajar yang menjelaskan maknanya.",
     "en": "An introduction to the two testimonies and the learning branches that explain their meaning."
   },
-  "status": "draft",
   "iconId": "faith.shahada",
   "stageId": "stage.faith-foundations",
   "stageOrder": 1,
   "group": "shahada-journey",
   "relationships": {
-    "prerequisites": ["lesson.quran-and-hadith"],
+    "prerequisites": [
+      "lesson.quran-and-hadith"
+    ],
     "next": [
       "lesson.knowing-allah",
       "lesson.tawhid",
@@ -23,9 +27,14 @@
       "lesson.following-sunnah",
       "lesson.understanding-hadith"
     ],
-    "related": ["lesson.faith-in-allah", "lesson.faith-in-messengers"]
+    "related": [
+      "lesson.faith-in-allah",
+      "lesson.faith-in-messengers"
+    ]
   },
-  "sourceIds": ["source.hadith-bukhari-8"],
+  "sourceIds": [
+    "source.hadith-bukhari-8"
+  ],
   "blocks": [
     {
       "id": "block.shahada.meaning",
@@ -78,12 +87,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
   }
 }

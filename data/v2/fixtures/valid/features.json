@@ -4,22 +4,37 @@
   "features": [
     {
       "id": "feature.prayer-schedule",
-      "label": { "id": "Jadwal salat", "en": "Prayer schedule" },
-      "description": { "id": "Membuka jadwal salat aplikasi.", "en": "Opens the application's prayer schedule." },
+      "label": {
+        "id": "Jadwal salat",
+        "en": "Prayer schedule"
+      },
+      "description": {
+        "id": "Membuka jadwal salat aplikasi.",
+        "en": "Opens the application's prayer schedule."
+      },
       "optional": true,
       "parameters": [
         {
           "name": "date",
           "type": "string",
           "required": false,
-          "description": { "id": "Tanggal awal opsional.", "en": "Optional initial date." }
+          "description": {
+            "id": "Tanggal awal opsional.",
+            "en": "Optional initial date."
+          }
         }
       ]
     },
     {
       "id": "feature.audio",
-      "label": { "id": "Audio", "en": "Audio" },
-      "description": { "id": "Memutar audio yang relevan.", "en": "Plays relevant audio." },
+      "label": {
+        "id": "Audio",
+        "en": "Audio"
+      },
+      "description": {
+        "id": "Memutar audio yang relevan.",
+        "en": "Plays relevant audio."
+      },
       "optional": true
     }
   ]

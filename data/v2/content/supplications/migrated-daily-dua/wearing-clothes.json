@@ -7,7 +7,6 @@
     "id": "Doa Memakai Pakaian",
     "en": "Supplication when getting dressed"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 22,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Keutamaan membaca doa ini, akan diampuni dosa yang telah lalu, InsyaAllah.",

@@ -7,7 +7,6 @@
     "id": "Doa ketika menyisir rambut",
     "en": "Supplication when combing the hair"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 52,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Ya Allah, halangilah rambut dan kulitku dari api neraka",
       "en": "O Allah, forbid my hair and skin from the Fire."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "worship.supplication"

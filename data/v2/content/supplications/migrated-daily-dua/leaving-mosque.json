@@ -7,7 +7,6 @@
     "id": "Doa Keluar Masjid",
     "en": "Supplication upon leaving the mosque"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 10,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "location.mosque",
   "benefits": {
     "id": "Bumi Allah sangatlah luas, ada banyak jalan mencari rezeki. Hendalkah seorang hamba meminta karunia kepada Allah agar dimudahkan untuk mendapat rezeki yang telah Allah bagikan kepada seluruh hamba-Nya.",

@@ -11,15 +11,20 @@
     "id": "Temukan tema iman, ibadah, akhlak, kisah, dan tanggung jawab sosial tanpa melepas konteks.",
     "en": "Explore themes of faith, worship, character, narratives, and social responsibility without losing context."
   },
-  "status": "draft",
   "iconId": "quran-learning.meaning",
   "stageId": "stage.quran-learning",
   "stageOrder": 8,
   "group": "quran-learning",
   "relationships": {
-    "prerequisites": ["lesson.brief-tafsir"],
-    "next": ["practice.quran-consistency"],
-    "related": ["lesson.quran-paths"]
+    "prerequisites": [
+      "lesson.brief-tafsir"
+    ],
+    "next": [
+      "practice.quran-consistency"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

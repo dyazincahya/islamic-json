@@ -7,7 +7,6 @@
     "id": "Al-Lathîfu",
     "en": "Al-Latif"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Al-Lathîfu",
@@ -30,18 +29,5 @@
   ],
   "sourceIds": [
     "source.quran-7-180"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

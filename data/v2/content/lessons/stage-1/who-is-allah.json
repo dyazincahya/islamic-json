@@ -3,26 +3,35 @@
   "id": "lesson.who-is-allah",
   "type": "lesson",
   "slug": "who-is-allah",
-  "title": { "id": "Siapakah Allah?", "en": "Who is Allah?" },
+  "title": {
+    "id": "Siapakah Allah?",
+    "en": "Who is Allah?"
+  },
   "summary": {
     "id": "Mengenal Allah sebagai satu-satunya Tuhan yang berhak disembah.",
     "en": "Knowing Allah as the only God worthy of worship."
   },
-  "status": "draft",
   "iconId": "faith.tawhid",
   "stageId": "stage.introduction",
   "stageOrder": 2,
   "group": "introduction",
   "relationships": {
-    "prerequisites": ["lesson.what-is-islam"],
-    "next": ["lesson.prophet-muhammad"],
+    "prerequisites": [
+      "lesson.what-is-islam"
+    ],
+    "next": [
+      "lesson.prophet-muhammad"
+    ],
     "related": [
       "lesson.knowing-allah",
       "lesson.tawhid",
       "lesson.faith-in-allah"
     ]
   },
-  "sourceIds": ["source.quran-2-255", "source.quran-112-1-4"],
+  "sourceIds": [
+    "source.quran-2-255",
+    "source.quran-112-1-4"
+  ],
   "blocks": [
     {
       "id": "block.who-is-allah.overview",
@@ -48,13 +57,6 @@
     "label": {
       "id": "Saya memahami bahwa hanya Allah yang berhak disembah.",
       "en": "I understand that Allah alone is worthy of worship."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

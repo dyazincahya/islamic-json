@@ -7,7 +7,6 @@
     "id": "Doa Bekal Takwa dari Orang Mukim Kepada yang Hendak Bersafar",
     "en": "A resident's supplication that a traveler be provided with piety"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 20,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.travel",
   "benefits": {
     "id": "Taqwa adalah sebaik-baik bekal yang harus disiapkan seorang hamba menuju akhirat, sebab tidak ada keselamatan kecuali dengan berbekal dengan ketaqwaan.",

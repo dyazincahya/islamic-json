@@ -7,7 +7,6 @@
     "id": "Doa agar selalu dicukupkan rezeki",
     "en": "Supplication for sufficient lawful provision"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 53,
   "group": "daily-supplications",
@@ -38,18 +37,5 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication"
 }

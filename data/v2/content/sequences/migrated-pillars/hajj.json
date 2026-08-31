@@ -3,103 +3,395 @@
   "id": "sequence.migrated-hajj",
   "type": "sequence",
   "slug": "migrated-hajj",
-  "title": { "id": "Urutan haji", "en": "Hajj sequence" },
-  "summary": { "id": "Migrasi 13 langkah haji dari data lama; urutan dan bacaannya menunggu peninjauan.", "en": "A migration of 13 Hajj steps from the legacy data; its order and recitations await review." },
-  "status": "draft",
+  "title": {
+    "id": "Urutan haji",
+    "en": "Hajj sequence"
+  },
+  "summary": {
+    "id": "Migrasi 13 langkah haji dari data lama; urutan dan bacaannya menunggu peninjauan.",
+    "en": "A migration of 13 Hajj steps from the legacy data; its order and recitations await review."
+  },
   "iconId": "worship.hajj",
   "stageId": "stage.pillars-journey",
   "stageOrder": 3,
   "group": "migrated-pillars",
-  "seasonalTags": ["season.hajj"],
+  "seasonalTags": [
+    "season.hajj"
+  ],
   "featureLinks": [
-    { "featureId": "feature.location", "label": { "id": "Buka bantuan lokasi", "en": "Open location assistance" }, "required": false, "parameters": { "purpose": "hajj-sites" } },
-    { "featureId": "feature.audio", "label": { "id": "Dengarkan bacaan haji", "en": "Listen to Hajj recitations" }, "required": false }
+    {
+      "featureId": "feature.location",
+      "label": {
+        "id": "Buka bantuan lokasi",
+        "en": "Open location assistance"
+      },
+      "required": false,
+      "parameters": {
+        "purpose": "hajj-sites"
+      }
+    },
+    {
+      "featureId": "feature.audio",
+      "label": {
+        "id": "Dengarkan bacaan haji",
+        "en": "Listen to Hajj recitations"
+      },
+      "required": false
+    }
   ],
   "steps": [
     {
-      "id": "step.migrated-hajj.preparation-ihram", "order": 1,
-      "title": { "id": "Persiapan dan ihram", "en": "Preparation and Ihram" },
-      "blocks": [{ "id": "block.migrated-hajj.preparation-ihram", "type": "paragraph", "text": { "id": "Mandi, berwudu, dan memakai pakaian ihram di miqat.", "en": "Bathe, perform ablution, and wear ihram clothing at the miqat." } }],
-      "recitation": { "id": "recitation.migrated-hajj.ihram", "arabic": "نَوَيْتُ الْحَجَّ وَأَحْرَمْتُ بِهِ لِلّٰهِ تَعَالَى", "translation": { "id": "Aku berniat haji dan berihram dengannya karena Allah Ta'ala.", "en": "I intend Hajj and enter ihram for it for Allah Most High." } }
+      "id": "step.migrated-hajj.preparation-ihram",
+      "order": 1,
+      "title": {
+        "id": "Persiapan dan ihram",
+        "en": "Preparation and Ihram"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.preparation-ihram",
+          "type": "paragraph",
+          "text": {
+            "id": "Mandi, berwudu, dan memakai pakaian ihram di miqat.",
+            "en": "Bathe, perform ablution, and wear ihram clothing at the miqat."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.ihram",
+        "arabic": "نَوَيْتُ الْحَجَّ وَأَحْرَمْتُ بِهِ لِلّٰهِ تَعَالَى",
+        "translation": {
+          "id": "Aku berniat haji dan berihram dengannya karena Allah Ta'ala.",
+          "en": "I intend Hajj and enter ihram for it for Allah Most High."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.talbiyah", "order": 2,
-      "title": { "id": "Talbiyah", "en": "Talbiyah" },
-      "blocks": [{ "id": "block.migrated-hajj.talbiyah", "type": "paragraph", "text": { "id": "Memperbanyak talbiyah selama perjalanan.", "en": "Recite the Talbiyah frequently during the journey." } }],
-      "recitation": { "id": "recitation.migrated-hajj.talbiyah", "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيْكَ لَكَ لَبَّيْكَ", "translation": { "id": "Aku memenuhi panggilan-Mu, ya Allah, aku memenuhi panggilan-Mu. Aku memenuhi panggilan-Mu; tidak ada sekutu bagi-Mu; aku memenuhi panggilan-Mu.", "en": "Here I am at Your service, O Allah, here I am. Here I am; You have no partner; here I am." } }
+      "id": "step.migrated-hajj.talbiyah",
+      "order": 2,
+      "title": {
+        "id": "Talbiyah",
+        "en": "Talbiyah"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.talbiyah",
+          "type": "paragraph",
+          "text": {
+            "id": "Memperbanyak talbiyah selama perjalanan.",
+            "en": "Recite the Talbiyah frequently during the journey."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.talbiyah",
+        "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيْكَ لَكَ لَبَّيْكَ",
+        "translation": {
+          "id": "Aku memenuhi panggilan-Mu, ya Allah, aku memenuhi panggilan-Mu. Aku memenuhi panggilan-Mu; tidak ada sekutu bagi-Mu; aku memenuhi panggilan-Mu.",
+          "en": "Here I am at Your service, O Allah, here I am. Here I am; You have no partner; here I am."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.tawaf-qudum", "order": 3,
-      "title": { "id": "Tawaf qudum", "en": "Tawaf Qudum" },
-      "blocks": [{ "id": "block.migrated-hajj.tawaf-qudum", "type": "paragraph", "text": { "id": "Mengelilingi Ka'bah 7 kali, dimulai dari Hajar Aswad.", "en": "Circle the Kaaba 7 times, starting from the Black Stone." } }],
-      "recitation": { "id": "recitation.migrated-hajj.takbir-tawaf-qudum", "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ", "translation": { "id": "Dengan nama Allah, dan Allah Mahabesar.", "en": "In the name of Allah, and Allah is the Greatest." } }
+      "id": "step.migrated-hajj.tawaf-qudum",
+      "order": 3,
+      "title": {
+        "id": "Tawaf qudum",
+        "en": "Tawaf Qudum"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.tawaf-qudum",
+          "type": "paragraph",
+          "text": {
+            "id": "Mengelilingi Ka'bah 7 kali, dimulai dari Hajar Aswad.",
+            "en": "Circle the Kaaba 7 times, starting from the Black Stone."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.takbir-tawaf-qudum",
+        "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+        "translation": {
+          "id": "Dengan nama Allah, dan Allah Mahabesar.",
+          "en": "In the name of Allah, and Allah is the Greatest."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.sai-safa-marwah", "order": 4,
-      "title": { "id": "Sa'i Safa-Marwah", "en": "Sa'i between Safa and Marwah" },
-      "blocks": [{ "id": "block.migrated-hajj.sai-safa-marwah", "type": "paragraph", "text": { "id": "Berjalan 7 kali antara Safa dan Marwah.", "en": "Travel 7 times between Safa and Marwah." } }],
-      "recitation": { "id": "recitation.migrated-hajj.tahlil-sai", "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ", "translation": { "id": "Tidak ada Tuhan yang berhak disembah selain Allah semata; tidak ada sekutu bagi-Nya.", "en": "None is worthy of worship except Allah alone; He has no partner." } }
+      "id": "step.migrated-hajj.sai-safa-marwah",
+      "order": 4,
+      "title": {
+        "id": "Sa'i Safa-Marwah",
+        "en": "Sa'i between Safa and Marwah"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.sai-safa-marwah",
+          "type": "paragraph",
+          "text": {
+            "id": "Berjalan 7 kali antara Safa dan Marwah.",
+            "en": "Travel 7 times between Safa and Marwah."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.tahlil-sai",
+        "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ",
+        "translation": {
+          "id": "Tidak ada Tuhan yang berhak disembah selain Allah semata; tidak ada sekutu bagi-Nya.",
+          "en": "None is worthy of worship except Allah alone; He has no partner."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.wukuf-arafah", "order": 5,
-      "title": { "id": "Wukuf di Arafah", "en": "Standing at Arafah" },
-      "blocks": [{ "id": "block.migrated-hajj.wukuf-arafah", "type": "paragraph", "text": { "id": "Berdiam di Arafah, berzikir, dan berdoa.", "en": "Remain at Arafah, remember Allah, and supplicate." } }],
-      "recitation": { "id": "recitation.migrated-hajj.tahlil-arafah", "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ", "translation": { "id": "Tidak ada Tuhan yang berhak disembah selain Allah semata; tidak ada sekutu bagi-Nya.", "en": "None is worthy of worship except Allah alone; He has no partner." } }
+      "id": "step.migrated-hajj.wukuf-arafah",
+      "order": 5,
+      "title": {
+        "id": "Wukuf di Arafah",
+        "en": "Standing at Arafah"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.wukuf-arafah",
+          "type": "paragraph",
+          "text": {
+            "id": "Berdiam di Arafah, berzikir, dan berdoa.",
+            "en": "Remain at Arafah, remember Allah, and supplicate."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.tahlil-arafah",
+        "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ",
+        "translation": {
+          "id": "Tidak ada Tuhan yang berhak disembah selain Allah semata; tidak ada sekutu bagi-Nya.",
+          "en": "None is worthy of worship except Allah alone; He has no partner."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.muzdalifah", "order": 6,
-      "title": { "id": "Mabit di Muzdalifah", "en": "Overnight stay at Muzdalifah" },
-      "blocks": [{ "id": "block.migrated-hajj.muzdalifah", "type": "paragraph", "text": { "id": "Bermalam di Muzdalifah dan mengumpulkan batu.", "en": "Spend the night at Muzdalifah and collect pebbles." } }],
-      "recitation": { "id": "recitation.migrated-hajj.muzdalifah-praise", "arabic": "اللَّهُمَّ لَكَ الْحَمْدُ كَمَا نَقُولُ", "translation": { "id": "Ya Allah, bagi-Mu segala puji sebagaimana yang kami ucapkan.", "en": "O Allah, to You belongs all praise as we say." } }
+      "id": "step.migrated-hajj.muzdalifah",
+      "order": 6,
+      "title": {
+        "id": "Mabit di Muzdalifah",
+        "en": "Overnight stay at Muzdalifah"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.muzdalifah",
+          "type": "paragraph",
+          "text": {
+            "id": "Bermalam di Muzdalifah dan mengumpulkan batu.",
+            "en": "Spend the night at Muzdalifah and collect pebbles."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.muzdalifah-praise",
+        "arabic": "اللَّهُمَّ لَكَ الْحَمْدُ كَمَا نَقُولُ",
+        "translation": {
+          "id": "Ya Allah, bagi-Mu segala puji sebagaimana yang kami ucapkan.",
+          "en": "O Allah, to You belongs all praise as we say."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.jamrah-aqabah", "order": 7,
-      "title": { "id": "Melempar Jumrah Aqabah", "en": "Stoning Jamarat al-Aqabah" },
-      "blocks": [{ "id": "block.migrated-hajj.jamrah-aqabah", "type": "paragraph", "text": { "id": "Melempar 7 batu ke Jumrah Aqabah di Mina.", "en": "Throw 7 pebbles at Jamarat al-Aqabah in Mina." } }],
-      "recitation": { "id": "recitation.migrated-hajj.takbir-jamrah-aqabah", "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ", "translation": { "id": "Dengan nama Allah, dan Allah Mahabesar.", "en": "In the name of Allah, and Allah is the Greatest." } }
+      "id": "step.migrated-hajj.jamrah-aqabah",
+      "order": 7,
+      "title": {
+        "id": "Melempar Jumrah Aqabah",
+        "en": "Stoning Jamarat al-Aqabah"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.jamrah-aqabah",
+          "type": "paragraph",
+          "text": {
+            "id": "Melempar 7 batu ke Jumrah Aqabah di Mina.",
+            "en": "Throw 7 pebbles at Jamarat al-Aqabah in Mina."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.takbir-jamrah-aqabah",
+        "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+        "translation": {
+          "id": "Dengan nama Allah, dan Allah Mahabesar.",
+          "en": "In the name of Allah, and Allah is the Greatest."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.first-tahallul", "order": 8,
-      "title": { "id": "Tahallul awal", "en": "Initial Tahallul" },
-      "blocks": [{ "id": "block.migrated-hajj.first-tahallul", "type": "paragraph", "text": { "id": "Mencukur atau memotong rambut setelah melempar jumrah.", "en": "Shave or cut the hair after stoning the jamrah." } }]
+      "id": "step.migrated-hajj.first-tahallul",
+      "order": 8,
+      "title": {
+        "id": "Tahallul awal",
+        "en": "Initial Tahallul"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.first-tahallul",
+          "type": "paragraph",
+          "text": {
+            "id": "Mencukur atau memotong rambut setelah melempar jumrah.",
+            "en": "Shave or cut the hair after stoning the jamrah."
+          }
+        }
+      ]
     },
     {
-      "id": "step.migrated-hajj.tawaf-ifadah", "order": 9,
-      "title": { "id": "Tawaf ifadah", "en": "Tawaf al-Ifadah" },
-      "blocks": [{ "id": "block.migrated-hajj.tawaf-ifadah", "type": "paragraph", "text": { "id": "Mengelilingi Ka'bah 7 kali sebagai rukun haji.", "en": "Circle the Kaaba 7 times as a pillar of Hajj." } }],
-      "recitation": { "id": "recitation.migrated-hajj.takbir-tawaf-ifadah", "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ", "translation": { "id": "Dengan nama Allah, dan Allah Mahabesar.", "en": "In the name of Allah, and Allah is the Greatest." } }
+      "id": "step.migrated-hajj.tawaf-ifadah",
+      "order": 9,
+      "title": {
+        "id": "Tawaf ifadah",
+        "en": "Tawaf al-Ifadah"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.tawaf-ifadah",
+          "type": "paragraph",
+          "text": {
+            "id": "Mengelilingi Ka'bah 7 kali sebagai rukun haji.",
+            "en": "Circle the Kaaba 7 times as a pillar of Hajj."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.takbir-tawaf-ifadah",
+        "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+        "translation": {
+          "id": "Dengan nama Allah, dan Allah Mahabesar.",
+          "en": "In the name of Allah, and Allah is the Greatest."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.sai-if-needed", "order": 10,
-      "title": { "id": "Sa'i jika belum", "en": "Sa'i if not yet completed" },
-      "blocks": [{ "id": "block.migrated-hajj.sai-if-needed", "type": "paragraph", "text": { "id": "Melaksanakan sa'i setelah tawaf ifadah untuk haji tamattu' jika belum dilakukan.", "en": "Perform sa'i after Tawaf al-Ifadah for Hajj Tamattu' if it has not yet been completed." } }],
-      "recitation": { "id": "recitation.migrated-hajj.tahlil-sai-if-needed", "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ", "translation": { "id": "Tidak ada Tuhan yang berhak disembah selain Allah semata; tidak ada sekutu bagi-Nya.", "en": "None is worthy of worship except Allah alone; He has no partner." } }
+      "id": "step.migrated-hajj.sai-if-needed",
+      "order": 10,
+      "title": {
+        "id": "Sa'i jika belum",
+        "en": "Sa'i if not yet completed"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.sai-if-needed",
+          "type": "paragraph",
+          "text": {
+            "id": "Melaksanakan sa'i setelah tawaf ifadah untuk haji tamattu' jika belum dilakukan.",
+            "en": "Perform sa'i after Tawaf al-Ifadah for Hajj Tamattu' if it has not yet been completed."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.tahlil-sai-if-needed",
+        "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ",
+        "translation": {
+          "id": "Tidak ada Tuhan yang berhak disembah selain Allah semata; tidak ada sekutu bagi-Nya.",
+          "en": "None is worthy of worship except Allah alone; He has no partner."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.mina", "order": 11,
-      "title": { "id": "Mabit di Mina", "en": "Overnight stay at Mina" },
-      "blocks": [{ "id": "block.migrated-hajj.mina", "type": "paragraph", "text": { "id": "Bermalam di Mina dan melempar tiga jumrah.", "en": "Spend the night at Mina and stone the three jamarat." } }],
-      "recitation": { "id": "recitation.migrated-hajj.takbir-mina", "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ", "translation": { "id": "Dengan nama Allah, dan Allah Mahabesar.", "en": "In the name of Allah, and Allah is the Greatest." } }
+      "id": "step.migrated-hajj.mina",
+      "order": 11,
+      "title": {
+        "id": "Mabit di Mina",
+        "en": "Overnight stay at Mina"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.mina",
+          "type": "paragraph",
+          "text": {
+            "id": "Bermalam di Mina dan melempar tiga jumrah.",
+            "en": "Spend the night at Mina and stone the three jamarat."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.takbir-mina",
+        "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+        "translation": {
+          "id": "Dengan nama Allah, dan Allah Mahabesar.",
+          "en": "In the name of Allah, and Allah is the Greatest."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.second-tahallul", "order": 12,
-      "title": { "id": "Tahallul tsani", "en": "Second Tahallul" },
-      "blocks": [{ "id": "block.migrated-hajj.second-tahallul", "type": "paragraph", "text": { "id": "Data lama menyebut mencukur rambut lagi dan berakhirnya seluruh larangan ihram; rincian ini menunggu peninjauan.", "en": "The legacy data states that the hair is shaved again and all ihram restrictions end; this detail awaits review." } }],
-      "recitation": { "id": "recitation.migrated-hajj.takbir-second-tahallul", "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ", "translation": { "id": "Dengan nama Allah, dan Allah Mahabesar.", "en": "In the name of Allah, and Allah is the Greatest." } }
+      "id": "step.migrated-hajj.second-tahallul",
+      "order": 12,
+      "title": {
+        "id": "Tahallul tsani",
+        "en": "Second Tahallul"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.second-tahallul",
+          "type": "paragraph",
+          "text": {
+            "id": "Data lama menyebut mencukur rambut lagi dan berakhirnya seluruh larangan ihram; rincian ini menunggu peninjauan.",
+            "en": "The legacy data states that the hair is shaved again and all ihram restrictions end; this detail awaits review."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.takbir-second-tahallul",
+        "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+        "translation": {
+          "id": "Dengan nama Allah, dan Allah Mahabesar.",
+          "en": "In the name of Allah, and Allah is the Greatest."
+        }
+      }
     },
     {
-      "id": "step.migrated-hajj.tawaf-wada", "order": 13,
-      "title": { "id": "Tawaf wada", "en": "Farewell Tawaf" },
-      "blocks": [{ "id": "block.migrated-hajj.tawaf-wada", "type": "paragraph", "text": { "id": "Tawaf perpisahan sebelum meninggalkan Makkah.", "en": "Perform the farewell tawaf before leaving Mecca." } }],
-      "recitation": { "id": "recitation.migrated-hajj.takbir-tawaf-wada", "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ", "translation": { "id": "Dengan nama Allah, dan Allah Mahabesar.", "en": "In the name of Allah, and Allah is the Greatest." } }
+      "id": "step.migrated-hajj.tawaf-wada",
+      "order": 13,
+      "title": {
+        "id": "Tawaf wada",
+        "en": "Farewell Tawaf"
+      },
+      "blocks": [
+        {
+          "id": "block.migrated-hajj.tawaf-wada",
+          "type": "paragraph",
+          "text": {
+            "id": "Tawaf perpisahan sebelum meninggalkan Makkah.",
+            "en": "Perform the farewell tawaf before leaving Mecca."
+          }
+        }
+      ],
+      "recitation": {
+        "id": "recitation.migrated-hajj.takbir-tawaf-wada",
+        "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+        "translation": {
+          "id": "Dengan nama Allah, dan Allah Mahabesar.",
+          "en": "In the name of Allah, and Allah is the Greatest."
+        }
+      }
     }
   ],
-  "completionPrompt": { "type": "practice-checklist", "label": { "id": "Tinjau urutan haji", "en": "Review the Hajj sequence" }, "items": [
-    { "id": "completion.migrated-hajj.order", "label": { "id": "Saya dapat mengikuti 13 langkah dalam urutan data migrasi.", "en": "I can follow the 13 steps in the migrated sequence." } },
-    { "id": "completion.migrated-hajj.review-note", "label": { "id": "Saya memahami bahwa urutan dan bacaan ini masih menunggu peninjauan.", "en": "I understand that this order and its recitations still await review." } }
-  ] },
-  "review": {
-    "content": { "outcome": "pending", "notes": { "id": "Urutan, rincian ritual, dan bacaan belum memiliki rujukan presisi dalam registri.", "en": "The order, ritual details, and recitations do not yet have precise registry references." } },
-    "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } }
+  "completionPrompt": {
+    "type": "practice-checklist",
+    "label": {
+      "id": "Tinjau urutan haji",
+      "en": "Review the Hajj sequence"
+    },
+    "items": [
+      {
+        "id": "completion.migrated-hajj.order",
+        "label": {
+          "id": "Saya dapat mengikuti 13 langkah dalam urutan data migrasi.",
+          "en": "I can follow the 13 steps in the migrated sequence."
+        }
+      },
+      {
+        "id": "completion.migrated-hajj.review-note",
+        "label": {
+          "id": "Saya memahami bahwa urutan dan bacaan ini masih menunggu peninjauan.",
+          "en": "I understand that this order and its recitations still await review."
+        }
+      }
+    ]
   }
 }

@@ -38,7 +38,7 @@
 - [x] 5.3 Add validation for unknown icon IDs, missing registry references, invalid provider metadata, and circular fallback chains.
 - [x] 5.4 Define SVG safety, view-box, style, provenance, license, attribution, and relative-path rules in schema and contributor documentation.
 - [x] 5.5 Implement SVG checks that reject scripts, external resources, font-dependent text, presentation-library classes, and missing required licensing metadata.
-- [ ] 5.6 Add a small representative SVG subset only for semantic concepts that need a repository default, and verify each asset resolves through a version-pinned CDN URL; leave other entries provider- or application-mapped.
+- [x] 5.6 Add a small representative SVG subset only for semantic concepts that need a repository default, and verify each asset resolves through a version-pinned CDN URL; leave other entries provider- or application-mapped.
 
 ## 6. Seven-Stage Journey Catalog
 
@@ -95,3 +95,9 @@
 - [x] 11.3 Add consumer examples for locale selection, index discovery, content-block rendering, relationship navigation, source display, and semantic icon provider mapping.
 - [x] 11.4 Run the complete validator over schemas, fixtures, v2 data, indexes, relationships, review gates, SVG assets, and compatibility protections and resolve every reported error.
 - [x] 11.5 Confirm the implementation diff does not modify `holy-quran`, any hadith-library dataset, or existing legacy data shapes, and record the migration and validation summary for the v2 release.
+
+## 12. Remove Unrequested Editorial Workflow
+
+- [x] 12.1 Remove publication-status and review metadata from v2 schemas, fixtures, content documents, indexes, and registries while retaining structured source references and deprecation traceability.
+- [x] 12.2 Remove review-state validation gates, status filters, and reviewer requirements from tooling and tests.
+- [x] 12.3 Update documentation and consumer examples to describe technical validation only, without editorial-review claims.

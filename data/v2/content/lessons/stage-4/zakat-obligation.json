@@ -11,7 +11,6 @@
     "id": "Pelajari kewajiban, harta, penerima, dan penyaluran zakat dengan verifikasi tepercaya.",
     "en": "Learn zakat obligation, assets, recipients, and distribution with trusted verification."
   },
-  "status": "draft",
   "stageId": "stage.pillars-journey",
   "stageOrder": 14,
   "group": "zakat",
@@ -28,19 +27,6 @@
   "sourceIds": [
     "source.quran-2-43"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "seasonalTags": [],
   "blocks": [
     {

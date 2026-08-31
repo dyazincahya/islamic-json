@@ -11,15 +11,20 @@
     "id": "Kenali perubahan bentuk huruf di awal, tengah, atau akhir kata.",
     "en": "Recognize how letter shapes change at the beginning, middle, or end of a word."
   },
-  "status": "draft",
   "iconId": "quran-learning.arabic-letters",
   "stageId": "stage.quran-learning",
   "stageOrder": 5,
   "group": "quran-learning",
   "relationships": {
-    "prerequisites": ["lesson.quran-harakat"],
-    "next": ["practice.quran-reading"],
-    "related": ["lesson.quran-paths"]
+    "prerequisites": [
+      "lesson.quran-harakat"
+    ],
+    "next": [
+      "practice.quran-reading"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

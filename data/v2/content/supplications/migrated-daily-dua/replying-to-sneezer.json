@@ -7,7 +7,6 @@
     "id": "Doa Saat Mendengar Orang Bersin",
     "en": "Supplication upon hearing someone sneeze"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 35,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Sesungguhnya Allah mencintai bersin, sebab bersin menggerakan seseorang untuk beribadah. Dan anjuran membalas pujian atas Allah orang yang memuji Allah, begitu juga sebaliknya.",

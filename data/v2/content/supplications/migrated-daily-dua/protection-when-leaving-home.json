@@ -7,7 +7,6 @@
     "id": "Doa Agar Tidak Menyebabkan Keburukan atau Terkena Keburukan Di luar Rumah",
     "en": "Supplication for protection from causing or receiving harm outside the home"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 17,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "general.home",
   "benefits": {
     "id": "Ketika seseorang keluar rumah maka ia akan banyak menemui segala macam hal baik maupun buruk, terutama keburukan yang diperbuat oleh dirinya sendiri. Oleh karena itu diperintahkan untuk berlindung dari diri sendiri dan dari orang lain.",

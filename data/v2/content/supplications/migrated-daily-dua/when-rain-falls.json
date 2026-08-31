@@ -7,7 +7,6 @@
     "id": "Doa Ketika Turun Hujan",
     "en": "Supplication when rain falls"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 25,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Ajuran untuk berdo'a ketika turun hujan agar kebaikan dan keberkahan semakin bertambah, begitu pula semakin banyak kemanfaatan.",

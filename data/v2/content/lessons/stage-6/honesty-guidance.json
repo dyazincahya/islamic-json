@@ -11,14 +11,17 @@
     "id": "Selaraskan ucapan dan tindakan dengan keadaan sebenarnya.",
     "en": "Align speech and action with reality."
   },
-  "status": "draft",
   "iconId": "faith.prophetic-guidance",
   "stageId": "stage.hadith-character",
   "stageOrder": 2,
   "group": "thematic-guidance",
   "relationships": {
-    "prerequisites": ["lesson.intention-guidance"],
-    "next": ["lesson.guarding-speech-guidance"],
+    "prerequisites": [
+      "lesson.intention-guidance"
+    ],
+    "next": [
+      "lesson.guarding-speech-guidance"
+    ],
     "related": []
   },
   "blocks": [
@@ -88,19 +91,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   }
 }

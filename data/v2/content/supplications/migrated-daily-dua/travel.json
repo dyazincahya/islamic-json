@@ -7,7 +7,6 @@
     "id": "Doa Safar",
     "en": "Travel supplication"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 18,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.travel",
   "benefits": {
     "id": "Didalam doa ini ada 2 bagian. Pertama adalah pujian kepada Allah ta'ala dan ketundukan diri hamba, yang kedua adalah permohonan kepada Allah untuk segala kemudahan baik dalam safar maupun urusan hal-hal yang seorang hamba tinggalkan di rumah.",

@@ -7,7 +7,6 @@
     "id": "Al-Bâthinu",
     "en": "Al-Batin"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Al-Bâthinu",
@@ -30,18 +29,5 @@
   ],
   "sourceIds": [
     "source.quran-7-180"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

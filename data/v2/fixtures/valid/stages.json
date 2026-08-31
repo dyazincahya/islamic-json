@@ -5,90 +5,173 @@
     {
       "id": "stage.introduction",
       "order": 1,
-      "title": { "id": "Pengenalan Islam", "en": "Introduction to Islam" },
-      "goal": { "id": "Mengenal dasar Islam.", "en": "Understand the basics of Islam." },
+      "title": {
+        "id": "Pengenalan Islam",
+        "en": "Introduction to Islam"
+      },
+      "goal": {
+        "id": "Mengenal dasar Islam.",
+        "en": "Understand the basics of Islam."
+      },
       "entryContentId": "lesson.what-is-islam",
       "indexPath": "indexes/stage-introduction.json",
-      "contentIds": ["lesson.what-is-islam"]
+      "contentIds": [
+        "lesson.what-is-islam"
+      ]
     },
     {
       "id": "stage.faith-foundations",
       "order": 2,
-      "title": { "id": "Syahadat dan dasar iman", "en": "Shahada and foundations of faith" },
-      "goal": { "id": "Memahami syahadat dan iman.", "en": "Understand Shahada and faith." },
+      "title": {
+        "id": "Syahadat dan dasar iman",
+        "en": "Shahada and foundations of faith"
+      },
+      "goal": {
+        "id": "Memahami syahadat dan iman.",
+        "en": "Understand Shahada and faith."
+      },
       "entryContentId": "lesson.shahada",
       "indexPath": "indexes/stage-faith-foundations.json",
-      "contentIds": ["lesson.shahada"]
+      "contentIds": [
+        "lesson.shahada"
+      ]
     },
     {
       "id": "stage.purification-prayer",
       "order": 3,
-      "title": { "id": "Bersuci dan salat", "en": "Purification and prayer" },
-      "goal": { "id": "Belajar bersuci dan salat.", "en": "Learn purification and prayer." },
+      "title": {
+        "id": "Bersuci dan salat",
+        "en": "Purification and prayer"
+      },
+      "goal": {
+        "id": "Belajar bersuci dan salat.",
+        "en": "Learn purification and prayer."
+      },
       "entryContentId": "lesson.cleanliness",
       "indexPath": "indexes/stage-purification-prayer.json",
-      "contentIds": ["lesson.cleanliness"]
+      "contentIds": [
+        "lesson.cleanliness"
+      ]
     },
     {
       "id": "stage.pillars-journey",
       "order": 4,
-      "title": { "id": "Puasa, zakat, dan haji", "en": "Fasting, zakat, and Hajj" },
-      "goal": { "id": "Memahami ibadah utama lainnya.", "en": "Understand the other major acts of worship." },
+      "title": {
+        "id": "Puasa, zakat, dan haji",
+        "en": "Fasting, zakat, and Hajj"
+      },
+      "goal": {
+        "id": "Memahami ibadah utama lainnya.",
+        "en": "Understand the other major acts of worship."
+      },
       "entryContentId": "lesson.fasting-purpose",
       "indexPath": "indexes/stage-pillars-journey.json",
-      "contentIds": ["lesson.fasting-purpose"]
+      "contentIds": [
+        "lesson.fasting-purpose"
+      ]
     },
     {
       "id": "stage.quran-learning",
       "order": 5,
-      "title": { "id": "Belajar Al-Qur'an", "en": "Quran learning" },
-      "goal": { "id": "Membaca dan memahami Al-Qur'an sesuai kemampuan.", "en": "Read and understand the Quran according to ability." },
+      "title": {
+        "id": "Belajar Al-Qur'an",
+        "en": "Quran learning"
+      },
+      "goal": {
+        "id": "Membaca dan memahami Al-Qur'an sesuai kemampuan.",
+        "en": "Read and understand the Quran according to ability."
+      },
       "entryContentId": "lesson.quran-paths",
       "indexPath": "indexes/stage-quran-learning.json",
-      "contentIds": ["lesson.quran-paths"],
+      "contentIds": [
+        "lesson.quran-paths"
+      ],
       "adaptivePaths": [
         {
           "id": "path.quran-cannot-read",
-          "label": { "id": "Belum dapat membaca", "en": "Cannot read yet" },
+          "label": {
+            "id": "Belum dapat membaca",
+            "en": "Cannot read yet"
+          },
           "entryContentId": "lesson.iqra-introduction"
         },
         {
           "id": "path.quran-tajwid",
-          "label": { "id": "Latihan tajwid", "en": "Tajwid practice" },
+          "label": {
+            "id": "Latihan tajwid",
+            "en": "Tajwid practice"
+          },
           "entryContentId": "practice.basic-tajwid",
-          "featureLinks": [{ "featureId": "feature.audio", "required": false }]
+          "featureLinks": [
+            {
+              "featureId": "feature.audio",
+              "required": false
+            }
+          ]
         },
         {
           "id": "path.quran-meaning",
-          "label": { "id": "Memahami makna", "en": "Understand meaning" },
+          "label": {
+            "id": "Memahami makna",
+            "en": "Understand meaning"
+          },
           "entryContentId": "lesson.quran-translation",
-          "featureLinks": [{ "featureId": "feature.reading", "required": false }]
+          "featureLinks": [
+            {
+              "featureId": "feature.reading",
+              "required": false
+            }
+          ]
         },
         {
           "id": "path.quran-consistency",
-          "label": { "id": "Konsisten membaca", "en": "Reading consistency" },
+          "label": {
+            "id": "Konsisten membaca",
+            "en": "Reading consistency"
+          },
           "entryContentId": "practice.quran-consistency",
-          "featureLinks": [{ "featureId": "feature.continuation-history", "required": false }]
+          "featureLinks": [
+            {
+              "featureId": "feature.continuation-history",
+              "required": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "stage.hadith-character",
       "order": 6,
-      "title": { "id": "Hadis, Sunnah, dan akhlak", "en": "Hadith, Sunnah, and character" },
-      "goal": { "id": "Mempelajari tuntunan tematik dan akhlak.", "en": "Learn thematic guidance and character." },
+      "title": {
+        "id": "Hadis, Sunnah, dan akhlak",
+        "en": "Hadith, Sunnah, and character"
+      },
+      "goal": {
+        "id": "Mempelajari tuntunan tematik dan akhlak.",
+        "en": "Learn thematic guidance and character."
+      },
       "entryContentId": "lesson.intention-guidance",
       "indexPath": "indexes/stage-hadith-character.json",
-      "contentIds": ["lesson.intention-guidance"]
+      "contentIds": [
+        "lesson.intention-guidance"
+      ]
     },
     {
       "id": "stage.daily-life",
       "order": 7,
-      "title": { "id": "Kehidupan Muslim sehari-hari", "en": "Daily Muslim life" },
-      "goal": { "id": "Menerapkan Islam dalam keseharian.", "en": "Apply Islam in daily life." },
+      "title": {
+        "id": "Kehidupan Muslim sehari-hari",
+        "en": "Daily Muslim life"
+      },
+      "goal": {
+        "id": "Menerapkan Islam dalam keseharian.",
+        "en": "Apply Islam in daily life."
+      },
       "entryContentId": "lesson.daily-supplications",
       "indexPath": "indexes/stage-daily-life.json",
-      "contentIds": ["lesson.daily-supplications"]
+      "contentIds": [
+        "lesson.daily-supplications"
+      ]
     }
   ]
 }

@@ -11,7 +11,6 @@
     "id": "Pelajari tujuan, syarat, pelaksanaan, keringanan, dan tindak lanjut puasa tanpa menyederhanakan perbedaan keadaan.",
     "en": "Learn fasting purpose, conditions, observance, concessions, and follow-up without oversimplifying differing circumstances."
   },
-  "status": "draft",
   "stageId": "stage.pillars-journey",
   "stageOrder": 4,
   "group": "fasting",
@@ -28,19 +27,6 @@
   "sourceIds": [
     "source.quran-2-187"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "seasonalTags": [
     "season.ramadan"
   ],

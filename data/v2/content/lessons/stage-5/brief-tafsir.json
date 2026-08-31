@@ -11,15 +11,20 @@
     "id": "Kenali fungsi tafsir ringkas untuk menjelaskan konteks dan pesan ayat.",
     "en": "Recognize how brief tafsir explains a verses context and message."
   },
-  "status": "draft",
   "iconId": "quran-learning.meaning",
   "stageId": "stage.quran-learning",
   "stageOrder": 7,
   "group": "quran-learning",
   "relationships": {
-    "prerequisites": ["lesson.quran-translation"],
-    "next": ["lesson.quran-themes"],
-    "related": ["lesson.quran-paths"]
+    "prerequisites": [
+      "lesson.quran-translation"
+    ],
+    "next": [
+      "lesson.quran-themes"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

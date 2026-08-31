@@ -7,7 +7,6 @@
     "id": "Al-`Adhîmu",
     "en": "Al-'Azim"
   },
-  "status": "draft",
   "iconId": "faith.allah",
   "term": {
     "id": "Al-`Adhîmu",
@@ -31,18 +30,5 @@
   "sourceIds": [
     "source.quran-7-180",
     "source.quran-2-255"
-  ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  }
+  ]
 }

@@ -11,13 +11,18 @@
     "id": "Ringkasan tujuan, besaran, waktu, penerima, dan variasi tanggungan zakat fitrah dari tiga dokumen lama.",
     "en": "A summary of the purpose, amount, timing, recipients, and responsibility variants of Zakat al-Fitr from three legacy documents."
   },
-  "status": "under-review",
   "iconId": "worship.zakat",
   "stageId": "stage.pillars-journey",
   "stageOrder": 3,
   "group": "migrated-pillars.zakat",
-  "seasonalTags": ["season.ramadan", "season.eid-al-fitr"],
-  "sourceIds": ["source.quran-9-60", "source.quran-9-103"],
+  "seasonalTags": [
+    "season.ramadan",
+    "season.eid-al-fitr"
+  ],
+  "sourceIds": [
+    "source.quran-9-60",
+    "source.quran-9-103"
+  ],
   "relationships": {
     "related": [
       "supplication.migrated-zakat-fitrah-self",
@@ -33,7 +38,9 @@
         "en": "Open zakat estimation support"
       },
       "required": false,
-      "parameters": { "calculatorType": "zakat-fitrah" }
+      "parameters": {
+        "calculatorType": "zakat-fitrah"
+      }
     },
     {
       "featureId": "feature.reminders",
@@ -42,7 +49,9 @@
         "en": "Set a Zakat al-Fitr reminder"
       },
       "required": false,
-      "parameters": { "topic": "zakat-fitrah" }
+      "parameters": {
+        "topic": "zakat-fitrah"
+      }
     }
   ],
   "blocks": [
@@ -50,7 +59,10 @@
       "id": "block.migrated-zakat-fitrah.facts-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Fakta migrasi", "en": "Migrated facts" }
+      "text": {
+        "id": "Fakta migrasi",
+        "en": "Migrated facts"
+      }
     },
     {
       "id": "block.migrated-zakat-fitrah.facts",
@@ -90,7 +102,10 @@
       "id": "block.migrated-zakat-fitrah.variants-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Variasi dalam data lama", "en": "Variants in the legacy data" }
+      "text": {
+        "id": "Variasi dalam data lama",
+        "en": "Variants in the legacy data"
+      }
     },
     {
       "id": "block.migrated-zakat-fitrah.variants",
@@ -123,7 +138,10 @@
       "id": "block.migrated-zakat-fitrah.meaning-heading",
       "type": "heading",
       "level": 2,
-      "text": { "id": "Makna yang dirangkum", "en": "Summarized meanings" }
+      "text": {
+        "id": "Makna yang dirangkum",
+        "en": "Summarized meanings"
+      }
     },
     {
       "id": "block.migrated-zakat-fitrah.meaning",
@@ -176,7 +194,10 @@
     {
       "id": "block.migrated-zakat-fitrah.sources",
       "type": "source-reference",
-      "sourceIds": ["source.quran-9-60", "source.quran-9-103"],
+      "sourceIds": [
+        "source.quran-9-60",
+        "source.quran-9-103"
+      ],
       "note": {
         "id": "Rujukan ini mendukung konteks umum penerima zakat dan penyucian; tidak digunakan sebagai sumber langsung bagi angka besaran atau redaksi niat migrasi.",
         "en": "These references support the general context of zakat recipients and purification; they are not used as direct sources for the migrated amount or intention formulas."
@@ -205,18 +226,5 @@
         }
       }
     ]
-  },
-  "review": {
-    "content": {
-      "outcome": "pending",
-      "notes": {
-        "id": "Fakta kuantitas, waktu, penerima, tanggungan, dan ringkasan makna menunggu peninjauan fikih dan sumber.",
-        "en": "Amount, timing, recipient, responsibility, and summarized-meaning claims await juristic and source review."
-      }
-    },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
-    }
   }
 }

@@ -7,7 +7,6 @@
     "id": "Doa Sebelum Makan",
     "en": "Supplication before eating"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 5,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.food",
   "benefits": {
     "id": "Manfaat membaca bismillah sebelum makan adalah untuk menghalangi syaitan ikut bergabung makan bersama manusia.",

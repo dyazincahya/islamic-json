@@ -11,7 +11,6 @@
     "id": "Gerakan salat dipelajari sebagai rangkaian berdiri, rukuk, bangkit, sujud, duduk, dan salam dengan ketenangan.",
     "en": "Prayer movements are learned as a sequence of standing, bowing, rising, prostrating, sitting, and ending with salam in composure."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 8,
   "group": "prayer",
@@ -30,19 +29,6 @@
   "sourceIds": [
     "source.quran-2-43"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.prayer-movements.overview",

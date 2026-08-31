@@ -3,20 +3,29 @@
   "id": "lesson.faith-in-allah",
   "type": "lesson",
   "slug": "faith-in-allah",
-  "title": { "id": "Iman kepada Allah", "en": "Faith in Allah" },
+  "title": {
+    "id": "Iman kepada Allah",
+    "en": "Faith in Allah"
+  },
   "summary": {
     "id": "Pilar iman pertama: beriman kepada Allah dengan mengenal keesaan dan kesempurnaan-Nya.",
     "en": "The first pillar of faith: believing in Allah, His oneness, and His perfection."
   },
-  "status": "draft",
   "iconId": "faith.tawhid",
   "stageId": "stage.faith-foundations",
   "stageOrder": 6,
   "group": "pillars-of-faith",
   "relationships": {
-    "prerequisites": ["lesson.understanding-hadith"],
-    "next": ["lesson.faith-in-angels"],
-    "related": ["lesson.knowing-allah", "lesson.tawhid"]
+    "prerequisites": [
+      "lesson.understanding-hadith"
+    ],
+    "next": [
+      "lesson.faith-in-angels"
+    ],
+    "related": [
+      "lesson.knowing-allah",
+      "lesson.tawhid"
+    ]
   },
   "sourceIds": [
     "source.quran-2-255",
@@ -48,13 +57,6 @@
     "label": {
       "id": "Saya memahami dasar iman kepada Allah.",
       "en": "I understand the foundation of faith in Allah."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

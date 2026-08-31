@@ -11,15 +11,20 @@
     "id": "Pastikan kerelaan serta kejelasan pihak, barang atau jasa, harga, dan kewajiban.",
     "en": "Ensure consent and clarity about parties, goods or services, price, and obligations."
   },
-  "status": "draft",
   "iconId": "general.info",
   "stageId": "stage.daily-life",
   "stageOrder": 9,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.daily-parents"],
-    "next": ["lesson.halal-food"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.daily-parents"
+    ],
+    "next": [
+      "lesson.halal-food"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

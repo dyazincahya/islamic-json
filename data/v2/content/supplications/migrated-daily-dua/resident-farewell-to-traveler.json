@@ -7,7 +7,6 @@
     "id": "Doa Orang Mukim Kepada Orang yang Hendak Bersafar",
     "en": "A resident's farewell supplication for a traveler"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 19,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.travel",
   "benefits": {
     "id": "Tiga prioritas seorang hamba yang harus dijaga dimanapun, agama, amanah dan amal, sebab seseorang akan dimatikan sesuai dengan amalnya.",

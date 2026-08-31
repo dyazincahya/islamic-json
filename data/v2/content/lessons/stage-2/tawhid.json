@@ -3,26 +3,35 @@
   "id": "lesson.tawhid",
   "type": "lesson",
   "slug": "tawhid",
-  "title": { "id": "Dasar tauhid", "en": "Foundations of tawhid" },
+  "title": {
+    "id": "Dasar tauhid",
+    "en": "Foundations of tawhid"
+  },
   "summary": {
     "id": "Memahami pengesaan Allah dalam keyakinan dan ibadah.",
     "en": "Understanding Allah's oneness in belief and worship."
   },
-  "status": "draft",
   "iconId": "faith.tawhid",
   "stageId": "stage.faith-foundations",
   "stageOrder": 3,
   "group": "shahada-journey",
   "relationships": {
-    "prerequisites": ["lesson.knowing-allah"],
-    "next": ["lesson.following-sunnah"],
+    "prerequisites": [
+      "lesson.knowing-allah"
+    ],
+    "next": [
+      "lesson.following-sunnah"
+    ],
     "related": [
       "lesson.who-is-allah",
       "lesson.purpose-of-worship",
       "lesson.faith-in-allah"
     ]
   },
-  "sourceIds": ["source.quran-3-18", "source.quran-112-1-4"],
+  "sourceIds": [
+    "source.quran-3-18",
+    "source.quran-112-1-4"
+  ],
   "blocks": [
     {
       "id": "block.tawhid.overview",
@@ -48,13 +57,6 @@
     "label": {
       "id": "Saya memahami makna dasar tauhid.",
       "en": "I understand the basic meaning of tawhid."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

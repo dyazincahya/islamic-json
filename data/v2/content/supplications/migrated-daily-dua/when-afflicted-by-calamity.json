@@ -7,7 +7,6 @@
     "id": "Doa Tertimpa Musibah",
     "en": "Supplication when afflicted by calamity"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 31,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Hendaklah seorang hamba membaca doa diatas ketika tertimpa musibah dengan rasa yakin dan harap, InsyaAllah dengan ini akan mendapatkan ganti yang lebih baik.",

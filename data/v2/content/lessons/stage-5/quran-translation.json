@@ -11,15 +11,18 @@
     "id": "Gunakan terjemahan sebagai bantuan memahami makna, bukan pengganti teks Arab atau tafsir.",
     "en": "Use translation as an aid to meaning, not as a replacement for Arabic text or tafsir."
   },
-  "status": "draft",
   "iconId": "quran-learning.meaning",
   "stageId": "stage.quran-learning",
   "stageOrder": 6,
   "group": "quran-learning",
   "relationships": {
     "prerequisites": [],
-    "next": ["lesson.brief-tafsir"],
-    "related": ["lesson.quran-paths"]
+    "next": [
+      "lesson.brief-tafsir"
+    ],
+    "related": [
+      "lesson.quran-paths"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +91,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

@@ -7,7 +7,6 @@
     "id": "Doa melepas pakaian",
     "en": "Supplication when removing clothes"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 23,
   "group": "daily-supplications",
@@ -21,19 +20,6 @@
     "translation": {
       "id": "Dengan nama Allah yang tiada Tuhan selain-Nya",
       "en": "In the name of Allah, besides whom there is no deity."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "iconId": "worship.supplication"

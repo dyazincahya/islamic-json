@@ -3,39 +3,130 @@
   "id": "lesson.migrated-five-obligatory-prayers",
   "type": "lesson",
   "slug": "migrated-five-obligatory-prayers",
-  "title": { "id": "Lima salat fardu", "en": "The five obligatory prayers" },
-  "summary": { "id": "Ringkasan waktu dan jumlah rakaat lima salat fardu dari data lama.", "en": "A summary of the times and rak'ah counts of the five obligatory prayers from the legacy data." },
-  "status": "draft",
+  "title": {
+    "id": "Lima salat fardu",
+    "en": "The five obligatory prayers"
+  },
+  "summary": {
+    "id": "Ringkasan waktu dan jumlah rakaat lima salat fardu dari data lama.",
+    "en": "A summary of the times and rak'ah counts of the five obligatory prayers from the legacy data."
+  },
   "iconId": "worship.prayer",
   "stageId": "stage.purification-prayer",
   "stageOrder": 1,
   "group": "migrated-pillars",
   "relationships": {
-    "next": ["practice.migrated-fajr", "practice.migrated-dhuhr", "practice.migrated-asr", "practice.migrated-maghrib", "practice.migrated-isha"]
+    "next": [
+      "practice.migrated-fajr",
+      "practice.migrated-dhuhr",
+      "practice.migrated-asr",
+      "practice.migrated-maghrib",
+      "practice.migrated-isha"
+    ]
   },
   "featureLinks": [
-    { "featureId": "feature.prayer-schedule", "label": { "id": "Buka jadwal salat", "en": "Open prayer schedule" }, "required": false },
-    { "featureId": "feature.location", "label": { "id": "Pilih lokasi jadwal salat", "en": "Choose prayer-schedule location" }, "required": false, "parameters": { "purpose": "prayer-schedule" } },
-    { "featureId": "feature.reminders", "label": { "id": "Atur pengingat salat", "en": "Set prayer reminders" }, "required": false, "parameters": { "topic": "obligatory-prayers" } }
+    {
+      "featureId": "feature.prayer-schedule",
+      "label": {
+        "id": "Buka jadwal salat",
+        "en": "Open prayer schedule"
+      },
+      "required": false
+    },
+    {
+      "featureId": "feature.location",
+      "label": {
+        "id": "Pilih lokasi jadwal salat",
+        "en": "Choose prayer-schedule location"
+      },
+      "required": false,
+      "parameters": {
+        "purpose": "prayer-schedule"
+      }
+    },
+    {
+      "featureId": "feature.reminders",
+      "label": {
+        "id": "Atur pengingat salat",
+        "en": "Set prayer reminders"
+      },
+      "required": false,
+      "parameters": {
+        "topic": "obligatory-prayers"
+      }
+    }
   ],
   "blocks": [
-    { "id": "block.migrated-prayers.facts-heading", "type": "heading", "level": 2, "text": { "id": "Fakta terstruktur", "en": "Structured facts" } },
+    {
+      "id": "block.migrated-prayers.facts-heading",
+      "type": "heading",
+      "level": 2,
+      "text": {
+        "id": "Fakta terstruktur",
+        "en": "Structured facts"
+      }
+    },
     {
       "id": "block.migrated-prayers.facts",
       "type": "ordered-list",
       "items": [
-        { "id": "fact.migrated-prayers.fajr", "text": { "id": "Subuh: 2 rakaat; waktunya dari terbit fajar sadik hingga matahari terbit.", "en": "Fajr: 2 rak'ahs; its time runs from true dawn until sunrise." } },
-        { "id": "fact.migrated-prayers.dhuhr", "text": { "id": "Zuhur: 4 rakaat; waktunya dari matahari tergelincir setelah tengah hari hingga bayangan benda sama panjang dengan bendanya.", "en": "Dhuhr: 4 rak'ahs; its time runs from after the sun passes its zenith until an object's shadow equals the object's length." } },
-        { "id": "fact.migrated-prayers.asr", "text": { "id": "Asar: 4 rakaat; data lama menyatakan waktunya dari saat bayangan benda lebih panjang daripada bendanya hingga matahari terbenam.", "en": "Asr: 4 rak'ahs; the legacy data states that its time runs from when an object's shadow becomes longer than the object until sunset." } },
-        { "id": "fact.migrated-prayers.maghrib", "text": { "id": "Magrib: 3 rakaat; waktunya dari matahari terbenam hingga mega merah di ufuk barat menghilang.", "en": "Maghrib: 3 rak'ahs; its time runs from sunset until the red twilight disappears from the western horizon." } },
-        { "id": "fact.migrated-prayers.isha", "text": { "id": "Isya: 4 rakaat; data lama menyatakan waktunya dari hilangnya mega merah hingga tengah malam atau sebelum fajar.", "en": "Isha: 4 rak'ahs; the legacy data states that its time runs from the disappearance of red twilight until midnight or before dawn." } }
+        {
+          "id": "fact.migrated-prayers.fajr",
+          "text": {
+            "id": "Subuh: 2 rakaat; waktunya dari terbit fajar sadik hingga matahari terbit.",
+            "en": "Fajr: 2 rak'ahs; its time runs from true dawn until sunrise."
+          }
+        },
+        {
+          "id": "fact.migrated-prayers.dhuhr",
+          "text": {
+            "id": "Zuhur: 4 rakaat; waktunya dari matahari tergelincir setelah tengah hari hingga bayangan benda sama panjang dengan bendanya.",
+            "en": "Dhuhr: 4 rak'ahs; its time runs from after the sun passes its zenith until an object's shadow equals the object's length."
+          }
+        },
+        {
+          "id": "fact.migrated-prayers.asr",
+          "text": {
+            "id": "Asar: 4 rakaat; data lama menyatakan waktunya dari saat bayangan benda lebih panjang daripada bendanya hingga matahari terbenam.",
+            "en": "Asr: 4 rak'ahs; the legacy data states that its time runs from when an object's shadow becomes longer than the object until sunset."
+          }
+        },
+        {
+          "id": "fact.migrated-prayers.maghrib",
+          "text": {
+            "id": "Magrib: 3 rakaat; waktunya dari matahari terbenam hingga mega merah di ufuk barat menghilang.",
+            "en": "Maghrib: 3 rak'ahs; its time runs from sunset until the red twilight disappears from the western horizon."
+          }
+        },
+        {
+          "id": "fact.migrated-prayers.isha",
+          "text": {
+            "id": "Isya: 4 rakaat; data lama menyatakan waktunya dari hilangnya mega merah hingga tengah malam atau sebelum fajar.",
+            "en": "Isha: 4 rak'ahs; the legacy data states that its time runs from the disappearance of red twilight until midnight or before dawn."
+          }
+        }
       ]
     },
-    { "id": "block.migrated-prayers.review-warning", "type": "callout", "kind": "warning", "title": { "id": "Menunggu peninjauan", "en": "Pending review" }, "body": { "id": "Batas waktu salat dan redaksi niat lisan dalam data migrasi memerlukan verifikasi ilmiah; gunakan jadwal lokal yang tepercaya.", "en": "The prayer-time boundaries and verbal intention formulas in this migration require scholarly verification; use a trusted local schedule." }, "iconId": "general.info" }
+    {
+      "id": "block.migrated-prayers.review-warning",
+      "type": "callout",
+      "kind": "warning",
+      "title": {
+        "id": "Menunggu peninjauan",
+        "en": "Pending review"
+      },
+      "body": {
+        "id": "Batas waktu salat dan redaksi niat lisan dalam data migrasi memerlukan verifikasi ilmiah; gunakan jadwal lokal yang tepercaya.",
+        "en": "The prayer-time boundaries and verbal intention formulas in this migration require scholarly verification; use a trusted local schedule."
+      },
+      "iconId": "general.info"
+    }
   ],
-  "completionPrompt": { "type": "acknowledgement", "label": { "id": "Saya dapat menyebutkan lima salat fardu dan jumlah rakaatnya.", "en": "I can name the five obligatory prayers and their rak'ah counts." } },
-  "review": {
-    "content": { "outcome": "pending", "notes": { "id": "Klaim waktu salat dan bacaan niat belum memiliki rujukan presisi dalam registri.", "en": "The prayer-time claims and intention recitations do not yet have precise registry references." } },
-    "locales": { "id": { "outcome": "pending" }, "en": { "outcome": "pending" } }
+  "completionPrompt": {
+    "type": "acknowledgement",
+    "label": {
+      "id": "Saya dapat menyebutkan lima salat fardu dan jumlah rakaatnya.",
+      "en": "I can name the five obligatory prayers and their rak'ah counts."
+    }
   }
 }

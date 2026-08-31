@@ -3,13 +3,15 @@
   "type": "collection-index",
   "id": "collection.lessons",
   "itemType": "lesson",
-  "title": { "id": "Pelajaran", "en": "Lessons" },
+  "title": {
+    "id": "Pelajaran",
+    "en": "Lessons"
+  },
   "items": [
     {
       "id": "lesson.fixture-blocks",
       "type": "lesson",
       "slug": "fixture-blocks",
-      "status": "draft",
       "path": "content/lessons/fixture-blocks.json",
       "stageId": "stage.introduction",
       "stageOrder": 1,

@@ -11,7 +11,6 @@
     "id": "Salat berjamaah menyatukan makmum di belakang imam dengan barisan, ketertiban, dan kepedulian terhadap sesama.",
     "en": "Congregational prayer unites worshippers behind an imam through rows, order, and consideration for others."
   },
-  "status": "draft",
   "stageId": "stage.purification-prayer",
   "stageOrder": 11,
   "group": "prayer",
@@ -42,19 +41,6 @@
   "sourceIds": [
     "source.quran-2-43"
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "blocks": [
     {
       "id": "block.congregational-prayer.overview",

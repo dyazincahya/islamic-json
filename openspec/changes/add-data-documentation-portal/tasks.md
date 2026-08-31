@@ -114,3 +114,9 @@
 - [x] 12.6 Connect every Demo UI view to the API inspector using its exact source path, provider controls, raw opening, JSON preview, and download actions.
 - [ ] 12.7 Add tests for dataset switching, lazy resource loading, legacy parse-error presentation, Quran Arabic RTL, and Demo UI-to-inspector path handoff.
 - [ ] 12.8 Validate bundle size, generated data boundaries, responsive Demo UI behavior, type checking, and production build.
+
+## 13. Remove Unrequested Editorial UI
+
+- [ ] 13.1 Remove draft, under-review, reviewed, translated, and publication-status labels, filters, statistics, disclaimers, and review language from the portal.
+- [ ] 13.2 Present v2 content using localized titles, types, stages, and source paths rather than editorial status or technical IDs as the primary Demo UI presentation.
+- [ ] 13.3 Update API, guide, reference, and contributing pages to describe technical JSON validation without an invented reviewer workflow.

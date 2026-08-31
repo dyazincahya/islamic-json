@@ -7,7 +7,6 @@
     "id": "Sayyid al-Istighfar",
     "en": "The foremost supplication for forgiveness"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 29,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "worship.supplication",
   "benefits": {
     "id": "Barang siapa yang membacanya dengan yakin ketika petang hari, kemudian dia meninggal, maka ia akan masuk surga, demikian juga jika (dibaca) pada pagi hari.",

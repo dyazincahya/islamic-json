@@ -7,7 +7,6 @@
     "id": "Doa Keluar Rumah",
     "en": "Supplication upon leaving the home"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 16,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "general.home",
   "benefits": {
     "id": "Barang siapa yang membaca doa tersebut maka dikatakan kepadanya: \"Engkau akan diberi petunjuk, dicukupkan dan dijaga\". Syaitan pun akan menyingkir darinya. Syaitan yang lain akan mengatakan: \"Bagaimana mungkin engkau bisa mengganggu seseorang yang telah mendapatkan petunjuk, kecukupan dan penjagaan?!\"",

@@ -3,8 +3,10 @@
   "id": "Lesson Invalid ID",
   "type": "lesson",
   "slug": "invalid-id",
-  "title": { "id": "ID tidak valid", "en": "Invalid ID" },
-  "status": "draft",
+  "title": {
+    "id": "ID tidak valid",
+    "en": "Invalid ID"
+  },
   "stageId": "stage.introduction",
   "stageOrder": 1,
   "group": "fixtures",
@@ -12,7 +14,10 @@
     {
       "id": "block.invalid-id",
       "type": "paragraph",
-      "text": { "id": "Contoh negatif.", "en": "Negative fixture." }
+      "text": {
+        "id": "Contoh negatif.",
+        "en": "Negative fixture."
+      }
     }
   ]
 }

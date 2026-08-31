@@ -11,15 +11,20 @@
     "id": "Jaga kebersihan tubuh, pakaian, tempat, makanan, dan lingkungan.",
     "en": "Maintain cleanliness of body, clothing, place, food, and environment."
   },
-  "status": "draft",
   "iconId": "purification.cleanliness",
   "stageId": "stage.daily-life",
   "stageOrder": 13,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.daily-health"],
-    "next": ["lesson.facing-sadness"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.daily-health"
+    ],
+    "next": [
+      "lesson.facing-sadness"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

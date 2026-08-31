@@ -38,9 +38,7 @@
       "minLength": 1,
       "pattern": "^(?![A-Za-z][A-Za-z0-9+.-]*:)(?![/\\\\])(?!.*(?:^|[/\\\\])\\.\\.(?:[/\\\\]|$))(?!.*\\\\)[A-Za-z0-9._/-]+$"
     },
-    "publicationStatus": {
-      "enum": ["draft", "translated", "under-review", "reviewed", "deprecated"]
-    },
+
     "idList": {
       "type": "array",
       "items": { "$ref": "#/$defs/semanticId" },
@@ -76,71 +74,7 @@
       },
       "additionalProperties": false
     },
-    "reviewDimension": {
-      "type": "object",
-      "required": ["outcome"],
-      "properties": {
-        "outcome": {
-          "enum": ["pending", "in-progress", "complete", "not-applicable"]
-        },
-        "reviewerId": { "$ref": "#/$defs/semanticId" },
-        "reviewedAt": { "type": "string", "format": "date" },
-        "notes": { "$ref": "#/$defs/localizedString" }
-      },
-      "allOf": [
-        {
-          "if": {
-            "properties": { "outcome": { "const": "complete" } },
-            "required": ["outcome"]
-          },
-          "then": { "required": ["reviewerId", "reviewedAt"] }
-        }
-      ],
-      "additionalProperties": false
-    },
-    "reviewMetadata": {
-      "type": "object",
-      "properties": {
-        "content": { "$ref": "#/$defs/reviewDimension" },
-        "locales": {
-          "type": "object",
-          "properties": {
-            "id": { "$ref": "#/$defs/reviewDimension" },
-            "en": { "$ref": "#/$defs/reviewDimension" }
-          },
-          "additionalProperties": { "$ref": "#/$defs/reviewDimension" }
-        }
-      },
-      "additionalProperties": false
-    },
-    "completedReviewMetadata": {
-      "type": "object",
-      "required": ["content", "locales"],
-      "properties": {
-        "content": { "$ref": "#/$defs/completedReviewDimension" },
-        "locales": {
-          "type": "object",
-          "required": ["id", "en"],
-          "properties": {
-            "id": { "$ref": "#/$defs/completedReviewDimension" },
-            "en": { "$ref": "#/$defs/completedReviewDimension" }
-          },
-          "additionalProperties": { "$ref": "#/$defs/reviewDimension" }
-        }
-      },
-      "additionalProperties": false
-    },
-    "completedReviewDimension": {
-      "type": "object",
-      "required": ["outcome", "reviewerId", "reviewedAt"],
-      "properties": {
-        "outcome": { "const": "complete" },
-        "reviewerId": { "$ref": "#/$defs/semanticId" },
-        "reviewedAt": { "type": "string", "format": "date" },
-        "notes": { "$ref": "#/$defs/localizedString" }
-      },
-      "additionalProperties": false
-    },
+
     "deprecation": {
       "type": "object",
       "required": ["reason"],
@@ -187,7 +121,7 @@
     },
     "documentEnvelope": {
       "type": "object",
-      "required": ["schemaVersion", "id", "type", "slug", "title", "status"],
+      "required": ["schemaVersion", "id", "type", "slug", "title"],
       "properties": {
         "schemaVersion": { "const": "2.0" },
         "id": { "$ref": "#/$defs/semanticId" },
@@ -195,7 +129,7 @@
         "slug": { "$ref": "#/$defs/slug" },
         "title": { "$ref": "#/$defs/localizedString" },
         "summary": { "$ref": "#/$defs/localizedString" },
-        "status": { "$ref": "#/$defs/publicationStatus" },
+
         "iconId": { "$ref": "#/$defs/semanticId" },
         "relationships": { "$ref": "#/$defs/relationships" },
         "featureLinks": {
@@ -203,7 +137,6 @@
           "items": { "$ref": "#/$defs/featureLink" }
         },
         "sourceIds": { "$ref": "#/$defs/idList" },
-        "review": { "$ref": "#/$defs/reviewMetadata" },
         "seasonalTags": {
           "type": "array",
           "items": {
@@ -212,29 +145,7 @@
           "uniqueItems": true
         },
         "deprecation": { "$ref": "#/$defs/deprecation" }
-      },
-      "allOf": [
-        {
-          "if": {
-            "properties": { "status": { "const": "reviewed" } },
-            "required": ["status"]
-          },
-          "then": {
-            "required": ["sourceIds", "review"],
-            "properties": {
-              "sourceIds": { "minItems": 1 },
-              "review": { "$ref": "#/$defs/completedReviewMetadata" }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": { "status": { "const": "deprecated" } },
-            "required": ["status"]
-          },
-          "then": { "required": ["deprecation"] }
-        }
-      ]
+      }
     }
   }
 }

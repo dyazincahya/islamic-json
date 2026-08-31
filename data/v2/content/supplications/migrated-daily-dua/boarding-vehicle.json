@@ -7,7 +7,6 @@
     "id": "Doa Menaiki Kendaraan",
     "en": "Supplication when boarding a vehicle"
   },
-  "status": "draft",
   "stageId": "stage.daily-life",
   "stageOrder": 24,
   "group": "daily-supplications",
@@ -38,19 +37,6 @@
       }
     }
   ],
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
-    }
-  },
   "iconId": "daily-life.travel",
   "benefits": {
     "id": "Dengan membaca doa naik kendaraan, perjalanan kita akan senantiasa mendapat perlindungan Allah ta'ala. Selain itu juga akan mendapat pahala, pertolongan dan hati yang lebih tenang.",

@@ -3,11 +3,16 @@
   "id": "supplication.empty-arabic",
   "type": "supplication",
   "slug": "empty-arabic",
-  "title": { "id": "Arab kosong", "en": "Empty Arabic" },
-  "status": "draft",
+  "title": {
+    "id": "Arab kosong",
+    "en": "Empty Arabic"
+  },
   "recitation": {
     "id": "recitation.empty-arabic",
     "arabic": "",
-    "translation": { "id": "Terjemahan contoh", "en": "Fixture translation" }
+    "translation": {
+      "id": "Terjemahan contoh",
+      "en": "Fixture translation"
+    }
   }
 }

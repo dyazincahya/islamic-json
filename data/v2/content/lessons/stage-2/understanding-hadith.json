@@ -3,22 +3,33 @@
   "id": "lesson.understanding-hadith",
   "type": "lesson",
   "slug": "understanding-hadith",
-  "title": { "id": "Memahami hadis", "en": "Understanding hadith" },
+  "title": {
+    "id": "Memahami hadis",
+    "en": "Understanding hadith"
+  },
   "summary": {
     "id": "Pengantar tentang hadis sebagai riwayat tuntunan Nabi dan pentingnya sumber yang dapat ditelusuri.",
     "en": "An introduction to hadith as reports of Prophetic guidance and the importance of traceable sources."
   },
-  "status": "draft",
   "iconId": "general.book",
   "stageId": "stage.faith-foundations",
   "stageOrder": 5,
   "group": "shahada-journey",
   "relationships": {
-    "prerequisites": ["lesson.following-sunnah"],
-    "next": ["lesson.faith-in-allah"],
-    "related": ["lesson.quran-and-hadith", "lesson.prophet-muhammad"]
+    "prerequisites": [
+      "lesson.following-sunnah"
+    ],
+    "next": [
+      "lesson.faith-in-allah"
+    ],
+    "related": [
+      "lesson.quran-and-hadith",
+      "lesson.prophet-muhammad"
+    ]
   },
-  "sourceIds": ["source.hadith-muslim-8a"],
+  "sourceIds": [
+    "source.hadith-muslim-8a"
+  ],
   "blocks": [
     {
       "id": "block.understanding-hadith.overview",
@@ -44,13 +55,6 @@
     "label": {
       "id": "Saya memahami perlunya memeriksa sumber ketika mempelajari hadis.",
       "en": "I understand the need to check sources when studying hadith."
-    }
-  },
-  "review": {
-    "content": { "outcome": "pending" },
-    "locales": {
-      "id": { "outcome": "pending" },
-      "en": { "outcome": "pending" }
     }
   }
 }

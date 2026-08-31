@@ -3,8 +3,10 @@
   "id": "lesson.embedded-html",
   "type": "lesson",
   "slug": "embedded-html",
-  "title": { "id": "HTML tertanam", "en": "Embedded HTML" },
-  "status": "draft",
+  "title": {
+    "id": "HTML tertanam",
+    "en": "Embedded HTML"
+  },
   "stageId": "stage.introduction",
   "stageOrder": 1,
   "group": "fixtures",

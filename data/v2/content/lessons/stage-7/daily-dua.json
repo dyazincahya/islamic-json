@@ -11,15 +11,20 @@
     "id": "Sertai kebutuhan, syukur, dan harapan dengan doa serta ikhtiar.",
     "en": "Accompany needs, gratitude, and hope with supplication and effort."
   },
-  "status": "draft",
   "iconId": "worship.supplication",
   "stageId": "stage.daily-life",
   "stageOrder": 2,
   "group": "daily-life",
   "relationships": {
-    "prerequisites": ["lesson.daily-supplications"],
-    "next": ["lesson.morning-evening-dhikr"],
-    "related": ["lesson.daily-supplications"]
+    "prerequisites": [
+      "lesson.daily-supplications"
+    ],
+    "next": [
+      "lesson.morning-evening-dhikr"
+    ],
+    "related": [
+      "lesson.daily-supplications"
+    ]
   },
   "blocks": [
     {
@@ -88,19 +93,6 @@
     "label": {
       "id": "Saya telah membaca, merenungkan, dan memilih satu langkah untuk dipraktikkan.",
       "en": "I have read, reflected, and chosen one step to practice."
-    }
-  },
-  "review": {
-    "content": {
-      "outcome": "pending"
-    },
-    "locales": {
-      "id": {
-        "outcome": "pending"
-      },
-      "en": {
-        "outcome": "pending"
-      }
     }
   },
   "featureLinks": [

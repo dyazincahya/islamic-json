@@ -12,693 +12,594 @@
       "id": "glossary.name-of-allah.ad-darr",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ad-darr",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ad-darr.json"
     },
     {
       "id": "glossary.name-of-allah.al-adl",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-adl",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-adl.json"
     },
     {
       "id": "glossary.name-of-allah.al-afuw",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-afuw",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-afuw.json"
     },
     {
       "id": "glossary.name-of-allah.al-ahad",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-ahad",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-ahad.json"
     },
     {
       "id": "glossary.name-of-allah.al-akhir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-akhir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-akhir.json"
     },
     {
       "id": "glossary.name-of-allah.al-ali",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-ali",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-ali.json"
     },
     {
       "id": "glossary.name-of-allah.al-alim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-alim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-alim.json"
     },
     {
       "id": "glossary.name-of-allah.al-awwal",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-awwal",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-awwal.json"
     },
     {
       "id": "glossary.name-of-allah.al-azim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-azim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-azim.json"
     },
     {
       "id": "glossary.name-of-allah.al-aziz",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-aziz",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-aziz.json"
     },
     {
       "id": "glossary.name-of-allah.al-badi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-badi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-badi.json"
     },
     {
       "id": "glossary.name-of-allah.al-baith",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-baith",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-baith.json"
     },
     {
       "id": "glossary.name-of-allah.al-baqi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-baqi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-baqi.json"
     },
     {
       "id": "glossary.name-of-allah.al-bari",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-bari",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-bari.json"
     },
     {
       "id": "glossary.name-of-allah.al-barr",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-barr",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-barr.json"
     },
     {
       "id": "glossary.name-of-allah.al-basir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-basir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-basir.json"
     },
     {
       "id": "glossary.name-of-allah.al-basit",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-basit",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-basit.json"
     },
     {
       "id": "glossary.name-of-allah.al-batin",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-batin",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-batin.json"
     },
     {
       "id": "glossary.name-of-allah.al-fattah",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-fattah",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-fattah.json"
     },
     {
       "id": "glossary.name-of-allah.al-ghaffar",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-ghaffar",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-ghaffar.json"
     },
     {
       "id": "glossary.name-of-allah.al-ghafur",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-ghafur",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-ghafur.json"
     },
     {
       "id": "glossary.name-of-allah.al-ghani",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-ghani",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-ghani.json"
     },
     {
       "id": "glossary.name-of-allah.al-hadi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hadi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hadi.json"
     },
     {
       "id": "glossary.name-of-allah.al-hafiz",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hafiz",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hafiz.json"
     },
     {
       "id": "glossary.name-of-allah.al-hakam",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hakam",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hakam.json"
     },
     {
       "id": "glossary.name-of-allah.al-hakim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hakim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hakim.json"
     },
     {
       "id": "glossary.name-of-allah.al-halim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-halim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-halim.json"
     },
     {
       "id": "glossary.name-of-allah.al-hamid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hamid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hamid.json"
     },
     {
       "id": "glossary.name-of-allah.al-haqq",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-haqq",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-haqq.json"
     },
     {
       "id": "glossary.name-of-allah.al-hasib",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hasib",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hasib.json"
     },
     {
       "id": "glossary.name-of-allah.al-hayy",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-hayy",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-hayy.json"
     },
     {
       "id": "glossary.name-of-allah.al-jabbar",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-jabbar",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-jabbar.json"
     },
     {
       "id": "glossary.name-of-allah.al-jalil",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-jalil",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-jalil.json"
     },
     {
       "id": "glossary.name-of-allah.al-jami",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-jami",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-jami.json"
     },
     {
       "id": "glossary.name-of-allah.al-kabir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-kabir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-kabir.json"
     },
     {
       "id": "glossary.name-of-allah.al-karim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-karim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-karim.json"
     },
     {
       "id": "glossary.name-of-allah.al-khabir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-khabir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-khabir.json"
     },
     {
       "id": "glossary.name-of-allah.al-khafid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-khafid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-khafid.json"
     },
     {
       "id": "glossary.name-of-allah.al-khaliq",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-khaliq",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-khaliq.json"
     },
     {
       "id": "glossary.name-of-allah.al-latif",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-latif",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-latif.json"
     },
     {
       "id": "glossary.name-of-allah.al-maajid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-maajid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-maajid.json"
     },
     {
       "id": "glossary.name-of-allah.al-majid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-majid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-majid.json"
     },
     {
       "id": "glossary.name-of-allah.al-malik",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-malik",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-malik.json"
     },
     {
       "id": "glossary.name-of-allah.al-mani",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mani",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mani.json"
     },
     {
       "id": "glossary.name-of-allah.al-matin",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-matin",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-matin.json"
     },
     {
       "id": "glossary.name-of-allah.al-muakhkhir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muakhkhir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muakhkhir.json"
     },
     {
       "id": "glossary.name-of-allah.al-mubdi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mubdi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mubdi.json"
     },
     {
       "id": "glossary.name-of-allah.al-mudhill",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mudhill",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mudhill.json"
     },
     {
       "id": "glossary.name-of-allah.al-mughni",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mughni",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mughni.json"
     },
     {
       "id": "glossary.name-of-allah.al-muhaymin",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muhaymin",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muhaymin.json"
     },
     {
       "id": "glossary.name-of-allah.al-muhsi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muhsi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muhsi.json"
     },
     {
       "id": "glossary.name-of-allah.al-muhyi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muhyi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muhyi.json"
     },
     {
       "id": "glossary.name-of-allah.al-muid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muid.json"
     },
     {
       "id": "glossary.name-of-allah.al-muizz",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muizz",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muizz.json"
     },
     {
       "id": "glossary.name-of-allah.al-mujib",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mujib",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mujib.json"
     },
     {
       "id": "glossary.name-of-allah.al-mumin",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mumin",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mumin.json"
     },
     {
       "id": "glossary.name-of-allah.al-mumit",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mumit",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mumit.json"
     },
     {
       "id": "glossary.name-of-allah.al-muntaqim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muntaqim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muntaqim.json"
     },
     {
       "id": "glossary.name-of-allah.al-muqaddim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muqaddim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muqaddim.json"
     },
     {
       "id": "glossary.name-of-allah.al-muqit",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muqit",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muqit.json"
     },
     {
       "id": "glossary.name-of-allah.al-muqsit",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muqsit",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muqsit.json"
     },
     {
       "id": "glossary.name-of-allah.al-muqtadir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-muqtadir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-muqtadir.json"
     },
     {
       "id": "glossary.name-of-allah.al-musawwir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-musawwir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-musawwir.json"
     },
     {
       "id": "glossary.name-of-allah.al-mutaali",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mutaali",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mutaali.json"
     },
     {
       "id": "glossary.name-of-allah.al-mutakabbir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-mutakabbir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-mutakabbir.json"
     },
     {
       "id": "glossary.name-of-allah.al-qabid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-qabid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-qabid.json"
     },
     {
       "id": "glossary.name-of-allah.al-qadir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-qadir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-qadir.json"
     },
     {
       "id": "glossary.name-of-allah.al-qahhar",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-qahhar",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-qahhar.json"
     },
     {
       "id": "glossary.name-of-allah.al-qawi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-qawi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-qawi.json"
     },
     {
       "id": "glossary.name-of-allah.al-qayyum",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-qayyum",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-qayyum.json"
     },
     {
       "id": "glossary.name-of-allah.al-quddus",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-quddus",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-quddus.json"
     },
     {
       "id": "glossary.name-of-allah.al-waali",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-waali",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-waali.json"
     },
     {
       "id": "glossary.name-of-allah.al-wadud",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-wadud",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-wadud.json"
     },
     {
       "id": "glossary.name-of-allah.al-wahhab",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-wahhab",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-wahhab.json"
     },
     {
       "id": "glossary.name-of-allah.al-wahid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-wahid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-wahid.json"
     },
     {
       "id": "glossary.name-of-allah.al-wajid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-wajid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-wajid.json"
     },
     {
       "id": "glossary.name-of-allah.al-wakil",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-wakil",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-wakil.json"
     },
     {
       "id": "glossary.name-of-allah.al-waliyy",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-waliyy",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-waliyy.json"
     },
     {
       "id": "glossary.name-of-allah.al-warith",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-warith",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-warith.json"
     },
     {
       "id": "glossary.name-of-allah.al-wasi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-al-wasi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/al-wasi.json"
     },
     {
       "id": "glossary.name-of-allah.an-nafi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-an-nafi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/an-nafi.json"
     },
     {
       "id": "glossary.name-of-allah.an-nur",
       "type": "glossary-entry",
       "slug": "asmaul-husna-an-nur",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/an-nur.json"
     },
     {
       "id": "glossary.name-of-allah.ar-rafi",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-rafi",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-rafi.json"
     },
     {
       "id": "glossary.name-of-allah.ar-rahim",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-rahim",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-rahim.json"
     },
     {
       "id": "glossary.name-of-allah.ar-rahman",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-rahman",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-rahman.json"
     },
     {
       "id": "glossary.name-of-allah.ar-raqib",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-raqib",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-raqib.json"
     },
     {
       "id": "glossary.name-of-allah.ar-rashid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-rashid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-rashid.json"
     },
     {
       "id": "glossary.name-of-allah.ar-rauf",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-rauf",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-rauf.json"
     },
     {
       "id": "glossary.name-of-allah.ar-razzaq",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ar-razzaq",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ar-razzaq.json"
     },
     {
       "id": "glossary.name-of-allah.as-sabur",
       "type": "glossary-entry",
       "slug": "asmaul-husna-as-sabur",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/as-sabur.json"
     },
     {
       "id": "glossary.name-of-allah.as-salam",
       "type": "glossary-entry",
       "slug": "asmaul-husna-as-salam",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/as-salam.json"
     },
     {
       "id": "glossary.name-of-allah.as-samad",
       "type": "glossary-entry",
       "slug": "asmaul-husna-as-samad",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/as-samad.json"
     },
     {
       "id": "glossary.name-of-allah.as-sami",
       "type": "glossary-entry",
       "slug": "asmaul-husna-as-sami",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/as-sami.json"
     },
     {
       "id": "glossary.name-of-allah.ash-shahid",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ash-shahid",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ash-shahid.json"
     },
     {
       "id": "glossary.name-of-allah.ash-shakur",
       "type": "glossary-entry",
       "slug": "asmaul-husna-ash-shakur",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/ash-shakur.json"
     },
     {
       "id": "glossary.name-of-allah.at-tawwab",
       "type": "glossary-entry",
       "slug": "asmaul-husna-at-tawwab",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/at-tawwab.json"
     },
     {
       "id": "glossary.name-of-allah.az-zahir",
       "type": "glossary-entry",
       "slug": "asmaul-husna-az-zahir",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/az-zahir.json"
     },
     {
       "id": "glossary.name-of-allah.dhul-jalali-wal-ikram",
       "type": "glossary-entry",
       "slug": "asmaul-husna-dhul-jalali-wal-ikram",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/dhul-jalali-wal-ikram.json"
     },
     {
       "id": "glossary.name-of-allah.malik-al-mulk",
       "type": "glossary-entry",
       "slug": "asmaul-husna-malik-al-mulk",
-      "status": "draft",
       "path": "content/glossary/asmaul-husna/malik-al-mulk.json"
     }
   ]
