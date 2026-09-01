@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./muslimkit.png" alt="MuslimKit logo" width="160" />
+  <img src="https://raw.githubusercontent.com/x-labs-myid/app-info/refs/heads/main/icons/muslimkit.png" alt="MuslimKit logo" width="160" />
 </p>
 
 <h1 align="center">Islamic JSON</h1>
