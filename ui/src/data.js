@@ -3,6 +3,14 @@ import dua from "../../dua/data/daily-dua.json";
 import surahList from "../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json";
 
 const pillarModules = import.meta.glob("../../pillars-of-islam/**/*.json");
+const pillarCategoryOrder = ["shahada", "salah", "zakat", "fasting", "hajj"];
+const salahOrder = [
+  "subuh.json",
+  "dhuhr.json",
+  "asr.json",
+  "maghrib.json",
+  "isha.json",
+];
 const surahModules = import.meta.glob(
   "../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/*.json",
 );
@@ -57,7 +65,18 @@ export async function getPillars() {
       }));
     }),
   );
-  return entries.flat();
+  return entries.flat().sort((first, second) => {
+    const categoryDifference =
+      pillarCategoryOrder.indexOf(first.category) -
+      pillarCategoryOrder.indexOf(second.category);
+    if (categoryDifference !== 0) return categoryDifference;
+    if (first.category === "salah") {
+      const firstFile = first.path.split("/").at(-1);
+      const secondFile = second.path.split("/").at(-1);
+      return salahOrder.indexOf(firstFile) - salahOrder.indexOf(secondFile);
+    }
+    return first.path.localeCompare(second.path);
+  });
 }
 
 export function localized(value, locale = "id") {

@@ -1,6 +1,10 @@
-# Islamic JSON
+<p align="center">
+  <img src="./muslimkit.png" alt="MuslimKit logo" width="160" />
+</p>
 
-All data json about Islam
+<h1 align="center">Islamic JSON</h1>
+
+<p align="center">All data json about Islam</p>
 
 ## Data Explorer
 
