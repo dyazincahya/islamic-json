@@ -1,0 +1,16 @@
+# Vue dependencies and build output
+ui/node_modules/
+ui/dist/
+ui/.vite/
+
+# Local environment files
+ui/.env
+ui/.env.*
+!ui/.env.example
+*.local
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
