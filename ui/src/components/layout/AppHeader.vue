@@ -4,20 +4,39 @@ import { localized, repositoryUrl, sections } from '../../data'
 
 const props = defineProps({ activeSection: String, locale: String })
 const emit = defineEmits(['navigate', 'update:locale'])
-const dropdown = ref(null)
-const primarySections = sections.filter((item) => ['home', 'quran', 'library', 'developer'].includes(item.id))
-const collectionSections = sections.filter((item) => !['home', 'quran', 'library', 'developer'].includes(item.id))
+const collectionDropdown = ref(null)
+const developerDropdown = ref(null)
+const primarySections = sections.filter((item) => ['home', 'quran', 'library'].includes(item.id))
+const collectionSections = sections.filter((item) => ['dua', 'asmaul', 'pillars', 'faith'].includes(item.id))
+const developerSections = sections.filter((item) => ['developer', 'relationships'].includes(item.id))
 const collectionActive = computed(() => collectionSections.some((item) => item.id === props.activeSection))
+const developerActive = computed(() => developerSections.some((item) => item.id === props.activeSection))
 
+function menuDescription(id) {
+  const descriptions = {
+    dua: { id: 'Doa sehari-hari', en: 'Daily supplications' },
+    asmaul: { id: '99 Asmaul Husna', en: '99 Beautiful Names' },
+    pillars: { id: 'Lima dasar Islam', en: 'Five foundations of Islam' },
+    faith: { id: 'Enam dasar iman', en: 'Six foundations of faith' },
+    developer: { id: 'Endpoint dan GitCDN', en: 'Endpoints and GitCDN' },
+    relationships: { id: 'Diagram keterkaitan data', en: 'Data relationship diagram' },
+  }
+  return descriptions[id]?.[props.locale] ?? ''
+}
+function closeDropdowns() {
+  collectionDropdown.value?.removeAttribute('open')
+  developerDropdown.value?.removeAttribute('open')
+}
 function navigate(section) {
-  dropdown.value?.removeAttribute('open')
+  closeDropdowns()
   emit('navigate', section)
 }
 function closeOnOutsideClick(event) {
-  if (dropdown.value && !dropdown.value.contains(event.target)) dropdown.value.removeAttribute('open')
+  const clickedInside = collectionDropdown.value?.contains(event.target) || developerDropdown.value?.contains(event.target)
+  if (!clickedInside) closeDropdowns()
 }
 function closeOnEscape(event) {
-  if (event.key === 'Escape') dropdown.value?.removeAttribute('open')
+  if (event.key === 'Escape') closeDropdowns()
 }
 onMounted(() => {
   document.addEventListener('pointerdown', closeOnOutsideClick)
@@ -36,10 +55,16 @@ onBeforeUnmount(() => {
     </button>
     <nav class="desktop-nav" aria-label="Main navigation">
       <button v-for="item in primarySections" :key="item.id" :class="{ active: activeSection === item.id }" @click="navigate(item.id)">{{ localized(item.label, locale) }}</button>
-      <details ref="dropdown" class="nav-dropdown">
+      <details ref="collectionDropdown" class="nav-dropdown">
         <summary :class="{ active: collectionActive }">{{ locale === 'id' ? 'Koleksi' : 'Collections' }} <font-awesome-icon icon="chevron-down" /></summary>
         <div class="dropdown-menu">
-          <button v-for="item in collectionSections" :key="item.id" :class="{ active: activeSection === item.id }" @click="navigate(item.id)"><span><font-awesome-icon :icon="item.icon" /></span><span><b>{{ localized(item.label, locale) }}</b><small>{{ item.id === 'dua' ? (locale === 'id' ? 'Doa sehari-hari' : 'Daily supplications') : item.id === 'asmaul' ? '99 Asmaul Husna' : item.id === 'pillars' ? (locale === 'id' ? 'Lima dasar Islam' : 'Five foundations of Islam') : (locale === 'id' ? 'Enam dasar iman' : 'Six foundations of faith') }}</small></span></button>
+          <button v-for="item in collectionSections" :key="item.id" :class="{ active: activeSection === item.id }" @click="navigate(item.id)"><span><font-awesome-icon :icon="item.icon" /></span><span><b>{{ localized(item.label, locale) }}</b><small>{{ menuDescription(item.id) }}</small></span></button>
+        </div>
+      </details>
+      <details ref="developerDropdown" class="nav-dropdown developer-dropdown">
+        <summary :class="{ active: developerActive }">Developer <font-awesome-icon icon="chevron-down" /></summary>
+        <div class="dropdown-menu">
+          <button v-for="item in developerSections" :key="item.id" :class="{ active: activeSection === item.id }" @click="navigate(item.id)"><span><font-awesome-icon :icon="item.icon" /></span><span><b>{{ localized(item.label, locale) }}</b><small>{{ menuDescription(item.id) }}</small></span></button>
         </div>
       </details>
     </nav>

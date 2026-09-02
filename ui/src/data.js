@@ -65,6 +65,11 @@ export const sections = [
     icon: "layer-group",
   },
   {
+    id: "relationships",
+    label: { id: "Relasi Data", en: "Data Relations" },
+    icon: "diagram-project",
+  },
+  {
     id: "developer",
     label: { id: "Developer API", en: "Developer API" },
     icon: "code",

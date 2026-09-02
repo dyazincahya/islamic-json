@@ -39,6 +39,68 @@ Every domain includes a `README.md` describing its files, schema, and CDN
 paths. The Vue explorer exposes these datasets under the **Library** and
 **Developer API** navigation items.
 
+## Data Relationships
+
+The following diagram shows how primary sources, pillars, worship guides,
+knowledge collections, and developer access relate to each other. An
+interactive version is available on the **Data Relations** page in the UI.
+
+```mermaid
+flowchart TD
+    Q[Al-Qur'an] -->|verse references| FAI[Pillars of Faith]
+    Q -->|verse references| FIS[Pillars of Islam]
+    Q -->|accounts and mentions| PRO[Prophets]
+    Q -->|mentions| ANG[Angels]
+    Q -->|earlier revelation| BKS[Revealed Books]
+    Q -->|months and occasions| CAL[Islamic Calendar]
+    Q -->|places and history| PLC[Islamic Places]
+    Q -->|prayer and protection| DKR[Dhikr]
+
+    FAI --> ANG
+    FAI --> BKS
+    FAI --> PRO
+    FAI --> AKH[Last Day]
+    FAI --> QDR[Divine Decree]
+
+    FIS --> SYH[Shahada]
+    FIS --> SAL[Prayer]
+    FIS --> ZKT[Zakat]
+    FIS --> PUA[Fasting]
+    FIS --> HJJ[Hajj]
+
+    SAL --> PG[Prayer Guide]
+    SAL --> SP[Sunnah Prayers]
+    SAL --> PUR[Purification]
+    SAL --> DKR
+    ZKT --> ZD[Zakat Data]
+    PUA --> FD[Fasting Data]
+    HJJ --> PLC
+    HJJ --> CAL
+
+    DUA[Daily Dua] --> DKR
+    DUA --> MNR[Manners]
+    MNR --> PUR
+    MNR --> SAL
+    MNR --> DUA
+
+    API[Developer API] -.->|GitCDN Generator| Q
+    API -.-> FAI
+    API -.-> FIS
+    API -.-> LIB[Islamic Library]
+    LIB --> DKR
+    LIB --> PG
+    LIB --> SP
+    LIB --> PUR
+    LIB --> ANG
+    LIB --> BKS
+    LIB --> PRO
+    LIB --> CAL
+    LIB --> PLC
+    LIB --> ZD
+    LIB --> FD
+    LIB --> MNR
+```
+
 ## CDN
 
 You can access _islamic json_ data free via CDN.

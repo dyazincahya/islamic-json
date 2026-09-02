@@ -39,6 +39,7 @@ onMounted(async () => {
   <PageHero title="Developer API" :description="text.apiDesc" />
   <section class="browser section-wrap developer-browser">
     <div class="developer-notice"><font-awesome-icon icon="code" /><div><strong>GitCDN Generator</strong><p>{{ locale === 'id' ? 'Setiap tombol API membuka GitCDN Generator dengan URL file GitHub yang sudah terisi.' : 'Every API button opens GitCDN Generator with the GitHub file URL pre-filled.' }}</p></div></div>
+    <RouterLink class="relationship-link" :to="{ name: 'relationships' }"><span><font-awesome-icon icon="diagram-project" /></span><div><strong>{{ locale === 'id' ? 'Lihat Relasi Data' : 'View Data Relationships' }}</strong><small>{{ locale === 'id' ? 'Pelajari keterkaitan antar-dataset melalui diagram Mermaid.' : 'Explore dataset connections through a Mermaid diagram.' }}</small></div><b>→</b></RouterLink>
     <div class="toolbar"><label class="search"><span>⌕</span><input v-model="query" :placeholder="locale === 'id' ? 'Cari endpoint atau path…' : 'Search endpoint or path…'" /></label><span class="result-count">{{ resultCount }} endpoints</span></div>
         <LoadingState v-if="loading" :label="text.loading" compact />
 

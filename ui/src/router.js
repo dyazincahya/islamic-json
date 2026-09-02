@@ -46,6 +46,13 @@ const routes = [
     meta: { section: "library" },
   },
   {
+    path: "/relationships",
+    name: "relationships",
+    component: () =>
+      import("./components/pages/relationships/DataRelationshipsPage.vue"),
+    meta: { section: "relationships" },
+  },
+  {
     path: "/developer",
     name: "developer",
     component: () => import("./components/pages/developer/DeveloperPage.vue"),

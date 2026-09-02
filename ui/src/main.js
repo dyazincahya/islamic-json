@@ -5,6 +5,7 @@ import {
   faCalendarDays,
   faChevronDown,
   faCode,
+  faDiagramProject,
   faDroplet,
   faFeather,
   faHandHoldingHeart,
@@ -15,14 +16,18 @@ import {
   faKaaba,
   faLayerGroup,
   faLocationDot,
+  faMagnifyingGlassMinus,
+  faMagnifyingGlassPlus,
   faMoon,
   faMosque,
   faPersonPraying,
+  faRotateLeft,
   faScaleBalanced,
   faShieldHeart,
   faStarAndCrescent,
   faUserCheck,
   faUsers,
+  faExpand,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createApp } from "vue";
@@ -36,6 +41,7 @@ library.add(
   faCalendarDays,
   faChevronDown,
   faCode,
+  faDiagramProject,
   faDroplet,
   faFeather,
   faHandHoldingHeart,
@@ -46,14 +52,18 @@ library.add(
   faKaaba,
   faLayerGroup,
   faLocationDot,
+  faMagnifyingGlassMinus,
+  faMagnifyingGlassPlus,
   faMoon,
   faMosque,
   faPersonPraying,
+  faRotateLeft,
   faScaleBalanced,
   faShieldHeart,
   faStarAndCrescent,
   faUserCheck,
   faUsers,
+  faExpand,
 );
 
 createApp(App)
