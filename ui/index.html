@@ -8,8 +8,38 @@
       content="Jelajahi data Islam terbuka: Al-Qur'an, doa, dzikir, Asmaul Husna, dan rukun Islam."
     />
     <meta name="theme-color" content="#025939" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="Islamic JSON" />
+    <link rel="canonical" href="https://kang-cahya.github.io/islamic-json/" />
     <link rel="icon" type="image/png" href="/muslimkit.png" />
     <link rel="apple-touch-icon" href="/muslimkit.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Islamic JSON" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:title" content="Islamic JSON Explorer" />
+    <meta
+      property="og:description"
+      content="Jelajahi data Islam terbuka: Al-Qur'an, doa, dzikir, Asmaul Husna, dan rukun Islam."
+    />
+    <meta
+      property="og:url"
+      content="https://kang-cahya.github.io/islamic-json/"
+    />
+    <meta
+      property="og:image"
+      content="https://kang-cahya.github.io/islamic-json/muslimkit.png"
+    />
+    <meta property="og:image:alt" content="Logo Islamic JSON" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Islamic JSON Explorer" />
+    <meta
+      name="twitter:description"
+      content="Jelajahi data Islam terbuka: Al-Qur'an, doa, dzikir, Asmaul Husna, dan rukun Islam."
+    />
+    <meta
+      name="twitter:image"
+      content="https://kang-cahya.github.io/islamic-json/muslimkit.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,9 +47,44 @@
       rel="stylesheet"
     />
     <title>Islamic JSON Explorer</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Islamic JSON",
+        "description": "Koleksi data Islam terbuka dalam format JSON, mencakup Al-Qur'an, doa, Asmaul Husna, rukun Islam, dan rukun iman.",
+        "url": "https://kang-cahya.github.io/islamic-json/",
+        "sameAs": "https://github.com/kang-cahya/islamic-json",
+        "license": "https://github.com/kang-cahya/islamic-json/blob/main/LICENSE",
+        "inLanguage": ["id", "en", "ar"],
+        "keywords": [
+          "Islamic JSON",
+          "Al-Qur'an",
+          "doa",
+          "Asmaul Husna",
+          "open data"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
+    <noscript>
+      <main>
+        <h1>Islamic JSON Explorer</h1>
+        <p>
+          Koleksi data Islam terbuka yang mencakup Al-Qur'an, doa, Asmaul Husna,
+          rukun Islam, dan rukun iman.
+        </p>
+        <p>
+          Aplikasi ini membutuhkan JavaScript. Dataset dapat diakses langsung
+          melalui
+          <a href="https://github.com/kang-cahya/islamic-json"
+            >repositori Islamic JSON di GitHub</a
+          >.
+        </p>
+      </main>
+    </noscript>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

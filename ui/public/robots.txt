@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kang-cahya.github.io/islamic-json/sitemap.xml
