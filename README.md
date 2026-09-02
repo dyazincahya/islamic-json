@@ -35,9 +35,16 @@ to **GitHub Actions**.
 - Zakat and fasting references
 - Daily manners for eating, sleeping, mosque, travel, visiting, and social life
 
-Every domain includes a `README.md` describing its files, schema, and CDN
-paths. The Vue explorer exposes these datasets under the **Library** and
-**Developer API** navigation items.
+Every domain includes a `README.md` describing its files and schema. The Vue
+explorer exposes these datasets under the **Library** and **Developer API**
+navigation items.
+
+## Data Sources
+
+The Qur'an data is sourced from the official [Qur'an Kemenag](https://quran.kemenag.go.id)
+website. The source code used to retrieve and convert the data is available in
+the [quran-json-kemenag](https://github.com/dyazincahya/quran-json-kemenag)
+repository.
 
 ## Data Relationships
 
@@ -100,31 +107,3 @@ flowchart TD
     LIB --> FD
     LIB --> MNR
 ```
-
-## CDN
-
-You can access _islamic json_ data free via CDN.
-
-### 🚀 jsdelvr (Limit: Max 20 MB)
-
-_Format_
-
-`https://cdn.jsdelivr.net/gh/dyazincahya/islamic-json/{_DIR_}/{_FILENAME_}.json`
-
-_Example_
-
-https://cdn.jsdelivr.net/gh/dyazincahya/islamic-json/asmaul-husna/asmaul-husna.json
-
-> 📝 asmaul-husna = `{_DIR_}` 📝 asmaul-husna.json = `{_FILENAME_}`.json
-
-### 🚀 statically (Limit: Max 50 MB)
-
-_Format_
-
-`https://cdn.statically.io/gh/dyazincahya/islamic-json/{_BRANCH_}/{_DIR_}/{_FILENAME_}.json`
-
-_Example_
-
-https://cdn.statically.io/gh/dyazincahya/islamic-json/main/asmaul-husna/asmaul-husna.json
-
-> 📝 main = `{_BRANCH_}` 📝 asmaul-husna = `{_DIR_}` 📝 asmaul-husna.json = `{_FILENAME_}`.json
