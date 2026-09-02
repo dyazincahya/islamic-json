@@ -1,8 +1,11 @@
 import asmaulHusna from "../../asmaul-husna/asmaul-husna.json";
 import dua from "../../dua/data/daily-dua.json";
+import pillarsOfFaith from "../../pillars-of-faith/main.json";
 import surahList from "../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json";
 
-const pillarModules = import.meta.glob("../../pillars-of-islam/**/*.json");
+const pillarModules = import.meta.glob("../../pillars-of-islam/**/*.json", {
+  import: "default",
+});
 const pillarCategoryOrder = ["shahada", "salah", "zakat", "fasting", "hajj"];
 const salahOrder = [
   "subuh.json",
@@ -13,21 +16,36 @@ const salahOrder = [
 ];
 const surahModules = import.meta.glob(
   "../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/*.json",
+  { import: "default" },
 );
 
 export const sections = [
-  { id: "home", label: { id: "Beranda", en: "Home" }, icon: "⌂" },
-  { id: "quran", label: { id: "Al-Qur’an", en: "Qur’an" }, icon: "۞" },
-  { id: "dua", label: { id: "Doa Harian", en: "Daily Dua" }, icon: "☾" },
+  { id: "home", label: { id: "Beranda", en: "Home" }, icon: "house" },
+  { id: "quran", label: { id: "Al-Qur’an", en: "Qur’an" }, icon: "book-quran" },
+  {
+    id: "dua",
+    label: { id: "Doa Harian", en: "Daily Dua" },
+    icon: "hands-praying",
+  },
   {
     id: "asmaul",
     label: { id: "Asmaul Husna", en: "Beautiful Names" },
-    icon: "◈",
+    icon: "star-and-crescent",
   },
   {
     id: "pillars",
     label: { id: "Rukun Islam", en: "Pillars of Islam" },
-    icon: "◆",
+    icon: "kaaba",
+  },
+  {
+    id: "faith",
+    label: { id: "Rukun Iman", en: "Pillars of Faith" },
+    icon: "shield-heart",
+  },
+  {
+    id: "developer",
+    label: { id: "Developer API", en: "Developer API" },
+    icon: "code",
   },
 ];
 
@@ -40,23 +58,26 @@ export const stats = {
 
 export const getAsmaulHusna = () => asmaulHusna;
 export const getDua = () => dua;
+export const getPillarsOfFaith = () => pillarsOfFaith;
 export const getSurahList = () => surahList;
 
 export async function getSurah(number) {
   const key = `../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/${number}.json`;
-  const module = await surahModules[key]();
-  return module.default[String(number)];
+  const loader = surahModules[key];
+  if (!loader) throw new Error(`Surah module not found: ${number}`);
+  const data = await loader();
+  const surah = data[String(number)];
+  if (!surah) throw new Error(`Invalid surah data: ${number}`);
+  return surah;
 }
 
 export async function getPillars() {
   const entries = await Promise.all(
     Object.entries(pillarModules).map(async ([path, loader]) => {
-      const module = await loader();
+      const data = await loader();
       const relativePath = path.replace("../../pillars-of-islam/", "");
       const [category] = relativePath.split("/");
-      const records = Array.isArray(module.default)
-        ? module.default
-        : [module.default];
+      const records = Array.isArray(data) ? data : [data];
       return records.map((record, index) => ({
         ...record,
         category,
@@ -88,3 +109,7 @@ export function localized(value, locale = "id") {
 
 export const repositoryUrl = "https://github.com/dyazincahya/islamic-json";
 export const rawUrl = (path) => `${repositoryUrl}/blob/main/${path}`;
+export const apiUrl = (source) => {
+  const githubFileUrl = source.startsWith("http") ? source : rawUrl(source);
+  return `https://gitcdn-generator.vercel.app?q=${githubFileUrl}`;
+};

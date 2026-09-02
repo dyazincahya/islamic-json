@@ -1,0 +1,80 @@
+[
+    {
+        "icon": "fas fa-star-and-crescent",
+        "title": {
+            "id": "Iman kepada Allah",
+            "en": "Belief in Allah"
+        },
+        "content": {
+            "context": {
+                "id": "Meyakini dengan sepenuh hati bahwa Allah adalah satu-satunya Tuhan yang wajib disembah, pencipta dan pengatur seluruh alam, serta memiliki nama dan sifat yang sempurna.",
+                "en": "To believe wholeheartedly that Allah is the only God worthy of worship, the Creator and Sustainer of all creation, and that He possesses perfect names and attributes."
+            }
+        }
+    },
+    {
+        "icon": "fas fa-feather-alt",
+        "title": {
+            "id": "Iman kepada Malaikat Allah",
+            "en": "Belief in the Angels of Allah"
+        },
+        "content": {
+            "context": {
+                "id": "Meyakini bahwa malaikat adalah makhluk Allah yang diciptakan dari cahaya, selalu taat kepada-Nya, dan melaksanakan tugas yang telah ditetapkan tanpa pernah bermaksiat.",
+                "en": "To believe that angels are servants of Allah created from light, who always obey Him and carry out their assigned duties without disobedience."
+            }
+        }
+    },
+    {
+        "icon": "fas fa-book-open",
+        "title": {
+            "id": "Iman kepada Kitab-kitab Allah",
+            "en": "Belief in the Books of Allah"
+        },
+        "content": {
+            "context": {
+                "id": "Meyakini bahwa Allah menurunkan kitab-kitab sebagai petunjuk bagi manusia, termasuk Taurat, Zabur, Injil, dan Al-Qur’an sebagai kitab terakhir yang diturunkan kepada Nabi Muhammad ﷺ.",
+                "en": "To believe that Allah revealed scriptures as guidance for humanity, including the Torah, Psalms, Gospel, and the Qur’an as the final revelation sent to Prophet Muhammad ﷺ."
+            }
+        }
+    },
+    {
+        "icon": "fas fa-user-check",
+        "title": {
+            "id": "Iman kepada Rasul-rasul Allah",
+            "en": "Belief in the Messengers of Allah"
+        },
+        "content": {
+            "context": {
+                "id": "Meyakini bahwa Allah mengutus para nabi dan rasul untuk menyampaikan wahyu dan membimbing umat manusia, dengan Nabi Muhammad ﷺ sebagai nabi dan rasul terakhir.",
+                "en": "To believe that Allah sent prophets and messengers to convey revelation and guide humanity, with Prophet Muhammad ﷺ as the final prophet and messenger."
+            }
+        }
+    },
+    {
+        "icon": "fas fa-hourglass-half",
+        "title": {
+            "id": "Iman kepada Hari Akhir",
+            "en": "Belief in the Last Day"
+        },
+        "content": {
+            "context": {
+                "id": "Meyakini bahwa kehidupan dunia akan berakhir, seluruh manusia akan dibangkitkan, dihisab, dan menerima balasan yang adil atas setiap amalnya.",
+                "en": "To believe that worldly life will end, all people will be resurrected and judged, and everyone will receive a just recompense for their deeds."
+            }
+        }
+    },
+    {
+        "icon": "fas fa-balance-scale",
+        "title": {
+            "id": "Iman kepada Qada dan Qadar",
+            "en": "Belief in Divine Decree"
+        },
+        "content": {
+            "context": {
+                "id": "Meyakini bahwa segala sesuatu terjadi dengan ilmu, kehendak, dan ketetapan Allah, sekaligus tetap berusaha, berdoa, dan bertanggung jawab atas pilihan yang dilakukan.",
+                "en": "To believe that everything occurs according to Allah’s knowledge, will, and decree, while continuing to strive, pray, and take responsibility for one’s choices."
+            }
+        }
+    }
+]

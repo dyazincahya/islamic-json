@@ -9,7 +9,7 @@
 ## Data Explorer
 
 A Vue-based interface is included to browse the Qur'an, daily duas,
-Asmaul Husna, and the pillars of Islam.
+Asmaul Husna, the pillars of Islam, and the pillars of faith.
 
 ```bash
 cd ui
