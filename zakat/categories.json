@@ -1,0 +1,42 @@
+[
+  {
+    "id": "zakat-fitr",
+    "order": 1,
+    "title": { "id": "Zakat Fitrah", "en": "Zakat al-Fitr" },
+    "description": { "id": "Zakat yang ditunaikan menjelang Idulfitri untuk setiap Muslim yang memenuhi syarat.", "en": "Zakat paid near Eid al-Fitr for every Muslim who meets its conditions." },
+    "category": "zakat-category",
+    "sources": ["Qur'an 2:43", "AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "zakat-wealth",
+    "order": 2,
+    "title": { "id": "Zakat Harta", "en": "Zakat on Wealth" },
+    "description": { "id": "Zakat atas jenis harta tertentu setelah syarat kepemilikan, nisab, dan ketentuan waktunya terpenuhi.", "en": "Zakat on specified wealth after ownership, threshold, and timing conditions are met." },
+    "category": "zakat-category",
+    "sources": ["Qur'an 2:267", "Qur'an 9:103", "AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "zakat-gold-silver",
+    "order": 3,
+    "title": { "id": "Zakat Emas dan Perak", "en": "Zakat on Gold and Silver" },
+    "description": { "id": "Zakat atas emas dan perak yang memenuhi ketentuan; penerapan pada perhiasan berbeda menurut mazhab.", "en": "Zakat on qualifying gold and silver; schools differ on its application to jewelry." },
+    "category": "zakat-category",
+    "sources": ["Qur'an 9:34-35", "AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "zakat-trade",
+    "order": 4,
+    "title": { "id": "Zakat Perdagangan", "en": "Zakat on Trade Goods" },
+    "description": { "id": "Zakat atas aset yang disiapkan untuk diperjualbelikan ketika syaratnya terpenuhi.", "en": "Zakat on assets held for resale when its conditions are met." },
+    "category": "zakat-category",
+    "sources": ["Qur'an 2:267", "AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "zakat-agriculture",
+    "order": 5,
+    "title": { "id": "Zakat Pertanian", "en": "Zakat on Agricultural Produce" },
+    "description": { "id": "Zakat atas hasil pertanian yang memenuhi jenis dan ambang menurut pendapat fikih yang diikuti.", "en": "Zakat on agricultural produce meeting the qualifying type and threshold under the followed juristic view." },
+    "category": "zakat-category",
+    "sources": ["Qur'an 6:141", "Qur'an 2:267", "AAOIFI Shari'ah Standard No. 35: Zakah"]
+  }
+]

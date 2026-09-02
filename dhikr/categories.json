@@ -1,7 +1,45 @@
-[
-  {
-    "id": "Dzikir Pagi",
-    "en": "Morning Dhikr",
-    "slug": "morning-dhikr"
-  }
-]
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "morning-dhikr",
+      "order": 1,
+      "title": { "id": "Dzikir Pagi", "en": "Morning Dhikr" },
+      "description": {
+        "id": "Bacaan pilihan untuk mengawali hari.",
+        "en": "Selected remembrances for starting the day."
+      },
+      "file": "data/morning-dhikr.json"
+    },
+    {
+      "id": "evening-dhikr",
+      "order": 2,
+      "title": { "id": "Dzikir Petang", "en": "Evening Dhikr" },
+      "description": {
+        "id": "Bacaan pilihan untuk menutup hari.",
+        "en": "Selected remembrances for closing the day."
+      },
+      "file": "data/evening-dhikr.json"
+    },
+    {
+      "id": "after-prayer-dhikr",
+      "order": 3,
+      "title": { "id": "Dzikir Setelah Salat", "en": "After-prayer Dhikr" },
+      "description": {
+        "id": "Bacaan ringkas setelah salat wajib.",
+        "en": "Brief remembrances after obligatory prayer."
+      },
+      "file": "data/after-prayer-dhikr.json"
+    },
+    {
+      "id": "general-dhikr",
+      "order": 4,
+      "title": { "id": "Dzikir Umum", "en": "General Dhikr" },
+      "description": {
+        "id": "Kalimat dzikir yang dapat dibaca kapan saja.",
+        "en": "Remembrances that may be recited at any time."
+      },
+      "file": "data/general-dhikr.json"
+    }
+  ]
+}

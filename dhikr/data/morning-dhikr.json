@@ -1,1 +1,97 @@
-
+{
+  "schemaVersion": 1,
+  "id": "morning-dhikr",
+  "title": { "id": "Dzikir Pagi", "en": "Morning Dhikr" },
+  "items": [
+    {
+      "id": "morning-ayat-al-kursi",
+      "order": 1,
+      "title": { "id": "Ayat Kursi", "en": "Ayat al-Kursi" },
+      "context": {
+        "id": "Dibaca pada pagi hari.",
+        "en": "Recited in the morning."
+      },
+      "content": {
+        "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+        "latin": "Allahu la ilaha illa huwal-hayyul-qayyum. La ta'khudzuhu sinatuw wa la naum...",
+        "translation": {
+          "id": "Allah, tidak ada tuhan selain Dia, Yang Mahahidup, Yang terus-menerus mengurus makhluk-Nya...",
+          "en": "Allah—there is no deity except Him, the Ever-Living, the Sustainer of all existence..."
+        }
+      },
+      "sources": [{ "type": "quran", "reference": "Al-Baqarah 2:255" }]
+    },
+    {
+      "id": "morning-al-ikhlas",
+      "order": 2,
+      "title": { "id": "Surah Al-Ikhlas", "en": "Surah Al-Ikhlas" },
+      "context": {
+        "id": "Dibaca pada pagi hari.",
+        "en": "Recited in the morning."
+      },
+      "content": {
+        "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+        "latin": "Qul huwallahu ahad. Allahush-shamad. Lam yalid wa lam yulad. Wa lam yakul lahu kufuwan ahad.",
+        "translation": {
+          "id": "Katakanlah: Dialah Allah Yang Maha Esa. Allah tempat meminta segala sesuatu. Dia tidak beranak dan tidak pula diperanakkan. Tidak ada sesuatu yang setara dengan-Nya.",
+          "en": "Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born, and none is comparable to Him."
+        }
+      },
+      "sources": [{ "type": "quran", "reference": "Al-Ikhlas 112:1-4" }]
+    },
+    {
+      "id": "morning-al-falaq",
+      "order": 3,
+      "title": { "id": "Surah Al-Falaq", "en": "Surah Al-Falaq" },
+      "context": {
+        "id": "Permohonan perlindungan pada pagi hari.",
+        "en": "A prayer for protection in the morning."
+      },
+      "content": {
+        "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ مَا خَلَقَ ۝ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+        "latin": "Qul a'udzu birabbil-falaq. Min syarri ma khalaq...",
+        "translation": {
+          "id": "Katakanlah: Aku berlindung kepada Tuhan yang menguasai subuh, dari kejahatan makhluk-Nya...",
+          "en": "Say: I seek refuge in the Lord of daybreak from the evil of what He created..."
+        }
+      },
+      "sources": [{ "type": "quran", "reference": "Al-Falaq 113:1-5" }]
+    },
+    {
+      "id": "morning-al-nas",
+      "order": 4,
+      "title": { "id": "Surah An-Nas", "en": "Surah An-Nas" },
+      "context": {
+        "id": "Permohonan perlindungan pada pagi hari.",
+        "en": "A prayer for protection in the morning."
+      },
+      "content": {
+        "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَٰهِ النَّاسِ ۝ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۝ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ",
+        "latin": "Qul a'udzu birabbin-nas. Malikin-nas. Ilahin-nas...",
+        "translation": {
+          "id": "Katakanlah: Aku berlindung kepada Tuhan manusia, Raja manusia, sembahan manusia, dari kejahatan pembisik yang bersembunyi...",
+          "en": "Say: I seek refuge in the Lord of humankind, the King of humankind, the God of humankind, from the evil of the retreating whisperer..."
+        }
+      },
+      "sources": [{ "type": "quran", "reference": "An-Nas 114:1-6" }]
+    },
+    {
+      "id": "morning-affirmation",
+      "order": 5,
+      "title": { "id": "Memasuki Waktu Pagi", "en": "Entering the Morning" },
+      "context": {
+        "id": "Pengakuan bahwa pagi dan seluruh kekuasaan milik Allah.",
+        "en": "An affirmation that the morning and all sovereignty belong to Allah."
+      },
+      "content": {
+        "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ",
+        "latin": "Ashbahna wa ashbahal-mulku lillah, walhamdu lillah.",
+        "translation": {
+          "id": "Kami memasuki waktu pagi dan kerajaan hanya milik Allah; segala puji bagi Allah.",
+          "en": "We have entered the morning, and all sovereignty belongs to Allah; all praise is for Allah."
+        }
+      },
+      "sources": []
+    }
+  ]
+}

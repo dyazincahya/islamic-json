@@ -1,0 +1,73 @@
+[
+  {
+    "id": "fast-ramadan",
+    "order": 1,
+    "title": { "id": "Puasa Ramadan", "en": "Ramadan Fast" },
+    "description": {
+      "id": "Puasa wajib selama bulan Ramadan bagi Muslim yang memenuhi syarat.",
+      "en": "The obligatory fast during Ramadan for Muslims who meet its conditions."
+    },
+    "category": "obligatory-fast",
+    "sources": ["Qur'an 2:183-185"]
+  },
+  {
+    "id": "fast-makeup",
+    "order": 2,
+    "title": { "id": "Puasa Qada", "en": "Make-up Fast" },
+    "description": {
+      "id": "Puasa pengganti untuk hari wajib yang ditinggalkan ketika qada diwajibkan.",
+      "en": "A replacement fast for missed obligatory days when make-up is required."
+    },
+    "category": "obligatory-fast",
+    "sources": ["Qur'an 2:184-185"]
+  },
+  {
+    "id": "fast-vow",
+    "order": 3,
+    "title": { "id": "Puasa Nazar", "en": "Vowed Fast" },
+    "description": {
+      "id": "Puasa yang menjadi wajib karena nazar yang sah; rincian keabsahannya mengikuti fikih.",
+      "en": "A fast made obligatory by a valid vow; validity details follow jurisprudence."
+    },
+    "category": "obligatory-fast",
+    "sources": ["Qur'an 22:29", "Qur'an 76:7"]
+  },
+  {
+    "id": "fast-expiation",
+    "order": 4,
+    "title": { "id": "Puasa Kafarat", "en": "Expiatory Fast" },
+    "description": {
+      "id": "Puasa sebagai kafarat pada pelanggaran tertentu, dengan sebab, urutan, dan jumlah hari mengikuti ketentuan masing-masing kasus.",
+      "en": "Fasting as expiation for specified violations, with cause, sequence, and number of days governed by each case."
+    },
+    "category": "obligatory-fast",
+    "sources": ["Qur'an 2:196", "Qur'an 4:92", "Qur'an 5:89", "Qur'an 58:3-4"]
+  },
+  {
+    "id": "fast-voluntary",
+    "order": 5,
+    "title": { "id": "Puasa Sunah", "en": "Voluntary Fast" },
+    "description": {
+      "id": "Puasa tambahan di luar kewajiban; hari yang dianjurkan dan cara pelaksanaannya mengikuti panduan fikih.",
+      "en": "Additional fasting beyond obligations; recommended days and practice follow juristic guidance."
+    },
+    "category": "voluntary-fast",
+    "sources": ["Qur'an 2:184"]
+  },
+  {
+    "id": "fast-prohibited-days",
+    "order": 6,
+    "title": {
+      "id": "Hari yang Dilarang Berpuasa",
+      "en": "Days on Which Fasting Is Prohibited"
+    },
+    "description": {
+      "id": "Terdapat hari-hari ketika puasa tidak dibolehkan; daftar dan pengecualian rinci harus dirujuk kepada panduan fikih tepercaya.",
+      "en": "There are days on which fasting is not permitted; consult reliable juristic guidance for the detailed list and exceptions."
+    },
+    "category": "fasting-restriction",
+    "sources": [
+      "Consult a competent local religious authority for the detailed prohibited days and exceptions"
+    ]
+  }
+]

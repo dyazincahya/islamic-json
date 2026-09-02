@@ -23,6 +23,22 @@ Pages automatically by `.github/workflows/deploy-pages.yml` whenever the
 `main` branch is updated. In the repository settings, set **Pages → Source**
 to **GitHub Actions**.
 
+## Data Collections
+
+- Qur'an, daily dua, dhikr, and Asmaul Husna
+- Pillars of Islam and pillars of faith
+- Obligatory and sunnah prayer guides
+- Purification: wudu, tayammum, ritual bath, and impurities
+- Angels, revealed books, and 25 prophets
+- Hijri calendar and important Islamic occasions
+- Major Islamic places
+- Zakat and fasting references
+- Daily manners for eating, sleeping, mosque, travel, visiting, and social life
+
+Every domain includes a `README.md` describing its files, schema, and CDN
+paths. The Vue explorer exposes these datasets under the **Library** and
+**Developer API** navigation items.
+
 ## CDN
 
 You can access _islamic json_ data free via CDN.

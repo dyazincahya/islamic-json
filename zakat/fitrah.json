@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fitrah-obligation",
+    "order": 1,
+    "title": { "id": "Kewajiban", "en": "Obligation" },
+    "description": { "id": "Ditunaikan untuk Muslim yang memenuhi syarat kecukupan bagi diri dan tanggungannya.", "en": "Due for a Muslim who meets the sufficiency conditions for themselves and their dependants." },
+    "category": "zakat-fitr",
+    "sources": ["AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "fitrah-form",
+    "order": 2,
+    "title": { "id": "Bentuk Pembayaran", "en": "Form of Payment" },
+    "description": { "id": "Pada dasarnya berupa makanan pokok. Pembayaran dengan nilai uang diterima oleh sebagian mazhab atau otoritas; ikuti ketentuan setempat.", "en": "It is principally staple food. Paying its cash value is accepted by some schools or authorities; follow local rules." },
+    "category": "zakat-fitr",
+    "sources": ["AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "fitrah-amount",
+    "order": 3,
+    "title": { "id": "Takaran", "en": "Quantity" },
+    "description": { "id": "Takaran didasarkan pada satu sa' makanan pokok. Konversi berat dan nilai uang bergantung standar otoritas lokal dan tidak dicantumkan sebagai angka tetap.", "en": "The quantity is based on one sa' of staple food. Weight conversion and cash value depend on local authority standards and are not fixed here." },
+    "category": "zakat-fitr",
+    "sources": ["AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "fitrah-time",
+    "order": 4,
+    "title": { "id": "Waktu Penunaian", "en": "Payment Time" },
+    "description": { "id": "Ditunaikan agar sampai kepada penerima sebelum salat Id; awal waktu yang dibolehkan berbeda menurut mazhab dan aturan lokal.", "en": "It should reach recipients before the Eid prayer; schools and local rules differ on how early it may be paid." },
+    "category": "zakat-fitr",
+    "sources": ["AAOIFI Shari'ah Standard No. 35: Zakah"]
+  },
+  {
+    "id": "fitrah-distribution",
+    "order": 5,
+    "title": { "id": "Penyaluran", "en": "Distribution" },
+    "description": { "id": "Disalurkan kepada penerima yang berhak, dengan prioritas dan mekanisme mengikuti pendapat fikih serta otoritas zakat setempat.", "en": "Distributed to eligible recipients, with priorities and procedures following the applicable juristic view and local zakat authority." },
+    "category": "zakat-fitr",
+    "sources": ["Qur'an 9:60", "AAOIFI Shari'ah Standard No. 35: Zakah"]
+  }
+]

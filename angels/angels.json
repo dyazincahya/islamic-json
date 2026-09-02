@@ -1,0 +1,111 @@
+[
+  {
+    "id": "jibril",
+    "order": 1,
+    "name": {
+      "id": "Jibril",
+      "en": "Jibril",
+      "ar": "جِبْرِيل"
+    },
+    "description": {
+      "id": "Malaikat yang menurunkan Al-Quran ke dalam hati Nabi Muhammad dengan izin Allah.",
+      "en": "The angel who brought the Quran down to Prophet Muhammad's heart by Allah's permission."
+    },
+    "category": "angel",
+    "type": "named-angel",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "2:97"
+      },
+      {
+        "type": "quran",
+        "reference": "26:193-194"
+      }
+    ]
+  },
+  {
+    "id": "mikail",
+    "order": 2,
+    "name": {
+      "id": "Mikail",
+      "en": "Mikail",
+      "ar": "مِيكَال"
+    },
+    "description": {
+      "id": "Malaikat yang disebut namanya bersama Jibril dalam Al-Quran. Ayat tersebut tidak menjelaskan tugas khusus Mikail.",
+      "en": "An angel named alongside Jibril in the Quran. The verse does not state a specific duty for Mikail."
+    },
+    "category": "angel",
+    "type": "named-angel",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "2:98"
+      }
+    ]
+  },
+  {
+    "id": "malik",
+    "order": 3,
+    "name": {
+      "id": "Malik",
+      "en": "Malik",
+      "ar": "مَالِك"
+    },
+    "description": {
+      "id": "Malaikat yang dipanggil oleh para penghuni neraka dalam Al-Quran.",
+      "en": "The angel addressed by the inhabitants of Hell in the Quran."
+    },
+    "category": "angel",
+    "type": "named-angel",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "43:77"
+      }
+    ]
+  },
+  {
+    "id": "harut",
+    "order": 4,
+    "name": {
+      "id": "Harut",
+      "en": "Harut",
+      "ar": "هَارُوت"
+    },
+    "description": {
+      "id": "Salah satu dari dua malaikat yang disebut di Babilonia. Keduanya memperingatkan bahwa mereka adalah ujian dan agar manusia tidak menjadi kafir.",
+      "en": "One of the two angels mentioned in Babylon. They warned that they were a trial and that people should not disbelieve."
+    },
+    "category": "angel",
+    "type": "named-angel",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "2:102"
+      }
+    ]
+  },
+  {
+    "id": "marut",
+    "order": 5,
+    "name": {
+      "id": "Marut",
+      "en": "Marut",
+      "ar": "مَارُوت"
+    },
+    "description": {
+      "id": "Salah satu dari dua malaikat yang disebut di Babilonia. Keduanya memperingatkan bahwa mereka adalah ujian dan agar manusia tidak menjadi kafir.",
+      "en": "One of the two angels mentioned in Babylon. They warned that they were a trial and that people should not disbelieve."
+    },
+    "category": "angel",
+    "type": "named-angel",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "2:102"
+      }
+    ]
+  }
+]

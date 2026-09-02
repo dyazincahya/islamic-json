@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tayammum-use-clean-earth",
+    "order": 1,
+    "title": {
+      "id": "Menggunakan tanah yang baik",
+      "en": "Use clean earth",
+      "ar": "التَّيَمُّمُ بِصَعِيدٍ طَيِّبٍ"
+    },
+    "description": {
+      "id": "Ketika air tidak ditemukan dalam keadaan yang disebutkan ayat, gunakan tanah yang baik untuk tayammum.",
+      "en": "When water cannot be found in the circumstances stated by the verse, use clean earth for tayammum."
+    },
+    "category": "purification",
+    "type": "tayammum-step",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "4:43"
+      },
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  },
+  {
+    "id": "tayammum-wipe-face-hands",
+    "order": 2,
+    "title": {
+      "id": "Mengusap wajah dan tangan",
+      "en": "Wipe the face and hands",
+      "ar": "مَسْحُ الْوَجْهِ وَالْيَدَيْنِ"
+    },
+    "description": {
+      "id": "Usap wajah dan tangan dengan tanah yang baik sebagai tayammum.",
+      "en": "Wipe the face and hands with clean earth as tayammum."
+    },
+    "category": "purification",
+    "type": "tayammum-step",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "4:43"
+      },
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  }
+]

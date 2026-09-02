@@ -5,8 +5,8 @@ import { localized, repositoryUrl, sections } from '../../data'
 const props = defineProps({ activeSection: String, locale: String })
 const emit = defineEmits(['navigate', 'update:locale'])
 const dropdown = ref(null)
-const primarySections = sections.filter((item) => ['home', 'quran', 'developer'].includes(item.id))
-const collectionSections = sections.filter((item) => !['home', 'quran', 'developer'].includes(item.id))
+const primarySections = sections.filter((item) => ['home', 'quran', 'library', 'developer'].includes(item.id))
+const collectionSections = sections.filter((item) => !['home', 'quran', 'library', 'developer'].includes(item.id))
 const collectionActive = computed(() => collectionSections.some((item) => item.id === props.activeSection))
 
 function navigate(section) {

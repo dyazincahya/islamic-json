@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ghusl-major-ritual-impurity",
+    "order": 1,
+    "title": {
+      "id": "Mandi dari hadas besar",
+      "en": "Bathe after major ritual impurity",
+      "ar": "الْغُسْلُ مِنَ الْجَنَابَةِ"
+    },
+    "description": {
+      "id": "Dalam keadaan junub, bersucilah dengan mandi sebelum salat.",
+      "en": "In a state of major ritual impurity, purify yourself by bathing before prayer."
+    },
+    "category": "purification",
+    "type": "ghusl-guidance",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "4:43"
+      },
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  }
+]

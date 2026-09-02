@@ -1,0 +1,50 @@
+[
+  {
+    "id": "invalidator-eating-drinking",
+    "order": 1,
+    "title": { "id": "Makan atau Minum dengan Sengaja", "en": "Intentional Eating or Drinking" },
+    "description": { "id": "Memasukkan makanan atau minuman dengan sengaja pada waktu puasa membatalkan puasa; lupa diperlakukan berbeda dalam fikih.", "en": "Deliberately consuming food or drink during fasting hours invalidates the fast; forgetfulness is treated differently in jurisprudence." },
+    "category": "fast-invalidator",
+    "sources": ["Qur'an 2:187"]
+  },
+  {
+    "id": "invalidator-intercourse",
+    "order": 2,
+    "title": { "id": "Hubungan Seksual dengan Sengaja", "en": "Intentional Sexual Intercourse" },
+    "description": { "id": "Hubungan seksual dengan sengaja pada waktu puasa membatalkan puasa dan dapat menimbulkan kewajiban tambahan menurut kasusnya.", "en": "Intentional sexual intercourse during fasting hours invalidates the fast and may entail additional duties depending on the case." },
+    "category": "fast-invalidator",
+    "sources": ["Qur'an 2:187"]
+  },
+  {
+    "id": "invalidator-induced-ejaculation",
+    "order": 3,
+    "title": { "id": "Ejakulasi yang Disengaja", "en": "Deliberately Induced Ejaculation" },
+    "description": { "id": "Ejakulasi yang sengaja ditimbulkan membatalkan puasa menurut pandangan umum; rincian sebab dan akibat hukumnya berbeda menurut mazhab.", "en": "Deliberately induced ejaculation invalidates the fast under the general view; details of cause and legal consequence differ among schools." },
+    "category": "fast-invalidator",
+    "sources": ["Qur'an 2:187", "Consult a competent local religious authority for school-specific rulings"]
+  },
+  {
+    "id": "invalidator-menstruation-postpartum",
+    "order": 4,
+    "title": { "id": "Haid atau Nifas", "en": "Menstruation or Postpartum Bleeding" },
+    "description": { "id": "Datangnya haid atau nifas menghentikan keabsahan puasa hari itu; hari Ramadan yang terlewat diganti sesuai ketentuan.", "en": "The onset of menstruation or postpartum bleeding ends the validity of that day's fast; missed Ramadan days are made up as prescribed." },
+    "category": "fast-invalidator",
+    "sources": ["Qur'an 2:222", "Consult a competent local religious authority for detailed rulings"]
+  },
+  {
+    "id": "invalidator-intentional-vomiting",
+    "order": 5,
+    "title": { "id": "Muntah yang Disengaja", "en": "Intentionally Induced Vomiting" },
+    "description": { "id": "Muntah yang sengaja ditimbulkan dipandang membatalkan oleh mayoritas; muntah tanpa sengaja dan rincian batasannya mengikuti mazhab.", "en": "Intentionally induced vomiting is considered invalidating by the majority; involuntary vomiting and its limits follow school-specific rulings." },
+    "category": "fast-invalidator",
+    "sources": ["Consult a competent local religious authority for school-specific rulings"]
+  },
+  {
+    "id": "invalidator-medical-intake",
+    "order": 6,
+    "title": { "id": "Asupan dan Prosedur Medis", "en": "Medical Intake and Procedures" },
+    "description": { "id": "Obat oral membatalkan puasa. Hukum suntikan, infus, inhaler, tetes, dan prosedur lain bergantung sifat asupan dan pendapat lembaga fikih; konsultasikan kasus nyata.", "en": "Oral medicine invalidates the fast. Rulings on injections, infusions, inhalers, drops, and other procedures depend on their nature and juristic-body guidance; seek case-specific advice." },
+    "category": "fast-invalidator",
+    "sources": ["International Islamic Fiqh Academy, Resolution No. 93 (1/10) on substances that break the fast"]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "recipient-poor",
+    "order": 1,
+    "title": { "id": "Fakir", "en": "The Destitute" },
+    "description": { "id": "Orang yang hampir tidak memiliki sarana untuk memenuhi kebutuhan dasar.", "en": "People with little or no means to meet basic needs." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-needy",
+    "order": 2,
+    "title": { "id": "Miskin", "en": "The Needy" },
+    "description": { "id": "Orang yang memiliki sebagian penghasilan tetapi belum mencukupi kebutuhan dasar.", "en": "People whose available income does not sufficiently cover basic needs." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-administrators",
+    "order": 3,
+    "title": { "id": "Amil Zakat", "en": "Zakat Administrators" },
+    "description": { "id": "Petugas yang secara sah ditunjuk untuk mengelola pengumpulan dan penyaluran zakat.", "en": "Personnel duly appointed to administer zakat collection and distribution." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-reconciled-hearts",
+    "order": 4,
+    "title": { "id": "Mualaf", "en": "Those Whose Hearts Are Reconciled" },
+    "description": { "id": "Pihak yang hatinya hendak didekatkan atau diteguhkan; penerapannya mengikuti penilaian otoritas zakat yang berwenang.", "en": "Those whose hearts are to be reconciled or strengthened; application follows the assessment of the competent zakat authority." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-liberation",
+    "order": 5,
+    "title": { "id": "Pembebasan dari Perbudakan", "en": "Liberation from Bondage" },
+    "description": { "id": "Alokasi untuk membebaskan manusia dari perbudakan; penerapan kontemporernya memerlukan panduan otoritas yang berwenang.", "en": "An allocation for freeing people from bondage; contemporary application requires guidance from a competent authority." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-debtors",
+    "order": 6,
+    "title": { "id": "Orang yang Berutang", "en": "Debtors" },
+    "description": { "id": "Orang yang menanggung utang yang dibenarkan dan tidak mampu melunasinya, sesuai kriteria otoritas zakat.", "en": "People unable to repay legitimate debt, subject to the zakat authority's eligibility criteria." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-in-gods-cause",
+    "order": 7,
+    "title": { "id": "Di Jalan Allah", "en": "In the Cause of God" },
+    "description": { "id": "Alokasi fi sabilillah; cakupannya diperselisihkan sehingga penyaluran mengikuti pendapat fikih dan otoritas setempat.", "en": "The fi sabilillah allocation; its scope is disputed, so distribution follows the applicable juristic view and local authority." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  },
+  {
+    "id": "recipient-stranded-traveller",
+    "order": 8,
+    "title": { "id": "Musafir yang Kehabisan Bekal", "en": "The Stranded Traveller" },
+    "description": { "id": "Musafir yang terputus dari bekalnya dan memerlukan bantuan untuk melanjutkan perjalanan yang dibenarkan.", "en": "A traveller cut off from resources who needs help to continue a legitimate journey." },
+    "category": "zakat-recipient",
+    "sources": ["Qur'an 9:60"]
+  }
+]

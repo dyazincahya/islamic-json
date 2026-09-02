@@ -1,0 +1,44 @@
+[
+  {
+    "id": "clean-clothing",
+    "order": 1,
+    "title": {
+      "id": "Menjaga kebersihan pakaian",
+      "en": "Keep clothing clean",
+      "ar": "طَهَارَةُ الثِّيَابِ"
+    },
+    "description": {
+      "id": "Al-Quran memerintahkan agar pakaian disucikan. Ayat ini tidak merinci daftar zat yang tergolong najis.",
+      "en": "The Quran commands that clothing be purified. The verse does not provide a detailed list of substances classified as impurities."
+    },
+    "category": "purification",
+    "type": "impurity-guidance",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "74:4"
+      }
+    ]
+  },
+  {
+    "id": "menstruation-purification",
+    "order": 2,
+    "title": {
+      "id": "Bersuci setelah haid",
+      "en": "Purification after menstruation",
+      "ar": "الطَّهَارَةُ بَعْدَ الْمَحِيضِ"
+    },
+    "description": {
+      "id": "Al-Quran menyebut haid sebagai keadaan yang menuntut batasan hubungan seksual hingga haid berakhir dan perempuan telah bersuci.",
+      "en": "The Quran describes menstruation as a condition requiring abstention from sexual relations until it ends and the woman has purified herself."
+    },
+    "category": "purification",
+    "type": "impurity-guidance",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "2:222"
+      }
+    ]
+  }
+]

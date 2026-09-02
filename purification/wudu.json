@@ -1,0 +1,86 @@
+[
+  {
+    "id": "wudu-wash-face",
+    "order": 1,
+    "title": {
+      "id": "Membasuh wajah",
+      "en": "Wash the face",
+      "ar": "غَسْلُ الْوَجْهِ"
+    },
+    "description": {
+      "id": "Basuh wajah sebagai bagian dari wudu sebelum salat.",
+      "en": "Wash the face as part of wudu before prayer."
+    },
+    "category": "purification",
+    "type": "wudu-step",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  },
+  {
+    "id": "wudu-wash-arms",
+    "order": 2,
+    "title": {
+      "id": "Membasuh tangan hingga siku",
+      "en": "Wash the arms to the elbows",
+      "ar": "غَسْلُ الْيَدَيْنِ إِلَى الْمَرَافِقِ"
+    },
+    "description": {
+      "id": "Basuh kedua tangan beserta lengan hingga siku.",
+      "en": "Wash both hands and arms up to the elbows."
+    },
+    "category": "purification",
+    "type": "wudu-step",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  },
+  {
+    "id": "wudu-wipe-head",
+    "order": 3,
+    "title": {
+      "id": "Mengusap kepala",
+      "en": "Wipe the head",
+      "ar": "مَسْحُ الرَّأْسِ"
+    },
+    "description": {
+      "id": "Usap kepala sebagai bagian dari wudu.",
+      "en": "Wipe the head as part of wudu."
+    },
+    "category": "purification",
+    "type": "wudu-step",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  },
+  {
+    "id": "wudu-wash-feet",
+    "order": 4,
+    "title": {
+      "id": "Membasuh kaki hingga mata kaki",
+      "en": "Wash the feet to the ankles",
+      "ar": "غَسْلُ الرِّجْلَيْنِ إِلَى الْكَعْبَيْنِ"
+    },
+    "description": {
+      "id": "Basuh kedua kaki hingga mata kaki.",
+      "en": "Wash both feet up to the ankles."
+    },
+    "category": "purification",
+    "type": "wudu-step",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:6"
+      }
+    ]
+  }
+]

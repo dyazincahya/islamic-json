@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tawrat",
+    "order": 1,
+    "name": {
+      "id": "Taurat",
+      "en": "Torah",
+      "ar": "التَّوْرَاة"
+    },
+    "description": {
+      "id": "Kitab yang Allah turunkan kepada Musa sebagai petunjuk dan cahaya.",
+      "en": "The scripture Allah revealed to Moses as guidance and light."
+    },
+    "category": "revelation",
+    "type": "revealed-book",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:44"
+      }
+    ]
+  },
+  {
+    "id": "zabur",
+    "order": 2,
+    "name": {
+      "id": "Zabur",
+      "en": "Psalms",
+      "ar": "الزَّبُور"
+    },
+    "description": {
+      "id": "Kitab yang Allah berikan kepada Dawud.",
+      "en": "The scripture Allah gave to David."
+    },
+    "category": "revelation",
+    "type": "revealed-book",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "4:163"
+      },
+      {
+        "type": "quran",
+        "reference": "17:55"
+      }
+    ]
+  },
+  {
+    "id": "injil",
+    "order": 3,
+    "name": {
+      "id": "Injil",
+      "en": "Gospel",
+      "ar": "الْإِنْجِيل"
+    },
+    "description": {
+      "id": "Kitab yang Allah berikan kepada Isa, berisi petunjuk dan cahaya serta membenarkan Taurat yang ada sebelumnya.",
+      "en": "The scripture Allah gave to Jesus, containing guidance and light and confirming the Torah before it."
+    },
+    "category": "revelation",
+    "type": "revealed-book",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:46"
+      }
+    ]
+  },
+  {
+    "id": "quran",
+    "order": 4,
+    "name": {
+      "id": "Al-Quran",
+      "en": "Quran",
+      "ar": "الْقُرْآن"
+    },
+    "description": {
+      "id": "Kitab yang Allah turunkan kepada Muhammad dengan kebenaran, membenarkan kitab-kitab sebelumnya dan menjadi tolok ukur atasnya.",
+      "en": "The scripture Allah revealed to Muhammad in truth, confirming the scriptures before it and serving as a criterion over them."
+    },
+    "category": "revelation",
+    "type": "revealed-book",
+    "sources": [
+      {
+        "type": "quran",
+        "reference": "5:48"
+      }
+    ]
+  }
+]

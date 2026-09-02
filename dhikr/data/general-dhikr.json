@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "general-dhikr",
+  "title": { "id": "Dzikir Umum", "en": "General Dhikr" },
+  "items": [
+    { "id": "general-tasbih", "order": 1, "title": { "id": "Tasbih", "en": "Tasbih" }, "context": { "id": "Dapat dibaca kapan saja.", "en": "May be recited at any time." }, "content": { "arabic": "سُبْحَانَ اللَّهِ", "latin": "Subhanallah.", "translation": { "id": "Mahasuci Allah.", "en": "Glory be to Allah." } }, "sources": [] },
+    { "id": "general-tahmid", "order": 2, "title": { "id": "Tahmid", "en": "Tahmid" }, "context": { "id": "Ungkapan syukur dan pujian.", "en": "An expression of gratitude and praise." }, "content": { "arabic": "الْحَمْدُ لِلَّهِ", "latin": "Alhamdulillah.", "translation": { "id": "Segala puji bagi Allah.", "en": "All praise is for Allah." } }, "sources": [] },
+    { "id": "general-takbir", "order": 3, "title": { "id": "Takbir", "en": "Takbir" }, "context": { "id": "Ungkapan pengagungan kepada Allah.", "en": "An expression of Allah's greatness." }, "content": { "arabic": "اللَّهُ أَكْبَرُ", "latin": "Allahu akbar.", "translation": { "id": "Allah Mahabesar.", "en": "Allah is the Greatest." } }, "sources": [] },
+    { "id": "general-tahlil", "order": 4, "title": { "id": "Tahlil", "en": "Tahlil" }, "context": { "id": "Penegasan keesaan Allah.", "en": "An affirmation of Allah's oneness." }, "content": { "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ", "latin": "La ilaha illallah.", "translation": { "id": "Tidak ada tuhan selain Allah.", "en": "There is no deity but Allah." } }, "sources": [] },
+    { "id": "general-hawqala", "order": 5, "title": { "id": "Hauqalah", "en": "Hawqala" }, "context": { "id": "Pengakuan bahwa daya dan kekuatan berasal dari Allah.", "en": "An acknowledgment that power and strength come from Allah." }, "content": { "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ", "latin": "La hawla wa la quwwata illa billah.", "translation": { "id": "Tidak ada daya dan kekuatan kecuali dengan pertolongan Allah.", "en": "There is no power or strength except through Allah." } }, "sources": [] }
+  ]
+}

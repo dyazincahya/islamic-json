@@ -1,0 +1,66 @@
+[
+  {
+    "id": "recommended-suhur",
+    "order": 1,
+    "title": { "id": "Makan Sahur", "en": "Pre-dawn Meal" },
+    "description": { "id": "Makan atau minum sebelum fajar untuk membantu menjalankan puasa.", "en": "Eating or drinking before dawn to support the day's fast." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 2:187"]
+  },
+  {
+    "id": "recommended-delay-suhur",
+    "order": 2,
+    "title": { "id": "Mengakhirkan Sahur", "en": "Delaying the Pre-dawn Meal" },
+    "description": { "id": "Sahur dilakukan mendekati fajar tanpa melewati awal waktu puasa; gunakan jadwal tepercaya setempat.", "en": "Take the pre-dawn meal close to dawn without crossing into fasting time; use a reliable local timetable." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 2:187"]
+  },
+  {
+    "id": "recommended-prompt-iftar",
+    "order": 3,
+    "title": { "id": "Segera Berbuka Saat Waktunya", "en": "Breaking the Fast Promptly" },
+    "description": { "id": "Berbuka setelah matahari terbenam terkonfirmasi, mengikuti waktu lokal yang tepercaya.", "en": "Break the fast once sunset is confirmed, following a reliable local time." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 2:187"]
+  },
+  {
+    "id": "recommended-quran",
+    "order": 4,
+    "title": { "id": "Membaca dan Merenungkan Al-Qur'an", "en": "Reading and Reflecting on the Qur'an" },
+    "description": { "id": "Memperbanyak interaksi dengan Al-Qur'an pada bulan ketika Al-Qur'an diturunkan.", "en": "Increase engagement with the Qur'an during the month in which it was sent down." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 2:185", "Qur'an 38:29"]
+  },
+  {
+    "id": "recommended-charity",
+    "order": 5,
+    "title": { "id": "Sedekah dan Memberi Makan", "en": "Charity and Feeding Others" },
+    "description": { "id": "Membantu orang yang membutuhkan dan menyediakan makanan secara bertanggung jawab.", "en": "Help people in need and provide food responsibly." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 2:184", "Qur'an 76:8-9"]
+  },
+  {
+    "id": "recommended-night-worship",
+    "order": 6,
+    "title": { "id": "Ibadah Malam", "en": "Night Worship" },
+    "description": { "id": "Menghidupkan malam dengan salat, zikir, dan doa sesuai kemampuan; rincian berjemaah dan jumlah rakaat mengikuti fikih.", "en": "Enliven the night with prayer, remembrance, and supplication as able; congregational details and rak'ah count follow jurisprudence." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 73:2-8", "Qur'an 97:1-5"]
+  },
+  {
+    "id": "recommended-guard-conduct",
+    "order": 7,
+    "title": { "id": "Menjaga Ucapan dan Perilaku", "en": "Guarding Speech and Conduct" },
+    "description": { "id": "Menjauhi perkataan buruk, pertengkaran, dan tindakan dosa agar tujuan takwa tercermin dalam perilaku.", "en": "Avoid harmful speech, quarrels, and sinful conduct so that the aim of mindfulness is reflected in behavior." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 2:183", "Qur'an 49:11-12"]
+  },
+  {
+    "id": "recommended-seek-night-decree",
+    "order": 8,
+    "title": { "id": "Menghidupkan Malam Kemuliaan", "en": "Seeking the Night of Decree" },
+    "description": { "id": "Meningkatkan ibadah pada malam-malam akhir Ramadan; penentuan malam dan praktik rinci mengikuti panduan fikih tepercaya.", "en": "Increase worship during Ramadan's later nights; identification of the night and detailed practices follow reliable juristic guidance." },
+    "category": "recommended-fasting-action",
+    "sources": ["Qur'an 97:1-5"]
+  }
+]

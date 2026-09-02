@@ -1,0 +1,58 @@
+[
+  {
+    "id": "exemption-illness-temporary",
+    "order": 1,
+    "title": { "id": "Sakit Sementara", "en": "Temporary Illness" },
+    "description": { "id": "Orang sakit yang puasa membahayakan atau memperberat sakit boleh tidak berpuasa dan menggantinya ketika mampu.", "en": "A temporarily ill person for whom fasting is harmful or aggravating may defer and make up the days when able." },
+    "category": "temporary-exemption",
+    "sources": ["Qur'an 2:184-185"]
+  },
+  {
+    "id": "exemption-travel",
+    "order": 2,
+    "title": { "id": "Perjalanan", "en": "Travel" },
+    "description": { "id": "Musafir yang memenuhi kriteria boleh tidak berpuasa dan mengqada; batas perjalanan mengikuti fikih dan panduan lokal.", "en": "A qualifying traveller may defer fasting and make it up; travel criteria follow jurisprudence and local guidance." },
+    "category": "temporary-exemption",
+    "sources": ["Qur'an 2:184-185"]
+  },
+  {
+    "id": "exemption-menstruation-postpartum",
+    "order": 3,
+    "title": { "id": "Haid dan Nifas", "en": "Menstruation and Postpartum Bleeding" },
+    "description": { "id": "Puasa tidak dilakukan selama haid atau nifas dan hari Ramadan yang terlewat diqada.", "en": "Fasting is not observed during menstruation or postpartum bleeding, and missed Ramadan days are made up." },
+    "category": "temporary-exemption",
+    "sources": ["Qur'an 2:222", "Consult a competent local religious authority for detailed rulings"]
+  },
+  {
+    "id": "exemption-pregnancy-nursing",
+    "order": 4,
+    "title": { "id": "Hamil atau Menyusui", "en": "Pregnancy or Nursing" },
+    "description": { "id": "Keringanan berlaku bila ada kekhawatiran bahaya. Kewajiban qada dan/atau fidyah berbeda menurut keadaan dan mazhab.", "en": "A concession applies where harm is reasonably feared. Make-up and/or fidyah duties differ by circumstance and school." },
+    "category": "conditional-exemption",
+    "sources": ["Qur'an 2:184-185", "Consult a competent local religious authority for school-specific rulings"]
+  },
+  {
+    "id": "exemption-chronic-illness",
+    "order": 5,
+    "title": { "id": "Sakit Menahun", "en": "Chronic Illness" },
+    "description": { "id": "Orang yang secara berkelanjutan tidak mampu berpuasa dapat memperoleh keringanan; fidyah dan ukurannya mengikuti penilaian medis serta otoritas lokal.", "en": "A person continuously unable to fast may receive a concession; fidyah and its amount follow medical assessment and local authority guidance." },
+    "category": "long-term-exemption",
+    "sources": ["Qur'an 2:184"]
+  },
+  {
+    "id": "exemption-frail-elderly",
+    "order": 6,
+    "title": { "id": "Lanjut Usia yang Lemah", "en": "Frail Old Age" },
+    "description": { "id": "Lansia yang tidak mampu berpuasa dapat memperoleh keringanan; bentuk penggantinya mengikuti ketentuan otoritas lokal.", "en": "A frail elderly person unable to fast may receive a concession; the required substitute follows local authority guidance." },
+    "category": "long-term-exemption",
+    "sources": ["Qur'an 2:184"]
+  },
+  {
+    "id": "exemption-compulsion-emergency",
+    "order": 7,
+    "title": { "id": "Darurat atau Paksaan", "en": "Emergency or Compulsion" },
+    "description": { "id": "Keadaan darurat yang mengancam keselamatan dapat membolehkan berbuka sebatas kebutuhan; kewajiban setelahnya dinilai sesuai kasus.", "en": "A safety-threatening emergency may permit breaking the fast to the extent needed; subsequent duties are assessed case by case." },
+    "category": "emergency-exemption",
+    "sources": ["Qur'an 2:173", "Qur'an 2:185"]
+  }
+]
