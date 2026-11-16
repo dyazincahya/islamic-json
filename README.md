@@ -54,7 +54,7 @@ example, `dhikr/data/morning-dhikr.json` is now
 
 ## Data Sources
 
-The Qur'an data is sourced from the official [Qur'an Kemenag](https://quran.kemenag.go.id)
+The Qur'an data is sourced from the official [AL Qur'an Kemenag](https://quran.kemenag.go.id)
 website. The source code used to retrieve and convert the data is available in
 the [quran-json-kemenag](https://github.com/dyazincahya/quran-json-kemenag)
 repository.
