@@ -131,6 +131,7 @@ export const knowledgeCollections = [
   },
   {
     id: "prayer-guide",
+    kind: "guide",
     icon: "person-praying",
     title: { id: "Panduan Salat", en: "Prayer Guide" },
     description: {
@@ -157,6 +158,7 @@ export const knowledgeCollections = [
   },
   {
     id: "pillars-of-islam-guide",
+    kind: "guide",
     icon: "kaaba",
     title: { id: "Panduan Rukun Islam", en: "Pillars of Islam Guides" },
     description: {
@@ -209,6 +211,7 @@ export const knowledgeCollections = [
   },
   {
     id: "purification",
+    kind: "guide",
     icon: "droplet",
     title: { id: "Bersuci", en: "Purification" },
     description: {
@@ -397,6 +400,7 @@ export const knowledgeCollections = [
   },
   {
     id: "pilgrimage-guides",
+    kind: "guide",
     icon: "kaaba",
     title: { id: "Haji dan Umrah", en: "Hajj and Umrah" },
     description: {
@@ -418,6 +422,7 @@ export const knowledgeCollections = [
   },
   {
     id: "zakat-guides",
+    kind: "guide",
     icon: "hand-holding-heart",
     title: { id: "Panduan Zakat", en: "Zakat Guides" },
     description: {
@@ -439,6 +444,7 @@ export const knowledgeCollections = [
   },
   {
     id: "daily-worship-guides",
+    kind: "guide",
     icon: "hands-praying",
     title: { id: "Ibadah Harian", en: "Daily Worship" },
     description: {
@@ -455,6 +461,7 @@ export const knowledgeCollections = [
   },
   {
     id: "fasting-guides",
+    kind: "guide",
     icon: "moon",
     title: { id: "Panduan Puasa", en: "Fasting Guides" },
     description: {
@@ -471,6 +478,7 @@ export const knowledgeCollections = [
   },
   {
     id: "funeral-guides",
+    kind: "guide",
     icon: "person-praying",
     title: { id: "Salat Jenazah", en: "Funeral Prayer" },
     description: {
@@ -487,6 +495,7 @@ export const knowledgeCollections = [
   },
   {
     id: "learning-guides",
+    kind: "guide",
     icon: "book-open",
     title: { id: "Belajar Islam", en: "Islamic Learning" },
     description: {
@@ -511,6 +520,7 @@ export const knowledgeCollections = [
   },
   {
     id: "quran-guides",
+    kind: "guide",
     icon: "book-quran",
     title: { id: "Belajar Al-Qur'an", en: "Quran Learning" },
     description: {
