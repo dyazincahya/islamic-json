@@ -1,8 +1,8 @@
-name: Deploy Vue site to Pages
+name: Deploy docs site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [docs]
   workflow_dispatch:
 
 permissions:

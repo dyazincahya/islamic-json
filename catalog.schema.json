@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/dyazincahya/islamic-json/main/catalog.schema.json",
+  "title": "Islamic JSON Data Catalog",
+  "description": "JSON Schema for the Schema.org DataCatalog document at catalog.json.",
+  "type": "object",
+  "required": ["@context", "@type", "name", "description", "url", "dataset"],
+  "properties": {
+    "@context": {
+      "const": "https://schema.org"
+    },
+    "@type": {
+      "const": "DataCatalog"
+    },
+    "name": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "description": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "dataset": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dataset"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "localizedText": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["@value", "@language"],
+        "properties": {
+          "@value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "@language": {
+            "enum": ["id", "en"]
+          }
+        },
+        "additionalProperties": false
+      },
+      "allOf": [
+        {
+          "contains": {
+            "properties": {
+              "@language": { "const": "id" }
+            },
+            "required": ["@language"]
+          }
+        },
+        {
+          "contains": {
+            "properties": {
+              "@language": { "const": "en" }
+            },
+            "required": ["@language"]
+          }
+        }
+      ]
+    },
+    "dataset": {
+      "type": "object",
+      "required": [
+        "@type",
+        "@id",
+        "identifier",
+        "name",
+        "description",
+        "url",
+        "inLanguage",
+        "keywords",
+        "relatedLink",
+        "distribution"
+      ],
+      "properties": {
+        "@type": {
+          "const": "Dataset"
+        },
+        "@id": {
+          "type": "string",
+          "format": "uri"
+        },
+        "identifier": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "description": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "license": {
+          "type": "string",
+          "format": "uri"
+        },
+        "inLanguage": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
+        },
+        "keywords": {
+          "description": "Search terms for the dataset.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "relatedLink": {
+          "description": "Schema.org links to related library or guide datasets.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "distribution": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/distribution"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "distribution": {
+      "type": "object",
+      "required": ["@type", "name", "contentUrl", "encodingFormat"],
+      "properties": {
+        "@type": {
+          "const": "DataDownload"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contentUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "encodingFormat": {
+          "const": "application/json"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

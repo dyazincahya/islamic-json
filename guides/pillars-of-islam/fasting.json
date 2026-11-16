@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "fasting",
+  "title": {
+    "id": "Panduan Puasa Ramadan",
+    "en": "Ramadan Fasting Guide"
+  },
+  "description": {
+    "id": "Panduan pengantar untuk niat, waktu, amalan, dan keringanan umum dalam puasa Ramadan.",
+    "en": "An introductory guide to intention, timing, practices, and general concessions for fasting in Ramadan."
+  },
+  "items": [
+    {
+      "id": "intention-and-timing",
+      "order": 1,
+      "title": {
+        "id": "Niat dan waktu puasa",
+        "en": "Intention and fasting times"
+      },
+      "description": {
+        "id": "Puasa Ramadan dilakukan dari fajar hingga matahari terbenam dengan niat beribadah.",
+        "en": "The Ramadan fast is observed from dawn until sunset with the intention of worship."
+      },
+      "content": {
+        "arabic": "",
+        "latin": "",
+        "translation": {
+          "id": "Ikuti awal dan akhir Ramadan yang ditetapkan oleh otoritas agama tepercaya di wilayah Anda. Niatkan puasa Ramadan; waktu dan cara niat puasa wajib mengikuti tuntunan fikih yang dianut. Mulai menahan diri sejak terbit fajar hingga matahari terbenam. Makan sahur dianjurkan dan berbuka dilakukan setelah matahari terbenam.",
+          "en": "Follow the beginning and end of Ramadan as determined by a trusted religious authority in your area. Intend to fast Ramadan; the timing and form of intention for an obligatory fast follow the jurisprudential guidance one follows. Refrain from what breaks the fast from dawn until sunset. Suhur is recommended, and the fast is broken after sunset."
+        }
+      },
+      "sources": [
+        {
+          "type": "quran",
+          "reference": "Qur'an 2:183-185"
+        },
+        {
+          "type": "quran",
+          "reference": "Qur'an 2:187"
+        }
+      ]
+    },
+    {
+      "id": "conduct-during-fasting",
+      "order": 2,
+      "title": {
+        "id": "Selama berpuasa",
+        "en": "During the fast"
+      },
+      "description": {
+        "id": "Puasa juga melatih pengendalian diri dan menjaga perilaku.",
+        "en": "Fasting also develops self-restraint and mindful conduct."
+      },
+      "content": {
+        "arabic": "",
+        "latin": "",
+        "translation": {
+          "id": "Selain menahan diri dari makan, minum, dan hubungan suami istri pada siang hari, jaga ucapan serta perilaku dan hindari menyakiti orang lain. Perbanyak salat, membaca Al-Qur'an, berdoa, dan bersedekah sesuai kemampuan. Atur sahur, istirahat, dan kegiatan harian agar kesehatan tetap terjaga.",
+          "en": "In addition to refraining from food, drink, and marital relations during the day, guard one's speech and conduct and avoid harming others. Increase prayer, Qur'an recitation, supplication, and charity as able. Plan suhur, rest, and daily activities to support one's health."
+        }
+      },
+      "sources": [
+        {
+          "type": "quran",
+          "reference": "Qur'an 2:183"
+        }
+      ]
+    },
+    {
+      "id": "breaking-the-fast-and-eid",
+      "order": 3,
+      "title": {
+        "id": "Berbuka dan menyempurnakan Ramadan",
+        "en": "Breaking the fast and completing Ramadan"
+      },
+      "description": {
+        "id": "Berbuka setelah matahari terbenam dan tunaikan kewajiban terkait akhir Ramadan.",
+        "en": "Break the fast after sunset and fulfill obligations related to the end of Ramadan."
+      },
+      "content": {
+        "arabic": "",
+        "latin": "",
+        "translation": {
+          "id": "Berbuka setelah matahari terbenam dan tunaikan salat Magrib. Pada malam Ramadan, salat Tarawih merupakan ibadah sunah yang dianjurkan. Zakat fitrah ditunaikan menjelang Idulfitri oleh mereka yang wajib; periksa waktu, kadar, dan cara pembayaran menurut lembaga zakat setempat.",
+          "en": "Break the fast after sunset and perform the Maghrib prayer. Tarawih is a recommended voluntary prayer during Ramadan nights. Zakat al-fitr is given before Eid al-Fitr by those for whom it is due; check the timing, amount, and payment method with a local zakat institution."
+        }
+      },
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "Sahih al-Bukhari 8; Sahih Muslim 16 (pillars of Islam)"
+        }
+      ]
+    },
+    {
+      "id": "concessions-and-health",
+      "order": 4,
+      "title": {
+        "id": "Uzur dan kesehatan",
+        "en": "Valid excuses and health"
+      },
+      "description": {
+        "id": "Terdapat keringanan untuk keadaan tertentu, dengan rincian yang perlu dikonfirmasi.",
+        "en": "Concessions apply in certain circumstances, with details that should be confirmed."
+      },
+      "content": {
+        "arabic": "",
+        "latin": "",
+        "translation": {
+          "id": "Islam memberikan keringanan dalam keadaan tertentu, seperti sakit, perjalanan, kehamilan, menyusui, atau kondisi lain yang diakui dalam fikih. Kewajiban mengganti puasa atau bentuk keringanan bergantung pada keadaan dan dapat berbeda menurut pendapat ulama. Jangan mengabaikan risiko kesehatan; tanyakan kepada tenaga kesehatan dan pembimbing agama yang tepercaya.",
+          "en": "Islam provides concessions in certain circumstances, such as illness, travel, pregnancy, breastfeeding, or other situations recognized in jurisprudence. Whether missed fasts must be made up or another concession applies depends on the circumstances and may differ among scholarly opinions. Do not ignore health risks; consult a healthcare professional and a trusted religious teacher."
+        }
+      },
+      "sources": [
+        {
+          "type": "quran",
+          "reference": "Qur'an 2:184-185"
+        }
+      ]
+    }
+  ]
+}
