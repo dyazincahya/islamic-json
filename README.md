@@ -6,23 +6,12 @@
 
 <p align="center">All data json about Islam</p>
 
-## Data Explorer
+## Repository Layout
 
-A Vue-based interface is included to browse the Qur'an, daily duas,
-Asmaul Husna, the pillars of Islam, and the pillars of faith.
-
-```bash
-cd ui
-npm install
-npm run dev
-```
-
-The production site is built from the `ui` directory with `npm run build`
-and deployed to GitHub Pages automatically by `.github/workflows/deploy-pages.yml`
-whenever the `docs` branch is updated. The workflow builds `ui/` and publishes
-`ui/dist` as the Pages artifact. In the repository settings, set
-**Pages → Source** to **GitHub Actions**. The `docs` branch is the local
-website/deployment branch; push it to the remote before enabling the workflow.
+This `main` branch contains the JSON data, guides, catalog, and schemas. The
+Vue website is maintained separately on the `docs` branch. Its GitHub Pages
+workflow checks out this branch's UI and checks out `main` into `data/` at build
+time; JSON data is therefore not duplicated in `docs`.
 
 ## Data Collections
 
@@ -35,9 +24,9 @@ step-by-step learning material:
 - `guides/` — prayer, purification, and introductory pillars-of-Islam guides.
   More procedural guides, such as Hajj and Umrah, belong here.
 
-Collection READMEs describe their files and data shapes. The Vue explorer
-exposes selected datasets under the **Library** and **Developer API**
-navigation items.
+Collection READMEs describe their files and data shapes. The website explorer
+on the `docs` branch exposes selected datasets under the **Library** and
+**Developer API** navigation items.
 
 ## Machine-readable Catalog
 
