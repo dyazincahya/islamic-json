@@ -1,11 +1,14 @@
-import asmaulHusna from "../../asmaul-husna/asmaul-husna.json";
-import dua from "../../dua/data/daily-dua.json";
-import pillarsOfFaith from "../../pillars-of-faith/main.json";
-import surahList from "../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json";
+import asmaulHusna from "../../library/asmaul-husna/asmaul-husna.json";
+import dua from "../../library/dua/data/daily-dua.json";
+import pillarsOfFaith from "../../library/pillars-of-faith/main.json";
+import surahList from "../../library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json";
 
-const pillarModules = import.meta.glob("../../pillars-of-islam/**/*.json", {
-  import: "default",
-});
+const pillarModules = import.meta.glob(
+  "../../library/pillars-of-islam/**/*.json",
+  {
+    import: "default",
+  },
+);
 const pillarCategoryOrder = ["shahada", "salah", "zakat", "fasting", "hajj"];
 const salahOrder = [
   "subuh.json",
@@ -15,23 +18,24 @@ const salahOrder = [
   "isha.json",
 ];
 const surahModules = import.meta.glob(
-  "../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/*.json",
+  "../../library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/*.json",
   { import: "default" },
 );
 const knowledgeModules = import.meta.glob(
   [
-    "../../dhikr/**/*.json",
-    "../../prayer-guide/**/*.json",
-    "../../sunnah-prayers/**/*.json",
-    "../../purification/**/*.json",
-    "../../angels/**/*.json",
-    "../../revealed-books/**/*.json",
-    "../../prophets/**/*.json",
-    "../../islamic-calendar/**/*.json",
-    "../../islamic-places/**/*.json",
-    "../../zakat/**/*.json",
-    "../../fasting/**/*.json",
-    "../../manners/**/*.json",
+    "../../library/dhikr/**/*.json",
+    "../../guides/prayer/**/*.json",
+    "../../guides/pillars-of-islam/**/*.json",
+    "../../library/sunnah-prayers/**/*.json",
+    "../../guides/purification/**/*.json",
+    "../../library/angels/**/*.json",
+    "../../library/revealed-books/**/*.json",
+    "../../library/prophets/**/*.json",
+    "../../library/islamic-calendar/**/*.json",
+    "../../library/islamic-places/**/*.json",
+    "../../library/zakat/**/*.json",
+    "../../library/fasting/**/*.json",
+    "../../library/manners/**/*.json",
   ],
   { import: "default" },
 );
@@ -101,27 +105,27 @@ export const knowledgeCollections = [
       {
         id: "categories",
         title: { id: "Kategori Dzikir", en: "Dhikr Categories" },
-        path: "dhikr/categories.json",
+        path: "library/dhikr/categories.json",
       },
       {
         id: "morning",
         title: { id: "Dzikir Pagi", en: "Morning Dhikr" },
-        path: "dhikr/data/morning-dhikr.json",
+        path: "library/dhikr/data/morning-dhikr.json",
       },
       {
         id: "evening",
         title: { id: "Dzikir Petang", en: "Evening Dhikr" },
-        path: "dhikr/data/evening-dhikr.json",
+        path: "library/dhikr/data/evening-dhikr.json",
       },
       {
         id: "after-prayer",
         title: { id: "Setelah Salat", en: "After Prayer" },
-        path: "dhikr/data/after-prayer-dhikr.json",
+        path: "library/dhikr/data/after-prayer-dhikr.json",
       },
       {
         id: "general",
         title: { id: "Dzikir Umum", en: "General Dhikr" },
-        path: "dhikr/data/general-dhikr.json",
+        path: "library/dhikr/data/general-dhikr.json",
       },
     ],
   },
@@ -137,7 +141,53 @@ export const knowledgeCollections = [
       {
         id: "obligatory",
         title: { id: "Salat Wajib", en: "Obligatory Prayer" },
-        path: "prayer-guide/data/obligatory-prayer.json",
+        path: "guides/prayer/data/obligatory-prayer.json",
+      },
+      {
+        id: "voluntary",
+        title: { id: "Salat Sunah", en: "Voluntary Prayers" },
+        path: "guides/prayer/voluntary-prayers.json",
+      },
+      {
+        id: "eid",
+        title: { id: "Salat Id", en: "Eid Prayer" },
+        path: "guides/prayer/eid-prayer.json",
+      },
+    ],
+  },
+  {
+    id: "pillars-of-islam-guide",
+    icon: "kaaba",
+    title: { id: "Panduan Rukun Islam", en: "Pillars of Islam Guides" },
+    description: {
+      id: "Pengantar makna dan praktik umum lima rukun Islam.",
+      en: "An introduction to the meaning and general practice of the five pillars of Islam.",
+    },
+    files: [
+      {
+        id: "shahada",
+        title: { id: "Syahadat", en: "Shahada" },
+        path: "guides/pillars-of-islam/shahada.json",
+      },
+      {
+        id: "salah",
+        title: { id: "Salat", en: "Salah" },
+        path: "guides/pillars-of-islam/salah.json",
+      },
+      {
+        id: "zakat",
+        title: { id: "Zakat", en: "Zakat" },
+        path: "guides/pillars-of-islam/zakat.json",
+      },
+      {
+        id: "fasting",
+        title: { id: "Puasa", en: "Fasting" },
+        path: "guides/pillars-of-islam/fasting.json",
+      },
+      {
+        id: "hajj",
+        title: { id: "Haji", en: "Hajj" },
+        path: "guides/pillars-of-islam/hajj.json",
       },
     ],
   },
@@ -153,7 +203,7 @@ export const knowledgeCollections = [
       {
         id: "main",
         title: { id: "Salat Sunah", en: "Sunnah Prayers" },
-        path: "sunnah-prayers/data/sunnah-prayers.json",
+        path: "library/sunnah-prayers/data/sunnah-prayers.json",
       },
     ],
   },
@@ -169,22 +219,37 @@ export const knowledgeCollections = [
       {
         id: "wudu",
         title: { id: "Wudu", en: "Wudu" },
-        path: "purification/wudu.json",
+        path: "guides/purification/wudu.json",
       },
       {
         id: "tayammum",
         title: { id: "Tayamum", en: "Tayammum" },
-        path: "purification/tayammum.json",
+        path: "guides/purification/tayammum.json",
       },
       {
         id: "ghusl",
         title: { id: "Mandi Wajib", en: "Ritual Bath" },
-        path: "purification/ghusl.json",
+        path: "guides/purification/ghusl.json",
       },
       {
         id: "impurities",
         title: { id: "Najis", en: "Impurities" },
-        path: "purification/impurities.json",
+        path: "guides/purification/impurities.json",
+      },
+      {
+        id: "wudu-procedure",
+        title: { id: "Tata Cara Wudu", en: "Wudu Procedure" },
+        path: "guides/purification/wudu-procedure.json",
+      },
+      {
+        id: "tayammum-procedure",
+        title: { id: "Tata Cara Tayamum", en: "Tayammum Procedure" },
+        path: "guides/purification/tayammum-procedure.json",
+      },
+      {
+        id: "ghusl-procedure",
+        title: { id: "Tata Cara Mandi Wajib", en: "Ritual Bath Procedure" },
+        path: "guides/purification/ghusl-procedure.json",
       },
     ],
   },
@@ -200,7 +265,7 @@ export const knowledgeCollections = [
       {
         id: "main",
         title: { id: "Malaikat", en: "Angels" },
-        path: "angels/angels.json",
+        path: "library/angels/angels.json",
       },
     ],
   },
@@ -216,7 +281,7 @@ export const knowledgeCollections = [
       {
         id: "main",
         title: { id: "Kitab Allah", en: "Revealed Books" },
-        path: "revealed-books/revealed-books.json",
+        path: "library/revealed-books/revealed-books.json",
       },
     ],
   },
@@ -232,7 +297,7 @@ export const knowledgeCollections = [
       {
         id: "main",
         title: { id: "Nabi dan Rasul", en: "Prophets" },
-        path: "prophets/prophets.json",
+        path: "library/prophets/prophets.json",
       },
     ],
   },
@@ -248,7 +313,7 @@ export const knowledgeCollections = [
       {
         id: "main",
         title: { id: "Kalender Islam", en: "Islamic Calendar" },
-        path: "islamic-calendar/calendar.json",
+        path: "library/islamic-calendar/calendar.json",
       },
     ],
   },
@@ -264,7 +329,7 @@ export const knowledgeCollections = [
       {
         id: "main",
         title: { id: "Tempat Islam", en: "Islamic Places" },
-        path: "islamic-places/places.json",
+        path: "library/islamic-places/places.json",
       },
     ],
   },
@@ -280,22 +345,22 @@ export const knowledgeCollections = [
       {
         id: "categories",
         title: { id: "Jenis Zakat", en: "Zakat Types" },
-        path: "zakat/categories.json",
+        path: "library/zakat/categories.json",
       },
       {
         id: "recipients",
         title: { id: "Penerima Zakat", en: "Recipients" },
-        path: "zakat/recipients.json",
+        path: "library/zakat/recipients.json",
       },
       {
         id: "fitrah",
         title: { id: "Zakat Fitrah", en: "Zakat al-Fitr" },
-        path: "zakat/fitrah.json",
+        path: "library/zakat/fitrah.json",
       },
       {
         id: "wealth",
         title: { id: "Zakat Harta", en: "Wealth Zakat" },
-        path: "zakat/wealth-overview.json",
+        path: "library/zakat/wealth-overview.json",
       },
     ],
   },
@@ -311,22 +376,152 @@ export const knowledgeCollections = [
       {
         id: "types",
         title: { id: "Jenis Puasa", en: "Fasting Types" },
-        path: "fasting/types.json",
+        path: "library/fasting/types.json",
       },
       {
         id: "invalidators",
         title: { id: "Pembatal Puasa", en: "Invalidators" },
-        path: "fasting/invalidators.json",
+        path: "library/fasting/invalidators.json",
       },
       {
         id: "exemptions",
         title: { id: "Keringanan", en: "Exemptions" },
-        path: "fasting/exemptions.json",
+        path: "library/fasting/exemptions.json",
       },
       {
         id: "recommended",
         title: { id: "Amalan Dianjurkan", en: "Recommended Acts" },
-        path: "fasting/recommended-actions.json",
+        path: "library/fasting/recommended-actions.json",
+      },
+    ],
+  },
+  {
+    id: "pilgrimage-guides",
+    icon: "kaaba",
+    title: { id: "Haji dan Umrah", en: "Hajj and Umrah" },
+    description: {
+      id: "Panduan manasik haji dan tata cara umrah.",
+      en: "Guides to Hajj rites and Umrah.",
+    },
+    files: [
+      {
+        id: "hajj",
+        title: { id: "Panduan Haji", en: "Hajj Guide" },
+        path: "guides/pilgrimage/hajj.json",
+      },
+      {
+        id: "umrah",
+        title: { id: "Panduan Umrah", en: "Umrah Guide" },
+        path: "guides/pilgrimage/umrah.json",
+      },
+    ],
+  },
+  {
+    id: "zakat-guides",
+    icon: "hand-holding-heart",
+    title: { id: "Panduan Zakat", en: "Zakat Guides" },
+    description: {
+      id: "Panduan zakat fitrah dan zakat harta.",
+      en: "Guides to zakat al-fitr and zakat on wealth.",
+    },
+    files: [
+      {
+        id: "fitrah",
+        title: { id: "Zakat Fitrah", en: "Zakat al-Fitr" },
+        path: "guides/zakat/fitrah.json",
+      },
+      {
+        id: "wealth",
+        title: { id: "Zakat Harta", en: "Zakat on Wealth" },
+        path: "guides/zakat/wealth.json",
+      },
+    ],
+  },
+  {
+    id: "daily-worship-guides",
+    icon: "hands-praying",
+    title: { id: "Ibadah Harian", en: "Daily Worship" },
+    description: {
+      id: "Panduan menggunakan koleksi dzikir dan doa.",
+      en: "Guides for using dhikr and dua collections.",
+    },
+    files: [
+      {
+        id: "after-prayer-dhikr",
+        title: { id: "Dzikir Setelah Salat", en: "After-Prayer Dhikr" },
+        path: "guides/daily-worship/dhikr-after-prayer.json",
+      },
+    ],
+  },
+  {
+    id: "fasting-guides",
+    icon: "moon",
+    title: { id: "Panduan Puasa", en: "Fasting Guides" },
+    description: {
+      id: "Panduan mengganti puasa Ramadan.",
+      en: "Guide to making up missed Ramadan fasts.",
+    },
+    files: [
+      {
+        id: "make-up-fasts",
+        title: { id: "Mengganti Puasa", en: "Make-up Fasts" },
+        path: "guides/fasting/make-up-fasts.json",
+      },
+    ],
+  },
+  {
+    id: "funeral-guides",
+    icon: "person-praying",
+    title: { id: "Salat Jenazah", en: "Funeral Prayer" },
+    description: {
+      id: "Panduan umum salat jenazah.",
+      en: "General funeral prayer guide.",
+    },
+    files: [
+      {
+        id: "janazah",
+        title: { id: "Salat Jenazah", en: "Funeral Prayer" },
+        path: "guides/funeral/janazah-prayer.json",
+      },
+    ],
+  },
+  {
+    id: "learning-guides",
+    icon: "book-open",
+    title: { id: "Belajar Islam", en: "Islamic Learning" },
+    description: {
+      id: "Panduan belajar dasar Islam dan Asmaul Husna.",
+      en: "Guides to Islamic basics and Asma ul Husna.",
+    },
+    files: [
+      {
+        id: "new-muslim",
+        title: {
+          id: "Belajar Dasar bagi Muslim Baru",
+          en: "Learning Path for New Muslims",
+        },
+        path: "guides/learning/new-muslim.json",
+      },
+      {
+        id: "asmaul-husna",
+        title: { id: "Belajar Asmaul Husna", en: "Learning Asma ul Husna" },
+        path: "guides/learning/asmaul-husna.json",
+      },
+    ],
+  },
+  {
+    id: "quran-guides",
+    icon: "book-quran",
+    title: { id: "Belajar Al-Qur'an", en: "Quran Learning" },
+    description: {
+      id: "Panduan memulai membaca Al-Qur'an.",
+      en: "Guide to starting Quran reading.",
+    },
+    files: [
+      {
+        id: "reading-quran",
+        title: { id: "Membaca Al-Qur'an", en: "Reading the Quran" },
+        path: "guides/quran/reading-quran.json",
       },
     ],
   },
@@ -342,32 +537,32 @@ export const knowledgeCollections = [
       {
         id: "eating",
         title: { id: "Makan", en: "Eating" },
-        path: "manners/eating.json",
+        path: "library/manners/eating.json",
       },
       {
         id: "sleeping",
         title: { id: "Tidur", en: "Sleeping" },
-        path: "manners/sleeping.json",
+        path: "library/manners/sleeping.json",
       },
       {
         id: "mosque",
         title: { id: "Masjid", en: "Mosque" },
-        path: "manners/mosque.json",
+        path: "library/manners/mosque.json",
       },
       {
         id: "travelling",
         title: { id: "Perjalanan", en: "Travelling" },
-        path: "manners/travelling.json",
+        path: "library/manners/travelling.json",
       },
       {
         id: "visiting",
         title: { id: "Bertamu", en: "Visiting" },
-        path: "manners/visiting.json",
+        path: "library/manners/visiting.json",
       },
       {
         id: "social",
         title: { id: "Sosial", en: "Social" },
-        path: "manners/social.json",
+        path: "library/manners/social.json",
       },
     ],
   },
@@ -380,7 +575,7 @@ export async function getKnowledgeFile(path) {
 }
 
 export async function getSurah(number) {
-  const key = `../../holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/${number}.json`;
+  const key = `../../library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/${number}.json`;
   const loader = surahModules[key];
   if (!loader) throw new Error(`Surah module not found: ${number}`);
   const data = await loader();
@@ -393,13 +588,13 @@ export async function getPillars() {
   const entries = await Promise.all(
     Object.entries(pillarModules).map(async ([path, loader]) => {
       const data = await loader();
-      const relativePath = path.replace("../../pillars-of-islam/", "");
+      const relativePath = path.replace("../../library/pillars-of-islam/", "");
       const [category] = relativePath.split("/");
       const records = Array.isArray(data) ? data : [data];
       return records.map((record, index) => ({
         ...record,
         category,
-        path: `pillars-of-islam/${relativePath}`,
+        path: `library/pillars-of-islam/${relativePath}`,
         key: `${relativePath}-${index}`,
       }));
     }),

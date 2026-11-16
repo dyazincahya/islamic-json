@@ -18,26 +18,51 @@ npm run dev
 ```
 
 The production site is built from the `ui` directory with `npm run build`
-and deployed to GitHub
-Pages automatically by `.github/workflows/deploy-pages.yml` whenever the
-`main` branch is updated. In the repository settings, set **Pages → Source**
-to **GitHub Actions**.
+and deployed to GitHub Pages automatically by `.github/workflows/deploy-pages.yml`
+whenever the `docs` branch is updated. The workflow builds `ui/` and publishes
+`ui/dist` as the Pages artifact. In the repository settings, set
+**Pages → Source** to **GitHub Actions**. The `docs` branch is the local
+website/deployment branch; push it to the remote before enabling the workflow.
 
 ## Data Collections
 
-- Qur'an, daily dua, dhikr, and Asmaul Husna
-- Pillars of Islam and pillars of faith
-- Obligatory and sunnah prayer guides
-- Purification: wudu, tayammum, ritual bath, and impurities
-- Angels, revealed books, and 25 prophets
-- Hijri calendar and important Islamic occasions
-- Major Islamic places
-- Zakat and fasting references
-- Daily manners for eating, sleeping, mosque, travel, visiting, and social life
+The repository separates reusable content and reference datasets from
+step-by-step learning material:
 
-Every domain includes a `README.md` describing its files and schema. The Vue
-explorer exposes these datasets under the **Library** and **Developer API**
+- `library/` — Qur'an, dua, dhikr, Asmaul Husna, pillars of Islam and faith,
+  sunnah prayers, zakat and fasting references, prophets, angels, calendar,
+  places, and manners.
+- `guides/` — prayer, purification, and introductory pillars-of-Islam guides.
+  More procedural guides, such as Hajj and Umrah, belong here.
+
+Collection READMEs describe their files and data shapes. The Vue explorer
+exposes selected datasets under the **Library** and **Developer API**
 navigation items.
+
+## Machine-readable Catalog
+
+[`catalog.json`](./catalog.json) is the repository-wide dataset index. It uses
+[Schema.org JSON-LD](https://schema.org/DataCatalog) with `DataCatalog`,
+`Dataset`, and `DataDownload` types. Each collection lists its JSON download
+endpoints, language metadata, keywords, related datasets/guides via `relatedLink`, and repository location. Consumers can
+use this catalog to discover available data without relying on a hard-coded
+file list.
+
+[`catalog.schema.json`](./catalog.schema.json) uses JSON Schema Draft 2020-12
+to validate the catalog. After adding or moving a collection, update the
+metadata in `scripts/generate_catalog.py` and regenerate the catalog:
+
+```bash
+python scripts/generate_catalog.py
+```
+
+### Path migration
+
+Collections formerly stored at the repository root now live under `library/`;
+procedural datasets live under `guides/`. This changes raw and CDN URLs that
+used the old paths. Update consumers to the paths listed in `catalog.json` (for
+example, `dhikr/data/morning-dhikr.json` is now
+`library/dhikr/data/morning-dhikr.json`).
 
 ## Data Sources
 
