@@ -1,10 +1,10 @@
-import asmaulHusna from "../../library/asmaul-husna/asmaul-husna.json";
-import dua from "../../library/dua/data/daily-dua.json";
-import pillarsOfFaith from "../../library/pillars-of-faith/main.json";
-import surahList from "../../library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json";
+import asmaulHusna from "../../data/library/asmaul-husna/asmaul-husna.json";
+import dua from "../../data/library/dua/data/daily-dua.json";
+import pillarsOfFaith from "../../data/library/pillars-of-faith/main.json";
+import surahList from "../../data/library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah.json";
 
 const pillarModules = import.meta.glob(
-  "../../library/pillars-of-islam/**/*.json",
+  "../../data/library/pillars-of-islam/**/*.json",
   {
     import: "default",
   },
@@ -18,24 +18,24 @@ const salahOrder = [
   "isha.json",
 ];
 const surahModules = import.meta.glob(
-  "../../library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/*.json",
+  "../../data/library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/*.json",
   { import: "default" },
 );
 const knowledgeModules = import.meta.glob(
   [
-    "../../library/dhikr/**/*.json",
-    "../../guides/prayer/**/*.json",
-    "../../guides/pillars-of-islam/**/*.json",
-    "../../library/sunnah-prayers/**/*.json",
-    "../../guides/purification/**/*.json",
-    "../../library/angels/**/*.json",
-    "../../library/revealed-books/**/*.json",
-    "../../library/prophets/**/*.json",
-    "../../library/islamic-calendar/**/*.json",
-    "../../library/islamic-places/**/*.json",
-    "../../library/zakat/**/*.json",
-    "../../library/fasting/**/*.json",
-    "../../library/manners/**/*.json",
+    "../../data/library/dhikr/**/*.json",
+    "../../data/guides/prayer/**/*.json",
+    "../../data/guides/pillars-of-islam/**/*.json",
+    "../../data/library/sunnah-prayers/**/*.json",
+    "../../data/guides/purification/**/*.json",
+    "../../data/library/angels/**/*.json",
+    "../../data/library/revealed-books/**/*.json",
+    "../../data/library/prophets/**/*.json",
+    "../../data/library/islamic-calendar/**/*.json",
+    "../../data/library/islamic-places/**/*.json",
+    "../../data/library/zakat/**/*.json",
+    "../../data/library/fasting/**/*.json",
+    "../../data/library/manners/**/*.json",
   ],
   { import: "default" },
 );
@@ -569,13 +569,13 @@ export const knowledgeCollections = [
 ];
 
 export async function getKnowledgeFile(path) {
-  const loader = knowledgeModules[`../../${path}`];
+  const loader = knowledgeModules[`../../data/${path}`];
   if (!loader) throw new Error(`Knowledge file not found: ${path}`);
   return loader();
 }
 
 export async function getSurah(number) {
-  const key = `../../library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/${number}.json`;
+  const key = `../../data/library/holy-quran/ministry-of-religion-of-the-republic-of-indonesia/surah/${number}.json`;
   const loader = surahModules[key];
   if (!loader) throw new Error(`Surah module not found: ${number}`);
   const data = await loader();
@@ -588,7 +588,10 @@ export async function getPillars() {
   const entries = await Promise.all(
     Object.entries(pillarModules).map(async ([path, loader]) => {
       const data = await loader();
-      const relativePath = path.replace("../../library/pillars-of-islam/", "");
+      const relativePath = path.replace(
+        "../../data/library/pillars-of-islam/",
+        "",
+      );
       const [category] = relativePath.split("/");
       const records = Array.isArray(data) ? data : [data];
       return records.map((record, index) => ({

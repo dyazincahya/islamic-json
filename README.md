@@ -8,45 +8,33 @@
 
 ## Data Explorer
 
-A Vue-based interface is included to browse the Qur'an, daily duas,
-Asmaul Husna, the pillars of Islam, and the pillars of faith.
+This branch contains the Vue-based interface for browsing the Islamic JSON
+collections. The JSON data remains on the `main` branch and is checked out
+into `data/` only during the GitHub Pages build.
 
 ```bash
+# Run locally after checking out the data branch into ./data
 cd ui
 npm install
 npm run dev
 ```
 
-The production site is built from the `ui` directory with `npm run build`
-and deployed to GitHub Pages automatically by `.github/workflows/deploy-pages.yml`
-whenever the `docs` branch is updated. The workflow builds `ui/` and publishes
-`ui/dist` as the Pages artifact. In the repository settings, set
-**Pages → Source** to **GitHub Actions**. The `docs` branch is the local
-website/deployment branch; push it to the remote before enabling the workflow.
+The production site is built from `ui/` with `npm run build` and deployed by
+`.github/workflows/deploy-pages.yml` whenever `docs` is updated. The workflow
+checks out `main` into `data/`, builds `ui/`, and publishes `ui/dist` as the
+Pages artifact. In repository settings, set **Pages → Source** to **GitHub
+Actions**.
 
-## Data Collections
+## Data Branch
 
-The repository separates reusable content and reference datasets from
-step-by-step learning material:
-
-- `library/` — Qur'an, dua, dhikr, Asmaul Husna, pillars of Islam and faith,
-  sunnah prayers, zakat and fasting references, prophets, angels, calendar,
-  places, and manners.
-- `guides/` — prayer, purification, and introductory pillars-of-Islam guides.
-  More procedural guides, such as Hajj and Umrah, belong here.
-
-Collection READMEs describe their files and data shapes. The Vue explorer
-exposes selected datasets under the **Library** and **Developer API**
-navigation items.
+All JSON data, guides, catalog metadata, and schemas are maintained on the
+`main` branch. The `docs` branch intentionally does not contain a copy of the
+data. The Pages workflow checks out `main` as `data/` only for compilation.
 
 ## Machine-readable Catalog
 
-[`catalog.json`](./catalog.json) is the repository-wide dataset index. It uses
-[Schema.org JSON-LD](https://schema.org/DataCatalog) with `DataCatalog`,
-`Dataset`, and `DataDownload` types. Each collection lists its JSON download
-endpoints, language metadata, keywords, related datasets/guides via `relatedLink`, and repository location. Consumers can
-use this catalog to discover available data without relying on a hard-coded
-file list.
+The data catalog and JSON Schema are available from the `main` branch:
+`catalog.json` and `catalog.schema.json`.
 
 [`catalog.schema.json`](./catalog.schema.json) uses JSON Schema Draft 2020-12
 to validate the catalog. After adding or moving a collection, update the
