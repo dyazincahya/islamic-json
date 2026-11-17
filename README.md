@@ -55,10 +55,14 @@ example, `dhikr/data/morning-dhikr.json` is now
 
 ## Data Sources
 
-The Qur'an data is sourced from the official [Qur'an Kemenag](https://quran.kemenag.go.id)
-website. The source code used to retrieve and convert the data is available in
-the [quran-json-kemenag](https://github.com/dyazincahya/quran-json-kemenag)
-repository.
+Qur'an Arabic text, Indonesian translation, and Kemenag tafsir are sourced from
+the official [Qur'an Kemenag](https://quran.kemenag.go.id) website. The source
+code used to retrieve and convert this data is available in the
+[quran-json-kemenag](https://github.com/dyazincahya/quran-json-kemenag)
+repository. English translation by Talal Itani is sourced from Tanzil.net via the
+[English translation data](https://github.com/dyazincahya/quran-api-with-php-codeigniter/tree/master/public/assets/quran/other/translation/en).
+Kemenag tafsir data is also available in the
+[quran-api-with-php-codeigniter source](https://github.com/dyazincahya/quran-api-with-php-codeigniter/tree/master/public/assets/quran/kemenag/surah).
 
 ## Data Relationships
 

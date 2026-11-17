@@ -54,10 +54,10 @@ COLLECTIONS = {
     "library/holy-quran": (
         "Al-Qur'an Kemenag",
         "Quran Kemenag",
-        "Teks Al-Qur'an, terjemahan Indonesia, tafsir, indeks surah, dan juz dari Kementerian Agama Republik Indonesia.",
-        "Quran text, Indonesian translation, commentary, surah index, and juz data from Indonesia's Ministry of Religious Affairs.",
-        ["Quran", "Kemenag", "scripture"],
-        ["ar", "id"],
+        "Teks Al-Qur'an, terjemahan Indonesia dan English, tafsir Kemenag, indeks surah, dan juz.",
+        "Quran text, Indonesian and English translations, Kemenag commentary, surah index, and juz data.",
+        ["Quran", "Kemenag", "scripture", "translation", "tafsir"],
+        ["ar", "id", "en"],
     ),
     "library/islamic-calendar": (
         "Kalender Islam",

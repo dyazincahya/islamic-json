@@ -323,11 +323,11 @@
       ],
       "description": [
         {
-          "@value": "Teks Al-Qur'an, terjemahan Indonesia, tafsir, indeks surah, dan juz dari Kementerian Agama Republik Indonesia.",
+          "@value": "Teks Al-Qur'an, terjemahan Indonesia dan English, tafsir Kemenag, indeks surah, dan juz.",
           "@language": "id"
         },
         {
-          "@value": "Quran text, Indonesian translation, commentary, surah index, and juz data from Indonesia's Ministry of Religious Affairs.",
+          "@value": "Quran text, Indonesian and English translations, Kemenag commentary, surah index, and juz data.",
           "@language": "en"
         }
       ],
@@ -335,12 +335,15 @@
       "license": "https://github.com/dyazincahya/islamic-json/blob/main/LICENSE",
       "inLanguage": [
         "ar",
-        "id"
+        "id",
+        "en"
       ],
       "keywords": [
         "Quran",
         "Kemenag",
-        "scripture"
+        "scripture",
+        "translation",
+        "tafsir"
       ],
       "relatedLink": [
         "https://github.com/dyazincahya/islamic-json/tree/main/guides/quran",
