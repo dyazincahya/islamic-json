@@ -91,6 +91,194 @@
                     "17": "Allah menyuruh Nabi Muhammad agar meneruskan dakwahnya dan tidak mengharapkan agar orang kafir cepat-cepat mendapat siksa. Allah menangguhkan siksa-Nya agar dosa mereka bertambah banyak, sehingga bila Allah menurunkan azab-Nya nanti, tidak akan ada seorang pun lagi yang menaruh kasihan kepada mereka. Allah berfirman:\n\nKami biarkan mereka bersenang-senang sebentar, kemudian Kami paksa mereka (masuk) ke dalam azab yang keras. (Luqman/31: 24)"
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "madd-wajib",
+                    "start": 9,
+                    "end": 11
+                }
+            ],
+            "2": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                }
+            ],
+            "3": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 5,
+                    "end": 6
+                }
+            ],
+            "4": [
+                {
+                    "class": "ikhfa",
+                    "start": 2,
+                    "end": 7
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 15,
+                    "end": 20
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 21,
+                    "end": 23
+                }
+            ],
+            "5": [
+                {
+                    "class": "ikhfa",
+                    "start": 6,
+                    "end": 10
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 18,
+                    "end": 22
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 26,
+                    "end": 28
+                }
+            ],
+            "6": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 9,
+                    "end": 14
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 15,
+                    "end": 17
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 17,
+                    "end": 22
+                }
+            ],
+            "7": [
+                {
+                    "class": "iqlab",
+                    "start": 12,
+                    "end": 14
+                },
+                {
+                    "class": "iqlab",
+                    "start": 15,
+                    "end": 17
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 42,
+                    "end": 42
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 42,
+                    "end": 47
+                }
+            ],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 16,
+                    "end": 17
+                }
+            ],
+            "9": [
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 22,
+                    "end": 22
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 22,
+                    "end": 27
+                }
+            ],
+            "10": [
+                {
+                    "class": "ikhfa",
+                    "start": 13,
+                    "end": 18
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 21,
+                    "end": 26
+                }
+            ],
+            "11": [
+                {
+                    "class": "madd-wajib",
+                    "start": 9,
+                    "end": 11
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 25,
+                    "end": 26
+                }
+            ],
+            "12": [
+                {
+                    "class": "qalqalah",
+                    "start": 23,
+                    "end": 24
+                }
+            ],
+            "13": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 14,
+                    "end": 19
+                }
+            ],
+            "14": [],
+            "15": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                }
+            ],
+            "16": [],
+            "17": []
         }
     }
 }

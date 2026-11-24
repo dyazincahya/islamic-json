@@ -107,6 +107,157 @@
                     "21": "Orang takwa yang membantu orang lain untuk mencari rida Allah itu akhirnya akan memperolehnya. Orang itu terjauh dari neraka, dan pasti masuk surga."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "3": [
+                {
+                    "class": "ikhfa",
+                    "start": 30,
+                    "end": 34
+                }
+            ],
+            "4": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                }
+            ],
+            "5": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "6": [],
+            "7": [],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "iqlab",
+                    "start": 11,
+                    "end": 13
+                },
+                {
+                    "class": "iqlab",
+                    "start": 14,
+                    "end": 16
+                }
+            ],
+            "9": [],
+            "10": [],
+            "11": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 27,
+                    "end": 31
+                }
+            ],
+            "12": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                }
+            ],
+            "13": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 34,
+                    "end": 36
+                }
+            ],
+            "14": [
+                {
+                    "class": "ikhfa",
+                    "start": 4,
+                    "end": 8
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 20,
+                    "end": 22
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 23,
+                    "end": 25
+                }
+            ],
+            "15": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 13,
+                    "end": 16
+                }
+            ],
+            "16": [],
+            "17": [
+                {
+                    "class": "ghunnah",
+                    "start": 8,
+                    "end": 10
+                }
+            ],
+            "18": [],
+            "19": [
+                {
+                    "class": "ikhfa",
+                    "start": 17,
+                    "end": 21
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 26,
+                    "end": 31
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 36,
+                    "end": 41
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 41,
+                    "end": 42
+                }
+            ],
+            "20": [
+                {
+                    "class": "qalqalah",
+                    "start": 8,
+                    "end": 9
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 14,
+                    "end": 16
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 21,
+                    "end": 22
+                }
+            ],
+            "21": []
         }
     }
 }

@@ -83,6 +83,108 @@
                     "15": "Allah tidak peduli bencana yang Ia timpakan kepada mereka dengan korban yang begitu besar. Hal itu karena pembangkangan mereka yang sudah sangat keterlaluan, yaitu membunuh unta betina (mukjizat) yang diturunkan-Nya kepada nabi-Nya."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [],
+            "3": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "4": [],
+            "5": [
+                {
+                    "class": "madd-wajib",
+                    "start": 9,
+                    "end": 11
+                }
+            ],
+            "6": [],
+            "7": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 6,
+                    "end": 11
+                }
+            ],
+            "8": [
+                {
+                    "class": "qalqalah",
+                    "start": 30,
+                    "end": 31
+                }
+            ],
+            "9": [
+                {
+                    "class": "qalqalah",
+                    "start": 2,
+                    "end": 3
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 16,
+                    "end": 21
+                }
+            ],
+            "10": [
+                {
+                    "class": "qalqalah",
+                    "start": 4,
+                    "end": 5
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 15,
+                    "end": 20
+                }
+            ],
+            "11": [],
+            "12": [
+                {
+                    "class": "iqlab",
+                    "start": 6,
+                    "end": 8
+                },
+                {
+                    "class": "iqlab",
+                    "start": 8,
+                    "end": 10
+                }
+            ],
+            "13": [
+                {
+                    "class": "qalqalah",
+                    "start": 52,
+                    "end": 53
+                }
+            ],
+            "14": [
+                {
+                    "class": "ikhfa-syafawi",
+                    "start": 58,
+                    "end": 63
+                },
+                {
+                    "class": "iqlab",
+                    "start": 65,
+                    "end": 67
+                },
+                {
+                    "class": "iqlab",
+                    "start": 67,
+                    "end": 69
+                }
+            ],
+            "15": [
+                {
+                    "class": "qalqalah",
+                    "start": 16,
+                    "end": 17
+                }
+            ]
         }
     }
 }

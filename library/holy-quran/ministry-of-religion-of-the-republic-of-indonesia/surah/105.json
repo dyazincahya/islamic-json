@@ -43,6 +43,68 @@
                     "5": "Dalam ayat ini, Allah menjelaskan bahwa Ia telah menggagalkan tipu muslihat mereka yang hendak menghancurkan Ka'bah.\n\nAllah mengungkapkan cara menggagalkan tipu daya mereka, yaitu dengan mengirimkan pasukan burung yang berbondong-bondong melempari mereka dengan batu-batu yang berasal dari tanah sehingga menjadikan mereka hancur-lebur dan daging mereka beterbangan ke mana-mana. Maka tentara gajah menjadi laksana daun-daun yang dimakan ulat."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 50,
+                    "end": 52
+                }
+            ],
+            "2": [
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 38,
+                    "end": 40
+                }
+            ],
+            "3": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 38,
+                    "end": 40
+                }
+            ],
+            "4": [
+                {
+                    "class": "ikhfa-syafawi",
+                    "start": 10,
+                    "end": 15
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 22,
+                    "end": 27
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 28,
+                    "end": 33
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 36,
+                    "end": 38
+                }
+            ],
+            "5": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 19,
+                    "end": 24
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 29,
+                    "end": 31
+                }
+            ]
         }
     }
 }

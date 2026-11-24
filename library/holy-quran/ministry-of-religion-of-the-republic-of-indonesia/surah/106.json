@@ -39,6 +39,54 @@
                     "4": "Kemudian Allah menjelaskan sifat Tuhan Pemilik Ka'bah yang disuruh untuk disembah itu, yaitu Tuhan yang membuka pintu rezeki yang luas bagi mereka dan memudahkan jalan untuk mencari rezeki itu. Jika tidak demikian, tentu mereka berada dalam kesempitan dan kesengsaraan. Dia mengamankan jalan yang mereka tempuh dalam rangka mereka mencari rezeki, serta menjadikan orang-orang yang mereka jumpai dalam perjalanan senang dengan mereka. Mereka tidak menemui kesulitan. Kalau tidak, tentu mereka selalu berada dalam ketakutan yang mengakibatkan hidup sengsara dan papa."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [
+                {
+                    "class": "madd-wajib",
+                    "start": 27,
+                    "end": 29
+                }
+            ],
+            "3": [],
+            "4": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 6,
+                    "end": 10
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 12,
+                    "end": 13
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 20,
+                    "end": 25
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 26,
+                    "end": 31
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 33,
+                    "end": 35
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 38,
+                    "end": 40
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 50,
+                    "end": 55
+                }
+            ]
         }
     }
 }

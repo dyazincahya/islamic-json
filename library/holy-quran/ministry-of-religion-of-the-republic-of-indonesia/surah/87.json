@@ -99,6 +99,146 @@
                     "19": "Dalam ayat ini, Allah menerangkan bahwa apa yang disampaikan-Nya kepada Nabi Muhammad tentang perintah dan larangan, janji anugerah dan peringatan adalah sama dengan apa yang telah terdapat di dalam kitab Nabi Ibrahim dan Nabi Musa. Dengan demikian, Nabi Muhammad hanya mengingatkan kembali kepada agama-Nya yang terdahulu yang telah dilupakan oleh manusia. Agama yang ada itu telah diubah oleh tangan-tangan manusia, dirusak oleh hawa nafsu dan adat istiadat nenek moyang mereka sehingga telah menyimpang dari yang sebenarnya. Firman Allah:\n\nDan sungguh, (Al-Qur'an) ini benar-benar diturunkan oleh Tuhan seluruh alam, Yang dibawa turun oleh ar-Ruh al-Amin (Jibril), ke dalam hatimu (Muhammad) agar engkau termasuk orang yang memberi peringatan, dengan bahasa Arab yang jelas. Dan sungguh, (Al-Qur'an) itu (disebut) dalam kitab-kitab orang yang terdahulu. (asy-Syu'ara'/26: 192-196)\n\nDia (Allah) telah mensyariatkan kepadamu agama yang telah diwasiatkan-Nya kepada Nuh dan apa yang telah Kami wahyukan kepadamu (Muhammad) dan apa yang telah Kami wasiatkan kepada Ibrahim, Musa dan Isa yaitu tegakkanlah agama (keimanan dan ketakwaan) dan janganlah kamu berpecah-belah di dalamnya. Sangat berat bagi orang-orang musyrik (untuk mengikuti) agama yang kamu serukan kepada mereka. Allah memilih orang yang Dia kehendaki kepada agama tauhid dan memberi petunjuk kepada (agama)-Nya bagi orang yang kembali (kepada-Nya). (asy-Syura/42: 13)"
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 8,
+                    "end": 12
+                }
+            ],
+            "5": [
+                {
+                    "class": "madd-wajib",
+                    "start": 15,
+                    "end": 17
+                }
+            ],
+            "6": [
+                {
+                    "class": "qalqalah",
+                    "start": 4,
+                    "end": 5
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 21,
+                    "end": 25
+                }
+            ],
+            "7": [
+                {
+                    "class": "madd-wajib",
+                    "start": 13,
+                    "end": 15
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 29,
+                    "end": 31
+                }
+            ],
+            "8": [],
+            "9": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 12,
+                    "end": 17
+                }
+            ],
+            "10": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 15,
+                    "end": 20
+                }
+            ],
+            "11": [
+                {
+                    "class": "ghunnah",
+                    "start": 8,
+                    "end": 10
+                }
+            ],
+            "12": [
+                {
+                    "class": "ghunnah",
+                    "start": 19,
+                    "end": 21
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 31,
+                    "end": 32
+                }
+            ],
+            "13": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                }
+            ],
+            "14": [
+                {
+                    "class": "qalqalah",
+                    "start": 2,
+                    "end": 3
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 16,
+                    "end": 21
+                }
+            ],
+            "15": [],
+            "16": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 34,
+                    "end": 38
+                }
+            ],
+            "17": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 18,
+                    "end": 23
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 26,
+                    "end": 27
+                }
+            ],
+            "18": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 33,
+                    "end": 35
+                }
+            ],
+            "19": [
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 24,
+                    "end": 26
+                }
+            ]
         }
     }
 }

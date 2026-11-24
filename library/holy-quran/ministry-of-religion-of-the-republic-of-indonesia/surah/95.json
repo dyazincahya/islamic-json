@@ -55,6 +55,104 @@
                     "8": "Allah menegaskan bahwa menerapkan ketentuan tentang kemuliaan manusia itu didasarkan atas iman dan perbuatan baiknya, itu adalah bukti bahwa Allah Mahabijaksana. Hal itu karena iman itulah yang akan membuahkan perbuatan baik, sedangkan keingkaran hanya akan membuahkan kejahatan, sebagaimana disampaikan di atas. Bila kemuliaan diletakkan pada kekafiran dan kejahatan, itu akan menghancurkan alam ini."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 23,
+                    "end": 25
+                }
+            ],
+            "2": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 15,
+                    "end": 17
+                }
+            ],
+            "3": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 25,
+                    "end": 27
+                }
+            ],
+            "4": [
+                {
+                    "class": "qalqalah",
+                    "start": 4,
+                    "end": 5
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 11,
+                    "end": 12
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 22,
+                    "end": 26
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 32,
+                    "end": 36
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 47,
+                    "end": 48
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 51,
+                    "end": 53
+                }
+            ],
+            "5": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 10,
+                    "end": 11
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 33,
+                    "end": 35
+                }
+            ],
+            "6": [
+                {
+                    "class": "qalqalah",
+                    "start": 62,
+                    "end": 63
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 80,
+                    "end": 82
+                }
+            ],
+            "7": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 32,
+                    "end": 34
+                }
+            ],
+            "8": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 37,
+                    "end": 39
+                }
+            ]
         }
     }
 }

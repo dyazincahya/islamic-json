@@ -55,6 +55,87 @@
                     "8": "Allah lebih memperkuat lagi celaan-Nya terhadap mereka dengan mengatakan bahwa sesungguhnya mereka akan ditanyai pada hari itu tentang kenikmatan-kenikmatan yang mereka megah-megahkan di dunia, apa yang mereka perbuat dengan nikmat-nikmat itu. Apakah mereka telah menunaikan hak Allah daripadanya, atau apakah mereka menjaga batas-batas hukum Allah yang telah ditentukan dalam bersenang-senang dengan nikmat tersebut. Jika mereka tidak melakukannya, ketahuilah bahwa nikmat-nikmat itu adalah puncak kecelakaan di hari akhirat.\n\nDiriwayatkan dari Nabi Muhammad, beliau berkata:\n\nBarangsiapa di antara kamu yang bangun pagi dalam keadaan aman sentosa pada dirinya atau aman di tempatnya, sehat wal afiat badannya serta mempunyai bekal hidup untuk harinya, maka seolah-olah dunia dengan segala kekayaannya telah diserahkan kepadanya. (Riwayat al-Bukhari, Abu Dawud, at-Tirmidhi, dan Ibnu Majah dari 'Ubaidillah bin Muhsan)."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [],
+            "3": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 22,
+                    "end": 24
+                }
+            ],
+            "4": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 28,
+                    "end": 30
+                }
+            ],
+            "5": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 39,
+                    "end": 41
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 8,
+                    "end": 10
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 19,
+                    "end": 21
+                }
+            ],
+            "7": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 14,
+                    "end": 16
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 35,
+                    "end": 37
+                }
+            ],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 17,
+                    "end": 19
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 40,
+                    "end": 42
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 45,
+                    "end": 47
+                }
+            ]
         }
     }
 }

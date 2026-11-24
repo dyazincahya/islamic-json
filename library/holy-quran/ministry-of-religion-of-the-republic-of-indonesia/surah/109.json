@@ -47,6 +47,90 @@
                     "6": "Kemudian dalam ayat ini, Allah mengancam orang-orang kafir dengan firman-Nya yaitu, \"Bagi kamu balasan atas amal perbuatanmu dan bagiku balasan atas amal perbuatanku.\" Dalam ayat lain Allah berfirman:\n\nBagi kami amalan kami, bagi kamu amalan kamu. (al-Baqarah/2: 139)"
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 5,
+                    "end": 8
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 26,
+                    "end": 28
+                }
+            ],
+            "2": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 2,
+                    "end": 5
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 26,
+                    "end": 28
+                }
+            ],
+            "3": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 9,
+                    "end": 13
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 29,
+                    "end": 32
+                }
+            ],
+            "4": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 19,
+                    "end": 24
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 31,
+                    "end": 32
+                }
+            ],
+            "5": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 9,
+                    "end": 13
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 29,
+                    "end": 32
+                }
+            ],
+            "6": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 27,
+                    "end": 29
+                }
+            ]
         }
     }
 }

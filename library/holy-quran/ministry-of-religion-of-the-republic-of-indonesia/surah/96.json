@@ -99,6 +99,189 @@
                     "19": "Allah meminta Nabi saw atau siapa saja yang ingin beribadah agar tidak takut dan tidak mematuhi ancaman orang yang melarang mereka beribadah. Mereka diminta untuk tetap melaksanakan ibadah dengan tekun, terutama salat, dan menggunakan masjid untuk melaksanakannya. Dalam ayat lain, Allah berfirman:\n\nDan janganlah engkau (Muhammad) menuruti orang-orang kafir dan orang-orang munafik itu, janganlah engkau hiraukan gangguan mereka dan bertawakallah kepada Allah. Dan cukuplah Allah sebagai pelindung. (al-Ahzab/33: 48)\n\nDi samping salat, umat Islam diminta pula mengerjakan ibadah-ibadah sunat lainnya dalam rangka mendekatkan diri kepada-Nya, baik itu berupa salat-salat sunat maupun zikir-zikir, dan sebagainya."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "qalqalah",
+                    "start": 2,
+                    "end": 3
+                }
+            ],
+            "2": [
+                {
+                    "class": "ikhfa",
+                    "start": 12,
+                    "end": 16
+                }
+            ],
+            "3": [
+                {
+                    "class": "qalqalah",
+                    "start": 2,
+                    "end": 3
+                }
+            ],
+            "4": [],
+            "5": [
+                {
+                    "class": "ikhfa",
+                    "start": 13,
+                    "end": 17
+                }
+            ],
+            "6": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 5,
+                    "end": 8
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 10,
+                    "end": 12
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 19,
+                    "end": 23
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 31,
+                    "end": 32
+                }
+            ],
+            "7": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 2,
+                    "end": 7
+                }
+            ],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 25,
+                    "end": 26
+                }
+            ],
+            "9": [],
+            "10": [
+                {
+                    "class": "qalqalah",
+                    "start": 2,
+                    "end": 3
+                }
+            ],
+            "11": [
+                {
+                    "class": "ikhfa",
+                    "start": 13,
+                    "end": 18
+                }
+            ],
+            "12": [
+                {
+                    "class": "qalqalah",
+                    "start": 19,
+                    "end": 20
+                }
+            ],
+            "13": [
+                {
+                    "class": "ikhfa",
+                    "start": 13,
+                    "end": 18
+                }
+            ],
+            "14": [
+                {
+                    "class": "ikhfa-syafawi",
+                    "start": 13,
+                    "end": 18
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 20,
+                    "end": 22
+                }
+            ],
+            "15": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 12,
+                    "end": 17
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 23,
+                    "end": 27
+                },
+                {
+                    "class": "iqlab",
+                    "start": 41,
+                    "end": 43
+                },
+                {
+                    "class": "iqlab",
+                    "start": 45,
+                    "end": 47
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 50,
+                    "end": 52
+                }
+            ],
+            "16": [
+                {
+                    "class": "ikhfa",
+                    "start": 7,
+                    "end": 12
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 22,
+                    "end": 23
+                }
+            ],
+            "17": [
+                {
+                    "class": "qalqalah",
+                    "start": 6,
+                    "end": 7
+                }
+            ],
+            "18": [
+                {
+                    "class": "qalqalah",
+                    "start": 4,
+                    "end": 5
+                }
+            ],
+            "19": [
+                {
+                    "class": "qalqalah",
+                    "start": 29,
+                    "end": 30
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 35,
+                    "end": 36
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 41,
+                    "end": 42
+                }
+            ]
         }
     }
 }

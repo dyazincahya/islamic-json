@@ -139,6 +139,971 @@
                     "29": "Ayat ini menerangkan bahwa Muhammad saw adalah rasul Allah yang diutus kepada seluruh umat. Para sahabat dan pengikut Rasul bersikap keras terhadap orang-orang kafir, tetapi lemah lembut terhadap sesama mereka. Firman Allah: \n\nWahai orang-orang yang beriman! Barang siapa di antara kamu yang murtad (keluar) dari agamanya, maka kelak Allah akan mendatangkan suatu kaum, Dia mencintai mereka dan mereka pun mencintai-Nya, dan bersikap lemah lembut terhadap orang-orang yang beriman, tetapi bersikap keras terhadap orang-orang kafir, yang berjihad di jalan Allah. (al-Ma'idah/5: 54)\n\nRasulullah bersabda:\n\nPerumpamaan orang-orang mukmin dalam kasih mengasihi dan sayang-menyayangi antara mereka seperti tubuh yang satu; bila salah satu anggota badannya sakit demam, maka badan yang lain merasa demam dan terganggu pula. (Riwayat Muslim dan Ahmad dari an-Nu'man bin Basyir)\n\nOrang-orang yang beriman selalu mengerjakan salat dengan khusyuk, tunduk, dan ikhlas, mencari pahala, karunia, dan keridaan Allah. Tampak di wajah mereka bekas sujud. Maksudnya ialah air muka yang cemerlang, tidak ada gambaran kedengkian dan niat buruk kepada orang lain, penuh ketundukan dan kepatuhan kepada Allah, bersikap dan berbudi pekerti yang halus sebagai gambaran keimanan mereka.\n\nMengenai cahaya muka orang yang beriman, 'Utsman berkata, \"Adapun rahasia yang terpendam dalam hati seseorang; niscaya Allah menyatakannya pada raut mukanya dan lidahnya.\" Sifat-sifat yang demikian itu dilukiskan dalam Taurat dan Injil.\n\nPara sahabat dan pengikut Nabi semula sedikit dan lemah, kemudian bertambah dan berkembang dalam waktu singkat seperti biji yang tumbuh, mengeluarkan batangnya, lalu batang bercabang dan beranting, kemudian menjadi besar dan berbuah sehingga menakjubkan orang yang menanamnya, karena kuat dan indahnya, sehingga menambah panas hati orang-orang kafir. \n\nKemudian kepada pengikut Rasulullah saw itu, baik yang dahulu maupun yang sekarang, Allah menjanjikan pengampunan dosa-dosa mereka, memberi mereka pahala yang banyak, dan menyediakan surga sebagai tempat yang abadi bagi mereka. Janji Allah yang demikian pasti ditepati."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "ghunnah",
+                    "start": 3,
+                    "end": 5
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 27,
+                    "end": 29
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 30,
+                    "end": 32
+                }
+            ],
+            "2": [
+                {
+                    "class": "ikhfa",
+                    "start": 41,
+                    "end": 46
+                },
+                {
+                    "class": "iqlab",
+                    "start": 46,
+                    "end": 48
+                },
+                {
+                    "class": "iqlab",
+                    "start": 48,
+                    "end": 50
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 76,
+                    "end": 78
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 118,
+                    "end": 120
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 121,
+                    "end": 123
+                }
+            ],
+            "3": [
+                {
+                    "class": "ikhfa",
+                    "start": 5,
+                    "end": 9
+                }
+            ],
+            "4": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 11,
+                    "end": 15
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 17,
+                    "end": 21
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 79,
+                    "end": 82
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 91,
+                    "end": 93
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 94,
+                    "end": 96
+                }
+            ],
+            "5": [
+                {
+                    "class": "qalqalah",
+                    "start": 5,
+                    "end": 6
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 46,
+                    "end": 48
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 49,
+                    "end": 54
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 54,
+                    "end": 55
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 63,
+                    "end": 68
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 160,
+                    "end": 164
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 86,
+                    "end": 88
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 106,
+                    "end": 108
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 134,
+                    "end": 137
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 217,
+                    "end": 219
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 228,
+                    "end": 230
+                }
+            ],
+            "7": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 74,
+                    "end": 76
+                }
+            ],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 5,
+                    "end": 8
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 26,
+                    "end": 28
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 29,
+                    "end": 31
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 40,
+                    "end": 42
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 43,
+                    "end": 45
+                }
+            ],
+            "9": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 93,
+                    "end": 98
+                }
+            ],
+            "10": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 35,
+                    "end": 37
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 104,
+                    "end": 109
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 119,
+                    "end": 121
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 128,
+                    "end": 132
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 213,
+                    "end": 214
+                }
+            ],
+            "11": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 61,
+                    "end": 64
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 139,
+                    "end": 144
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 182,
+                    "end": 187
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 199,
+                    "end": 204
+                },
+                {
+                    "class": "iqlab",
+                    "start": 276,
+                    "end": 278
+                },
+                {
+                    "class": "iqlab",
+                    "start": 280,
+                    "end": 282
+                }
+            ],
+            "12": [
+                {
+                    "class": "ikhfa",
+                    "start": 9,
+                    "end": 13
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 18,
+                    "end": 23
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 24,
+                    "end": 29
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 30,
+                    "end": 34
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 71,
+                    "end": 76
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 93,
+                    "end": 95
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 96,
+                    "end": 98
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 139,
+                    "end": 143
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 148,
+                    "end": 150
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 167,
+                    "end": 171
+                },
+                {
+                    "class": "iqlab",
+                    "start": 178,
+                    "end": 180
+                },
+                {
+                    "class": "iqlab",
+                    "start": 183,
+                    "end": 185
+                }
+            ],
+            "13": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 4,
+                    "end": 9
+                },
+                {
+                    "class": "iqlab",
+                    "start": 19,
+                    "end": 21
+                },
+                {
+                    "class": "iqlab",
+                    "start": 22,
+                    "end": 24
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 50,
+                    "end": 52
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 53,
+                    "end": 56
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 62,
+                    "end": 63
+                }
+            ],
+            "14": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 55,
+                    "end": 60
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 63,
+                    "end": 65
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 82,
+                    "end": 87
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 90,
+                    "end": 92
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 118,
+                    "end": 120
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 121,
+                    "end": 123
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 127,
+                    "end": 129
+                }
+            ],
+            "15": [
+                {
+                    "class": "ikhfa",
+                    "start": 35,
+                    "end": 39
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 41,
+                    "end": 42
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 121,
+                    "end": 126
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 163,
+                    "end": 168
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 208,
+                    "end": 213
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 213,
+                    "end": 214
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 302,
+                    "end": 304
+                }
+            ],
+            "16": [
+                {
+                    "class": "qalqalah",
+                    "start": 46,
+                    "end": 47
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 80,
+                    "end": 85
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 89,
+                    "end": 94
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 134,
+                    "end": 139
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 170,
+                    "end": 171
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 180,
+                    "end": 182
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 185,
+                    "end": 187
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 190,
+                    "end": 195
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 223,
+                    "end": 228
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 229,
+                    "end": 234
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 234,
+                    "end": 235
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 246,
+                    "end": 247
+                }
+            ],
+            "17": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 28,
+                    "end": 33
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 60,
+                    "end": 65
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 92,
+                    "end": 94
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 96,
+                    "end": 98
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 101,
+                    "end": 106
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 135,
+                    "end": 136
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 146,
+                    "end": 148
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 149,
+                    "end": 154
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 154,
+                    "end": 155
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 163,
+                    "end": 168
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 194,
+                    "end": 199
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 215,
+                    "end": 216
+                }
+            ],
+            "18": [
+                {
+                    "class": "qalqalah",
+                    "start": 6,
+                    "end": 7
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 120,
+                    "end": 124
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 170,
+                    "end": 172
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 173,
+                    "end": 175
+                }
+            ],
+            "19": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 21,
+                    "end": 26
+                }
+            ],
+            "20": [
+                {
+                    "class": "ikhfa",
+                    "start": 37,
+                    "end": 42
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 99,
+                    "end": 101
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 108,
+                    "end": 112
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 133,
+                    "end": 138
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 174,
+                    "end": 176
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 177,
+                    "end": 179
+                }
+            ],
+            "21": [
+                {
+                    "class": "qalqalah",
+                    "start": 18,
+                    "end": 19
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 40,
+                    "end": 41
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 98,
+                    "end": 103
+                }
+            ],
+            "22": [
+                {
+                    "class": "qalqalah",
+                    "start": 56,
+                    "end": 57
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 66,
+                    "end": 68
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 89,
+                    "end": 92
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 93,
+                    "end": 95
+                }
+            ],
+            "23": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 27,
+                    "end": 28
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 39,
+                    "end": 44
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 44,
+                    "end": 45
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 55,
+                    "end": 60
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 69,
+                    "end": 71
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 85,
+                    "end": 86
+                }
+            ],
+            "24": [
+                {
+                    "class": "ikhfa",
+                    "start": 37,
+                    "end": 41
+                },
+                {
+                    "class": "ikhfa-syafawi",
+                    "start": 65,
+                    "end": 70
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 72,
+                    "end": 73
+                },
+                {
+                    "class": "iqlab",
+                    "start": 87,
+                    "end": 89
+                },
+                {
+                    "class": "iqlab",
+                    "start": 90,
+                    "end": 92
+                }
+            ],
+            "25": [
+                {
+                    "class": "qalqalah",
+                    "start": 75,
+                    "end": 76
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 94,
+                    "end": 99
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 100,
+                    "end": 101
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 133,
+                    "end": 138
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 156,
+                    "end": 158
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 158,
+                    "end": 163
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 170,
+                    "end": 175
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 196,
+                    "end": 201
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 225,
+                    "end": 230
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 235,
+                    "end": 240
+                },
+                {
+                    "class": "iqlab",
+                    "start": 246,
+                    "end": 248
+                },
+                {
+                    "class": "iqlab",
+                    "start": 249,
+                    "end": 251
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 263,
+                    "end": 265
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 267,
+                    "end": 269
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 272,
+                    "end": 273
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 305,
+                    "end": 310
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 313,
+                    "end": 315
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 345,
+                    "end": 346
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 394,
+                    "end": 396
+                }
+            ],
+            "26": [
+                {
+                    "class": "ikhfa",
+                    "start": 94,
+                    "end": 98
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 192,
+                    "end": 193
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 205,
+                    "end": 208
+                }
+            ],
+            "27": [
+                {
+                    "class": "qalqalah",
+                    "start": 4,
+                    "end": 5
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 61,
+                    "end": 62
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 67,
+                    "end": 69
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 96,
+                    "end": 101
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 101,
+                    "end": 103
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 229,
+                    "end": 234
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 250,
+                    "end": 252
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 253,
+                    "end": 255
+                }
+            ],
+            "28": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 11,
+                    "end": 15
+                }
+            ],
+            "29": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 7,
+                    "end": 12
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 46,
+                    "end": 50
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 57,
+                    "end": 59
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 86,
+                    "end": 88
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 117,
+                    "end": 119
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 120,
+                    "end": 122
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 126,
+                    "end": 128
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 129,
+                    "end": 131
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 133,
+                    "end": 134
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 148,
+                    "end": 150
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 151,
+                    "end": 153
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 208,
+                    "end": 213
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 296,
+                    "end": 300
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 327,
+                    "end": 328
+                },
+                {
+                    "class": "idgham-mimi",
+                    "start": 503,
+                    "end": 508
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 515,
+                    "end": 520
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 523,
+                    "end": 524
+                }
+            ]
         }
     }
 }

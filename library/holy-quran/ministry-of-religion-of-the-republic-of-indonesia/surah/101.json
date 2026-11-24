@@ -13,7 +13,7 @@
             "6": "فَاَمَّا مَنْ ثَقُلَتْ مَوَازِينُهٗۙ",
             "7": "فَهُوَ فِيْ عِيْشَةٍ رَّاضِيَةٍۗ",
             "8": "وَاَمَّا مَنْ خَفَّتْ مَوَازِيْنُهٗۙ",
-            "9": "فَاُمُّهُ هَاوِيَةٌ  ۗ",
+            "9": "فَاُمُّهٗ هَاوِيَةٌ  ۗ",
             "10": "وَمَآ اَدْرٰىكَ مَا هِيَهْۗ",
             "11": "نَارٌ حَامِيَةٌ ࣖ"
         },
@@ -67,6 +67,97 @@
                     "11": "Dalam ayat ini, Allah menjelaskan arti kata hawiyah dalam bentuk pertanyaan, yaitu: apakah neraka Hawiyah itu dan dari apa ia dijadikan? Neraka Hawiyah adalah api yang menyala-nyala yang sangat panas di mana orang-orang yang berdosa dijerumuskan ke dalamnya untuk menerima balasan atas kejahatan dan kemungkaran yang mereka lakukan. Ayat ini menggambarkan jika semua api di seluruh dunia dikumpulkan dan dipersatukan, tidak akan dapat menyamai panasnya api neraka Hawiyah."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [],
+            "3": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                }
+            ],
+            "4": [
+                {
+                    "class": "ghunnah",
+                    "start": 18,
+                    "end": 20
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 43,
+                    "end": 44
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 47,
+                    "end": 49
+                }
+            ],
+            "5": [
+                {
+                    "class": "ikhfa",
+                    "start": 39,
+                    "end": 43
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 43,
+                    "end": 45
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 11,
+                    "end": 16
+                }
+            ],
+            "7": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 18,
+                    "end": 23
+                }
+            ],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "9": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "10": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                }
+            ],
+            "11": []
         }
     }
 }

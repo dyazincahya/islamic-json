@@ -103,6 +103,226 @@
                     "20": "Mereka yang ingkar tidak mau melaksanakan pekerjaan-pekerjaan besar dan sulit itu. Mereka disebut ashabul-masy'amah, yaitu golongan kiri. Tempat mereka adalah neraka yang tertutup rapat, sehingga neraka begitu luar biasa panasnya. Mereka itu tentu akan sangat menderita di dalamnya. Dengan demikian, ia menemukan kesulitan hidup yang tiada taranya di akhirat, tidak sebanding dengan kesulitan mengerjakan perbuat-perbuatan baik waktu di dunia."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 2,
+                    "end": 5
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 7,
+                    "end": 8
+                }
+            ],
+            "2": [
+                {
+                    "class": "ikhfa",
+                    "start": 4,
+                    "end": 8
+                },
+                {
+                    "class": "iqlab",
+                    "start": 11,
+                    "end": 14
+                },
+                {
+                    "class": "iqlab",
+                    "start": 15,
+                    "end": 17
+                }
+            ],
+            "3": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 7,
+                    "end": 12
+                }
+            ],
+            "4": [
+                {
+                    "class": "qalqalah",
+                    "start": 4,
+                    "end": 5
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 11,
+                    "end": 12
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 22,
+                    "end": 26
+                }
+            ],
+            "5": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 13,
+                    "end": 18
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 19,
+                    "end": 24
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 25,
+                    "end": 26
+                }
+            ],
+            "6": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 23,
+                    "end": 25
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 26,
+                    "end": 28
+                }
+            ],
+            "7": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 13,
+                    "end": 18
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 26,
+                    "end": 30
+                }
+            ],
+            "8": [
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                }
+            ],
+            "9": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 7,
+                    "end": 9
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 10,
+                    "end": 12
+                }
+            ],
+            "10": [
+                {
+                    "class": "ghunnah",
+                    "start": 15,
+                    "end": 17
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 18,
+                    "end": 19
+                }
+            ],
+            "11": [
+                {
+                    "class": "qalqalah",
+                    "start": 7,
+                    "end": 8
+                }
+            ],
+            "12": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 9,
+                    "end": 10
+                }
+            ],
+            "13": [],
+            "14": [
+                {
+                    "class": "qalqalah",
+                    "start": 7,
+                    "end": 8
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 12,
+                    "end": 17
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 24,
+                    "end": 29
+                }
+            ],
+            "15": [
+                {
+                    "class": "ikhfa",
+                    "start": 7,
+                    "end": 9
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 10,
+                    "end": 12
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 17,
+                    "end": 18
+                }
+            ],
+            "16": [
+                {
+                    "class": "ikhfa",
+                    "start": 13,
+                    "end": 15
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 16,
+                    "end": 18
+                }
+            ],
+            "17": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 58,
+                    "end": 59
+                }
+            ],
+            "18": [
+                {
+                    "class": "madd-wajib",
+                    "start": 3,
+                    "end": 7
+                }
+            ],
+            "19": [],
+            "20": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 14,
+                    "end": 19
+                }
+            ]
         }
     }
 }

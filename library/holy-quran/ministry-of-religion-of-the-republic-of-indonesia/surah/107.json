@@ -51,6 +51,72 @@
                     "7": "Allah menambahkan lagi dalam ayat ini sifat pendusta itu, yaitu mereka tidak mau memberikan barang-barang yang diperlukan oleh orang-orang yang membutuhkannya, sedang barang itu tak pantas ditahan, seperti periuk, kapuk, cangkul, dan lain-lain. \n\nKeadaan orang yang membesarkan agama berbeda dengan keadaan orang yang mendustakan agama, karena yang pertama tampak dalam tata hidupnya yang jujur, adil, kasih sayang, pemurah, dan lain-lain. Sedangkan sifat pendusta agama ialah ria, curang, aniaya, takabur, kikir, memandang rendah orang lain, tidak mementingkan yang lain kecuali dirinya sendiri, bangga dengan harta dan kedudukan, serta tidak mau mengeluarkan sebahagian dari hartanya, baik untuk keperluan perseorangan maupun untuk masyarakat."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 37,
+                    "end": 39
+                }
+            ],
+            "2": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 33,
+                    "end": 35
+                }
+            ],
+            "3": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 37,
+                    "end": 39
+                }
+            ],
+            "4": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 6,
+                    "end": 11
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 21,
+                    "end": 23
+                }
+            ],
+            "5": [
+                {
+                    "class": "ikhfa",
+                    "start": 18,
+                    "end": 23
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 38,
+                    "end": 40
+                }
+            ],
+            "6": [
+                {
+                    "class": "madd-wajib",
+                    "start": 20,
+                    "end": 22
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 24,
+                    "end": 26
+                }
+            ],
+            "7": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 23,
+                    "end": 25
+                }
+            ]
         }
     }
 }

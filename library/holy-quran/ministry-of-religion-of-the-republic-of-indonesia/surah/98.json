@@ -55,6 +55,149 @@
                     "8": "Kemudian dalam ayat ini, Allah menerangkan bahwa yang akan mereka terima dari Tuhan mereka adalah surga 'Adn yang di dalamnya terdapat bermacam-macam kesenangan dan kelezatan, lebih lengkap dan sempurna dari kesenangan dan kelezatan dunia, dan di bawahnya mengalir sungai-sungai. Mereka kekal di dalamnya selama-lamanya. Mereka berhak menerima balasan tersebut karena mereka berada dalam keridaan Allah dan tetap dalam ketentuan-ketentuan-Nya.\n\nMereka mendapat pujian dan mencapai apa yang mereka inginkan dari kebahagiaan hidup di dunia dan di akhirat. Mereka diridai Allah dan mereka pun rida kepadanya. Ganjaran-ganjaran yang merupakan kebahagiaan dunia dan akhirat hanya diperoleh orang-orang yang jiwanya penuh dengan takwa kepada Allah."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "ikhfa",
+                    "start": 75,
+                    "end": 79
+                }
+            ],
+            "2": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 6,
+                    "end": 11
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 37,
+                    "end": 39
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 40,
+                    "end": 42
+                }
+            ],
+            "3": [
+                {
+                    "class": "ikhfa",
+                    "start": 12,
+                    "end": 17
+                }
+            ],
+            "4": [
+                {
+                    "class": "iqlab",
+                    "start": 55,
+                    "end": 57
+                },
+                {
+                    "class": "iqlab",
+                    "start": 58,
+                    "end": 60
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 72,
+                    "end": 74
+                }
+            ],
+            "5": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 4,
+                    "end": 7
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 13,
+                    "end": 16
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 83,
+                    "end": 85
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 82,
+                    "end": 84
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 111,
+                    "end": 115
+                }
+            ],
+            "7": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 53,
+                    "end": 57
+                }
+            ],
+            "8": [
+                {
+                    "class": "ikhfa",
+                    "start": 15,
+                    "end": 19
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 32,
+                    "end": 34
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 40,
+                    "end": 41
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 42,
+                    "end": 47
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 47,
+                    "end": 48
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 56,
+                    "end": 61
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 98,
+                    "end": 101
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 105,
+                    "end": 107
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 109,
+                    "end": 111
+                }
+            ]
         }
     }
 }

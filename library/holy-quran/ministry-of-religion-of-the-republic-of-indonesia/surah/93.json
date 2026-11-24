@@ -67,6 +67,106 @@
                     "11": "Dalam ayat ini, Allah menegaskan lagi kepada Nabi Muhammad agar memperbanyak pemberiannya kepada orang-orang fakir dan miskin serta mensyukuri, menyebut, dan mengingat nikmat Allah yang telah dilimpahkan kepadanya. Menyebut-nyebut nikmat Allah yang telah dilimpahkan kepada kita bukanlah untuk membangga-banggakan diri, tetapi untuk mensyukuri dan mengharapkan orang lain mensyukuri pula nikmat yang telah diperolehnya. Dalam sebuah hadis, Nabi saw mengatakan:\n\nOrang yang tidak berterima kasih kepada manusia tidak mensyukuri Allah. (Riwayat Abu Dawud dan at-Tirmizi dari Abu Hurairah).\n\nKebiasaan orang-orang kikir sering menyembunyikan harta kekayaannya untuk menjadi alasan tidak bersedekah, dan mereka selalu memperdengarkan kekurangan. Sebaliknya, orang-orang dermawan senantiasa menampakkan pemberian dan pengorbanan mereka dari harta kekayaan yang dianugerahkan kepada mereka dengan menyatakan syukur dan terima kasih kepada Allah atas limpahan karunia-Nya itu."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 19,
+                    "end": 24
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 38,
+                    "end": 40
+                }
+            ],
+            "5": [],
+            "6": [
+                {
+                    "class": "qalqalah",
+                    "start": 11,
+                    "end": 12
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 22,
+                    "end": 24
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 25,
+                    "end": 27
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 28,
+                    "end": 30
+                }
+            ],
+            "7": [
+                {
+                    "class": "ikhfa",
+                    "start": 15,
+                    "end": 18
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 19,
+                    "end": 21
+                }
+            ],
+            "8": [
+                {
+                    "class": "madd-wajib",
+                    "start": 13,
+                    "end": 16
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 18,
+                    "end": 20
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 21,
+                    "end": 23
+                }
+            ],
+            "9": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 29,
+                    "end": 30
+                }
+            ],
+            "10": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "madd-wajib",
+                    "start": 14,
+                    "end": 17
+                }
+            ],
+            "11": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ]
         }
     }
 }

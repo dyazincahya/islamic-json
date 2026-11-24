@@ -47,6 +47,90 @@
                     "6": "Allah menerangkan dalam ayat ini tentang godaan tersebut, yaitu bisikan setan yang tersembunyi yang ditiupkan ke dalam dada manusia, yang mungkin datangnya dari jin atau manusia, sebagaimana dalam ayat lain Allah berfirman:\n\nDan demikianlah untuk setiap nabi Kami menjadikan musuh yang terdiri dari setan-setan manusia dan jin. (al-An'am/6: 112)\n\nSetan-setan jin itu seringkali membisikkan suatu keraguan dengan cara yang sangat halus kepada manusia. Seringkali dia menampakkan dirinya sebagai penasihat yang ikhlas, tetapi bila engkau menghardiknya ia mundur dan bila diperhatikan bicaranya ia terus melanjutkan godaannya secara berlebih-lebihan. \n\nSurah ini dimulai dengan kata pendidik, karena itu Tuhan sebagai pendidik manusia, berkuasa untuk menolak semua godaan setan dan bisikannya dari manusia. Allah memberi petunjuk dalam surah ini agar manusia memohon pertolongan hanya kepada Allah sebagaimana Dia telah memberi petunjuk yang serupa dalam surah al-Fatihah, bahwa dasar yang terpenting dalam agama adalah menghadapkan diri dengan penuh keikhlasan kepada Allah baik dalam ucapan, maupun perbuatan lainnya dan memohon perlindungan kepada-Nya dari segala godaan setan yang ia sendiri tidak mampu menolaknya."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "ghunnah",
+                    "start": 24,
+                    "end": 26
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 27,
+                    "end": 28
+                }
+            ],
+            "2": [
+                {
+                    "class": "ghunnah",
+                    "start": 9,
+                    "end": 11
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 12,
+                    "end": 13
+                }
+            ],
+            "3": [
+                {
+                    "class": "ghunnah",
+                    "start": 9,
+                    "end": 11
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 12,
+                    "end": 13
+                }
+            ],
+            "4": [
+                {
+                    "class": "ikhfa",
+                    "start": 2,
+                    "end": 7
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 32,
+                    "end": 34
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 35,
+                    "end": 36
+                }
+            ],
+            "5": [
+                {
+                    "class": "ghunnah",
+                    "start": 36,
+                    "end": 38
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 39,
+                    "end": 40
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 10,
+                    "end": 12
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 20,
+                    "end": 22
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 23,
+                    "end": 24
+                }
+            ]
         }
     }
 }

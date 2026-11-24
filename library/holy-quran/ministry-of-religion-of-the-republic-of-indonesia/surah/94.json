@@ -55,6 +55,68 @@
                     "8": "Dalam ayat ini, Allah menegaskan agar Nabi Muhammad tidak mengharapkan pahala dari hasil amal perbuatannya, akan tetapi hanya menuntut keridaan Allah semata. Karena Dia-lah sebenarnya yang dituju dalam amal ibadah dan pada-Nyalah tempat merendahkan diri."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "qalqalah",
+                    "start": 23,
+                    "end": 24
+                }
+            ],
+            "2": [
+                {
+                    "class": "ikhfa",
+                    "start": 14,
+                    "end": 18
+                }
+            ],
+            "3": [
+                {
+                    "class": "madd-jaiz",
+                    "start": 6,
+                    "end": 10
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 12,
+                    "end": 16
+                }
+            ],
+            "4": [],
+            "5": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                }
+            ],
+            "7": [
+                {
+                    "class": "ikhfa",
+                    "start": 20,
+                    "end": 24
+                },
+                {
+                    "class": "qalqalah",
+                    "start": 24,
+                    "end": 25
+                }
+            ],
+            "8": [
+                {
+                    "class": "qalqalah",
+                    "start": 23,
+                    "end": 24
+                }
+            ]
         }
     }
 }

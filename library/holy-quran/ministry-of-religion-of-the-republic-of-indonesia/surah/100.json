@@ -67,6 +67,120 @@
                     "11": "Dalam ayat-ayat berikut ini, Allah menerangkan ancaman-Nya kepada orang-orang yang ingkar terhadap nikmat-nikmat-Nya dengan menyatakan apakah mereka tidak sadar bahwa Allah mengetahui isi hatinya. Allah juga menyatakan bahwa Dia akan membalas keingkaran mereka itu pada hari dikeluarkan apa yang ada di dalam dada dan dibangkitkan apa yang ada di dalam kubur."
                 }
             }
+        },
+        "tajweed": {
+            "1": [
+                {
+                    "class": "qalqalah",
+                    "start": 16,
+                    "end": 17
+                }
+            ],
+            "2": [
+                {
+                    "class": "qalqalah",
+                    "start": 18,
+                    "end": 19
+                }
+            ],
+            "3": [
+                {
+                    "class": "qalqalah",
+                    "start": 18,
+                    "end": 19
+                }
+            ],
+            "4": [
+                {
+                    "class": "qalqalah",
+                    "start": 18,
+                    "end": 19
+                }
+            ],
+            "5": [
+                {
+                    "class": "qalqalah",
+                    "start": 6,
+                    "end": 7
+                }
+            ],
+            "6": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 11,
+                    "end": 15
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 35,
+                    "end": 37
+                }
+            ],
+            "7": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 29,
+                    "end": 31
+                }
+            ],
+            "8": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 34,
+                    "end": 36
+                }
+            ],
+            "9": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 49,
+                    "end": 51
+                }
+            ],
+            "10": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 25,
+                    "end": 27
+                }
+            ],
+            "11": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ikhfa-syafawi",
+                    "start": 13,
+                    "end": 18
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 32,
+                    "end": 37
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 42,
+                    "end": 44
+                }
+            ]
         }
     }
 }

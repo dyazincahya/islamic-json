@@ -127,6 +127,192 @@
                     "26": "Dalam ayat-ayat ini, Allah menerangkan bahwa mereka akan kembali kepada-Nya. Tidak ada jalan bagi mereka untuk lari daripada-Nya. Dialah yang akan menghisab mereka atas perbuatan yang telah mereka perbuat di dunia dan kemudian menjatuhkan hukuman-Nya. Ayat-ayat ini adalah penghibur hati bagi Nabi Muhammad dan sebagai obat bagi kesedihan dan kepedihan hatinya atas keingkaran orang-orang kafir itu."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 6,
+                    "end": 11
+                }
+            ],
+            "3": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 7,
+                    "end": 12
+                }
+            ],
+            "4": [],
+            "5": [],
+            "6": [
+                {
+                    "class": "ikhfa",
+                    "start": 31,
+                    "end": 36
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 38,
+                    "end": 40
+                }
+            ],
+            "7": [
+                {
+                    "class": "ikhfa",
+                    "start": 31,
+                    "end": 36
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 36,
+                    "end": 38
+                }
+            ],
+            "8": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 6,
+                    "end": 11
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 19,
+                    "end": 24
+                }
+            ],
+            "9": [],
+            "10": [
+                {
+                    "class": "ghunnah",
+                    "start": 7,
+                    "end": 9
+                }
+            ],
+            "11": [],
+            "12": [
+                {
+                    "class": "ikhfa",
+                    "start": 12,
+                    "end": 17
+                }
+            ],
+            "13": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 12,
+                    "end": 17
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 22,
+                    "end": 24
+                }
+            ],
+            "14": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 10,
+                    "end": 15
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 20,
+                    "end": 22
+                }
+            ],
+            "15": [
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 19,
+                    "end": 21
+                }
+            ],
+            "16": [
+                {
+                    "class": "qalqalah",
+                    "start": 16,
+                    "end": 17
+                },
+                {
+                    "class": "madd-arid-lissukun",
+                    "start": 20,
+                    "end": 22
+                }
+            ],
+            "17": [
+                {
+                    "class": "ikhfa",
+                    "start": 10,
+                    "end": 14
+                }
+            ],
+            "18": [
+                {
+                    "class": "madd-wajib",
+                    "start": 15,
+                    "end": 17
+                }
+            ],
+            "19": [],
+            "20": [],
+            "21": [
+                {
+                    "class": "ghunnah",
+                    "start": 13,
+                    "end": 15
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 18,
+                    "end": 21
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 23,
+                    "end": 27
+                }
+            ],
+            "22": [
+                {
+                    "class": "ikhfa-syafawi",
+                    "start": 16,
+                    "end": 21
+                }
+            ],
+            "23": [
+                {
+                    "class": "ikhfa",
+                    "start": 9,
+                    "end": 14
+                }
+            ],
+            "24": [],
+            "25": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "madd-jaiz",
+                    "start": 14,
+                    "end": 17
+                }
+            ],
+            "26": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 8,
+                    "end": 10
+                }
+            ]
         }
     }
 }

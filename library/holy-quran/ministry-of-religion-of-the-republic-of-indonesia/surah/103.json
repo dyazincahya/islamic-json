@@ -35,6 +35,28 @@
                     "3": "Dalam ayat ini, Allah menjelaskan bahwa jika manusia tidak mau hidupnya merugi, maka ia harus beriman kepada-Nya, melaksanakan ibadah sebagaimana yang diperintahkannya, berbuat baik untuk dirinya sendiri, dan berusaha menimbulkan manfaat kepada orang lain.\n\nDi samping beriman dan beramal saleh, mereka harus saling nasihat-menasihati untuk menaati kebenaran dan tetap berlaku sabar, menjauhi perbuatan maksiat yang setiap orang cenderung kepadanya, karena dorongan hawa nafsunya."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [
+                {
+                    "class": "ghunnah",
+                    "start": 2,
+                    "end": 4
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 11,
+                    "end": 15
+                }
+            ],
+            "3": [
+                {
+                    "class": "qalqalah",
+                    "start": 98,
+                    "end": 99
+                }
+            ]
         }
     }
 }

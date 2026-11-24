@@ -55,6 +55,92 @@
                     "8": "Dalam ayat-ayat ini, Allah merincikan balasan amal masing-masing. Barang siapa beramal baik, walaupun hanya seberat atom niscaya akan diterima balasannya, dan begitu pula yang beramal jahat walaupun hanya seberat atom akan merasakan balasannya. Amal kebajikan orang-orang kafir tidak dapat menolong dan melepaskannya dari siksa karena kekafirannya. Mereka akan tetap sengsara selama-lamanya di dalam neraka."
                 }
             }
+        },
+        "tajweed": {
+            "1": [],
+            "2": [],
+            "3": [
+                {
+                    "class": "ikhfa",
+                    "start": 13,
+                    "end": 17
+                }
+            ],
+            "4": [
+                {
+                    "class": "ikhfa",
+                    "start": 9,
+                    "end": 14
+                }
+            ],
+            "5": [
+                {
+                    "class": "ghunnah",
+                    "start": 4,
+                    "end": 6
+                }
+            ],
+            "6": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 9,
+                    "end": 14
+                },
+                {
+                    "class": "ghunnah",
+                    "start": 24,
+                    "end": 26
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 38,
+                    "end": 40
+                },
+                {
+                    "class": "idgham-bilaghunnah",
+                    "start": 44,
+                    "end": 46
+                }
+            ],
+            "7": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 4,
+                    "end": 9
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 39,
+                    "end": 41
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 42,
+                    "end": 44
+                }
+            ],
+            "8": [
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 4,
+                    "end": 9
+                },
+                {
+                    "class": "ikhfa",
+                    "start": 32,
+                    "end": 37
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 37,
+                    "end": 40
+                },
+                {
+                    "class": "idgham-bighunnah",
+                    "start": 41,
+                    "end": 43
+                }
+            ]
         }
     }
 }
